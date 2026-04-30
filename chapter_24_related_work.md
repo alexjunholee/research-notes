@@ -49,7 +49,7 @@ ch01 §1의 *reject의 complement* 관점이 여기에 직결된다. laundry 목
 
 **본인 lab self-citation 편중.** 본인 lab 논문만 골라 인용하는 패턴이 외부 reviewer 입장에서 *분야 합의*가 비뚤어 보이는 결함. self-citation은 *전체의 30% 미만*이 안전선.
 
-분야별 사례는 [robotics-practice ch20 § 20.8.1](https://github.com/jhlee9633/robotics-practice/blob/main/ch20.md)의 분야별 baseline catalog에 링크로 둔다. SLAM·detection·segmentation 분야별 핵심 5편 + 최근 SOTA 3편 목록이 그 링크에 있다.
+분야별 사례는 [robotics-practice ch20 § 20.8.1](https://alexjunholee.github.io/robotics-practice/guide.html#2081-논문-쓰기-link)의 분야별 baseline catalog에 링크로 둔다. SLAM·detection·segmentation 분야별 핵심 5편 + 최근 SOTA 3편 목록이 그 링크에 있다.
 
 ---
 
@@ -81,6 +81,6 @@ ch08의 Introduction에서 paper gap이 한 줄로 박혔다면, Related Work는
 
 ---
 
-**출처.** [Gopen & Swan 1990](https://www.americanscientist.org/article/the-science-of-scientific-writing) — paragraph 층위 흐름 (간접). 분야 standard 관점 — 이차원 axis 표·SOTA + 인용 5편 minimum. [robotics-practice ch20 § 20.8.1](https://github.com/jhlee9633/robotics-practice/blob/main/ch20.md) — 분야별 baseline catalog. 흔한 실수 4종, 비판 강도 권고, 이차원 axis 표 합성은 이 장에서 정리했다.
+**출처.** [Gopen & Swan 1990](https://www.americanscientist.org/article/the-science-of-scientific-writing) — paragraph 층위 흐름 (간접). 분야 standard 관점 — 이차원 axis 표·SOTA + 인용 5편 minimum. [robotics-practice ch20 § 20.8.1](https://alexjunholee.github.io/robotics-practice/guide.html#2081-논문-쓰기-link) — 분야별 baseline catalog. 흔한 실수 4종, 비판 강도 권고, 이차원 axis 표 합성은 이 장에서 정리했다.
 
 다음: [Ch.10 — 방법 섹션](./chapter_25_method.md)

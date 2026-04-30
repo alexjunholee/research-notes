@@ -75,10 +75,10 @@ figure와 table 중 어느 쪽에 정보를 박을지 결정하는 기준은 다
 
 두 매체가 같은 결과를 *중복*해서 보여 주면 한쪽을 빼는 것이 권고. 같은 KITTI 결과를 figure 하나와 표 하나로 동시에 박으면 한쪽이 잉여로 남는다. figure는 *qualitative trajectory*, 표는 *quantitative metric 비교*로 분담.
 
-LaTeX 도구(booktabs·algorithm2e)의 자세한 사용법은 [robotics-practice ch20 § 20.8.5](https://github.com/jhlee9633/robotics-practice/blob/main/ch20.md)에 링크로 둔다.
+LaTeX 도구(booktabs·algorithm2e)의 자세한 사용법은 [robotics-practice ch20 § 20.8.5](https://alexjunholee.github.io/robotics-practice/guide.html#2085-도구)에 링크로 둔다.
 
 ---
 
-**출처.** [cxli233 (GitHub), *Friends Don't Let Friends Make Bad Graphs*](https://github.com/cxli233/FriendsDontLetFriends) — 안티패턴 문체 기준 (chart 카탈로그를 table로 적용). [Gopen & Swan 1990](https://www.americanscientist.org/article/the-science-of-scientific-writing) — figure/table 일반 원칙 (간접). [robotics-practice ch20 § 20.8.5](https://github.com/jhlee9633/robotics-practice/blob/main/ch20.md) — booktabs·algorithm2e LaTeX (link). 안티패턴 5종, 좋은 패턴, 세 종류 분류, 흔한 실수 4종은 이 장에서 정리했다.
+**출처.** [cxli233 (GitHub), *Friends Don't Let Friends Make Bad Graphs*](https://github.com/cxli233/FriendsDontLetFriends) — 안티패턴 문체 기준 (chart 카탈로그를 table로 적용). [Gopen & Swan 1990](https://www.americanscientist.org/article/the-science-of-scientific-writing) — figure/table 일반 원칙 (간접). [robotics-practice ch20 § 20.8.5](https://alexjunholee.github.io/robotics-practice/guide.html#2085-도구) — booktabs·algorithm2e LaTeX (link). 안티패턴 5종, 좋은 패턴, 세 종류 분류, 흔한 실수 4종은 이 장에서 정리했다.
 
 다음: [Ch.14 — 문장 구조와 독자 기대](./chapter_29_reader_expectations.md)

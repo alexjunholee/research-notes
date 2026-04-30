@@ -82,7 +82,7 @@ Results와 Discussion이 별도 섹션이라는 사실이 신입생 입장에서
 
 **본인 방법 row 강조.** 음영 또는 별표. 표 아래 footnote에 *Our method* 라벨. reviewer skim 단계에서 *어느 row가 본인 방법인가*가 한 눈에 잡혀야 한다.
 
-분야별 사례는 [robotics-practice ch20 § 20.8.2](https://github.com/jhlee9633/robotics-practice/blob/main/ch20.md)에 링크로 둔다. ablation·변인 통제·통계 유의성·공정 비교의 분야별 사례가 거기에 있다.
+분야별 사례는 [robotics-practice ch20 § 20.8.2](https://alexjunholee.github.io/robotics-practice/guide.html#2082-실험-설계와-ablation)에 링크로 둔다. ablation·변인 통제·통계 유의성·공정 비교의 분야별 사례가 거기에 있다.
 
 ---
 
@@ -100,6 +100,6 @@ Results와 Discussion이 별도 섹션이라는 사실이 신입생 입장에서
 
 ---
 
-**출처.** [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 5·8 — Results·Discussion 골격. 분야 standard — KITTI·TUM·ScanNet 벤치마크 표. [robotics-practice ch20 § 20.8.2](https://github.com/jhlee9633/robotics-practice/blob/main/ch20.md) — ablation·통계 유의성·공정 비교 분야 적용 사례 (link). 흔한 실수 5종과 ablation·통계 권고는 이 장에서 정리했다.
+**출처.** [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 5·8 — Results·Discussion 골격. 분야 standard — KITTI·TUM·ScanNet 벤치마크 표. [robotics-practice ch20 § 20.8.2](https://alexjunholee.github.io/robotics-practice/guide.html#2082-실험-설계와-ablation) — ablation·통계 유의성·공정 비교 분야 적용 사례 (link). 흔한 실수 5종과 ablation·통계 권고는 이 장에서 정리했다.
 
 다음: [Ch.12 — Figures: 안티패턴과 좋은 패턴](./chapter_27_figures.md)

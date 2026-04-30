@@ -34,7 +34,7 @@
 
 ## 25.3 Algorithm pseudocode — 재현성을 받는 도구
 
-**본 알고리즘은 pseudocode로.** algorithm2e LaTeX 환경이 분야 표준 — 자세한 LaTeX 도구는 [robotics-practice ch20 § 20.8.5](https://github.com/jhlee9633/robotics-practice/blob/main/ch20.md)에 링크로 둔다.
+**본 알고리즘은 pseudocode로.** algorithm2e LaTeX 환경이 분야 표준 — 자세한 LaTeX 도구는 [robotics-practice ch20 § 20.8.5](https://alexjunholee.github.io/robotics-practice/guide.html#2085-도구)에 링크로 둔다.
 
 **Pseudocode 구조.**
 
@@ -81,6 +81,6 @@ Method의 each sub-section이 Results의 each sub-section과 짝지어진 형태
 
 ---
 
-**출처.** [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) §V·§VI — Method 작성·write the methods first. [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 5·6 — results-driven structure. 분야 standard — notation table·pseudocode·hyperparameter table. [robotics-practice ch20 § 20.8.5](https://github.com/jhlee9633/robotics-practice/blob/main/ch20.md) — booktabs·algorithm2e LaTeX (link). 흔한 실수 5종과 짝짓기 진단은 이 장에서 정리했다.
+**출처.** [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) §V·§VI — Method 작성·write the methods first. [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 5·6 — results-driven structure. 분야 standard — notation table·pseudocode·hyperparameter table. [robotics-practice ch20 § 20.8.5](https://alexjunholee.github.io/robotics-practice/guide.html#2085-도구) — booktabs·algorithm2e LaTeX (link). 흔한 실수 5종과 짝짓기 진단은 이 장에서 정리했다.
 
 다음: [Ch.11 — 결과·논의](./chapter_26_results_discussion.md)

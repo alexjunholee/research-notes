@@ -1,0 +1,46 @@
+# Gopen-Swan URF/ATPase Rewrite — 같은 정보의 재배치만으로 가독성을 바꾸는 단락
+
+**출처**: Gopen, Swan, 1990 — *The Science of Scientific Writing*, *American Scientist* 78(6): 550-558
+**bibkey**: `gopen-swan-1990`
+**위치**: 본문 중반 — 분자생물학 URF/ATPase 단락 원본과 단계별 rewrite
+
+---
+
+## 발췌
+
+> [발췌 보류 — Gopen-Swan 1990 원본 URF/ATPase 단락과 가장 정제된 최종 rewrite 단락에서 fair use 1-2 문단 발췌 예정. 중간 수정안은 단계 다이어그램으로 도식화.]
+
+---
+
+## 분석
+
+이 발췌가 가이드 안에서 가지는 지위는 특별하다. 가이드가 가르치는 stress position, topic position, subject-verb proximity, old-before-new 네 원칙이 *그 원칙을 처음 정식화한 논문 자체*의 단락 rewrite로 시연된다. 메타-자기참조다. 같은 *substance* — URF의 분자량, ATPase 복합체의 구성, 미토콘드리아 게놈의 위치 — 가 그대로 보존된 채 단어의 *재배치*만으로 첫 단락은 거의 해독 불가능하다가 두 번째 단락은 평이하게 읽힌다. 정보가 늘지도 줄지도 않았다. 위치가 바뀌었을 뿐이다.
+
+원본 단락이 읽기 어려운 이유는 길어서가 아니다. 강조 위치에 강조거리가 없기 때문이다. 문장 끝, 독자가 가장 오래 기억하는 위치에 boilerplate("in this paper", "as described above")나 부수적 정보가 놓인다. 정작 새롭고 강조받아야 할 정보는 문장 중간에 묻힌다. 거기에 subject와 verb 사이가 15 토큰을 넘는 긴 nominalization이 끼어 있다. 독자는 동사가 무엇이었는지 잊은 채 문장 끝에 도달한다. topic position(문장 첫머리)에는 앞 문장과 연결되는 *오래된 정보*가 와야 backward link이 생기는데, 원본은 매 문장 새 명사로 시작한다. 독자는 매 문장 자기 머릿속에서 연결을 *발명* 해야 한다. 가독성이 무너지는 곳은 어휘가 어려운 곳이 아니라 네 원칙이 동시에 깨진 곳이다.
+
+가장 정제된 rewrite 단락은 같은 정보를 네 원칙에 맞게 재배치한다. 첫 문장의 끝(stress position)에 그 단락의 핵심 — 가령 URF의 발견이 가지는 의미 — 가 놓인다. 다음 문장의 첫머리(topic position)는 앞 문장 끝의 단어를 받아 다시 시작한다. 이 backward link이 단락 전체를 사슬로 묶는다. subject와 verb는 가까이 붙어 있고, 동사는 행위를 직접 표현한다. nominalization으로 명사화되어 있던 것들이 동사로 풀린다. 같은 정보량이 약 2/3 분량으로 압축되고, 분량이 줄지 않은 부분도 *읽는 속도*가 두 배로 빨라진다.
+
+rewrite 과정에서 부수효과가 하나 드러난다. 구조를 정리하면 *논리적 빈틈*이 함께 노출된다. 원본에서는 두 사실 사이에 *왜* 인과 관계가 있는지 명시되지 않은 채 두 문장이 나란히 놓여 있었는데, rewrite 과정에서 두 번째 문장의 topic position에 첫 문장의 어떤 명사를 넣어야 할지 결정하는 순간, 그 결정이 곧 두 사실 사이의 *연결 어형*을 명시화하도록 강제한다. rewrite는 표면 다듬기가 아니라 *사고 점검*이다. Gopen과 Swan이 본 논문에서 거듭 강조한 "글의 질을 개선하면 사고의 질도 개선된다"의 가장 단단한 시연이다.
+
+한국어로 옮길 때 주의가 필요하다. 영어의 stress position은 SVO 어순상 문장 *끝*인데, 한국어는 SOV이므로 술어가 자연스럽게 끝에 온다. 한국어에서 "끝에 강조거리를 두라"는 영어 그대로 옮기기 어렵다. 한국어의 강조는 *어순 변형*(목적어를 앞으로 빼거나), *보조사*("은/는"으로 topic, "이/가"로 새 정보), *강조 구문*("것은 …이다")으로 구현된다. *topic position에 backward link을 두라*는 원칙은 한국어에 그대로 적용된다. 한국어 문장 첫머리의 명사구가 앞 문장 끝과 연결되는지, 즉 "은/는"이 받는 명사가 앞 문장에 이미 등장했는가가 단락 흐름을 가르는 가장 중요한 점검 항목이다.
+
+---
+
+## 따라 쓰기 패턴
+
+이 패턴은 자기 단락 rewrite의 4단계 절차다. ① 단락의 모든 문장 끝에 줄을 그어 무엇이 강조 위치에 놓여 있는지 적는다 — boilerplate가 있다면 거기서 정보가 잘못 분배된 신호다. ② 문장 첫머리(topic position)가 앞 문장 끝과 연결되는지 사슬로 그려 본다 — 끊어지는 곳에서 독자가 머릿속으로 연결을 발명해야 한다. ③ 각 문장의 subject와 verb 사이 토큰 수를 센다 — 15를 넘으면 nominalization을 풀어 동사로 되돌린다. ④ 같은 정보를 한 단어도 추가/삭제하지 않고 위치만 바꾸어 다시 쓴다.
+
+이 절차의 핵심은 "한 단어도 추가/삭제하지 않는다"는 제약이다. 추가하기 시작하면 *내용 보강*과 *구조 점검*이 뒤섞여 둘 다 잘 안 된다. 위치만 바꾸어 작동하는지 본 뒤에야 — 그래도 빈틈이 남았다면 — 그 빈틈을 메우는 추가 작업으로 옮겨 간다. 분리해야 둘 다 산다.
+
+---
+
+## Tags
+
+`rewrite-example`, `before-after`, `sentence-structure`, `stress-position`, `topic-position`, `subject-verb-proximity`, `old-before-new`, `paragraph-flow`, `meta-self-reference`, `korean-applicability`, `gopen-swan`
+
+## Related chapters
+
+- [Ch07 — 독자 기대치로 진단하기](../chapter_12_reader_expectations_diagnosis.md)
+- [Ch04 — CCC](../chapter_19_ccc.md)
+- [Ch06 — 문단 흐름](../chapter_21_paragraph_flow.md)
+- [Ch14 — 문장 구조와 독자 기대](../chapter_29_reader_expectations.md)

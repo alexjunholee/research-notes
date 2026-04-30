@@ -1,0 +1,9 @@
+.git.nosync
+agent/
+_research/
+docs/superpowers/
+outlines/
+ATTRIBUTIONS.md
+CLAUDE.md
+writing-status.json
+.DS_Store

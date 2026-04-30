@@ -13,3 +13,5 @@ reference manager는 본체가 아니다. DOI, arXiv, OpenReview, venue page, pu
 검색은 tag만으로 굴러가지 않는다. plain text, citation key, DOI/arXiv ID, embedding search, grep이 함께 작동한다. tag를 많이 다는 것보다 검색 가능한 문장으로 쓰는 편이 낫다. 한 달에 한 번 정리할 것도 highlight가 아니라 claim ledger다. 서로 충돌하는 claim, 같은 baseline을 공유하는 paper, 내 hypothesis를 바꾼 paper를 한 줄씩 뽑는다.
 
 노트가 좋은지 판단하는 기준은 간단하다. 6개월 후의 내가 paper를 다시 열기 전에 다음 행동을 알 수 있는가. 알 수 있다면 좋은 노트다. 알 수 없다면 아무리 길어도 보관된 텍스트일 뿐이다.
+
+읽은 자료: Whitesides의 in-progress writing 관점, 5 Cs, paper packet workflow를 묶었다.

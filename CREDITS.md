@@ -16,7 +16,7 @@
 - Richard P. Feynman의 문제 풀이 절차로 알려진 "write down the problem" 계열의 조언
 - George A. Hazelrigg의 연구 유형 분류와 NSF 관점
 - Matt Might, [*The Illustrated Guide to a PhD*](https://matt.might.net/articles/phd-school-in-pictures/)
-- 엄태웅 작가, 최윤섭 박사, 권창현 교수의 [gradschoolstory](https://gradschoolstory.chkwon.net) 글들
+- 엄태웅 작가, 최윤섭 박사, 권창현 교수의 *대학원생 때 알았더라면 좋았을 것들* 1권 ([gradschoolstory 연재](https://gradschoolstory.chkwon.net))
 - 김기섭 교수의 [gsk1m.github.io](https://gsk1m.github.io/)와 [gisbi-kim.github.io](https://gisbi-kim.github.io/) 글들
 - 임형태 박사의 paper writing checklist, Awesome-PhD-CV, paper-quality-stat-plots
 - Chenxin Li의 *Friends Don't Let Friends Make Bad Graphs* 계열 자료

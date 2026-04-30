@@ -10,7 +10,7 @@
 
 ## 참고한 자료와 감사
 
-이 책은 Gopen & Swan, Keshav, Whitesides, Mensh & Kording, Knuth의 과학 글쓰기·논문 읽기 자료와, 엄태웅 작가·최윤섭 박사·권창현 교수의 gradschoolstory 글, 김기섭 교수·임형태 박사·Chenxin Li의 연구 글쓰기 자료에서 배웠다. 발췌와 사례의 원 논문 저자까지 포함한 자세한 credit은 [CREDITS.md](CREDITS.md)에 둔다.
+이 책은 Gopen & Swan, Keshav, Whitesides, Mensh & Kording, Knuth의 과학 글쓰기·논문 읽기 자료와, 엄태웅 작가·최윤섭 박사·권창현 교수의 *대학원생 때 알았더라면 좋았을 것들* 1권, 김기섭 교수·임형태 박사·Chenxin Li의 연구 글쓰기 자료에서 배웠다. 발췌와 사례의 원 논문 저자까지 포함한 자세한 credit은 [CREDITS.md](CREDITS.md)에 둔다.
 
 ---
 

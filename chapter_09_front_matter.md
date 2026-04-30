@@ -1,0 +1,15 @@
+# Ch.9 — 제목·초록·서론은 논문의 입구가 아니라 판정의 대부분이다
+
+논문에서 가장 짧은 부분이 가장 비싼 경우가 많다. 제목, 초록, figure 1, introduction 첫 페이지. 학생은 본문을 다 읽은 뒤에야 평가가 이루어진다고 생각하지만, reviewer는 훨씬 일찍 큰 판단을 만든다. 바쁜 독자는 title에서 분류하고, abstract에서 verdict의 방향을 잡고, introduction에서 gap이 진짜인지 본다. 입구가 아니라 판정의 대부분이다.
+
+제목은 contribution을 한 문장으로 압축해야 한다. “BEV-based Loop Closure”는 명사구일 뿐이다. 무엇을 했는지, 얼마나 바뀌었는지, 어떤 조건에서 의미가 있는지 아무것도 말하지 않는다. 좋은 제목은 분야 keyword와 contribution keyword를 함께 담는다. 자동 추천과 검색도 이 신호를 보고, reviewer도 이 신호를 본다. 자동화에 맞추는 일이 reviewer에 맞추는 일과 크게 다르지 않은 이유다.
+
+Abstract는 자기 안에서 닫혀야 한다. Field gap, paper gap, approach, result, implication이 한 paragraph 안에 들어간다. 여기서 자주 생기는 실패는 context가 길고 result가 없는 abstract다. 분야 일반론으로 시작해 마지막에 “we propose”만 두면, 독자는 왜 이 paper가 필요한지 알 수 없다. 수치 하나, 비교 하나, 실패 조건 하나가 abstract를 실제 주장으로 만든다.
+
+Introduction은 gap funnel이다. 넓은 분야 문제에서 시작해 기존 방법의 한계를 좁히고, 본 논문이 들어갈 정확한 자리를 만든다. 이때 중요한 것은 비판의 강도다. 관련 연구를 무시해서도 안 되고, 모두 좋다고만 해서도 안 된다. “기존 방법이 못했다”가 아니라 “기존 방법은 어떤 조건에서는 잘 작동하지만, 내가 다루는 조건에서는 이 가정을 둔다”가 되어야 한다. 좋은 related work은 예의 바른 비판이다.
+
+Figure 1은 contribution 목록이 아니다. 논증의 한 컷이다. abstract 마지막 문장과 figure 1이 서로 맞물려야 한다. abstract에서 말한 입력, 접근, 출력, 효과가 figure 1의 박스와 화살표에 대응하면 독자는 빠르게 들어온다. 대응하지 않으면 figure 1은 예쁜 그림일 뿐이다.
+
+10년 후에도 남는 글쓰기 스타일은 첫 페이지에서 드러난다. 내 연구를 과장하지 않고도 중요하게 만드는 능력, 기존 연구를 존중하면서도 빈 곳을 정확히 가리키는 능력, 짧은 폭 안에 내가 책임질 claim을 놓는 능력. 제목과 초록과 서론은 포장지가 아니다. 그 세 곳은 내가 내 연구를 얼마나 정확히 이해하는지 가장 먼저 드러나는 자리다.
+
+읽은 자료: Whitesides의 abstract와 introduction 조언, Mensh와 Kording의 title/abstract/gap funnel, KISS-ICP와 ORB-SLAM 사례를 통합했다.

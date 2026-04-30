@@ -79,7 +79,7 @@ $$\mathbf{x}^\star = \arg\min_{\mathbf{x}} f(\mathbf{x}) \quad \text{s.t.} \quad
 
 `\text{s.t.}` 인지 `\text{subject to}`인지 한 문서 안에서 통일한다. 첫 등장 시 prose에서 한 번 풀어 둔다.
 
-**Probabi목록ic 수식.** $p(\mathbf{x} \mid \mathbf{z})$의 `\mid`와 `|`를 섞지 않는다. Bayes filter 단계마다 prior, likelihood, posterior가 무엇을 가리키는지 prose에서 명시한다 — R6 이중 표현이 적용된다.
+**Probabilistic 수식.** $p(\mathbf{x} \mid \mathbf{z})$의 `\mid`와 `|`를 섞지 않는다. Bayes filter 단계마다 prior, likelihood, posterior가 무엇을 가리키는지 prose에서 명시한다 — R6 이중 표현이 적용된다.
 
 **잔차·loss 정의.** $\mathbf{r}_i = \mathbf{z}_i - h(\mathbf{x})$ 같은 잔차 정의에서, 인덱스 $i$가 무엇 위에서 도는지 prose에서 항상 밝힌다. "for each measurement $i \in \{1, \ldots, N\}$." 인덱스 변수만 던져두면 독자가 *어떤 집합 위에서의 합인지* 추측해야 한다.
 
@@ -95,6 +95,6 @@ Knuth가 §2-§3에 박은 atrocious-vs-polished proof — 같은 정리의 두 
 
 ---
 
-**출처.** [Knuth, Larrabee, Roberts 1989](https://www-cs-faculty.stanford.edu/~knuth/klr.html) — *Mathematical Writing* §1의 27 rules에서 추린 10개 (rules 1, 2, 3, 4, 5, 6, 7, 8, 9, 16). atrocious-vs-polished proof는 §2-§3. Halmos box, Nilsson "쉽게 쓴 글" 인용도 같은 문서. 로보틱스·CV 4 패턴(SE(3), optimization, probabi목록ic, 잔차·loss)은 이 장에서 정리했다.
+**출처.** [Knuth, Larrabee, Roberts 1989](https://www-cs-faculty.stanford.edu/~knuth/klr.html) — *Mathematical Writing* §1의 27 rules에서 추린 10개 (rules 1, 2, 3, 4, 5, 6, 7, 8, 9, 16). atrocious-vs-polished proof는 §2-§3. Halmos box, Nilsson "쉽게 쓴 글" 인용도 같은 문서. 로보틱스·CV 4 패턴(SE(3), optimization, probabilistic, 잔차·loss)은 이 장에서 정리했다.
 
 다음: [Ch.16 — 표기 위생](./chapter_31_notation_hygiene.md)

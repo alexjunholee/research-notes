@@ -52,5 +52,5 @@ Knuth rule 12 ("Be humble; don't use superlatives")와의 봉합이 자연스럽
 
 ## 출처
 
-- George A. Hazelrigg (NSF), "On the Role and Use of Mathematical Models in Engineering Design" 및 program-officer talks 2000s. NSF에서 정형화된 *research types* 분류로 회자. 한국어 의역는 권창현 교수 글 「지금 하고 있는 게 연구인가, 아닌가?」 안에서 정리된 형태를 따른다.
+- George A. Hazelrigg (NSF), "On the Role and Use of Mathematical Models in Engineering Design" 및 program-officer talks 2000s. NSF에서 정형화된 *research types* 분류로 회자. 한국어 의역은 권창현 교수 글 「지금 하고 있는 게 연구인가, 아닌가?」 안에서 정리된 형태를 따른다.
 - 권창현 교수 (Changhyun Kwon), 「지금 하고 있는 게 연구인가, 아닌가?」, *Grad School Story*, 2014. URL slug `/changhyun/지금-하고-있는-게-연구인가-아닌가/`. 아인슈타인 인용은 본 글 안에서 한국어 회고체로 정리된 형태를 원문 인용. 아인슈타인 원문 출처는 미상 — 권창현 교수 글의 인용 형태를 1차 표현으로 다룬다.

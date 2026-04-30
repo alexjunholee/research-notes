@@ -6,7 +6,7 @@
 
 ## 35.1 학회 현장의 첫 30초
 
-학회의 진짜 사건은 program이 끝난 자리에서 일어난다. coffee break, banquet, 호텔 로비, 세션 사이의 복도 — 진행ings에 적히지 않은 곳에서 다음 collaborator와 다음 advisor 후보가 결정된다. 사전 준비([ch02](./chapter_34_conference_prep.md))는 그 만남의 *expectation*을 만들고, 사후 follow-up은 그 만남의 *결과*를 거두는 일이다. 그 사이에 끼인 30초가 가장 짧고도 가장 결정적이다.
+학회의 진짜 사건은 program이 끝난 자리에서 일어난다. coffee break, banquet, 호텔 로비, 세션 사이의 복도 — proceedings에 적히지 않은 곳에서 다음 collaborator와 다음 advisor 후보가 결정된다. 사전 준비([ch02](./chapter_34_conference_prep.md))는 그 만남의 *expectation*을 만들고, 사후 follow-up은 그 만남의 *결과*를 거두는 일이다. 그 사이에 끼인 30초가 가장 짧고도 가장 결정적이다.
 
 첫 마디의 형태는 받는 쪽 기준으로 결정된다. 받는 쪽이 *자기 페이스로 답할 수 있는 형태*가 아니면 첫 30초가 그대로 막힌다. 닫힌 질문(yes/no)·자기 자랑·길게 늘어진 자기소개는 시간만 잡아먹고 답은 받지 못한다. 답이 받는 쪽에서 시작되어야 그 다음 turn이 자연스럽게 풀린다.
 
@@ -56,7 +56,7 @@ advisor 선택 단계에서 학회는 SOP보다 정보량이 크다. 미래 advi
 
 같은 책 §27에서 Wilf가 든 사례 셋도 발표 opener에 그대로 작동한다.
 
-> Andrew Gleason, *"Trisecting the Angle, the Hep태그on, and the Triskaidecagon."*
+> Andrew Gleason, *"Trisecting the Angle, the Heptagon, and the Triskaidecagon."*
 >
 > Hugh Thurston, *"Can a graph be continuous and discontinuous?"*
 >

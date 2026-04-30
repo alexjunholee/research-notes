@@ -10,7 +10,7 @@
 
 Abstract 마지막 문장 (원문 인용):
 
-> The experiments suggest that our approach can reliably localize a vehicle in challenging environments and at high 관점 rates with respect to a previously generated map of the area.
+> The experiments suggest that our approach can reliably localize a vehicle in challenging environments and at high frame rates with respect to a previously generated map of the area.
 
 
 ```
@@ -29,7 +29,7 @@ Caption (요지): 본 연구의 입력은 online 3D LiDAR scan, 중간 표현은
 
 ## 분석 — 왜 이 figure 1이 좋은가
 
-이 figure 1이 모범인 첫째 이유는 *abstract와의 1:1 대응*이다. abstract 마지막 문장이 *vehicle을 reliably localize한다 / 사전 map과 매칭한다 / 높은 관점 rate*라는 세 명제를 담는다. figure 1이 같은 세 명제를 *그림으로 다시 한 번* 던진다 — vehicle = LiDAR scan 입력, 사전 map = reference scan 박스, localize = pose estimate 결과. 독자가 abstract 한 문단을 읽고 figure 1로 눈을 옮기는 순간, *방금 읽은 단어*가 *방금 본 박스*와 정렬된다. cxli233의 *Friends Don't Let Friends* 시리즈가 비판하는 *figure 1과 abstract가 따로 노는* 안티패턴의 정반대다. 후배가 figure 1을 만들 때 가장 먼저 점검할 항목이 이 1:1 대응이다.
+이 figure 1이 모범인 첫째 이유는 *abstract와의 1:1 대응*이다. abstract 마지막 문장이 *vehicle을 reliably localize한다 / 사전 map과 매칭한다 / 높은 frame rate*라는 세 명제를 담는다. figure 1이 같은 세 명제를 *그림으로 다시 한 번* 던진다 — vehicle = LiDAR scan 입력, 사전 map = reference scan 박스, localize = pose estimate 결과. 독자가 abstract 한 문단을 읽고 figure 1로 눈을 옮기는 순간, *방금 읽은 단어*가 *방금 본 박스*와 정렬된다. cxli233의 *Friends Don't Let Friends* 시리즈가 비판하는 *figure 1과 abstract가 따로 노는* 안티패턴의 정반대다. 후배가 figure 1을 만들 때 가장 먼저 점검할 항목이 이 1:1 대응이다.
 
 둘째 강점은 *그룹 문체의 일관성*이다. Stachniss group의 figure 1은 본 논문 외에도 KISS-ICP, surfel SLAM, OverlapNet, MOS 등에서 모두 *입력 sensor → 핵심 표현 → 출력 결정*의 4-박스 구조를 쓴다. 입력이 LiDAR scan / image / point cloud이고 출력이 pose / map / mask로 바뀌어도 *3-4 박스 + 화살표*의 형태가 유지된다. 그룹의 문체가 한 figure 1 양식에 박혀 있고, 후배가 그 그룹의 새 논문을 펼쳤을 때 *어디가 핵심인지*를 figure 1만 보고 짚을 수 있다. 양식의 일관성이 *읽기 비용*을 낮추는 도구다.
 

@@ -2,7 +2,7 @@
 
 > **로보틱스·CV 분야 후배 대상 한국어 가이드.**
 > 책상 위의 작업 — 어떻게 읽고 어떻게 쓰는가.
-> 35 챕터 + 13 발췌.
+> 논문을 읽고 쓰는 동안 곁에 둘 수 있는 글.
 
 [**가이드 (guide.html)**](guide.html) · [자매 가이드 「대학원노트」](../grad-notes/guide.html)
 
@@ -32,7 +32,7 @@
 
 ---
 
-## 구조 (flat, prefix 정렬)
+## 구조 (구성)
 
 ```
 research-notes/
@@ -42,7 +42,7 @@ research-notes/
 ├── chapter_06_*.md         # Part 1: 읽기 (10)
 ├── chapter_16_*.md         # Part 2: 쓰기 (17)
 ├── chapter_33_*.md         # Part 3: 발표 (3)
-├── excerpts/               # 발췌 사례 13편 (append-only)
+├── excerpts/               # 발췌와 사례
 │
 └── assets/                 # figure 자료
 ```
@@ -52,4 +52,4 @@ research-notes/
 ## 자매 프로젝트
 
 - [**「대학원노트」 (grad-notes)**](../grad-notes/guide.html) — 같은 5년의 다른 단면. 결정·관계·자율성·감정·진로.
-- [**robotics-practice**](../robotics-practice/) — 분야 본체. Spatial AI / SLAM / CV 인터랙티브 가이드. 본 가이드 cross-link 다수.
+- [**robotics-practice**](../robotics-practice/) — 분야 본체. Spatial AI / SLAM / CV 인터랙티브 가이드. 이 책과 연결되는 글이 많다.

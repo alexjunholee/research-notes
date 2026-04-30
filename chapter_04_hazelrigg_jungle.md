@@ -2,7 +2,7 @@
 
 [Ch.3 (주도권의 이동)](./chapter_03_ownership_shift.md)에서 화법·작업 단위가 학생 쪽으로 기울고 나면 책상 위의 작업을 *내 작업*이라 부를 수 있는 단계가 온다. 그 다음 막힘은 모양이 또 다르다. 매일 코드를 짜고, system을 tuning하고, 새로운 dataset을 돌려도, 그 작업이 *연구*인지 *task*인지의 감각이 흐릿하게 남는 단계다. 손에 들어온 작업이 의미를 가지려면 그 작업이 새 지식을 만드는지 아닌지를 진단할 도구가 필요하다.
 
-이 챕터는 그 진단의 두 도구를 겹쳐 쓴다. 최윤섭 박사의 *정글 탐험가 비유*가 직관 표현이고, NSF Hazelrigg의 *4-type 분류*가 추상 분류다. 두 표현을 같이 두고 자기 작업을 가져다 댄다. [Ch.2 (Feynman 3-step)](./chapter_02_feynman_problem.md)에서 좁힌 problem statement가 그 두 도구를 통과하는 시점이 본 챕터의 입력이다.
+이 장은 그 진단의 두 도구를 겹쳐 쓴다. 최윤섭 박사의 *정글 탐험가 비유*가 직관 표현이고, NSF Hazelrigg의 *4-type 분류*가 추상 분류다. 두 표현을 같이 두고 자기 작업을 가져다 댄다. [Ch.2 (Feynman 3-step)](./chapter_02_feynman_problem.md)에서 좁힌 problem statement가 그 두 도구를 통과하는 시점이 이 장의 입력이다.
 
 ---
 
@@ -14,7 +14,7 @@
 
 "개발", "설계", "최적화", "제어" 같은 동사는 task로는 가능하지만 자동으로 objective·goal로 올라가지 않는다. SLAM system을 *개발*하는 일과 SLAM의 *어떤 명제를 검증*하는 일은 다르다. 전자는 engineering achievement이고 후자는 research contribution이다. 둘은 venue도, reviewer가 묻는 질문도, 졸업 심사에서 받는 평가도 다르다.
 
-> 🔴 **task ≠ objective ≠ goal.** 세 층의 구분이 흐릿한 채로 작업을 쌓으면 그 작업이 연구인지 task인지 진단되지 않는다.
+> **task ≠ objective ≠ goal.** 세 층의 구분이 흐릿한 채로 작업을 쌓으면 그 작업이 연구인지 task인지 진단되지 않는다.
 
 ---
 
@@ -24,17 +24,17 @@
 
 > 교과서는 이미 탐사된 영역의 지도, 박사는 그 끝을 넘어 자기 손으로 지도를 새로 그리는 과정.
 
-원문은 두 단락의 회고체로 풀려 있다. "마치 탐험가가 지도를 보고 열심히 정글을 헤쳐왔는데, 지도의 가장자리에 나오는 끝까지 왔음에도 여전히 내 앞에는 끝없는 정글이 펼쳐져 있는 형국이었다." 그리고 "이제부터는 다름 아닌 내가 한 걸음씩 조심스럽게 내딛으면서 앞에 절벽이 있는지, 강이 있는지 스스로 지도를 그려가야 한다." 위 인용박스는 그 두 단락의 *축*을 한 줄로 압축한 본 가이드의 정리. 박사 학위의 의미 자체에 대한 최윤섭 박사 원문 인용은 "박사 학위의 의미는 바로 내가 그 인류가 가진 지식의 경계를 앞으로도 평생 스스로 넓혀갈 수 있을 만한 준비가 되었다는 것이었다."
+원문은 두 단락의 회고체로 풀려 있다. "마치 탐험가가 지도를 보고 열심히 정글을 헤쳐왔는데, 지도의 가장자리에 나오는 끝까지 왔음에도 여전히 내 앞에는 끝없는 정글이 펼쳐져 있는 형국이었다." 그리고 "이제부터는 다름 아닌 내가 한 걸음씩 조심스럽게 내딛으면서 앞에 절벽이 있는지, 강이 있는지 스스로 지도를 그려가야 한다." 위 인용박스는 그 두 단락의 *축*을 한 줄로 압축한 그 자체다. 박사 학위의 의미에 대한 최윤섭 박사 원문 인용은 "박사 학위의 의미는 바로 내가 그 인류가 가진 지식의 경계를 앞으로도 평생 스스로 넓혀갈 수 있을 만한 준비가 되었다는 것이었다."
 
 비유의 핵심은 *지도의 끝*에 있다. 끝 안쪽은 누군가 이미 그렸고, 누구나 들여다볼 수 있다. 그 영역에서 작업을 잘 하는 일은 가치 있는 task다. 다만 *지도를 새로 그리는 일*은 아니다. 새 지식은 끝 바깥에서만 만들어진다. 한 발짝의 크기는 작아도 된다. *지도에 안 적힌 곳*이라는 조건만 만족하면 된다.
 
-연구라 부를 수 있는 작업은 모두 이 한 발짝의 변형이다. 다만 한 발짝을 어떤 *방향*으로 디디는지가 분류된다. Hazelrigg의 4-type이 그 방향의 분류이고, §1의 시간 layer(task/objective/goal)와 직교하는 *내용 layer*다. 두 layer를 같이 든 채 다음 섹션에서 진단을 진행한다.
+연구라 부를 수 있는 작업은 모두 이 한 발짝의 변형이다. 다만 한 발짝을 어떤 *방향*으로 디디는지가 분류된다. Hazelrigg의 4-type이 그 방향의 분류이고, §1의 시간 층위(task/objective/goal)와 직교하는 *내용 층위*다. 두 층위를 같이 든 채 다음 섹션에서 진단을 진행한다.
 
 ---
 
 ## 4.3 Hazelrigg 4-type
 
-§1의 task/objective/goal이 *시간 layer*의 분류 — 오늘 / 이번 논문 / 분야 전체 — 였다면, Hazelrigg 4-type은 *내용 layer*의 분류다. objective 슬롯에 들어간 한 contribution이 *어떤 종류의 새 지식*을 만드는가를 묻는다. 두 분류는 직교 축이고, 이 챕터는 두 축을 같이 든 채로 진단을 진행한다.
+§1의 task/objective/goal이 *시간 층위*의 분류 — 오늘 / 이번 논문 / 분야 전체 — 였다면, Hazelrigg 4-type은 *내용 층위*의 분류다. objective 슬롯에 들어간 한 contribution이 *어떤 종류의 새 지식*을 만드는가를 묻는다. 두 분류는 직교 축이고, 이 장은 두 축을 같이 든 채로 진단을 진행한다.
 
 NSF의 George Hazelrigg가 *On the Role and Use of Mathematical Models in Engineering Design*에서 제시한 4-type은 한 한국어 paragraph로 옮길 수 있다. 연구는 새로운 지식을 만들어내는 활동이고, 그 활동이 만드는 지식의 종류는 네 가지다. 명제가 옳은지 그른지를 데이터로 결정하는 *가설 검정*, 현상의 정량적 성질을 데이터로 결정하는 *측정*, 명제가 옳다는 것을 논리로 결정하는 *추측 증명*, 다른 분야의 도구·관점을 본 분야 문제에 적용하는 *학제간 융합*. 새 지식을 만들지 않는 작업은 이 네 칸 어디에도 들어가지 않는다.
 
@@ -59,7 +59,7 @@ Hazelrigg 4-type이 *작업의 종류*를 묻는다면, [Mensh & Kording 2017](h
 
 이 두 framework를 봉합하면 paper-level scoping의 첫 질문이 한 줄로 정리된다. *이 한 논문의 한 contribution은 4-type 중 어디에 해당하는가*. 이 질문에 한 칸으로 답이 안 나오면 보통 둘 중 하나다. (1) 작업이 4-type 어디에도 안 들어간다. engineering achievement일 가능성이 높고 venue 선택이 다르다. (2) 두 type이 동시에 들어 있다. Rule 1을 깬 것이고, 한 논문을 두 편으로 분리하거나 한 type을 다음 논문으로 미뤄야 한다.
 
-> 🔴 **한 논문 = 한 contribution = 한 type.** 4-type 중 어디에 해당하는지 한 칸으로 답이 안 나오면 paper-level scoping이 안 된 상태다.
+> **한 논문 = 한 contribution = 한 type.** 4-type 중 어디에 해당하는지 한 칸으로 답이 안 나오면 paper-level scoping이 안 된 상태다.
 
 ---
 
@@ -77,7 +77,7 @@ Hazelrigg 4-type이 *작업의 종류*를 묻는다면, [Mensh & Kording 2017](h
 
 분야 단면을 한 줄로 적는다. 한국 robotics lab은 *가설 검정*과 *학제간 융합* 빈도가 높고 *측정*과 *증명* 빈도가 낮다. venue로 옮기면 ICRA·IROS·CVPR은 type 1·4 우세, T-RO·IJRR은 type 2·3 비중이 높다. 한 lab이 type 1·4에만 몰리면 venue 선택의 자유도가 좁아진다.
 
-> 🟡 type 다양화는 venue 선택의 자유도를 늘린다. type 2·3 작업을 한 번씩이라도 시도해 두면 졸업까지의 publication 분포가 균형을 잡는다.
+> type 다양화는 venue 선택의 자유도를 늘린다. type 2·3 작업을 한 번씩이라도 시도해 두면 졸업까지의 publication 분포가 균형을 잡는다.
 
 ---
 
@@ -89,11 +89,11 @@ Hazelrigg 4-type이 *작업의 종류*를 묻는다면, [Mensh & Kording 2017](h
 
 자기 작업을 설명할 때 "best", "novel", "state-of-the-art" 같은 최상급은 거의 항상 *claim의 정량화 부족* 신호다. 비교가 무엇 대비 무엇인지가 빠져 있고, 어떤 metric에서 얼마만큼 좋은지가 빠져 있다. 같은 작업을 정량화된 형태로 다시 적으면 superlative가 자연스럽게 사라진다. "novel SLAM system"보다 "frame-to-frame matching에서 RANSAC inlier ratio를 X% → Y%로 올린 SLAM system"이 정직하고 검증 가능하다.
 
-같은 점검을 4-type list로 다시 한 번 한다. "robotic system을 개선했다"는 claim은 4-type 어디에도 안 들어갈 가능성이 있다. 어떤 가설이 검정됐는가, 무엇이 측정됐는가, 무엇이 증명됐는가, 어떤 분야의 도구가 옮겨졌는가. 네 질문 중 하나에 답이 안 나오면 그 claim은 task의 보고이지 contribution claim이 아니다. 4-type list가 superlative 점검과 같은 방향에서 작동한다. 둘 다 claim을 *정량화 가능한 형태*로 끌어내리는 도구다.
+같은 점검을 4-type 목록으로 다시 한 번 한다. "robotic system을 개선했다"는 claim은 4-type 어디에도 안 들어갈 가능성이 있다. 어떤 가설이 검정됐는가, 무엇이 측정됐는가, 무엇이 증명됐는가, 어떤 분야의 도구가 옮겨졌는가. 네 질문 중 하나에 답이 안 나오면 그 claim은 task의 보고이지 contribution claim이 아니다. 4-type 목록이 superlative 점검과 같은 방향에서 작동한다. 둘 다 claim을 *정량화 가능한 형태*로 끌어내리는 도구다.
 
-> 🟡 "best", "novel", "state-of-the-art"가 자기 abstract에 보이면 그 표현을 4-type list로 다시 검사한다. 어느 칸에 들어가는지 정확히 짚이면 superlative 자리에 정량화된 비교가 들어온다.
+> "best", "novel", "state-of-the-art"가 자기 abstract에 보이면 그 표현을 4-type 목록으로 다시 검사한다. 어느 칸에 들어가는지 정확히 짚이면 superlative 자리에 정량화된 비교가 들어온다.
 
-같은 list가 Part 2의 [`C_sections/ch08_introduction.md`](./chapter_23_introduction.md)에서 contribution claim 작성 단계의 자기 점검 도구로 다시 등장한다. 진단의 도구가 작성의 도구로 그대로 이어진다.
+같은 목록이 Part 2의 [`C_sections/ch08_introduction.md`](./chapter_23_introduction.md)에서 contribution claim 작성 단계의 자기 점검 도구로 다시 등장한다. 진단의 도구가 작성의 도구로 그대로 이어진다.
 
 ---
 
@@ -101,14 +101,14 @@ Hazelrigg 4-type이 *작업의 종류*를 묻는다면, [Mensh & Kording 2017](h
 
 > 우리도 우리가 뭐하는지 잘 모르잖아요. 알면 연구 아니잖아요.
 
-자기 작업이 어느 type인지 흐릿한 채로 한 학기가 지나가는 일은 정상이다. 흐릿한 채로 한 발짝씩 디디면서 type이 점차 또렷해지는 게 정상의 모양이다. 다만 흐림과 막힘은 다르다. type을 *전혀 묻지 않은 채*로 1년이 지나가면 그 1년의 작업이 task의 더미로 끝날 위험이 있다. 한 달에 한 번이라도 자기 작업을 4-type list와 정글 비유에 가져다 대는 습관이 그 위험을 막는다.
+자기 작업이 어느 type인지 흐릿한 채로 한 학기가 지나가는 일은 정상이다. 흐릿한 채로 한 발짝씩 디디면서 type이 점차 또렷해지는 게 정상의 모양이다. 다만 흐림과 막힘은 다르다. type을 *전혀 묻지 않은 채*로 1년이 지나가면 그 1년의 작업이 task의 더미로 끝날 위험이 있다. 한 달에 한 번이라도 자기 작업을 4-type 목록과 정글 비유에 가져다 대는 습관이 그 위험을 막는다.
 
-같은 정글 비유가 「대학원노트」 Part 1 ch01 「박사를 결정한다는 일」에서는 *진학을 결정하는 단서*로 쓰인다. 본 챕터는 같은 비유를 *현재 작업을 진단하는 단서*로 가져왔다. 같은 비유가 두 layer에 적용된다.
+같은 정글 비유가 「대학원노트」 Part 1 ch01 「박사를 결정한다는 일」에서는 *진학을 결정하는 단서*로 쓰인다. 이 장은 같은 비유를 *현재 작업을 진단하는 단서*로 가져왔다. 같은 비유가 두 층위에 적용된다.
 
 작업이 4-type 중 한 칸에 들어간다는 진단이 끝나도 그 작업이 *언제 어떻게 진행되는가*는 별개의 질문이다. 다음 챕터는 type이 분류된 작업이 *생각의 시간*에 들어가 있는지, 책상 점유 시간에만 머물고 있는지를 가른다.
 
 ---
 
-**출처.** [권창현 교수 G8 「지금 연구인가」](https://gradschoolstory.chkwon.net), [최윤섭 박사 「박사 학위 의미」](https://gradschoolstory.chkwon.net), [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619), [Knuth et al. 1989](https://www-cs-faculty.stanford.edu/~knuth/klr.html). 로보틱스/CV의 4-type 사례 instantiation과 venue별 type 분포 관찰은 자체.
+**출처.** [권창현 교수 G8 「지금 연구인가」](https://gradschoolstory.chkwon.net), [최윤섭 박사 「박사 학위 의미」](https://gradschoolstory.chkwon.net), [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619), [Knuth et al. 1989](https://www-cs-faculty.stanford.edu/~knuth/klr.html). 로보틱스/CV의 4-type 사례와 venue별 type 분포 관찰은 이 장에서 정리했다.
 
-다음: [Ch.5 — 생각의 시간: 책상 앉은 시간 ≠ 연구 시간](./chapter_05_thinking_time.md)
+다음: [Ch.5 — 생각의 시간: 책상에 오래 있었다고 연구가 된 것은 아니다](./chapter_05_thinking_time.md)

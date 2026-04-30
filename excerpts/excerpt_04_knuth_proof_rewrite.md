@@ -1,20 +1,18 @@
-# Knuth Proof Rewrite — "stylistically atrocious" 증명을 publishable한 형태로 다시 쓰기
+# Knuth Proof Rewrite — "sty목록ically atrocious" 증명을 publishable한 형태로 다시 쓰기
 
 **출처**: Knuth, Larrabee, Roberts, 1989 — *Mathematical Writing*, Stanford CS Report STAN-CS-88-1193 / MAA Notes 14
-**bibkey**: `knuth-1989`
 **위치**: §2-§3 — 같은 정리의 atrocious 버전과 polished 버전 직접 대조
 
 ---
 
 ## 발췌
 
-> [발췌 보류 — Knuth 1989 §2의 "stylistically atrocious" 증명 단락과 §3의 polished 단락에서 fair use 1-2 문단 발췌 예정. 수식 displayed equation 포함.]
 
 ---
 
 ## 분석
 
-이 발췌가 수식 글쓰기의 정전(canon)으로 통하는 이유 하나. 수식 자체가 동일하다. §2와 §3의 두 버전은 정확히 같은 정의, 같은 정리, 같은 증명 단계를 다룬다. 다른 것은 오직 *문장 결합 방식*, *기호 배치*, *서술 흐름*뿐이다. 두 버전을 나란히 놓고 보면 "수식이 맞으면 글도 괜찮다"는 흔한 오해가 한 페이지에서 무너진다. 후배가 자기 증명 초고를 들고 와 "수식은 다 검증했다"라 말할 때, 이 발췌를 펼쳐 같은 수식이 어떻게 두 가지 글이 될 수 있는지 보여 주면 설득의 시간이 단축된다.
+이 발췌가 수식 글쓰기의 정전(canon)으로 통하는 이유 하나. 수식 그 자체가 동일하다. §2와 §3의 두 버전은 정확히 같은 정의, 같은 정리, 같은 증명 단계를 다룬다. 다른 것은 오직 *문장 결합 방식*, *기호 배치*, *서술 흐름*뿐이다. 두 버전을 나란히 놓고 보면 "수식이 맞으면 글도 괜찮다"는 흔한 오해가 한 페이지에서 무너진다. 후배가 자기 증명 초고를 들고 와 "수식은 다 검증했다"라 말할 때, 이 발췌를 펼쳐 같은 수식이 어떻게 두 가지 글이 될 수 있는지 보여 주면 설득의 시간이 단축된다.
 
 §2 버전이 atrocious한 첫째 이유는 rule 10의 "blah test"를 통과하지 못한다는 점이다. 모든 displayed equation을 단어 "blah"로 치환하고 산문만 읽었을 때 §2의 문장은 끊긴다. 수식이 문장의 *문법적 구성요소*가 아니라 *삽입된 객체*로 떠 있기 때문이다. 가령 정의를 도입하는 문장이 콜론으로 끝나고 displayed equation이 등장한 뒤 다음 문장이 새 주어로 시작하면, 수식을 빼고 읽었을 때 "Let X be defined as: . The function X then …"처럼 분절된다. §3 버전은 동일한 displayed equation을 문장의 보어 자리에 놓아, 수식을 빼더라도 "Let X be defined as blah, so that the function X then …"처럼 연속된다. 같은 수학이 같은 페이지에서 두 가지 산문이 된다.
 
@@ -35,16 +33,3 @@
 한국어 증명 단락을 쓸 때는 정리 진술의 *기호 정의 어구*를 진술 *앞*에 두는 패턴이 자기완결성에 유리하다는 점을 기억해 둔다. "정리. $f$가 연속이고 $K$가 컴팩트일 때, $f$는 $K$ 위에서 균등연속이다"처럼 조건이 앞에 와야 한국어 어순이 살고, 동시에 진술이 단독으로 닫힌다.
 
 ---
-
-## Tags
-
-`proof`, `math-writing`, `equation-prose`, `theorem-statement`, `before-after`, `rewrite-example`, `knuth`, `publishable`, `self-containedness`, `blah-test`, `multi-rule-hit`
-
-## Related chapters
-
-- [Ch08 — 수식·증명 읽기](../chapter_13_reading_math_proofs.md)
-- [Ch15 — 수식·정리·증명 쓰기](../chapter_30_math_and_proofs.md)
-- [Ch16 — 표기 위생](../chapter_31_notation_hygiene.md)
-- [Ch04 — CCC](../chapter_19_ccc.md)
-- [Halmos — Do organize. Do not distract.](./excerpt_05_halmos_organize_dont_distract.md)
-- [Nilsson — 6 points](./excerpt_06_nilsson_six_points.md)

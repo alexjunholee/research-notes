@@ -71,10 +71,10 @@ Outline iteration 사이 24시간 cooldown은 [Ch.2 §3](./chapter_17_outline_fi
 
 ## 18.6 점검 가능한 부분
 
-이 챕터의 권고 중 일부는 체크리스트로 반복 점검할 수 있다. 섹션별 수정 횟수의 불균형, abstract보다 Method만 계속 고치는 패턴, 피드백이 단어 수준에만 머무는 패턴은 §1 우선순위 위반의 신호다. 단락 수준 결함은 비교적 빨리 보이지만, 섹션·논문 스케일의 결함은 반드시 reader를 바꿔 다시 봐야 한다.
+이 장의 권고 중 일부는 체크리스트로 반복 점검할 수 있다. 섹션별 수정 횟수의 불균형, abstract보다 Method만 계속 고치는 패턴, 피드백이 단어 수준에만 머무는 패턴은 §1 우선순위 위반의 신호다. 단락 수준 결함은 비교적 빨리 보이지만, 섹션·논문 스케일의 결함은 반드시 reader를 바꿔 다시 봐야 한다.
 
 ---
 
-**출처.** [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 9 (시간 배분), rule 10 (피드백 루프). [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) (cooldown 정신 차용). 비율 수치, 단계별 reader 분리, 진단 분기, 마감 cooldown은 자체.
+**출처.** [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 9 (시간 배분), rule 10 (피드백 루프). [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) (cooldown 정신 차용). 비율 수치, 단계별 reader 분리, 진단 분기, 마감 cooldown은 이 장에서 정리했다.
 
 다음: [Ch.4 — CCC: 단락·섹션·논문의 fractal](./chapter_19_ccc.md)

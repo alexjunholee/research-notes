@@ -60,13 +60,13 @@ Whitesides가 §I에 적은 표현은 강하다. "Interesting and unpublished is
 
 ---
 
-## 17.5 Whitesides와 Schimel — 레이어가 다르다
+## 17.5 Whitesides와 Schimel — 층위가 다르다
 
 Whitesides의 outline-first 방법과 [Joshua Schimel의 *Writing Science* (2012)](https://global.oup.com/academic/product/writing-science-9780199760244)의 story-first 방법이 충돌한다는 인상을 받는 학생이 있다. Whitesides는 데이터에서 올라오는 bottom-up scaffold를, Schimel은 narrative arc(OCAR/ABDCE)를 먼저 권한다는 차이에서다.
 
-이 가이드의 입장은 둘이 *경쟁이 아니라 레이어가 다르다*는 쪽이다. Whitesides는 골조(slot 단위)를 짜고, Schimel은 그 골조 위에 올라가는 hook과 흐름을 설계한다. outline 1-2회차는 Whitesides의 7-슬롯으로 시작하고, 4-5회차에 들어갈 때 Schimel의 narrative arc 관점으로 점검하는 순서가 합리적이다.
+둘은 경쟁 관계가 아니라 층위가 다르다. Whitesides는 골조(slot 단위)를 짜고, Schimel은 그 골조 위에 올라가는 hook과 흐름을 설계한다. outline 1-2회차는 Whitesides의 7-슬롯으로 시작하고, 4-5회차에 들어갈 때 Schimel의 narrative arc 관점으로 점검하는 순서가 합리적이다.
 
-레이어가 다르다는 입장의 근거는 Whitesides 자신이 §II에서 "good papers tell stories"를 인정했다는 점이다. 다만 그가 권하는 시작점이 outline scaffold라는 차이일 뿐이다.
+층위가 다르다는 입장의 근거는 Whitesides 자신이 §II에서 "good papers tell stories"를 인정했다는 점이다. 다만 그가 권하는 시작점이 outline scaffold라는 차이일 뿐이다.
 
 ---
 
@@ -74,10 +74,10 @@ Whitesides의 outline-first 방법과 [Joshua Schimel의 *Writing Science* (2012
 
 [KISS-ICP (Vizzo et al., RA-L 2023)](https://arxiv.org/abs/2209.15397)의 Introduction 첫 단락은 Whitesides의 5요소가 어떻게 채워지는지 보여 주는 사례다. (a) objective는 "robust LiDAR odometry without learning", (b) justification은 "단순함이 generality를 낳는다", (c) background는 ICP 계열의 기존 한계, (d) reader guidance는 "we show that point-to-point ICP, configured carefully, suffices", (e) summary preview는 KITTI/MulRan에서 SOTA에 근접한다는 한 줄.
 
-Part 3의 [`kiss_icp_intro_hook.md`](./excerpts/excerpt_01_kiss_icp_intro_hook.md)에 발췌와 분석이 들어 있다. outline scaffold가 글로 변환되는 사례를 한 번 따라 써 보는 것 — 이 챕터의 마지막 권고다.
+Part 3의 [`kiss_icp_intro_hook.md`](./excerpts/excerpt_01_kiss_icp_intro_hook.md)에 발췌와 분석이 들어 있다. outline scaffold가 글로 변환되는 사례를 한 번 따라 써 보는 것 — 이 장의 마지막 권고다.
 
 ---
 
-**출처.** [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) §I outline structure, §II actionable rules. [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 9 (cross-ref). [Schimel 2012](https://global.oup.com/academic/product/writing-science-9780199760244) (사이드바 비교용). 24h cooldown과 KISS-ICP 적용은 본문에서 정리.
+**출처.** [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) §I outline structure, §II actionable rules. [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 9 (연결). [Schimel 2012](https://global.oup.com/academic/product/writing-science-9780199760244) (사이드바 비교용). 24h cooldown과 KISS-ICP 적용은 본문에서 정리.
 
 다음: [Ch.3 — 시간 배분과 피드백 루프](./chapter_18_time_budget.md)

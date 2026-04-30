@@ -31,7 +31,7 @@ Whitesides가 §III에 박은 다섯 칸은 다음과 같다.
 - **Field gap**. 분야 전체가 풀지 못한 큰 문제. 한 줄.
 - **Subfield gap**. 그 분야의 specific 영역에서의 한계. 한두 줄.
 - **Paper gap**. 본 논문이 정확히 메우는 빈틈. 한 줄.
-- **→ Contribution**. 그 빈틈을 어떻게 메웠는가.
+- **→ 기여**. 그 빈틈을 어떻게 메웠는가.
 
 핵심은 빈틈이 *좁아진다*는 사실이다. field gap은 broad하게 시작하고, paper gap에서 한 점으로 수렴한다. reviewer가 이 깔때기를 따라 내려오면서 "이 논문이 정확히 어디를 메우는가"를 자연스럽게 받는다.
 
@@ -41,7 +41,7 @@ Whitesides가 §III에 박은 다섯 칸은 다음과 같다.
 
 ## 23.3 한국어 mirror — 엄태웅 작가 6단
 
-같은 흐름을 한국어 voice로 풀어낸 글이 [엄태웅 작가 G2 「영어 못해도 논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net)의 Introduction 6단이다.
+같은 흐름을 한국어 설명로 풀어낸 글이 [엄태웅 작가 G2 「영어 못해도 논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net)의 Introduction 6단이다.
 
 > 1. 큰 문제 — 분야 전체가 푸는 문제.
 > 2. 점진적 스코프 축소 — 그 분야 안에서 본 논문이 향하는 자리.
@@ -50,7 +50,7 @@ Whitesides가 §III에 박은 다섯 칸은 다음과 같다.
 > 5. 본 연구 기여 — 한계를 메우는 본 논문의 시도.
 > 6. 논문 구성 — 다음 섹션 안내.
 
-이 6단이 §2의 gap funnel 3-tier(field → subfield → paper)와 §1의 Whitesides 5요소를 한 절차에 합친 한국어 instantiation이다. 1·2·3·4가 gap funnel을 점진적으로 좁히고, 5가 contribution + summary preview를 채우고, 6이 Whitesides의 reader guidance 칸을 명시적으로 박는다. 한국어 voice가 빠뜨리지 않는 6번(논문 구성)이, 영어권 학생이 자주 누락하는 reader guidance와 정확히 같다.
+이 6단이 §2의 gap funnel 3-tier(field → subfield → paper)와 §1의 Whitesides 5요소를 한 절차에 합친 한국어 적용 사례는다. 1·2·3·4가 gap funnel을 점진적으로 좁히고, 5가 contribution + summary preview를 채우고, 6이 Whitesides의 reader guidance 칸을 명시적으로 박는다. 한국어 문체가 빠뜨리지 않는 6번(논문 구성)이, 영어권 학생이 자주 누락하는 reader guidance와 정확히 같다.
 
 엄태웅 작가가 같은 글에서 강조하는 비율이 *Intro에 노력의 40-50% 투자*다. 90%의 reviewer가 abstract와 Introduction에서 verdict의 큰 뼈대를 잡는다는 관찰이 그 비율의 근거다. ch01 §6에서 다룬 readership-weighted budget(Mensh-Kording R9)의 한국어 mirror로 읽으면 된다.
 
@@ -65,7 +65,7 @@ Whitesides가 §III에 박은 다섯 칸은 다음과 같다.
 | Background | Field gap + Subfield gap |
 | Justification | Subfield gap → Paper gap |
 | Objectives | Paper gap을 메우려는 시도의 명시 |
-| Summary preview | Contribution |
+| Summary preview | 기여 |
 | Reader guidance | (구조적 도움말, funnel과 별개 축) |
 
 이 매핑이 작업 순서를 정한다. outline 단계에서 gap funnel로 *흐름*을 결정하고, draft 단계에서 5요소로 *칸*을 점검한다. 두 단계를 합치면 한쪽이 다른 쪽을 가린다.
@@ -84,13 +84,13 @@ Whitesides가 §III에 박은 다섯 칸은 다음과 같다.
 
 ## 23.6 흔한 실수 4종
 
-🔴 **첫 문장이 trend 나열로 시작.** "Recently, deep learning has revolutionized …" 류. field gap이 아니라 *분야 분위기*로 시작하면 깔때기가 열리지 않는다. 첫 문장은 *문제*에서 연다.
+**첫 문장이 trend 나열로 시작.** "Recently, deep learning has revolutionized …" 류. field gap이 아니라 *분야 분위기*로 시작하면 깔때기가 열리지 않는다. 첫 문장은 *문제*에서 연다.
 
-🔴 **Background가 textbook 분량.** 3 단락 이상이면 background가 아니라 mini-survey다. Related Work 섹션이 따로 있다. Introduction의 background는 *paper gap을 이해하기 위한 최소량*만.
+**Background가 textbook 분량.** 3 단락 이상이면 background가 아니라 mini-survey다. Related Work 섹션이 따로 있다. Introduction의 background는 *paper gap을 이해하기 위한 최소량*만.
 
-🔴 **Reader guidance 누락.** "In Sec. 2 we …" 한 단락이 통째로 빠진 Introduction이 흔하다. Whitesides가 5요소에 명시적으로 박아 둔 칸이다. 한 단락 또는 한 문장이라도 들어가야 한다.
+**Reader guidance 누락.** "In Sec. 2 we …" 한 단락이 통째로 빠진 Introduction이 흔하다. Whitesides가 5요소에 명시적으로 박아 둔 칸이다. 한 단락 또는 한 문장이라도 들어가야 한다.
 
-🟡 **Objective와 Contribution이 같은 표현으로 반복.** 첫 단락의 objective 문장과 Contribution 절의 첫 항이 동일한 어구이면 둘 중 하나가 잉여다. objective는 *시도*를, contribution은 *결과*를 적는다.
+**Objective와 기여이 같은 표현으로 반복.** 첫 단락의 objective 문장과 기여 절의 첫 항이 동일한 어구이면 둘 중 하나가 잉여다. objective는 *시도*를, contribution은 *결과*를 적는다.
 
 ---
 

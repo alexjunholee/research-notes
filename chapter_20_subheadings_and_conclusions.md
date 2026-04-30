@@ -46,7 +46,7 @@ claim-style 헤딩 한 줄을 만드는 절차는 다음과 같다.
 
 Conclusions 섹션에 Results의 숫자를 다시 나열하는 패턴이 가장 흔한 결함이다. "In summary, we showed A, B, and C."로 시작하는 Conclusions는 abstract와 Results에 이미 있는 정보를 한 번 더 반복한다. 독자에게 새 정보가 0이다.
 
-Whitesides가 §III에 적은 정의는 명확하다. Conclusions는 *higher-level analysis*다. 결과들이 합쳐 무엇을 말하는지, 분야에 어떻게 기여하는지, 어떤 가설이 살아남고 어떤 가설이 죽었는지가 들어간다. 형태는 "list of short phrases"고, 각 phrase는 새로운 통찰이어야 한다.
+Whitesides가 §III에 적은 정의는 명확하다. Conclusions는 *higher-level analysis*다. 결과들이 합쳐 무엇을 말하는지, 분야에 어떻게 기여하는지, 어떤 가설이 살아남고 어떤 가설이 죽었는지가 들어간다. 형태는 "목록 of short phrases"고, 각 phrase는 새로운 통찰이어야 한다.
 
 Discussion 섹션이 별도로 있는 논문이라면 Conclusions는 더 짧아진다 — 3-5 phrase 정도가 적정선이다. Discussion이 없는 venue 형식이라면 Conclusions가 그 역할을 흡수해 길어진다. 어느 쪽이든 Results의 요약이 들어가서는 안 된다는 점은 같다.
 
@@ -69,6 +69,6 @@ claim-style 헤딩은 본문 한 섹션에서 결론 문장을 먼저 추출한 
 
 ---
 
-**출처.** [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) §III (information-rich subheadings, conclusions as higher-level analysis). [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 7 (declarative statements, 보조). 로보틱스 5쌍은 자체.
+**출처.** [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) §III (information-rich subheadings, conclusions as higher-level analysis). [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 7 (declarative statements, 보조). 로보틱스 5쌍은 이 장에서 정리했다.
 
 다음: [Part 2 그룹 C — 섹션별 작성법](./chapter_22_title_abstract.md)

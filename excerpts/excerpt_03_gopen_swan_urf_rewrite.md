@@ -1,20 +1,18 @@
 # Gopen-Swan URF/ATPase Rewrite — 같은 정보의 재배치만으로 가독성을 바꾸는 단락
 
 **출처**: Gopen, Swan, 1990 — *The Science of Scientific Writing*, *American Scientist* 78(6): 550-558
-**bibkey**: `gopen-swan-1990`
 **위치**: 본문 중반 — 분자생물학 URF/ATPase 단락 원본과 단계별 rewrite
 
 ---
 
 ## 발췌
 
-> [발췌 보류 — Gopen-Swan 1990 원본 URF/ATPase 단락과 가장 정제된 최종 rewrite 단락에서 fair use 1-2 문단 발췌 예정. 중간 수정안은 단계 다이어그램으로 도식화.]
 
 ---
 
 ## 분석
 
-이 발췌가 가이드 안에서 가지는 지위는 특별하다. 가이드가 가르치는 stress position, topic position, subject-verb proximity, old-before-new 네 원칙이 *그 원칙을 처음 정식화한 논문 자체*의 단락 rewrite로 시연된다. 메타-자기참조다. 같은 *substance* — URF의 분자량, ATPase 복합체의 구성, 미토콘드리아 게놈의 위치 — 가 그대로 보존된 채 단어의 *재배치*만으로 첫 단락은 거의 해독 불가능하다가 두 번째 단락은 평이하게 읽힌다. 정보가 늘지도 줄지도 않았다. 위치가 바뀌었을 뿐이다.
+이 발췌의 지위는 특별하다. stress position, topic position, subject-verb proximity, old-before-new 네 원칙이 *그 원칙을 처음 정식화한 논문 자체*의 단락 rewrite로 시연된다. 같은 *substance* — URF의 분자량, ATPase 복합체의 구성, 미토콘드리아 게놈의 위치 — 가 그대로 보존된 채 단어의 *재배치*만으로 첫 단락은 거의 해독 불가능하다가 두 번째 단락은 평이하게 읽힌다. 정보가 늘지도 줄지도 않았다. 위치가 바뀌었을 뿐이다.
 
 원본 단락이 읽기 어려운 이유는 길어서가 아니다. 강조 위치에 강조거리가 없기 때문이다. 문장 끝, 독자가 가장 오래 기억하는 위치에 boilerplate("in this paper", "as described above")나 부수적 정보가 놓인다. 정작 새롭고 강조받아야 할 정보는 문장 중간에 묻힌다. 거기에 subject와 verb 사이가 15 토큰을 넘는 긴 nominalization이 끼어 있다. 독자는 동사가 무엇이었는지 잊은 채 문장 끝에 도달한다. topic position(문장 첫머리)에는 앞 문장과 연결되는 *오래된 정보*가 와야 backward link이 생기는데, 원본은 매 문장 새 명사로 시작한다. 독자는 매 문장 자기 머릿속에서 연결을 *발명* 해야 한다. 가독성이 무너지는 곳은 어휘가 어려운 곳이 아니라 네 원칙이 동시에 깨진 곳이다.
 
@@ -33,14 +31,3 @@ rewrite 과정에서 부수효과가 하나 드러난다. 구조를 정리하면
 이 절차의 핵심은 "한 단어도 추가/삭제하지 않는다"는 제약이다. 추가하기 시작하면 *내용 보강*과 *구조 점검*이 뒤섞여 둘 다 잘 안 된다. 위치만 바꾸어 작동하는지 본 뒤에야 — 그래도 빈틈이 남았다면 — 그 빈틈을 메우는 추가 작업으로 옮겨 간다. 분리해야 둘 다 산다.
 
 ---
-
-## Tags
-
-`rewrite-example`, `before-after`, `sentence-structure`, `stress-position`, `topic-position`, `subject-verb-proximity`, `old-before-new`, `paragraph-flow`, `meta-self-reference`, `korean-applicability`, `gopen-swan`
-
-## Related chapters
-
-- [Ch07 — 독자 기대치로 진단하기](../chapter_12_reader_expectations_diagnosis.md)
-- [Ch04 — CCC](../chapter_19_ccc.md)
-- [Ch06 — 문단 흐름](../chapter_21_paragraph_flow.md)
-- [Ch14 — 문장 구조와 독자 기대](../chapter_29_reader_expectations.md)

@@ -7,6 +7,15 @@
 
 ---
 
+## 참고한 자료와 감사
+
+이 책은 Gopen & Swan, Keshav, Whitesides, Mensh & Kording, Knuth의
+과학 글쓰기·논문 읽기 자료와, 엄태웅 작가·최윤섭 박사·권창현 교수의
+gradschoolstory 글, 김기섭 교수·임형태 박사·cxli233의 연구 글쓰기
+자료에서 배웠다. 자세한 credit은 [CREDITS.md](CREDITS.md)에 둔다.
+
+---
+
 ## 5분 핵심
 
 연구는 주제를 받는 일이 아니라 질문을 좁히는 일이다. 읽기는 많이 읽는
@@ -35,6 +44,7 @@
 research-notes/
 ├── index.html
 ├── guide.html
+├── CREDITS.md
 ├── chapter_01_question.md
 ├── chapter_02_thinking_time.md
 ├── chapter_03_read_less.md

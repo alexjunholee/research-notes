@@ -1,6 +1,6 @@
 # Ch.34 — 학회 2-3주 전 체크리스트
 
-[ch01](./chapter_33_conference_roi.md)이 *학회에 왜 가는가*에 답했다면, 이 장은 *가기 전에 무엇을 해두는가*에 답한다. ch01에서 좁힌 *세 이유 중 하나*가 이 장 사전 준비의 입력이고, 사전 메일·triage·발표 준비가 [ch03](./chapter_35_first_sentence.md) 학회장 첫 마디의 *받는 쪽 expectation*을 미리 만들어 둔다. 학회는 우연히 좋은 일이 일어나는 곳이 아니다. 오히려 사전 준비량에 비례해 결과가 갈라지는 곳에 가깝다. 출국 1-2일 전 program PDF를 처음 여는 학생은 이미 사전 약속의 기회를 모두 잃은 상태로 입장한다. 2-3주 lead time을 권장하는 이유는, 사전 메일의 응답을 받고 일정을 조율하기에 그 정도가 최소 시간이기 때문이다. 한국 대학원의 visa·여비 심사·학과 출장 결재 timeline과도 묘하게 정합한다. 행정이 마무리되는 시점에 마침 사전 약속이 시작된다.
+[ch01](./chapter_33_conference_roi.md)이 *학회에 왜 가는가*에 답했다면, 이 장은 *가기 전에 무엇을 해두는가*에 답한다. ch01에서 좁힌 *세 이유 중 하나*가 이 장 사전 준비의 입력이고, 사전 메일·triage·발표 준비가 [ch03](./chapter_35_first_sentence.md) 학회장 첫 마디의 *받는 쪽 expectation*을 미리 만들어 둔다. 학회는 우연히 좋은 일이 일어나는 곳이 아니다. 오히려 사전 준비량에 비례해 결과가 갈라지는 곳에 가깝다. 출국 1-2일 전 학회 program/app을 처음 여는 학생은 이미 사전 약속의 기회를 모두 잃은 상태로 입장한다. 2-3주 lead time을 권장하는 이유는, 사전 메일의 응답을 받고 일정을 조율하기에 그 정도가 최소 시간이기 때문이다. 한국 대학원의 visa·여비 심사·학과 출장 결재 timeline과도 묘하게 정합한다. 행정이 마무리되는 시점에 마침 사전 약속이 시작된다.
 
 [권창현 교수 G10](https://gradschoolstory.chkwon.net)이 정리한 사전 준비는 세 갈래다. **만남 사전 약속**, **세션 사전 triage**, **전문가에게 사전 메일**. 세 갈래가 각각 학회의 networking·learning·feedback 세 축에 대응한다. 본인 발표 준비는 그 위에 한 층을 더 얹는다.
 
@@ -71,7 +71,7 @@ Sincerely, ...
 
 ## 34.3 세션 사전 선별 — Keshav pass 1을 program 단위로
 
-학회 program PDF 200쪽을 그대로 들고 가지 않는다. 출국 전에 1-pass를 끝내 둔다. 메커니즘은 [Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) §2.1의 1st pass 그대로고, 다른 점은 *적용 단위*가 논문 한 편에서 학회 program 한 권으로 transfer된 정도다. Keshav가 §1에서 적은 문장이 그대로 학회에 적용된다 — *"It allows me to estimate the amount of time required to review a set of papers."* 이 권고는 일군의 논문에 들 시간을 미리 가늠하는 것이고, 학회는 일군의 논문이 압축된 형태다.
+학회 program/app을 그대로 들고 가지 않는다. 출국 전에 1-pass를 끝내 둔다. 메커니즘은 [Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) §2.1의 1st pass 그대로고, 다른 점은 *적용 단위*가 논문 한 편에서 학회 program 한 묶음으로 transfer된 정도다. Keshav가 §1에서 적은 문장이 그대로 학회에 적용된다 — *"It allows me to estimate the amount of time required to review a set of papers."* 이 권고는 일군의 논문에 들 시간을 미리 가늠하는 것이고, 학회는 일군의 논문이 압축된 형태다.
 
 선별는 5 Cs를 program 단위로 재사용한다. paper 한 편당 5-10분이 1-pass 예산이고, 한 session 10편 기준 1시간이 한 session의 사전 비용이다. 그 비용을 *학회 전*에 지불하지 않으면 *학회 중*에 두 배로 치르게 된다. 현장에서는 이동·점심·소셜 사이의 짧은 짬에 program을 처음 열어야 하기 때문이다.
 

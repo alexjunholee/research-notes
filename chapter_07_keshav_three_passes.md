@@ -74,11 +74,11 @@ Keshav가 §2 마지막에 환기하는 점은 패스 사이의 의존성이다.
 
 ## 7.6 읽기를 도와주는 도구
 
-3-pass 절차 위에 한 층위가 더 얹혀 있는 시점이다. 1st pass에서 abstract와 conclusion을 읽은 직후 PDF를 AI에 던지고 *contribution을 3줄로*, *related work에서 가장 자주 비교되는 baseline은 무엇인가*, *Eq. 5를 단계별로 유도해 달라* 같은 질문을 거는 패턴이 있다. 2nd pass의 정독 단계에서 본문 어디에 시간을 쓸지 좌표가 더 빨리 잡히고, 한 시간 상한 안에서 ref 한두 편의 1st pass에 쓸 시간이 그만큼 확보된다. Semantic Scholar의 관련 논문 추천을 받고, 추천 논문 사이의 차이점을 AI에 비교 정리시키는 작업도 같은 층위에 들어간다.
+3-pass 절차 위에 한 층위가 더 얹혀 있는 시점이다. 1st pass에서 abstract와 conclusion을 읽은 직후 paper packet — 논문 URL, PDF, project page, code, OpenReview나 supplementary가 있으면 그것까지 — 을 AI에 넣고 질문을 건다. 질문은 *요약해 줘*가 아니라 *contribution claim 세 개와 각 claim의 근거 위치를 찾아 줘*, *related work에서 가장 자주 비교되는 baseline과 그 표/문단 위치를 짚어 줘*, *Eq. 5가 어떤 가정에서 나오는지 단계별로 풀고 모르면 모른다고 표시해 줘* 쪽이 낫다. 2nd pass의 정독 단계에서 본문 어디에 시간을 쓸지 좌표가 더 빨리 잡히고, 한 시간 상한 안에서 ref 한두 편의 1st pass에 쓸 시간이 그만큼 확보된다.
 
-> 요약 도구에 맡기면 안 되는 부분이 따로 있다. 논문의 미묘한 가정, limitation 섹션의 뉘앙스, 실험 세팅의 세부 사항은 직접 읽어야 한다.
+> AI가 찾아 준 근거 위치가 틀리면 그 결과는 버린다. 논문의 미묘한 가정, limitation 섹션의 뉘앙스, 실험 세팅의 세부 사항은 직접 읽어야 한다.
 
-읽는 쪽이 직접 들어가야 하는 것(가정·limitation·실험 세팅)과 AI에 위임 가능한 것(요약·baseline 정리·유도 단계 보조)이 같은 절차의 두 층위로 갈라진다. (이전에 robotics-practice ch19 § 19.7에 정리된 내용으로, 분야 보조 사례로 가져옴.)
+읽는 쪽이 직접 들어가야 하는 것(가정·limitation·실험 세팅)과 AI에 위임 가능한 것(근거 위치 후보·baseline 후보·유도 단계 초안)이 같은 절차의 두 층위로 갈라진다. AI는 읽기를 대체하지 않고, 읽을 위치를 좁혀 준다. (이전에 robotics-practice ch19 § 19.7에 정리된 내용으로, 분야 보조 사례로 가져옴.)
 
 ---
 

@@ -1,64 +1,61 @@
-# Ch.9 — Literature Survey Workflow: 논문 입력 pipeline
+# Ch.9 — Literature Survey Workflow: 논문 입력 시스템
 
-[Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) 3-pass는 *한 편이 손에 들어왔을 때* 무엇을 하는가의 규약이다. 그런데 본인이 한 주에 다섯 편을 정독한다고 해도, 그 다섯 편이 *어디서 흘러 들어오는가*는 별개의 작업으로 남는다. ch01에서 다룬 *안 읽을 25편 표시*가 triage라면, 이 장은 그 25편이 *어느 채널로 들어오는가*를 본다.
+[Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) 3-pass는 *한 편이 손에 들어왔을 때* 무엇을 하는가의 규약이다. 그런데 본인이 한 주에 다섯 편을 정독한다고 해도, 그 다섯 편이 *어디서 흘러 들어오는가*는 별개의 작업으로 남는다. ch01에서 다룬 *안 읽을 25편 표시*가 triage라면, 이 장은 그 25편이 *어떤 입력 시스템에서 올라오는가*를 본다.
 
-여기서 자주 어긋나는 결정이 있다. 본인이 입력 채널을 *늘리는* 작업과 *볼 시간을 정하는* 작업을 한 쌍으로 묶지 않는 결정이다. 채널만 늘리고 시간을 정하지 않으면, 매일 RSS와 X를 들여다보다 그날의 집중력이 한 시간 안에 닳는다. [김기섭 교수](https://gsk1m.github.io/)가 「arXiv 최신논문 트래킹 자동화」(2023.03)에서 적은 한 줄이 같은 곳을 짚는다.
-
-> *"매일 내가 직접 `python3 arxiv_saver_to_db.py` 하고 다시 commit 하고 … 이 과정을 수행하는 것은 피곤하다."*
-
-manual 채널 점검의 비용을 인정한 한 줄이다. 자동화도 자동화지만, 자동화 위에 *볼 시간을 정한 운영*이 함께 얹혀야 입력 pipeline이 닳지 않는다.
+여기서 자주 어긋나는 결정이 있다. 입력원을 늘리는 일과 판단 시간을 정하는 일을 분리하는 결정이다. alert, paper graph, lab page, OpenReview, 학회 program, SNS를 모두 켜 놓으면 입력은 늘어나지만 판단은 흐려진다. 2026년의 문제는 자료 부족이 아니라 후보 과잉이다. 입력 시스템의 목적은 좋은 논문을 많이 모으는 일이 아니라, 이번 주에 직접 읽을 3-5편을 남기고 나머지를 내려놓는 일이다.
 
 ---
 
-## 9.1 5 채널 — 무엇을 켜고 무엇을 닫는가
+## 9.1 입력 4종 — 무엇을 켜고 무엇을 닫는가
 
-분야 senior가 실제로 운영하는 입력 채널은 다섯 묶음 안에 들어간다. 각 채널이 들어오는 *것*과 *비용*이 다른 만큼, 다섯을 모두 켜는 결정은 잘못된 결정이다.
+분야 senior가 실제로 운영하는 입력은 네 묶음 안에 들어간다. 각 입력이 들어오는 *것*과 *비용*이 다른 만큼, 네 묶음을 모두 같은 강도로 보는 결정은 잘못된 결정이다.
 
-**채널 1 — arXiv RSS feed.** cs.RO, cs.CV, eess.SP 카테고리에서 매일 100-300편의 metadata가 흘러 들어온다. 폭주의 본체이자 가장 노이즈가 큰 채널이다. 매일 보면 거기서 집중력이 닳는 만큼, 주 1회 1-2시간 블록으로 묶어 본다. 김기섭 교수가 자기 통계를 적은 줄에 따르면, 이 블록의 실제 트래픽은 *50-100 title 훑고, ~10 abstract 보고, 1-2편 정독*에 가깝다.
+**입력 1 — paper graph와 alert.** Google Scholar·Semantic Scholar·OpenAlex·arXiv·Connected Papers류 도구가 담당하는 층위다. 이 입력은 후보를 넓게 잡는 데 강하지만 노이즈도 크다. 매일 열어보는 용도가 아니라 weekly brief의 재료로 둔다.
 
-**채널 2 — Mailing 목록.** robotics-worldwide·dbworld·ml-news 같은 분야 큐레이션 메일링이다. 들어오는 것은 논문 그 자체가 아니라 *학계 환경 정보* — CFP, workshop 공지, 잡 공고, 세미나, tutorial 녹화, 학회지 신간 쪽이다. 김기섭 교수가 「Robotics 최신 학계 소식 받아보기」(2023.02)에서 적은 한 줄이 이 채널의 역할을 정한다.
+**입력 2 — 신뢰 그룹·저자·랩 페이지.** ch01에서 정한 *신뢰 prior*가 있는 그룹·저자의 신작을 받는다. cold start 그룹을 많이 follow하면 alert가 다시 잡음으로 바뀐다. 신뢰는 alert가 만들어 주지 않는다. 신뢰가 쌓인 뒤에 alert를 거는 편이 맞다.
 
-> *"최신 학계소식 + 논문들에 대한 팔로업follow-up 하는 것은 중요하다."*
+**입력 3 — venue와 review surface.** 학회 proceedings, OpenReview thread, accepted paper list, workshop page, tutorial page가 여기에 들어간다. 논문 그 자체보다 *어떤 논문이 어느 자리에서 논쟁됐는가*가 보인다. rebuttal과 reviewer discussion이 공개된 venue에서는 abstract보다 review thread가 더 빠른 triage 신호가 되기도 한다.
 
-논문 입력과 *학계 환경 input*이 한 채널 안에 같이 흐른다. 별도 메일 폴더로 분리해 weekly 30분 블록에 처리하는 운영이 자주 권장된다.
+**입력 4 — 해설과 큐레이션.** 분야 senior blog, lab note, tutorial slide, newsletter, 긴 form의 해설 글이다. 들어오는 것은 한 편의 *논문*이 아니라 *왜 이 논문이 중요한가*의 해석이다. paper가 못 잡은 디테일이 senior의 blog에 풀려 있는 사례가 많은 만큼, 본 형식의 정독+구현 사이클은 [Ch.14](./chapter_14_reading_with_code.md)에서 자세히 다룬다.
 
-**채널 3 — 신뢰 그룹·저자 alert.** Google Scholar alerts와 Semantic Scholar Research Feed가 같은 일을 한다. ch01에서 정한 *신뢰 prior*가 있는 그룹·저자의 신작을 받아 1st pass 우선권을 둔다. cold start 그룹은 alert을 걸지 않는 편이 마찰이 적다. alert은 후보를 늘리는 도구지, 신뢰를 만들어 주는 도구는 아니다.
+SNS는 별도 입력 시스템으로 세지 않는다. 좋은 신호가 들어오기도 하지만 휘발성이 강하고, 클릭하는 순간 다른 것까지 같이 끌고 온다. 학회 주간에만 켜거나, 이미 신뢰하는 사람의 thread를 나중에 확인하는 정도면 충분하다.
 
-**채널 4 — Blog·RSS.** 분야 senior 블로그를 Feedly·Inoreader 같은 reader에 묶는다. 들어오는 것은 한 편의 *해설*과 *분야 흐름 정리* 쪽이다. 김기섭 교수의 SLAM 14편 블로그 — *FAST-LIO Fast 한 이유*·*Pose-graph SLAM Tutorial* 같은 형식 — 가 분야 쪽 논의의 본보기에 가깝다. paper가 못 잡은 디테일이 senior의 blog에 풀려 있는 사례가 많은 만큼, 본 형식의 정독+구현 사이클은 ch09에서 자세히 다룬다.
-
-**채널 5 — Twitter/X + 학회 해시태그.** arXiv 직후 분야 senior가 한 줄 반응을 적는 통로다. 논문 자체보다 빠른 평가 신호가 들어오는 한편, 가장 끊기 어려운 채널이기도 하다. 본인 의지로 통제가 안 되면 그 자리에서 닫는 편이 마찰이 적다. 켜둔다면 학회 주간 한정 + 신뢰 follow 30명 이내가 안전한 운영이다.
-
-5 채널을 *고르는* 작업이 입력 pipeline의 본체다. 본인 시간 예산이 주 1.5시간이라면, 채널 1·3을 켜고 나머지는 닫는다. 시간이 늘어나면 채널 2·4가 따라붙고, 채널 5는 마지막이다. 채널 수가 본인 시간을 *역으로* 결정하지 않도록 두는 것이 핵심이다.
+본인 시간 예산이 주 1.5시간이라면 입력 1·2만 켠다. 시간이 늘어나면 입력 3·4가 따라붙는다. 입력 수가 본인 시간을 *역으로* 결정하지 않도록 두는 것이 핵심이다.
 
 ---
 
-## 9.2 자동화 — RSS 파이프라인 + AI 보조 도구
+## 9.2 AI weekly brief — 자동화의 기본 단위
 
-채널을 골랐으면 자동화한다. 김기섭 교수가 같은 자동화 글에서 푼 사례 — RSS → SQLite → GitHub Actions cron → FastAPI → Streamlit — 가 한 본보기다. RSS reader가 *시간순*으로만 보여 주는 자료를 keyword·저자·연도로 cross-cut 검색 가능한 DB로 옮겨 둔 작업이다. 이 자동화의 진입 장벽이 한 줄로 풀리는 대목도 같은 글 안에 놓여 있다.
+입력원을 골랐으면 한 weekly brief로 묶는다. 직접 수집 파이프라인을 짜는 일은 이제 기본값이 아니다. 이미 있는 alert와 paper graph export를 가져오고, 필요한 경우에만 작은 스크립트나 agent를 붙인다. 핵심은 자동화 기술이 아니라 질문 양식이다.
 
-> *"대충 이렇게 저렇게 하고 싶어 라고 설명하니까 ChatGPT가 만들어주었다."*
+weekly brief가 답해야 할 질문은 정해져 있다.
 
-이 한 줄이 자동화의 시점을 정한다. 분야 senior가 손으로 짜던 시기에서, 본인이 *대충 설명한* 결과를 ChatGPT가 받는 시기로 넘어왔다. 자동화 그 자체는 본인 코딩 능력보다 *원하는 워크플로우의 명확성*에 더 기대게 된다.
+| 질문 | 출력 |
+|---|---|
+| 이번 주 내 thesis와 가장 가까운 후보는 무엇인가 | 후보 5-10편 |
+| 왜 가까운가 | thesis keyword와 연결되는 한 줄 |
+| 어디를 확인해야 하는가 | abstract·figure·table·OpenReview 위치 |
+| 무엇을 안 읽을 것인가 | 제외 후보와 제외 이유 |
 
-자동화 위에 한 층위가 더 얹힌다. 매일 들어오는 metadata에 abstract를 첨부해 AI에 던지고 *"내 키워드와 관련된 후보 5편을 골라줘"*를 묻는 패턴이다. 1st pass 전의 0차 선별이 거기서 만들어진다. 한 시간짜리 weekly 블록이 본인이 직접 5편을 *고르는 시간*에서 *고른 결과를 검증하는 시간*으로 옮겨간다.
+AI에는 metadata와 abstract만 던지는 것이 아니라 source URL, project page, code link, OpenReview link가 있으면 같이 넣는다. 그러고 나서 *"후보를 고르되 각 후보마다 근거 위치를 붙이고, 근거가 없으면 없음이라고 표시하라"*고 묻는다. 한 시간짜리 weekly 블록은 본인이 직접 30편을 훑는 시간이 아니라, AI가 올린 후보와 제외 사유를 검증하는 시간으로 바뀐다.
 
-AI 요약을 *읽었다*고 착각하지 않는다. 0차 선별 후보 선별까지가 AI의 몫이고, 1st pass는 본인이 들어간다. AI가 만든 5 Cs를 그대로 노트에 박아두면, 6개월 후 본인의 노트가 본인이 통과한 자료가 아닌 AI가 통과한 자료의 누적이 된다.
+AI 선별 결과를 *읽었다*고 착각하지 않는다. 0차 후보 선별과 근거 위치 후보까지가 AI의 몫이고, 1st pass는 본인이 들어간다. AI가 만든 5 Cs를 그대로 노트에 박아두면, 6개월 후 본인의 노트가 본인이 통과한 자료가 아닌 AI가 통과한 자료의 누적이 된다. 노트에 남길 것은 AI의 긴 요약이 아니라, 본인이 확인한 근거 위치와 다음 결정이다.
 
 ---
 
 ## 9.3 core paper set이 *먼저* — 신간은 그 위에 놓인다
 
-입력 pipeline은 *신간*만 다루지 않는다. 분야의 *고전 5-10편*을 본인 안에 박아두지 않으면, 신간이 어떤 흐름 위에 놓이는지 안 잡힌다. 그래서 신입 1년차의 권장 작업은 *신간 채널 5개를 켜는 것*보다 *core paper 1편을 정독하는 것* 쪽으로 기운다.
+입력 시스템은 *신간*만 다루지 않는다. 분야의 *고전 5-10편*을 본인 안에 박아두지 않으면, 신간이 어떤 흐름 위에 놓이는지 안 잡힌다. 그래서 신입 1년차의 권장 작업은 *신간 alert를 많이 켜는 것*보다 *core paper 1편을 정독하는 것* 쪽으로 기운다.
 
 분야 쪽 논의의 정전 리스트는 robotics-practice ch20 § 20.4 *필독 논문 리스트*에 정리되어 있다. SLAM 쪽이라면 ORB-SLAM, LOAM, VINS-Mono, FAST-LIO2가 리스트의 머리에 놓인다. CV 쪽이라면 ResNet, Transformer, ViT가 같이 묶인다. 신간이 들어왔을 때 첫 작업은 *이 논문이 우리 분야의 어느 고전 위에 놓이는가*를 한 줄로 적어 보는 것이고, 그 한 줄이 적히지 않으면 core paper set이 아직 본인 안에 안 박혔다는 신호다.
 
-신입은 *신간 5채널*보다 *core paper 1편 정독*이 우선이다. 입력 pipeline은 core paper가 박힌 *후*에 본격 가동된다. core paper가 비어 있는 상태에서 신간 30편을 읽으면 30편이 각각 따로 남는 한편, core paper가 박힌 후의 신간 5편은 한 흐름 위에 묶여 들어간다.
+신입은 신간 alert보다 *core paper 1편 정독*이 우선이다. 입력 시스템은 core paper가 박힌 *후*에 본격 가동된다. core paper가 비어 있는 상태에서 신간 30편을 읽으면 30편이 각각 따로 남는 한편, core paper가 박힌 후의 신간 5편은 한 흐름 위에 묶여 들어간다.
 
 ---
 
 ## 9.4 weekly digest 운영 — 정해진 시간에만 본다
 
-채널을 골랐고 자동화도 했고 core paper도 박혔으면, 남은 결정은 *언제 보는가*다. 매일 보는 결정은 잘못된 결정이다. 매일 보면 집중력이 거기서 닳고, 본인이 정독에 쓸 두 시간이 RSS feed로 흩어진다. 권장 운영은 주 1회 1-2시간 블록 쪽으로 잡힌다.
+입력원을 골랐고 weekly brief도 만들었고 core paper도 박혔으면, 남은 결정은 *언제 보는가*다. 매일 보는 결정은 잘못된 결정이다. 매일 보면 집중력이 거기서 닳고, 본인이 정독에 쓸 두 시간이 알림으로 흩어진다. 권장 운영은 주 1회 1-2시간 블록 쪽으로 잡힌다.
 
 이 블록의 출력은 정해져 있다.
 
@@ -66,10 +63,11 @@ AI 요약을 *읽었다*고 착각하지 않는다. 0차 선별 후보 선별까
 |---|---|
 | 후보 5편 | 그 주의 1st pass 후보 |
 | 각 5 Cs 한 줄 | category·context·correctness·contribution·clarity (ch03 양식) |
+| 근거 위치 | abstract·figure·table·review thread 중 확인한 자리 |
 | 결정 게이트 | 중단 / 보류 / 진행 (ch01 §2의 네 신호 적용) |
 | 보류 큐 | 다시 돌아올 시점 함께 |
 
-이 출력이 본인의 노트 시스템(ch10에서 자세히)에 그대로 흘러 들어간다. weekly 블록 끝에 5편의 한 줄짜리 5 Cs가 노트에 박히면, 한 달이 지난 시점에서 20편의 한 줄짜리 노트가 본인 안에 누적된다.
+이 출력이 본인의 노트 시스템(ch10에서 자세히)에 그대로 흘러 들어간다. weekly 블록 끝에 5편의 한 줄짜리 5 Cs와 근거 위치가 노트에 박히면, 한 달이 지난 시점에서 20편의 검증된 노트가 본인 안에 누적된다.
 
 분야 쪽 논의에서 같은 관점이 한 번 더 짚인다.
 
@@ -77,10 +75,10 @@ AI 요약을 *읽었다*고 착각하지 않는다. 0차 선별 후보 선별까
 >
 > — robotics-practice ch22 § 22.5
 
-자동화가 논문을 대신 읽어 주지는 않는다. 입력 pipeline이 매일 흘러도, weekly 블록에서 어느 논문을 직접 읽을지 고르는 결정은 여전히 본인 몫이다. 그 결정이 본인의 thesis가 놓일 곳을 정한다.
+자동화가 논문을 대신 읽어 주지는 않는다. 입력 시스템이 매일 흘러도, weekly 블록에서 어느 논문을 직접 읽을지 고르는 결정은 여전히 본인 몫이다. 그 결정이 본인의 thesis가 놓일 곳을 정한다.
 
 ---
 
-**출처.** [김기섭 교수 「arXiv 최신논문 트래킹 자동화」](https://gsk1m.github.io/productivity/2023/03/18/arxiv-searcher-automation.html) (2023.03), [김기섭 교수 「Robotics 최신 학계 소식 받아보기」](https://gsk1m.github.io/productivity/2023/02/28/robotics-worldwide.html) (2023.02), [Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) §1, robotics-practice ch20 § 20.4 (필독 논문 리스트, 분야 쪽 논의)·ch22 § 22.5 (AI 시대 참조). 5 채널 분류, weekly digest 운영, AI를 이용한 0차 선별은 이 장에서 정리했다.
+**출처.** [김기섭 교수 「arXiv 최신논문 트래킹 자동화」](https://gsk1m.github.io/productivity/2023/03/18/arxiv-searcher-automation.html) (2023.03), [김기섭 교수 「Robotics 최신 학계 소식 받아보기」](https://gsk1m.github.io/productivity/2023/02/28/robotics-worldwide.html) (2023.02), [Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) §1, robotics-practice ch20 § 20.4 (필독 논문 리스트, 분야 쪽 논의)·ch22 § 22.5 (AI 시대 참조). paper graph 기반 입력, weekly brief 운영, AI를 이용한 0차 선별과 근거 위치 검증은 이 장에서 정리했다.
 
 다음: [Ch.5 — Reviewer로 읽기](./chapter_10_reading_for_review.md)

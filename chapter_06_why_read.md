@@ -1,6 +1,6 @@
 # Ch.6 — 왜 읽는가, 그리고 무엇을 안 읽을지 정하는 법
 
-[Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) 도입부는 "연구자는 매년 수백 시간을 논문 읽기에 쓴다"라는 관찰로 시작한다. 2007년의 관찰이고, arXiv가 하루에 수백 편씩 새 프리프린트를 받는 지금의 분야에서는 이 수치가 더 이상 충분치 않다. RSS에 30편이 쌓이는 한 주 동안 한 편도 끝까지 읽지 못했다는 후배의 푸념이 흔한 풍경이 됐다.
+[Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) 도입부는 "연구자는 매년 수백 시간을 논문 읽기에 쓴다"라는 관찰로 시작한다. 2007년의 관찰이고, arXiv가 하루에 수백 편씩 새 프리프린트를 받는 지금의 분야에서는 이 수치가 더 이상 충분치 않다. paper graph와 alert가 한 주에 수십 편을 밀어 넣는 동안 한 편도 끝까지 읽지 못했다는 후배의 푸념이 흔한 풍경이 됐다.
 
 [임형태 박사](https://github.com/LimHyungTae/paper-writing-checklist)는 비슷한 맥락에서 "다 읽으려 들지 마라"는 권고를 자주 든다. 다 읽기를 시도하는 순간 한 편도 못 읽는 상태로 빠진다는 관찰이다. 그래서 읽기 전에 먼저 결정할 것은 *무엇을 안 읽을지*가 된다.
 
@@ -26,7 +26,7 @@
 
 **Abstract의 broad-narrow-broad 구조.** Mensh-Kording rule 5는 abstract가 broad 도입 → 핵심 narrow → broad 함의의 모래시계 구조를 가진다고 적는다. 이 구조가 무너진 abstract는 글쓴이가 자기 message를 못 잡았다는 1차 신호인 한편, abstract 첫 두 문장과 마지막 두 문장만 보고 모래시계가 잡히는지 30초 안에 판단해 본다.
 
-네 신호 모두 빠른 거절을 위한 것이다. 빠른 거절이 빠른 읽기를 가능케 하는 만큼, 선별는 읽기 전 단계가 아니라 읽기의 첫 단계로 다루는 편이 자연스럽다.
+네 신호 모두 빠른 거절을 위한 것이다. 빠른 거절이 빠른 읽기를 가능케 하는 만큼, 선별은 읽기 전 단계가 아니라 읽기의 첫 단계로 다루는 편이 자연스럽다.
 
 ---
 
@@ -50,9 +50,9 @@
 
 ## 6.4 큐레이션 도구
 
-선별를 손으로만 하기에는 양이 많다. 그래서 큐레이션은 도구에 위임한다.
+선별을 손으로만 하기에는 양이 많다. 그래서 큐레이션은 도구에 위임한다.
 
-[Connected Papers](https://www.connectedpapers.com/), [Semantic Scholar alerts](https://www.semanticscholar.org/), arXiv RSS feed가 가장 흔한 조합이다. 신뢰 그룹의 저자 follow를 걸어 신작을 자동 수집하고, weekly digest로 묶어 정해진 시간에만 본다는 시간 알림이 자주 동반된다. 그러자면 매일 RSS를 보지 않게 되는데, 매일 보면 집중력 예산이 그 자리에서 닳기 때문이다.
+paper graph alert, author follow, venue page, OpenReview thread, project page를 한 weekly brief로 묶는다. 도구 이름은 바뀌어도 원칙은 같다. 신뢰 그룹의 신작과 citation graph에서 가까운 논문만 후보로 올리고, 나머지는 *안 읽을 목록*으로 내린다. 매일 들어오는 알림을 매일 열지 않는 이유도 같다. 매일 보면 집중력 예산이 그 자리에서 닳기 때문이다.
 
 큐레이션이 내놓는 것은 읽을 후보 5편이 아니라 *안 읽을* 25편의 명단이다. 이 명단을 만든 후, 남은 후보에 Ch.2의 3-pass를 적용한다.
 

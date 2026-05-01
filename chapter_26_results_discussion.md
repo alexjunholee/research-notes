@@ -1,8 +1,8 @@
 # Ch.26 — 결과와 논의
 
-Results와 Discussion이 별도 섹션이라는 사실이 신입생 입장에서 가장 자주 흐려지는 관점이다. *결과의 명시*와 *결과의 해석*이 한 섹션에 섞이면 reviewer 입장에서 어느 줄이 새 정보이고 어느 줄이 해석인지 추적이 안 된다. ch04 §5의 *content와 conclusion 스케일이 섞인다* 결함이 두 섹션 사이에서 가장 자주 발현한다.
+Results와 Discussion이 별도 섹션이라는 사실이 신입생 입장에서 가장 자주 흐려지는 관점이다. 결과의 명시와 결과의 해석이 한 섹션에 섞이면 reviewer 입장에서 어느 줄이 새 정보이고 어느 줄이 해석인지 추적이 안 된다. ch04 §5의 content와 conclusion 스케일이 섞인다 결함이 두 섹션 사이에서 가장 자주 발현한다.
 
-[Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 5와 rule 8이 두 섹션의 분담을 정식화한다. Results는 figure·table·숫자가 박히는 곳, Discussion은 *왜 그런 결과가 나왔는가*와 *어디까지가 한계인가*를 받는 곳. 결국 새 결과는 Discussion에 들어가지 않는다는 한 줄이 두 섹션을 가르는 분기점이다.
+[Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 5와 rule 8이 두 섹션의 분담을 정식화한다. Results는 figure·table·숫자가 박히는 곳, Discussion은 왜 그런 결과가 나왔는가와 어디까지가 한계인가를 받는 곳. 결국 새 결과는 Discussion에 들어가지 않는다는 한 줄이 두 섹션을 가르는 분기점이다.
 
 ---
 
@@ -23,7 +23,7 @@ Results와 Discussion이 별도 섹션이라는 사실이 신입생 입장에서
 
 ## 26.2 Ablation — 변인 통제
 
-**Ablation 부재는 단일 reject 사유.** 어떤 component가 어떤 효과를 만드는가가 검증되지 않은 채 결과만 던지면 reviewer 입장에서 *어떤 부분이 진짜 작동하는가*를 추적 못 한다. ch01 §1의 reject complement 항목에서 가장 자주 잡히는 결함 중 하나다.
+**Ablation 부재는 단일 reject 사유.** 어떤 component가 어떤 효과를 만드는가가 검증되지 않은 채 결과만 던지면 reviewer 입장에서 어떤 부분이 진짜 작동하는가를 추적 못 한다. ch01 §1의 reject complement 항목에서 가장 자주 잡히는 결함 중 하나다.
 
 **Ablation 표 구성.** row = 제거된 component (또는 변경된 변인), column = 결과 metric. Full method (baseline)가 첫 행 또는 마지막 행. 표 한 컷 예시.
 
@@ -34,19 +34,19 @@ Results와 Discussion이 별도 섹션이라는 사실이 신입생 입장에서
 | w/o multi-scale fusion | 0.51 | 0.73 | 14 |
 | w/o loop closure | 0.71 | 1.12 | 12 |
 
-**Component 한 번에 하나씩.** 두 component를 동시에 제거하면 reviewer가 *어느 쪽 효과인가*를 추적 못 한다. component 둘의 *상호작용*을 보고 싶으면 별도 행 (w/o A + B)으로 추가.
+**Component 한 번에 하나씩.** 두 component를 동시에 제거하면 reviewer가 어느 쪽 효과인가를 추적 못 한다. component 둘의 상호작용을 보고 싶으면 별도 행 (w/o A + B)으로 추가.
 
 ---
 
 ## 26.3 통계 유의성과 공정 비교
 
-**Main result 표에 std 또는 95% CI.** 단일 run은 reviewer 입장에서 *우연일 수 있다*. seed 3-5회 average + std가 분야 기본. seed 값까지 명시.
+**Main result 표에 std 또는 95% CI.** 단일 run은 reviewer 입장에서 우연일 수 있다. seed 3-5회 average + std가 분야 기본. seed 값까지 명시.
 
 **Hyperparameter 검색 budget 동일.** 본인 방법은 grid search 100회 돌리고 baseline은 기본 1회만 돌린 비교는 desk reject 사유. 두 방법에 같은 budget을 할당했음을 명시.
 
-**Dataset split·evaluation protocol 일치.** KITTI sequence 00-10 train, 11-21 test 같은 standard split을 *옮기면* reviewer가 의심한다. split을 옮길 이유가 있으면 *왜 옮겼는가*를 본문에 한 줄.
+**Dataset split·evaluation protocol 일치.** KITTI sequence 00-10 train, 11-21 test 같은 standard split을 옮기면 reviewer가 의심한다. split을 옮길 이유가 있으면 왜 옮겼는가를 본문에 한 줄.
 
-**본인 방법의 best column 갯수.** 분야 reviewer가 받아들이는 강도는 *본인 방법이 best 또는 second-best를 차지하는 column 비율*에 비례한다. 모든 column에서 best일 필요는 없다. 한두 column에서 second-best여도 *왜 second-best인가*가 Discussion에서 받아지면 강도가 살아남는다.
+**본인 방법의 best column 갯수.** 분야 reviewer가 받아들이는 강도는 본인 방법이 best 또는 second-best를 차지하는 column 비율에 비례한다. 모든 column에서 best일 필요는 없다. 한두 column에서 second-best여도 왜 second-best인가가 Discussion에서 받아지면 강도가 살아남는다.
 
 ---
 
@@ -54,22 +54,22 @@ Results와 Discussion이 별도 섹션이라는 사실이 신입생 입장에서
 
 **Discussion 골격 4단.** Mensh-Kording rule 8 근거.
 
-1. **핵심 발견의 *왜***. 결과가 *왜* 그런 형태로 나왔는가.
+1. **핵심 발견의 왜**. 결과가 왜 그런 형태로 나왔는가.
 2. **분야 합의와의 관계.** Related Work의 분류 axis 위에서 본인 결과가 어디에 위치하는가.
 3. **한계.** 방법의 가정·실험 범위·계산 복잡도.
 4. **다음 단계.** 짧게.
 
-**Limitation 섹션 누락 또는 *한계 없음* 선언은 desk reject.** 모든 방법은 한계가 있다. 명시하지 않으면 reviewer가 *공격 빌미*로 잡는다. ch17 rebuttal에서도 limitation 언급이 미리 박혀 있으면 review의 비판이 *이미 답변된 항목*으로 흡수된다.
+**Limitation 섹션 누락 또는 한계 없음 선언은 desk reject.** 모든 방법은 한계가 있다. 명시하지 않으면 reviewer가 공격 빌미로 잡는다. ch17 rebuttal에서도 limitation 언급이 미리 박혀 있으면 review의 비판이 이미 답변된 항목으로 흡수된다.
 
-**한계 기본 세 항목.** 방법의 *가정*(예: static environment 가정), 실험 *범위*(예: 실내 dataset만 검증), *계산 복잡도*(예: $O(N^2)$ memory). 분야별로 추가.
+**한계 기본 세 항목.** 방법의 가정(예: static environment 가정), 실험 범위(예: 실내 dataset만 검증), 계산 복잡도(예: $O(N^2)$ memory). 분야별로 추가.
 
-**Discussion에 새 결과 등장 금지.** 새 숫자, 새 figure, 새 ablation은 Results의 몫이다. Discussion이 *해석*이 아니라 *추가 결과*가 되면 두 섹션의 분담이 무너진다.
+**Discussion에 새 결과 등장 금지.** 새 숫자, 새 figure, 새 ablation은 Results의 몫이다. Discussion이 해석이 아니라 추가 결과가 되면 두 섹션의 분담이 무너진다.
 
 ---
 
 ## 26.5 분야 standard — 벤치마크 표 작성
 
-분야별로 기본 벤치마크 dataset과 metric이 정해져 있다. 그 기본값을 따르지 않으면 reviewer가 *왜 standard에서 벗어나는가*를 본문 어디서도 받지 못한다.
+분야별로 기본 벤치마크 dataset과 metric이 정해져 있다. 그 기본값을 따르지 않으면 reviewer가 왜 standard에서 벗어나는가를 본문 어디서도 받지 못한다.
 
 | 분야 | Default dataset | Default metric |
 |---|---|---|
@@ -80,7 +80,7 @@ Results와 Discussion이 별도 섹션이라는 사실이 신입생 입장에서
 
 **표 직전 paragraph가 표를 읽는 법을 한 줄로.** "Bold marks the best in each column. Underline the second best." 한 줄이 빠지면 reviewer가 매번 caption을 backtrack한다. ch13 §3에서 더 자세히.
 
-**본인 방법 row 강조.** 음영 또는 별표. 표 아래 footnote에 *Our method* 라벨. reviewer skim 단계에서 *어느 row가 본인 방법인가*가 한 눈에 잡혀야 한다.
+**본인 방법 row 강조.** 음영 또는 별표. 표 아래 footnote에 Our method 라벨. reviewer skim 단계에서 어느 row가 본인 방법인가가 한 눈에 잡혀야 한다.
 
 분야별 사례는 [robotics-practice ch20 § 20.8.2](https://alexjunholee.github.io/robotics-practice/guide.html#2082-실험-설계와-ablation)에 링크로 둔다. ablation·변인 통제·통계 유의성·공정 비교의 분야별 사례가 거기에 있다.
 

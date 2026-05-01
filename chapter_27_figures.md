@@ -4,7 +4,7 @@
 
 [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) §V는 figure 한 컷을 5-10회 다시 그리는 것을 작업 표준으로 잡았다. 처음 그린 figure는 거의 항상 약하므로, 가장 약한 버전을 버리고 가장 강한 한 컷을 남기는 절차를 따로 둔다는 입장이다.
 
-학생들이 첫 figure를 matplotlib 기본 설정 그대로 PDF에 박는 패턴이 흔하다. 안티패턴 카탈로그는 [cxli233 (GitHub)의 *Friends Don't Let Friends Make Bad Graphs*](https://github.com/cxli233/FriendsDontLetFriends)에 정리되어 있다. 이 장은 그 카탈로그를 로보틱스·CV 사례로 재작성하고 Whitesides의 process 규칙과 합쳐 둔다.
+학생들이 첫 figure를 matplotlib 기본 설정 그대로 PDF에 박는 패턴이 흔하다. 안티패턴 카탈로그는 [cxli233 (GitHub)의 Friends Don't Let Friends Make Bad Graphs](https://github.com/cxli233/FriendsDontLetFriends)에 정리되어 있다. 이 장은 그 카탈로그를 로보틱스·CV 사례로 재작성하고 Whitesides의 process 규칙과 합쳐 둔다.
 
 ---
 
@@ -12,11 +12,11 @@
 
 **Mean separation에 bar plot.** 평균 차이를 막대로 그리면 분포가 안 보인다. 두 막대의 차이가 sample size 때문인지, variance 때문인지, 진짜 평균 차이 때문인지 구별이 안 된다. KITTI 시퀀스별 RTE 평균을 method A·B로 두 막대로 그리는 figure가 흔한 사례다. 처방은 시퀀스별 점을 strip plot으로 깔고, 위에 평균 막대 또는 box plot을 얹는 것.
 
-**Small n에 violin plot.** Violin은 KDE 위에 깔린다. KDE는 n≥10에서 의미 있는 매끈함을 만들고, n=3-5에서는 *거짓 매끈함*을 만든다. KITTI 4-5 시퀀스만으로 violin을 그리면 분포처럼 보이지만 분포가 아니다. 4-5 시퀀스 비교는 strip plot + 평균 막대로 충분하다.
+**Small n에 violin plot.** Violin은 KDE 위에 깔린다. KDE는 n≥10에서 의미 있는 매끈함을 만들고, n=3-5에서는 거짓 매끈함을 만든다. KITTI 4-5 시퀀스만으로 violin을 그리면 분포처럼 보이지만 분포가 아니다. 4-5 시퀀스 비교는 strip plot + 평균 막대로 충분하다.
 
-**Unidirectional 데이터에 bidirectional color.** RdBu, coolwarm 같은 발산형 colormap은 *0을 중심으로 의미 있는 양/음*에만 쓴다. 0-100% recall에 RdBu를 쓰면 50%가 "중립"으로 보이는데, recall 50%는 중립이 아니다. 단방향 양수 데이터에는 viridis, magma 같은 perceptually uniform sequential colormap을 쓴다.
+**Unidirectional 데이터에 bidirectional color.** RdBu, coolwarm 같은 발산형 colormap은 0을 중심으로 의미 있는 양/음에만 쓴다. 0-100% recall에 RdBu를 쓰면 50%가 "중립"으로 보이는데, recall 50%는 중립이 아니다. 단방향 양수 데이터에는 viridis, magma 같은 perceptually uniform sequential colormap을 쓴다.
 
-**Pie chart.** 인간이 가장 정확도가 떨어지는 비교 작업이 *각도 비교*다. 실패 모드 분류를 pie로 그리지 말고 가로 막대로. 항목이 5개를 넘으면 막대도 정렬이 필요하다.
+**Pie chart.** 인간이 가장 정확도가 떨어지는 비교 작업이 각도 비교다. 실패 모드 분류를 pie로 그리지 말고 가로 막대로. 항목이 5개를 넘으면 막대도 정렬이 필요하다.
 
 **Rainbow scale (jet).** 비단조 luminance, 색맹에 hostile, 경계에서 인지적 불연속이 생긴다. matplotlib 2.0 이후 기본이 viridis로 바뀐 것이 이 합의의 결과다. depth map, error map 모두 viridis 계열을 기본으로.
 
@@ -34,7 +34,7 @@
 
 ## 27.3 Caption은 self-explanatory해야 한다
 
-Whitesides §V의 강한 규칙 하나는 caption이 본문을 다시 펼치지 않고도 figure를 이해시켜야 한다는 것이다. reviewer가 본문을 안 읽고 figure만 훑을 때 caption이 *takeaway*를 전달해야 한다. 그래서 본문에 기댄 caption은 1st pass에서 무용지물로 돌아간다.
+Whitesides §V의 강한 규칙 하나는 caption이 본문을 다시 펼치지 않고도 figure를 이해시켜야 한다는 것이다. reviewer가 본문을 안 읽고 figure만 훑을 때 caption이 takeaway를 전달해야 한다. 그래서 본문에 기댄 caption은 1st pass에서 무용지물로 돌아간다.
 
 caption의 권장 구조는 세 부분으로 나뉜다.
 
@@ -71,6 +71,6 @@ draft가 끝난 figure 한 컷에 다음 여섯 항목을 적용해 둔다.
 
 ---
 
-**출처.** [cxli233 (GitHub), *Friends Don't Let Friends Make Bad Graphs*](https://github.com/cxli233/FriendsDontLetFriends) — 차트 안티패턴 카탈로그. [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) §V — 5-10회 스케치, self-explanatory caption. [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 9 — figure에 시간 배분. 로보틱스·CV 사례 재작성과 체크리스트는 이 장에서 정리했다.
+**출처.** [cxli233 (GitHub), Friends Don't Let Friends Make Bad Graphs](https://github.com/cxli233/FriendsDontLetFriends) — 차트 안티패턴 카탈로그. [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) §V — 5-10회 스케치, self-explanatory caption. [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 9 — figure에 시간 배분. 로보틱스·CV 사례 재작성과 체크리스트는 이 장에서 정리했다.
 
 다음: [Ch.13 — Tables: 비교의 자리](./chapter_28_tables.md)

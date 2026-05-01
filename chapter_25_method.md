@@ -1,8 +1,8 @@
 # Ch.25 — 방법 섹션
 
-[Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 9의 readership 순서에서 Method는 가장 적게 읽히는 섹션이다. 다만 그 적은 readership에 *재현성·정확성·공정성*에 대한 reviewer 검증이 집중된다. Method는 읽힐 때 작동한다 — 읽힐 준비가 안 되어 있으면 곧 reject 사유로 굳는다.
+[Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 9의 readership 순서에서 Method는 가장 적게 읽히는 섹션이다. 다만 그 적은 readership에 재현성·정확성·공정성에 대한 reviewer 검증이 집중된다. Method는 읽힐 때 작동한다 — 읽힐 준비가 안 되어 있으면 곧 reject 사유로 굳는다.
 
-학생들이 가장 자주 빠지는 결함은 Method를 *시간순 lab notebook*으로 쓰는 것이다. ch04 §1의 chronological structure 결함과 같은 결, "처음에 X를 시도했는데 안 돼서 Y로 갔고, Y가 또 한계가 있어서 Z에 도달했다"가 본문에 그대로 나오는 패턴. 이 구조는 lab notebook에는 적합하지만 Method에는 main failure mode다.
+학생들이 가장 자주 빠지는 결함은 Method를 시간순 lab notebook으로 쓰는 것이다. ch04 §1의 chronological structure 결함과 같은 결, "처음에 X를 시도했는데 안 돼서 Y로 갔고, Y가 또 한계가 있어서 Z에 도달했다"가 본문에 그대로 나오는 패턴. 이 구조는 lab notebook에는 적합하지만 Method에는 main failure mode다.
 
 ---
 
@@ -10,15 +10,15 @@
 
 **Method 섹션의 골격은 Results 섹션의 골격을 거꾸로 받는다.** [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) §V·§VI의 강한 권고. Results의 각 figure·table을 만든 procedure가 Method의 각 sub-section으로 이어진다.
 
-이 관점이 작업 순서를 정한다. Results outline을 먼저 잡고, 그 outline에서 Method outline을 *역으로 추출*한다. ch11에서 다룰 main result table·ablation table·qualitative figure 각각이 Method 어느 sub-section과 짝지어지는지가 outline 단계에서 결정된다.
+이 관점이 작업 순서를 정한다. Results outline을 먼저 잡고, 그 outline에서 Method outline을 역으로 추출한다. ch11에서 다룰 main result table·ablation table·qualitative figure 각각이 Method 어느 sub-section과 짝지어지는지가 outline 단계에서 결정된다.
 
-**Method의 sub-heading.** ch05의 claim style은 Method에서는 살짝 약화된다. "Section 3.1 Feature Extraction"보다 "Section 3.1 Multi-scale BEV feature extraction"이 정보 밀도가 높지만, Results의 sub-heading만큼 *결과*가 박힐 곳은 아니다. 명사·기법명 위주로.
+**Method의 sub-heading.** ch05의 claim style은 Method에서는 살짝 약화된다. "Section 3.1 Feature Extraction"보다 "Section 3.1 Multi-scale BEV feature extraction"이 정보 밀도가 높지만, Results의 sub-heading만큼 결과가 박힐 곳은 아니다. 명사·기법명 위주로.
 
 ---
 
 ## 25.2 Notation table — 추적 가능한 표기
 
-**Method 도입에 notation table 한 컷.** 본문에 등장하는 모든 기호가 그 표 안에서 한 번 정의되어야 한다. 본문에 흩뿌려진 정의는 reviewer가 *처음 등장한 자리*를 backtrack하게 만든다.
+**Method 도입에 notation table 한 컷.** 본문에 등장하는 모든 기호가 그 표 안에서 한 번 정의되어야 한다. 본문에 흩뿌려진 정의는 reviewer가 처음 등장한 자리를 backtrack하게 만든다.
 
 **표 구성.** 다음 네 column이 기본이다.
 
@@ -38,11 +38,11 @@
 
 **Pseudocode 구조.**
 
-- **Input** 한 줄. *어떤 데이터·어떤 hyperparameter*를 받는가.
-- **Output** 한 줄. *어떤 결과·어떤 형태*로 반환하는가.
+- **Input** 한 줄. 어떤 데이터·어떤 hyperparameter를 받는가.
+- **Output** 한 줄. 어떤 결과·어떤 형태로 반환하는가.
 - **본문 step** 줄별로. 본문 수식이 등장하는 step에는 식 번호로 연결erence.
 
-**계산 복잡도.** pseudocode 끝 또는 caption에 명시. $O(N)$인지 $O(N \log N)$인지 $O(N^2)$인지가 빠지면 reviewer가 *언급되지 않은 곳*에서 의심한다. runtime 보고가 빠른데 complexity가 안 적혀 있으면 *정말 빠른가*가 검증 불가로 남는다.
+**계산 복잡도.** pseudocode 끝 또는 caption에 명시. $O(N)$인지 $O(N \log N)$인지 $O(N^2)$인지가 빠지면 reviewer가 언급되지 않은 곳에서 의심한다. runtime 보고가 빠른데 complexity가 안 적혀 있으면 정말 빠른가가 검증 불가로 남는다.
 
 ---
 
@@ -50,9 +50,9 @@
 
 **Hyperparameter는 모두 표로.** 본문에 흩뿌리면 reviewer가 추적 못 한다. "we use learning rate 1e-4 ... batch size 32 ... 그리고 또 ..."가 본문에 분산되어 있는 패턴이 가장 자주 결함으로 잡힌다.
 
-**표 구성.** parameter · 값 · 의미 · 변경 시 영향 (sensitivity). 마지막 column이 ablation 섹션과 직결한다 — ch11의 ablation 표가 sensitivity column을 *검증한다*.
+**표 구성.** parameter · 값 · 의미 · 변경 시 영향 (sensitivity). 마지막 column이 ablation 섹션과 직결한다 — ch11의 ablation 표가 sensitivity column을 검증한다.
 
-**Dataset별로 다른 hyperparameter.** dataset × parameter 이차원 표로. 한 hyperparameter가 dataset에 따라 다르면 *어떤 dataset에서 어떤 값이 기본인가*가 명시되어야 한다.
+**Dataset별로 다른 hyperparameter.** dataset × parameter 이차원 표로. 한 hyperparameter가 dataset에 따라 다르면 어떤 dataset에서 어떤 값이 기본인가가 명시되어야 한다.
 
 ---
 
@@ -66,7 +66,7 @@
 
 **Pseudocode 부재.** 본문 수식만으로 알고리즘 재현 시도. step 순서·loop 구조가 모호해진다.
 
-**계산 복잡도 누락.** runtime 보고는 있는데 complexity가 없으면 reviewer가 *왜 빠른가*를 못 받는다.
+**계산 복잡도 누락.** runtime 보고는 있는데 complexity가 없으면 reviewer가 왜 빠른가를 못 받는다.
 
 ---
 
@@ -77,7 +77,7 @@ Method의 each sub-section이 Results의 each sub-section과 짝지어진 형태
 - **Method에는 있는데 Results에는 없는 component.** "we use multi-scale fusion"이 Method §3.2에 있는데 Results의 어느 figure에서도 검증되지 않은 결함. ablation 부재로 이어진다 — ch11 §3.
 - **Results에는 있는데 Method에는 없는 component.** Results §4에서 ablation 표에 "w/o geometric prior" row가 등장했는데 Method에는 geometric prior 정의가 없는 결함. notation·정의 누락.
 
-두 패턴 모두 outline 단계에서 Method ↔ Results 짝짓기를 명시적으로 해 두면 사라진다. outline 4-5회차에서 각 sub-section 옆에 *짝* 표시를 다는 작업이 분야 reviewer가 작동하는 1차 검증을 *미리* 통과시키는 일이다.
+두 패턴 모두 outline 단계에서 Method ↔ Results 짝짓기를 명시적으로 해 두면 사라진다. outline 4-5회차에서 각 sub-section 옆에 짝 표시를 다는 작업이 분야 reviewer가 작동하는 1차 검증을 미리 통과시키는 일이다.
 
 ---
 

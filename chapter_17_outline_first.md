@@ -1,6 +1,6 @@
 # Ch.17 — 아웃라인부터 시작하기: Whitesides 방법
 
-[George Whitesides의 "Writing a Paper" (2004)](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767)는 글쓰기를 *아카이브 작업*이 아니라 *연구의 기획 도구*로 다시 정의한다. 데이터가 다 모인 뒤에야 논문을 쓰기 시작하는 학생을 두고 Whitesides가 적은 진단은 단순하다 — 그 시점이면 이미 늦었다는 한 줄.
+[George Whitesides의 "Writing a Paper" (2004)](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767)는 글쓰기를 *연구의 기획 도구*로 정의한다. 데이터가 다 모인 뒤에야 논문을 쓰기 시작하는 학생을 두고 Whitesides가 적은 진단은 단순하다 — 그 시점이면 이미 늦었다는 한 줄.
 
 ---
 
@@ -8,7 +8,7 @@
 
 Whitesides가 글쓰기의 시작점으로 잡는 단계는 "mostly plan"이다. 가설은 있고 데이터는 거의 없는 단계. 이 시점에 outline을 처음 쓰고, 데이터가 들어올 때마다 outline을 다듬는다. "mostly outline"에 도달했을 때 비로소 본문을 시작한다.
 
-이 과정에서 outline은 "다듬어진 글의 압축본"이 아니라 *연구의 구조 자체*가 된다. Whitesides는 outline 항목이 짧은 phrase로 남아 있어야 한다고 적었다. 완전한 문장으로 쓰기 시작하면 이미 글쓰기 모드에 진입한 것이고, 그 시점부터 구조 변경의 비용이 갑자기 올라간다.
+이 과정에서 outline은 *연구의 구조 자체*가 된다. Whitesides는 outline 항목이 짧은 phrase로 남아 있어야 한다고 적었다. 완전한 문장으로 쓰기 시작하면 이미 글쓰기 모드에 진입한 것이고, 그 시점부터 구조 변경의 비용이 갑자기 올라간다.
 
 그래서 데이터를 채워 넣을 칸에는 `[DATA NEEDED]`나 `[HYPOTHESIS]` 같은 마커를 그대로 남긴다. 빈 칸이 보여야 어떤 실험이 빠졌는지 드러난다. outline-as-data라는 표현이 이 점을 가리킨다.
 

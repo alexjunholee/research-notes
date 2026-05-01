@@ -1,6 +1,6 @@
 # Ch.22 — 제목과 초록
 
-한 reviewer가 한 학회에서 받는 manuscript 5-10편 중 다수가 *제목만으로* 1차 분류된다. 그 분류를 통과한 paper는 다음 단계에서 abstract 한 paragraph 안에서 verdict의 큰 뼈대를 받는다. 제목과 초록은 본문의 *축약*이 아니라 본문에 도달하기 위한 *입장권*이다.
+한 reviewer가 한 학회에서 받는 manuscript 5-10편 중 다수가 *제목만으로* 1차 분류된다. 그 분류를 통과한 paper는 다음 단계에서 abstract 한 paragraph 안에서 verdict의 큰 뼈대를 받는다. 제목과 초록은 본문에 도달하기 위한 *입장권*이다.
 
 [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) §IV가 둘을 한 묶음으로 다룬 이유도 이 비대칭에서 나온다. [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 1과 rule 5가 각각 제목과 초록의 골격을 정의해 둔다. ch01 §6의 readership-weighted budget이 둘에 가장 큰 시간 비중을 할당하라고 권하는 것도 같은 이유다.
 

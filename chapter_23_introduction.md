@@ -1,6 +1,6 @@
 # Ch.23 — Introduction 해부: gap funnel과 Whitesides 5요소
 
-논문 1차 심사에서 reviewer가 verdict의 큰 뼈대를 잡는 곳 — Introduction이다. [Keshav (2007)](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)이 정리한 1st pass에서 reviewer가 읽는 페이지는 첫 한 장이고, 그 한 장의 대부분이 Introduction이다. 이 사실이 Introduction의 비중을 정한다. Introduction이 흔들리면 method가 정확해도 verdict는 reject 쪽으로 기운다.
+논문 1차 심사에서 reviewer가 verdict의 큰 뼈대를 잡는 곳 — Introduction이다. [Keshav (2007)](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)이 정리한 1st pass에서 reviewer가 읽는 페이지는 첫 한 장이고, 그 한 장의 대부분이 Introduction이다. 그 사실이 곧 Introduction의 비중. Introduction이 흔들리면 method가 정확해도 verdict는 reject 쪽으로 기운다.
 
 학생들이 가장 자주 하는 실수는 Introduction을 *Related Work의 축약본*으로 채우는 것이다. 인용을 줄줄 늘어놓고, 끝에서 "we propose …"로 점프한다. 이 형식은 reviewer 입장에서 *왜 이 논문이 존재하는지*에 답을 못 얻은 채로 contribution 문장에 도달하게 만든다.
 
@@ -58,7 +58,7 @@ Whitesides가 §III에 박은 다섯 칸은 다음과 같다.
 
 ## 23.4 두 프레임의 매핑
 
-5요소와 gap funnel은 경쟁이 아니라 중첩으로 작동한다.
+5요소와 gap funnel은 중첩으로 작동한다.
 
 | Whitesides 5요소 | Gap funnel 위치 |
 |---|---|
@@ -78,7 +78,7 @@ Whitesides가 §III에 박은 다섯 칸은 다음과 같다.
 
 5요소도 같은 단락에서 다 채워진다. 칸도 정연하다. (a) objective는 "단순한 LiDAR odometry baseline 제시", (b) justification은 "단순함이 generality를 낳는다", (c) background는 ICP 계열의 기존 한계, (d) reader guidance는 다음 단락 시작에서, (e) summary preview는 첫 단락 마지막 문장에서.
 
-발췌와 줄별 분석은 Part 3 [`kiss_icp_intro_hook.md`](./excerpts/excerpt_01_kiss_icp_intro_hook.md)에 있다.
+발췌와 줄별 분석은 발췌 [`kiss_icp_intro_hook.md`](./excerpts/excerpt_01_kiss_icp_intro_hook.md)에 있다.
 
 ---
 

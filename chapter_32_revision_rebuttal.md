@@ -120,4 +120,4 @@ letter를 다 쓴 뒤 24시간 거리를 두고 reviewer 시점에서 다시 읽
 
 **출처.** [임형태 박사, paper-writing-checklist](https://github.com/LimHyungTae/paper-writing-checklist) — rebuttal 마음가짐, *내 글이 그렇게 읽힌 책임* 인용, 24시간 룰 권고. [최윤섭 박사 G4 「첫 번째 논문을 최대한 빨리 써라」](https://gradschoolstory.chkwon.net/yoonsup/first-paper/) — 6개월 리비전 일화·데이터 기반 대응. [엄태웅 대표 G2 「영어 못해도 논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net/terry/englishpaperwriting/) — 마무리 섹션 4 회피 항목. robotics-practice ch19 § 19.7.3 — 실험 설계 보조 도구에 관한 보조 사례 (분야 쪽 논의). ch01·ch14와 교차. 4유형 분류, 표현 swap 사전, 3블록 letter 구조, conference vs journal 구분은 이 장에서 정리했다.
 
-작성 단계의 작업은 여기서 끝난다. Part 3의 발췌 사례들은 본문 뒤에 부록처럼 붙는다.
+작성 단계의 작업은 여기서 끝난다. 발췌의 사례들은 본문 뒤에 부록처럼 붙는다.

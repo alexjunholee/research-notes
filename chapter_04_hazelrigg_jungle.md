@@ -93,7 +93,7 @@ Hazelrigg 4-type이 *작업의 종류*를 묻는다면, [Mensh & Kording 2017](h
 
 > "best", "novel", "state-of-the-art"가 자기 abstract에 보이면 그 표현을 4-type 목록으로 다시 검사한다. 어느 칸에 들어가는지 정확히 짚이면 superlative 자리에 정량화된 비교가 들어온다.
 
-같은 목록이 Part 2의 [`C_sections/ch08_introduction.md`](./chapter_23_introduction.md)에서 contribution claim 작성 단계의 자기 점검 도구로 다시 등장한다. 진단의 도구가 작성의 도구로 그대로 이어진다.
+같은 목록이 [Part 3 ch02 (Introduction)](./chapter_23_introduction.md)에서 contribution claim 작성 단계의 자기 점검 도구로 다시 등장한다. 진단의 도구가 작성의 도구로 그대로 이어진다.
 
 ---
 

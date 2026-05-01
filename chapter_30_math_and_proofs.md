@@ -91,7 +91,7 @@ $$\mathbf{x}^\star = \arg\min_{\mathbf{x}} f(\mathbf{x}) \quad \text{s.t.} \quad
 
 자기 글의 derivation 한 페이지를 골라 모든 수식을 'blah'로 치환해 본다. 그 페이지가 산문으로서 흘러야 한다. 흐름이 끊기는 곳이 곧 between-equation prose가 비어 있는 자리다.
 
-Knuth가 §2-§3에 박은 atrocious-vs-polished proof — 같은 정리의 두 버전을 나란히 놓고 줄별로 비교하는 자료가 이 장의 정전 사례다. 발췌와 분석은 Part 3 [`knuth_proof_rewrite.md`](./excerpts/excerpt_04_knuth_proof_rewrite.md)에.
+Knuth가 §2-§3에 박은 atrocious-vs-polished proof — 같은 정리의 두 버전을 나란히 놓고 줄별로 비교하는 자료가 이 장의 정전 사례다. 발췌와 분석은 발췌 [`knuth_proof_rewrite.md`](./excerpts/excerpt_04_knuth_proof_rewrite.md)에.
 
 ---
 

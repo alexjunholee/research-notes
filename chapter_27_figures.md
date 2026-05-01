@@ -42,7 +42,7 @@ caption의 권장 구조는 세 부분으로 나뉜다.
 2. **데이터·축·기호 정의.** 점이 무엇이고, 색이 무엇이며, error bar가 무엇인지.
 3. **통계·n.** sample size, test, p-threshold.
 
-ORB-SLAM (Mur-Artal et al., 2015) 논문의 figure 1이 system overview + caption 한 줄 takeaway를 결합한 사례다. 발췌와 분석은 Part 3 [`orb_slam_contribution.md`](./excerpts/excerpt_02_orb_slam_contribution.md)에.
+ORB-SLAM (Mur-Artal et al., 2015) 논문의 figure 1이 system overview + caption 한 줄 takeaway를 결합한 사례다. 발췌와 분석은 발췌 [`orb_slam_contribution.md`](./excerpts/excerpt_02_orb_slam_contribution.md)에.
 
 ---
 

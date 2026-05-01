@@ -52,7 +52,7 @@
 
 > *"제목이 입력 pipeline의 first filter다. arXiv·alphaxiv·Google Scholar의 자동 추천·검색 분류기가 제목·초록 token을 보고 paper를 push할지 말지 결정한다."*
 
-이 진단이 §1·§2의 권고에 한 층위를 더 얹는다. reviewer만이 first filter가 아니라는 입장이다. 자동화 분류기가 제목의 keyword density를 입력으로 받아 *어디로 push할지*를 결정한다. contribution keyword와 분야 keyword가 제목에 들어가야 자동화 층위를 통과한다.
+이 진단이 §1·§2의 권고에 한 층위를 더 얹는다. first filter가 reviewer 한 층뿐이라는 가정에 대한 수정. 자동화 분류기가 제목의 keyword density를 입력으로 받아 *어디로 push할지*를 결정한다. contribution keyword와 분야 keyword가 제목에 들어가야 자동화 층위를 통과한다.
 
 **Abstract의 첫 1-2 문장은 자동 요약기·LLM 추천기의 입력 slice.** 그 첫 두 문장에 paper gap과 contribution이 와야 자동화 추천에서 *왜 이 paper가 추천되는가*가 살아남는다. abstract의 마지막에 contribution을 두고 첫 문장을 *분야 일반론*으로 시작하는 패턴이 가장 자주 손실되는 결함.
 

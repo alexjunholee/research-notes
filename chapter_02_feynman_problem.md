@@ -52,7 +52,7 @@
 
 데이터가 없으면 그 자리에 *가설이 맞을 때 데이터가 어떻게 보일지*를 미리 적어 둔다. 그 가상 데이터와 실제 데이터의 거리가 곧 실험의 to-do 목록이 된다. 문제를 한 줄로 적는 일도 같은 작업으로 수렴한다. "X 조건에서 Y가 Z로 측정될 것이다"라고 적는 순간, 그 문장은 *가상의 결과를 품은 problem statement*로 굳는다.
 
-placeholder는 *틀려도 된다*. 시작점일 뿐이고 작업 중에 내용이 바뀌는 게 정상이다. Ch.1 진입 단계에서 한 줄 stub로 잡아 둔 placeholder ("X subfield에서 Y가 아직 안 풀렸고 Z 방향을 보고 싶다")가 이 장의 좁히기 절차를 거쳐 *작업 가능한 problem statement* 한 단락으로 끌어올려진다. 이후 Part 2의 [`A_workflow/ch02_outline_first.md`](./chapter_17_outline_first.md)에서 이 problem statement가 outline 7-슬롯 안의 introduction 자리로 들어가, 가상 데이터를 품은 항목으로 다시 자란다. 같은 placeholder가 진입 → 문제 정의 → outline drafting의 세 층위를 가로지른다.
+placeholder는 *틀려도 된다*. 시작점일 뿐이고 작업 중에 내용이 바뀌는 게 정상이다. Ch.1 진입 단계에서 한 줄 stub로 잡아 둔 placeholder ("X subfield에서 Y가 아직 안 풀렸고 Z 방향을 보고 싶다")가 이 장의 좁히기 절차를 거쳐 *작업 가능한 problem statement* 한 단락으로 끌어올려진다. 이후 [Part 2 ch02 (outline-first)](./chapter_17_outline_first.md)에서 이 problem statement가 outline 7-슬롯 안의 introduction 자리로 들어가, 가상 데이터를 품은 항목으로 다시 자란다. 같은 placeholder가 진입 → 문제 정의 → outline drafting의 세 층위를 가로지른다.
 
 ---
 

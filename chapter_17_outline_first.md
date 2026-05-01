@@ -30,9 +30,9 @@ Abstract가 마지막에 놓이는 이유를 Whitesides는 직접 적었다. 본
 
 Introduction에는 다섯 가지 요소가 들어간다. (a) objectives, (b) justification, (c) background, (d) reader guidance, (e) summary preview. Whitesides는 첫 단락 또는 두 번째 단락까지는 outline 단계에서도 *완성된 문장으로* 쓰라고 권했다. 본문 전체의 톤이 여기서 정해진다.
 
-Results & Discussion은 합쳐 쓰되, 시간순이 아닌 *중요도순*으로 배치한다. "독자는 당신이 거기에 어떻게 도달했는지에 관심이 없다"는 표현이 §I에 박혀 있다. 시간순은 lab notebook의 순서고, 논문의 순서가 아니다.
+Results & Discussion은 합쳐 쓰되 *중요도순*으로 배치한다. "독자는 당신이 거기에 어떻게 도달했는지에 관심이 없다"는 표현이 §I에 박혀 있다. 시간순은 lab notebook의 순서고, 논문의 순서가 아니다.
 
-Conclusions는 Results의 요약이 아니라 *한 단계 위의 분석*이다. 이 정의는 [Ch.5](./chapter_20_subheadings_and_conclusions.md)에서 자세히 다룬다.
+Conclusions는 *한 단계 위의 분석*이다. 이 정의는 [Ch.5](./chapter_20_subheadings_and_conclusions.md)에서 자세히 다룬다.
 
 ---
 
@@ -54,7 +54,7 @@ Whitesides가 권하는 outline 반복 횟수는 4-5회다. 한 번에 다듬으
 
 Whitesides가 §I에 적은 표현은 강하다. "Interesting and unpublished is equivalent to nonexistent." 흥미롭지만 발표되지 않은 결과는 존재하지 않는 것과 같다는 선언이다.
 
-이 진단의 함의는 outline 단계에 직접 작용한다. 모든 데이터를 한 논문에 우겨넣으려는 충동을 줄이라는 권고다. outline에서 *이번 논문에 들어가지 않을 결과*를 명시적으로 빼내고, 다음 논문의 씨앗으로 따로 보관한다.
+이 진단의 함의는 outline 단계에 직접 작용한다. 한 논문에 모든 데이터를 우겨넣으려는 충동에 대한 제동. outline에서 *이번 논문에 들어가지 않을 결과*를 명시적으로 빼내고, 다음 논문의 씨앗으로 따로 보관한다.
 
 기준은 단순하다. 핵심 가설과 가장 잘 맞물리는 결과만 남기고, 나머지는 다음 outline의 1회차로 미룬다. Whitesides는 이를 "good science is opportunistic and revisionist"로 적었다.
 
@@ -64,7 +64,7 @@ Whitesides가 §I에 적은 표현은 강하다. "Interesting and unpublished is
 
 Whitesides의 outline-first 방법과 [Joshua Schimel의 *Writing Science* (2012)](https://global.oup.com/academic/product/writing-science-9780199760244)의 story-first 방법이 충돌한다는 인상을 받는 학생이 있다. Whitesides는 데이터에서 올라오는 bottom-up scaffold를, Schimel은 narrative arc(OCAR/ABDCE)를 먼저 권한다는 차이에서다.
 
-둘은 경쟁 관계가 아니라 층위가 다르다. Whitesides는 골조(slot 단위)를 짜고, Schimel은 그 골조 위에 올라가는 hook과 흐름을 설계한다. outline 1-2회차는 Whitesides의 7-슬롯으로 시작하고, 4-5회차에 들어갈 때 Schimel의 narrative arc 관점으로 점검하는 순서가 합리적이다.
+둘은 층위가 다르다. Whitesides는 골조(slot 단위)를 짜고, Schimel은 그 골조 위에 올라가는 hook과 흐름을 설계한다. outline 1-2회차는 Whitesides의 7-슬롯으로 시작하고, 4-5회차에 들어갈 때 Schimel의 narrative arc 관점으로 점검하는 순서가 합리적이다.
 
 층위가 다르다는 입장의 근거는 Whitesides 자신이 §II에서 "good papers tell stories"를 인정했다는 점이다. 다만 그가 권하는 시작점이 outline scaffold라는 차이일 뿐이다.
 
@@ -74,7 +74,7 @@ Whitesides의 outline-first 방법과 [Joshua Schimel의 *Writing Science* (2012
 
 [KISS-ICP (Vizzo et al., RA-L 2023)](https://arxiv.org/abs/2209.15397)의 Introduction 첫 단락은 Whitesides의 5요소가 어떻게 채워지는지 보여 주는 사례다. (a) objective는 "robust LiDAR odometry without learning", (b) justification은 "단순함이 generality를 낳는다", (c) background는 ICP 계열의 기존 한계, (d) reader guidance는 "we show that point-to-point ICP, configured carefully, suffices", (e) summary preview는 KITTI/MulRan에서 SOTA에 근접한다는 한 줄.
 
-Part 3의 [`kiss_icp_intro_hook.md`](./excerpts/excerpt_01_kiss_icp_intro_hook.md)에 발췌와 분석이 들어 있다. outline scaffold가 글로 변환되는 사례를 한 번 따라 써 보는 것 — 이 장의 마지막 권고다.
+발췌의 [`kiss_icp_intro_hook.md`](./excerpts/excerpt_01_kiss_icp_intro_hook.md)에 발췌와 분석이 들어 있다. outline scaffold가 글로 변환되는 사례를 한 번 따라 써 보는 것 — 이 장의 마지막 권고다.
 
 ---
 

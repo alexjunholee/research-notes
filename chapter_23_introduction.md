@@ -41,7 +41,7 @@ Whitesides가 §III에 박은 다섯 칸은 다음과 같다.
 
 ## 23.3 한국어 mirror — 엄태웅 대표 6단
 
-같은 흐름을 한국어 설명로 풀어낸 글이 [엄태웅 대표 G2 「영어 못해도 논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net)의 Introduction 6단이다.
+같은 흐름을 한국어 설명로 풀어낸 글이 [엄태웅 대표 G2 「영어 못해도 논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net/terry/englishpaperwriting/)의 Introduction 6단이다.
 
 > 1. 큰 문제 — 분야 전체가 푸는 문제.
 > 2. 점진적 스코프 축소 — 그 분야 안에서 본 논문이 향하는 자리.
@@ -94,6 +94,6 @@ Whitesides가 §III에 박은 다섯 칸은 다음과 같다.
 
 ---
 
-**출처.** [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 6 — gap funnel 3-tier nesting. [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) §II–§III — 5요소와 first-paragraph-in-full 권고. [Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) — 1st pass에서 Introduction의 비중. [엄태웅 대표 G2 「논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net) — Introduction 6단과 *노력의 40-50% Intro 투자* 비율. 두 프레임의 연결과 KISS-ICP 적용은 본문에서 정리.
+**출처.** [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 6 — gap funnel 3-tier nesting. [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) §II–§III — 5요소와 first-paragraph-in-full 권고. [Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) — 1st pass에서 Introduction의 비중. [엄태웅 대표 G2 「논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net/terry/englishpaperwriting/) — Introduction 6단과 *노력의 40-50% Intro 투자* 비율. 두 프레임의 연결과 KISS-ICP 적용은 본문에서 정리.
 
 다음: [Ch.9 — Related Work: 분류와 비판의 자리](./chapter_24_related_work.md)

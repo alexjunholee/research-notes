@@ -8,7 +8,7 @@
 
 ## 4.1 작업 vs 연구: task / objective / goal
 
-[권창현 교수](https://gradschoolstory.chkwon.net)는 「지금 하고 있는 게 연구인가, 아닌가?」에서 학생의 시간 단위를 세 층으로 잘랐다. **task**는 오늘 한 일이다. 코드 한 줄, 실험 한 회, figure 한 컷이 task다. **objective**는 지금 쓰고 있는 한 논문에서 보일 것이다. "이 논문에서 BEV feature가 night-time loop closure에 효과적임을 보인다"가 objective다. **goal**은 분야 전체가 풀려는 큰 질문이다. "long-term autonomy를 어떻게 달성할 것인가"가 goal이다.
+[권창현 교수](https://gradschoolstory.chkwon.net/changhyun/%ec%a7%80%ea%b8%88-%ed%95%98%ea%b3%a0-%ec%9e%88%eb%8a%94-%ea%b2%8c-%ec%97%b0%ea%b5%ac%ec%9d%b8%ea%b0%80-%ec%95%84%eb%8b%8c%ea%b0%80/)는 「지금 하고 있는 게 연구인가, 아닌가?」에서 학생의 시간 단위를 세 층으로 잘랐다. **task**는 오늘 한 일이다. 코드 한 줄, 실험 한 회, figure 한 컷이 task다. **objective**는 지금 쓰고 있는 한 논문에서 보일 것이다. "이 논문에서 BEV feature가 night-time loop closure에 효과적임을 보인다"가 objective다. **goal**은 분야 전체가 풀려는 큰 질문이다. "long-term autonomy를 어떻게 달성할 것인가"가 goal이다.
 
 학생이 시간을 쓰는 곳은 task다. 학생이 *정해야 하는* 곳은 objective이고, 학생이 *바라보는* 곳은 goal이다. 세 층은 위계를 이룬다. task만 쌓이고 objective가 비어 있으면 1년치 작업이 한 편의 논문으로 묶이지 않는다. objective는 있으나 goal과 연결이 흐릿하면 그 논문이 분야에 *왜 필요한지*가 답이 안 된다.
 
@@ -20,7 +20,7 @@
 
 ## 4.2 정글 탐험가 비유
 
-§1의 세 층 구분은 추상적이다. 같은 명제를 직관 한 줄로 압축한 비유가 있다. [최윤섭 박사](https://gradschoolstory.chkwon.net)가 「박사 학위의 의미」에서 적은 정글 탐험가 비유다 *(요지 정리)*.
+§1의 세 층 구분은 추상적이다. 같은 명제를 직관 한 줄로 압축한 비유가 있다. [최윤섭 박사](https://gradschoolstory.chkwon.net/yoonsup/what-phd-means/)가 「박사 학위의 의미」에서 적은 정글 탐험가 비유다 *(요지 정리)*.
 
 > 교과서는 이미 탐사된 영역의 지도, 박사는 그 끝을 넘어 자기 손으로 지도를 새로 그리는 과정.
 
@@ -109,6 +109,6 @@ Hazelrigg 4-type이 *작업의 종류*를 묻는다면, [Mensh & Kording 2017](h
 
 ---
 
-**출처.** [권창현 교수 G8 「지금 연구인가」](https://gradschoolstory.chkwon.net), [최윤섭 박사 「박사 학위 의미」](https://gradschoolstory.chkwon.net), [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619), [Knuth et al. 1989](https://www-cs-faculty.stanford.edu/~knuth/klr.html). 로보틱스/CV의 4-type 사례와 venue별 type 분포 관찰은 이 장에서 정리했다.
+**출처.** [권창현 교수 G8 「지금 연구인가」](https://gradschoolstory.chkwon.net/changhyun/%ec%a7%80%ea%b8%88-%ed%95%98%ea%b3%a0-%ec%9e%88%eb%8a%94-%ea%b2%8c-%ec%97%b0%ea%b5%ac%ec%9d%b8%ea%b0%80-%ec%95%84%eb%8b%8c%ea%b0%80/), [최윤섭 박사 「박사 학위 의미」](https://gradschoolstory.chkwon.net/yoonsup/what-phd-means/), [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619), [Knuth et al. 1989](https://www-cs-faculty.stanford.edu/~knuth/klr.html). 로보틱스/CV의 4-type 사례와 venue별 type 분포 관찰은 이 장에서 정리했다.
 
 다음: [Ch.5 — 생각의 시간: 책상에 오래 있었다고 연구가 된 것은 아니다](./chapter_05_thinking_time.md)

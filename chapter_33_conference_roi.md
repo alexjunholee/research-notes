@@ -18,7 +18,7 @@ Whitesides의 명제는 출간 통로가 없는 결과를 향한 경고이지만
 
 ## 33.2 권창현 교수의 참석 이유 세 가지
 
-[권창현 교수](https://gradschoolstory.chkwon.net)가 「학회에 가면 무엇을 해야 하나요?」에서 제시한 참석 이유는 세 가지다. 피드백·동향·소속.
+[권창현 교수](https://gradschoolstory.chkwon.net/changhyun/%ed%95%99%ed%9a%8c%ec%97%90-%ea%b0%80%eb%a9%b4-%eb%ac%b4%ec%97%87%ec%9d%84-%ed%95%b4%ec%95%bc-%ed%95%98%eb%82%98%ec%9a%94/)가 「학회에 가면 무엇을 해야 하나요?」에서 제시한 참석 이유는 세 가지다. 피드백·동향·소속.
 
 **피드백 수집.** Q&A·복도 대화·poster session에서 받는 즉답형 코멘트는 reviewer report 한 사이클을 압축해 둔다. 저널 reviewer가 두세 달 뒤에 돌려주는 의견을 학회에서는 발표 직후 그 자리에서 받는다. 같은 서브필드의 senior가 던지는 한 마디는 길게 쓴 review 편지보다 더 정확할 때가 적지 않다.
 
@@ -88,6 +88,6 @@ venue tier·비용·소속의 분석을 한국 학생 자리에 끼워 넣으면
 
 ---
 
-**출처.** [권창현 교수 G10](https://gradschoolstory.chkwon.net), [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767). venue tier·비용·기능 분석은 이 장에서 정리했다.
+**출처.** [권창현 교수 G10 「학회에 가면 무엇을 해야 하나요?」](https://gradschoolstory.chkwon.net/changhyun/%ed%95%99%ed%9a%8c%ec%97%90-%ea%b0%80%eb%a9%b4-%eb%ac%b4%ec%97%87%ec%9d%84-%ed%95%b4%ec%95%bc-%ed%95%98%eb%82%98%ec%9a%94/), [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767). venue tier·비용·기능 분석은 이 장에서 정리했다.
 
 다음: [Ch.2 — 학회 2-3주 전 체크리스트](./chapter_34_conference_prep.md)

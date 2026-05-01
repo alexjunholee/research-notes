@@ -2,7 +2,7 @@
 
 [Ch.4](./chapter_04_hazelrigg_jungle.md)에서 자기 일이 연구인지 아닌지를 물었다면, 다음 질문은 더 현실적이다. 연구라면, 그 연구는 언제 진행되는가. 연구실에 오래 앉아 있었다는 사실은 위안이 되지만 진척을 보장하지는 않는다. 어떤 날은 열두 시간을 보냈는데도, 문제는 아침과 똑같은 모양으로 남아 있다.
 
-[최윤섭 박사](https://gradschoolstory.chkwon.net)는 「생각해라. 생각해라. 생각해라.」에서 시간을 세 가지로 나눈다. 연구실에 앉아 있는 시간, 실제로 연구를 진행한 시간, 그리고 온전히 생각에 들어간 시간. 이 셋은 같지 않다. 박사과정의 진척은 세 번째 시간, 곧 문제가 머릿속에서 정말 움직인 시간에 더 가깝다.
+[최윤섭 박사](https://gradschoolstory.chkwon.net/yoonsup/think/)는 「생각해라. 생각해라. 생각해라.」에서 시간을 세 가지로 나눈다. 연구실에 앉아 있는 시간, 실제로 연구를 진행한 시간, 그리고 온전히 생각에 들어간 시간. 이 셋은 같지 않다. 박사과정의 진척은 세 번째 시간, 곧 문제가 머릿속에서 정말 움직인 시간에 더 가깝다.
 
 ---
 
@@ -70,6 +70,6 @@ Halmos는 글쓰기 시간의 대부분을 구성에 쓴다고 말했다. 어떤
 
 ---
 
-**출처.** [최윤섭 박사 G5 「생각해라 ×3」](https://gradschoolstory.chkwon.net), [Knuth et al. 1989](https://www-cs-faculty.stanford.edu/~knuth/klr.html) §6·§42.
+**출처.** [최윤섭 박사 G5 「생각해라 ×3」](https://gradschoolstory.chkwon.net/yoonsup/think/), [Knuth et al. 1989](https://www-cs-faculty.stanford.edu/~knuth/klr.html) §6·§42.
 
 다음: [Part 1 Ch.1 — 왜 읽는가, 그리고 무엇을 안 읽을지 정하는 법](./chapter_06_why_read.md)

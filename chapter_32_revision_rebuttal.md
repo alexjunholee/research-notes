@@ -70,7 +70,7 @@ ch14의 stress position 원칙이 여기서도 작동한다. 무례한 단어가
 
 ## 32.4 마무리 섹션 회피 항목 — 엄태웅 대표 4종
 
-revision 작업 중 manuscript의 마무리 섹션(Conclusion · Future work)에서 reject 사유가 *재발*하는 자리가 있다. [엄태웅 대표 G2](https://gradschoolstory.chkwon.net)가 같은 위치를 4 항목으로 정리했다.
+revision 작업 중 manuscript의 마무리 섹션(Conclusion · Future work)에서 reject 사유가 *재발*하는 자리가 있다. [엄태웅 대표 G2 「영어 못해도 논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net/terry/englishpaperwriting/)가 같은 위치를 4 항목으로 정리했다.
 
 > **Conclusion = Abstract 반복.** 두 곳에 같은 문장이 들어가면 Conclusion의 자리값이 빈다.
 >
@@ -82,7 +82,7 @@ revision 작업 중 manuscript의 마무리 섹션(Conclusion · Future work)에
 
 네 항목 모두 Whitesides §4.6의 closing-section 권고와 정합한다. 그래서 revision letter를 쓰면서 reviewer 지적이 *Conclusion 자리에 박혀야 했을 내용*을 가리킬 때, 본문 그곳부터 다시 본다.
 
-[최윤섭 박사 G4](https://gradschoolstory.chkwon.net)가 적은 본인 일화도 같은 톤이다. 약 6개월 리비전 동안 추가 실험을 돌리며 reviewer 지적에 *데이터 기반*으로 대응했다. 한편 변호 letter로 답하는 길과 본문에 evidence를 더 박는 길은 다르다. 후자가 reviewer 의문을 다음 round에서 재발시키지 않는 유일한 길이다.
+[최윤섭 박사 G4 「첫 번째 논문을 최대한 빨리 써라」](https://gradschoolstory.chkwon.net/yoonsup/first-paper/)가 적은 본인 일화도 같은 톤이다. 약 6개월 리비전 동안 추가 실험을 돌리며 reviewer 지적에 *데이터 기반*으로 대응했다. 한편 변호 letter로 답하는 길과 본문에 evidence를 더 박는 길은 다르다. 후자가 reviewer 의문을 다음 round에서 재발시키지 않는 유일한 길이다.
 
 reviewer가 추가 ablation을 요구한 자리에서 층위가 한 단 얹힌다. *내 모델이 baseline 대비 무엇을 개선했는지 보이려면 어떤 ablation이 필요한가*를 AI에게 던지면 실험 설계 초안이 잡힌다. 결과 표가 다 나온 뒤 *이 표에서 어떤 분석이 가능한가*를 던지는 것도 같은 층위다 — AI는 놓친 관점을 한 번 짚어 주는 보조 도구로 작동한다.
 
@@ -118,6 +118,6 @@ letter를 다 쓴 뒤 24시간 거리를 두고 reviewer 시점에서 다시 읽
 
 ---
 
-**출처.** [임형태 박사, paper-writing-checklist](https://github.com/LimHyungTae/paper-writing-checklist) — rebuttal 마음가짐, *내 글이 그렇게 읽힌 책임* 인용, 24시간 룰 권고. [최윤섭 박사 G4](https://gradschoolstory.chkwon.net) — 6개월 리비전 일화·데이터 기반 대응. [엄태웅 대표 G2](https://gradschoolstory.chkwon.net) — 마무리 섹션 4 회피 항목. robotics-practice ch19 § 19.7.3 — 실험 설계 보조 도구에 관한 보조 사례 (분야 쪽 논의). ch01·ch14와 교차. 4유형 분류, 표현 swap 사전, 3블록 letter 구조, conference vs journal 구분은 이 장에서 정리했다.
+**출처.** [임형태 박사, paper-writing-checklist](https://github.com/LimHyungTae/paper-writing-checklist) — rebuttal 마음가짐, *내 글이 그렇게 읽힌 책임* 인용, 24시간 룰 권고. [최윤섭 박사 G4 「첫 번째 논문을 최대한 빨리 써라」](https://gradschoolstory.chkwon.net/yoonsup/first-paper/) — 6개월 리비전 일화·데이터 기반 대응. [엄태웅 대표 G2 「영어 못해도 논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net/terry/englishpaperwriting/) — 마무리 섹션 4 회피 항목. robotics-practice ch19 § 19.7.3 — 실험 설계 보조 도구에 관한 보조 사례 (분야 쪽 논의). ch01·ch14와 교차. 4유형 분류, 표현 swap 사전, 3블록 letter 구조, conference vs journal 구분은 이 장에서 정리했다.
 
 작성 단계의 작업은 여기서 끝난다. Part 3의 발췌 사례들은 본문 뒤에 부록처럼 붙는다.

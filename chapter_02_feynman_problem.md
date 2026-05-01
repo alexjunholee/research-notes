@@ -8,7 +8,7 @@
 
 ## 2.1 Feynman 3-step
 
-[권창현 교수](https://gradschoolstory.chkwon.net)가 「연구의 비법: 파인만 알고리즘」에서 다시 꺼낸 Feynman의 3-step algorithm은 농담처럼 짧다.
+[권창현 교수](https://gradschoolstory.chkwon.net/changhyun/%ec%97%b0%ea%b5%ac%ec%9d%98-%eb%b9%84%eb%b2%95-%ed%8c%8c%ec%9d%b8%eb%a7%8c-%ec%95%8c%ea%b3%a0%eb%a6%ac%ec%a6%98/)가 「연구의 비법: 파인만 알고리즘」에서 다시 꺼낸 Feynman의 3-step algorithm은 농담처럼 짧다.
 
 > 1. Write down the problem.
 > 2. Think real hard.
@@ -90,6 +90,6 @@ Ch.1에서 stub로 잡아 둔 hypothesis placeholder가 이 장의 좁히기 절
 
 ---
 
-**출처.** [권창현 교수 G7 「파인만 알고리즘」](https://gradschoolstory.chkwon.net), [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767), [Knuth et al. 1989](https://www-cs-faculty.stanford.edu/~knuth/klr.html).
+**출처.** [권창현 교수 G7 「파인만 알고리즘」](https://gradschoolstory.chkwon.net/changhyun/%ec%97%b0%ea%b5%ac%ec%9d%98-%eb%b9%84%eb%b2%95-%ed%8c%8c%ec%9d%b8%eb%a7%8c-%ec%95%8c%ea%b3%a0%eb%a6%ac%ec%a6%98/), [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767), [Knuth et al. 1989](https://www-cs-faculty.stanford.edu/~knuth/klr.html).
 
 다음: [Ch.3 — 주도권의 이동: 교수 제안에서 내 주제로](./chapter_03_ownership_shift.md)

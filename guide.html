@@ -247,20 +247,40 @@ body {
   color: var(--accent);
 }
 
-.toc-item.toc-hidden { display: none; }
-
-.toc-group-label {
-  display: block;
-  padding: 22px 16px 6px 20px;
-  font-size: 11px;
+.toc-item.toc-part {
+  padding: 14px 16px 8px 20px;
+  font-size: 14px;
   font-weight: 700;
-  color: rgba(0, 0, 0, 0.42);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+  color: var(--text-heading);
+  letter-spacing: 0;
 }
 
-.toc-group-label:first-child { padding-top: 8px; }
-.toc-group-label.toc-hidden { display: none; }
+.toc-item.toc-part:not(:first-child) { margin-top: 16px; }
+
+.toc-item.toc-chapter {
+  padding: 6px 16px 6px 31px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: 0;
+}
+
+.toc-item.toc-section {
+  padding: 4px 16px 4px 46px;
+  font-size: 12.5px;
+  font-weight: 400;
+  color: var(--text-muted);
+  letter-spacing: 0;
+}
+
+.toc-item.toc-section:hover { color: var(--text); }
+
+.toc-item.toc-section.active {
+  font-weight: 500;
+  color: var(--accent);
+}
+
+.toc-item.toc-hidden { display: none; }
 
 .toc-no-results {
   padding: 20px 16px;
@@ -532,25 +552,37 @@ mark.search-highlight {
   color: var(--text-heading);
   margin: 0 0 10px 0;
 }
-.overview-group { margin-top: 36px; }
+.overview-group {
+  margin-top: 44px;
+  padding-left: 22px;
+  border-left: 2px solid var(--border);
+}
 .overview-group:first-child { margin-top: 0; }
 .overview-group-label {
-  font-size: 11px;
-  font-weight: 700;
-  color: rgba(0, 0, 0, 0.42);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  margin: 0 0 18px 0;
+  font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Pretendard', sans-serif;
+  font-size: 24px;
+  font-weight: 650;
+  line-height: 1.22;
+  color: var(--text-heading);
+  letter-spacing: 0;
+  margin: 0 0 8px 0;
 }
-.overview-chapter { margin: 0 0 22px 0; }
+.overview-group-intro {
+  max-width: 760px;
+  color: var(--text-muted);
+  font-size: 16px;
+  line-height: 1.62;
+  margin: 0 0 22px 0;
+}
+.overview-chapter { margin: 0 0 16px 14px; }
 .overview-chapter:last-child { margin-bottom: 0; }
 .overview-chapter-link {
   font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Pretendard', sans-serif;
-  font-size: 19px;
+  font-size: 17px;
   font-weight: 600;
   color: var(--text-heading);
   text-decoration: none;
-  letter-spacing: -0.014em;
+  letter-spacing: 0;
   display: inline-block;
 }
 .overview-chapter-link:hover { color: var(--accent); }
@@ -561,6 +593,73 @@ mark.search-highlight {
   margin-right: 10px;
   letter-spacing: 0.02em;
   text-transform: uppercase;
+}
+
+#content .part-intro {
+  margin: 92px 0 34px;
+  padding: 42px 0 30px;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.guide-overview + .part-intro { margin-top: 70px; }
+
+#content .part-kicker {
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+#content h1.part-title {
+  font-size: 52px;
+  font-weight: 650;
+  line-height: 1.07;
+  letter-spacing: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#content .part-intro p {
+  max-width: 760px;
+  color: var(--text-muted);
+  font-size: 18px;
+  line-height: 1.68;
+  margin: 18px 0 0 0;
+}
+
+#content h1.chapter-heading,
+#content h1.excerpt-heading {
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: 0;
+  margin-top: 56px;
+  padding-bottom: 10px;
+}
+
+#content .part-intro + h1.chapter-heading,
+#content .part-intro + h1.excerpt-heading {
+  margin-top: 36px;
+}
+
+@media (max-width: 900px) {
+  #content h1.part-title { font-size: 40px; }
+  #content h1.chapter-heading,
+  #content h1.excerpt-heading { font-size: 30px; }
+}
+
+@media (max-width: 600px) {
+  .overview-group { padding-left: 16px; }
+  .overview-group-label { font-size: 21px; }
+  #content .part-intro { margin-top: 72px; padding: 34px 0 26px; }
+  #content h1.part-title { font-size: 32px; }
+  #content .part-intro p { font-size: 16px; }
+  #content h1.chapter-heading,
+  #content h1.excerpt-heading { font-size: 28px; }
 }
 @media (max-width: 1024px) {
   #main-content { padding-left: 40px; padding-right: 40px; }
@@ -4610,11 +4709,33 @@ panel 11-12는 *졸업 직후 첫 1년*에 가져다 댄다. 졸업 후의 호�
   var OVERVIEW_TITLE = "연구노트";
   var SEARCH_PLACEHOLDER = "챕터/섹션 검색... (Ctrl+K)";
   var STORAGE_KEY = "research-notes-lang";
-  var CHAPTER_GROUPS = [{"label":"Part 0 · 연구는 주제보다 질문의 모양에서 시작된다","items":[{"kind":"chapter","num":1},{"kind":"chapter","num":2},{"kind":"chapter","num":3},{"kind":"chapter","num":4},{"kind":"chapter","num":5}]},{"label":"Part 1 · 읽기는 이해가 아니라 판단을 남기는 절차다","items":[{"kind":"chapter","num":6},{"kind":"chapter","num":7},{"kind":"chapter","num":8},{"kind":"chapter","num":9},{"kind":"chapter","num":10},{"kind":"chapter","num":11},{"kind":"chapter","num":12},{"kind":"chapter","num":13},{"kind":"chapter","num":14},{"kind":"chapter","num":15}]},{"label":"Part 2 · 논문은 독자의 기대를 설계하는 일이다","items":[{"kind":"chapter","num":16},{"kind":"chapter","num":17},{"kind":"chapter","num":18},{"kind":"chapter","num":19},{"kind":"chapter","num":20},{"kind":"chapter","num":21},{"kind":"chapter","num":22},{"kind":"chapter","num":23},{"kind":"chapter","num":24},{"kind":"chapter","num":25},{"kind":"chapter","num":26},{"kind":"chapter","num":27},{"kind":"chapter","num":28},{"kind":"chapter","num":29},{"kind":"chapter","num":30},{"kind":"chapter","num":31},{"kind":"chapter","num":32}]},{"label":"Part 3 · 발표는 끝난 글을 다음 질문으로 돌려보낸다","items":[{"kind":"chapter","num":33},{"kind":"chapter","num":34},{"kind":"chapter","num":35}]},{"label":"발췌와 사례 · 좋은 글은 원문 위에서 배운다","items":[{"kind":"excerpt","num":1},{"kind":"excerpt","num":2},{"kind":"excerpt","num":3},{"kind":"excerpt","num":4},{"kind":"excerpt","num":5},{"kind":"excerpt","num":6},{"kind":"excerpt","num":7},{"kind":"excerpt","num":8},{"kind":"excerpt","num":9},{"kind":"excerpt","num":10},{"kind":"excerpt","num":11},{"kind":"excerpt","num":12},{"kind":"excerpt","num":13}]}];
-  var GROUP_FIRST = {};
-  CHAPTER_GROUPS.forEach(function(group) {
-    if (group.items.length) GROUP_FIRST[group.items[0].kind + '-' + group.items[0].num] = group.label;
-  });
+  var CHAPTER_GROUPS = [
+    {
+      label: "Part 0 · 연구는 주제보다 질문의 모양에서 시작된다",
+      intro: "연구는 분야 이름을 받는 순간이 아니라 질문의 모양을 좁히는 순간에 시작된다. 이 Part는 리뷰 논문, 문제 진술, 주도권, 연구성 판단, 생각의 시간을 하나의 진입 절차로 묶는다.",
+      items: [{"kind":"chapter","num":1},{"kind":"chapter","num":2},{"kind":"chapter","num":3},{"kind":"chapter","num":4},{"kind":"chapter","num":5}]
+    },
+    {
+      label: "Part 1 · 읽기는 이해가 아니라 판단을 남기는 절차다",
+      intro: "읽기의 목적은 더 많은 PDF를 처리하는 것이 아니라 다음 결정을 남기는 것이다. 이 Part는 한 편을 훑고, 걸러내고, 코드와 노트로 연결해 자기 연구의 판단 자료를 만드는 절차를 다룬다.",
+      items: [{"kind":"chapter","num":6},{"kind":"chapter","num":7},{"kind":"chapter","num":8},{"kind":"chapter","num":9},{"kind":"chapter","num":10},{"kind":"chapter","num":11},{"kind":"chapter","num":12},{"kind":"chapter","num":13},{"kind":"chapter","num":14},{"kind":"chapter","num":15}]
+    },
+    {
+      label: "Part 2 · 논문은 독자의 기대를 설계하는 일이다",
+      intro: "논문은 끝난 연구를 옮겨 적는 보고서가 아니라 독자의 기대를 설계하는 구조다. 이 Part는 outline에서 문단, 제목, 초록, 서론, 방법, 결과, 표기, rebuttal까지 한 편의 글이 판정되는 순서로 따라간다.",
+      items: [{"kind":"chapter","num":16},{"kind":"chapter","num":17},{"kind":"chapter","num":18},{"kind":"chapter","num":19},{"kind":"chapter","num":20},{"kind":"chapter","num":21},{"kind":"chapter","num":22},{"kind":"chapter","num":23},{"kind":"chapter","num":24},{"kind":"chapter","num":25},{"kind":"chapter","num":26},{"kind":"chapter","num":27},{"kind":"chapter","num":28},{"kind":"chapter","num":29},{"kind":"chapter","num":30},{"kind":"chapter","num":31},{"kind":"chapter","num":32}]
+    },
+    {
+      label: "Part 3 · 발표는 끝난 글을 다음 질문으로 돌려보낸다",
+      intro: "발표는 글의 끝이 아니라 다음 질문이 생기는 자리다. 이 Part는 학회에 왜 가는지, 무엇을 준비하는지, 첫 마디를 어떻게 여는지를 연구의 다음 입력으로 연결한다.",
+      items: [{"kind":"chapter","num":33},{"kind":"chapter","num":34},{"kind":"chapter","num":35}]
+    },
+    {
+      label: "발췌와 사례 · 좋은 글은 원문 위에서 배운다",
+      intro: "뒤쪽의 발췌와 사례는 원문 위에서 배운다. 앞의 원칙들이 실제 논문과 글쓰기 예시 안에서 어떤 모양으로 작동하는지 확인하는 자리다.",
+      items: [{"kind":"excerpt","num":1},{"kind":"excerpt","num":2},{"kind":"excerpt","num":3},{"kind":"excerpt","num":4},{"kind":"excerpt","num":5},{"kind":"excerpt","num":6},{"kind":"excerpt","num":7},{"kind":"excerpt","num":8},{"kind":"excerpt","num":9},{"kind":"excerpt","num":10},{"kind":"excerpt","num":11},{"kind":"excerpt","num":12},{"kind":"excerpt","num":13}]
+    }
+  ];
 
   marked.setOptions({
     highlight: function(code, lang) {
@@ -4694,6 +4815,68 @@ panel 11-12는 *졸업 직후 첫 1년*에 가져다 댄다. 졸업 후의 호�
     return null;
   }
 
+  function parseGroupLabel(label) {
+    var parts = label.split('·');
+    if (parts.length < 2) return { kicker: '', title: label.trim() };
+    return { kicker: parts[0].trim(), title: parts.slice(1).join('·').trim() };
+  }
+
+  function findEntryHeading(item) {
+    var h1s = contentEl.querySelectorAll('h1');
+    for (var i = 0; i < h1s.length; i++) {
+      var parsed = parseHeading(h1s[i].textContent);
+      if (parsed && parsed.kind === item.kind && parsed.num === item.num) return h1s[i];
+    }
+    return null;
+  }
+
+  function annotateEntryHeadings() {
+    contentEl.querySelectorAll('h1').forEach(function(h1) {
+      var parsed = parseHeading(h1.textContent);
+      if (!parsed) return;
+      if (!h1.id) h1.id = parsed.kind + '-' + parsed.num;
+      h1.classList.add(parsed.kind === 'excerpt' ? 'excerpt-heading' : 'chapter-heading');
+    });
+  }
+
+  function buildPartIntros() {
+    annotateEntryHeadings();
+    CHAPTER_GROUPS.forEach(function(group, index) {
+      var first = null;
+      for (var i = 0; i < group.items.length; i++) {
+        first = findEntryHeading(group.items[i]);
+        if (first) break;
+      }
+      if (!first) return;
+
+      var meta = parseGroupLabel(group.label);
+      var partId = 'part-' + index + '-' + slugify(meta.title);
+      if (document.getElementById(partId)) return;
+
+      var section = document.createElement('section');
+      section.className = 'part-intro';
+
+      var kicker = document.createElement('div');
+      kicker.className = 'part-kicker';
+      kicker.textContent = meta.kicker || 'Part';
+      section.appendChild(kicker);
+
+      var title = document.createElement('h1');
+      title.className = 'part-title';
+      title.id = partId;
+      title.textContent = meta.title;
+      section.appendChild(title);
+
+      if (group.intro) {
+        var intro = document.createElement('p');
+        intro.textContent = group.intro;
+        section.appendChild(intro);
+      }
+
+      first.parentNode.insertBefore(section, first);
+    });
+  }
+
   function render() {
     applyChrome();
     contentEl.style.display = 'none';
@@ -4721,6 +4904,7 @@ panel 11-12는 *졸업 직후 첫 1년*에 가져다 댄다. 졸업 후의 호�
       }
 
       tocContainer.innerHTML = '';
+      buildPartIntros();
       buildOverview();
       buildTOC();
       contentEl.style.display = 'block';
@@ -4796,6 +4980,12 @@ panel 11-12는 *졸업 직후 첫 1년*에 가져다 댄다. 졸업 후의 호�
       label.className = 'overview-group-label';
       label.textContent = group.label;
       groupEl.appendChild(label);
+      if (group.intro) {
+        var intro = document.createElement('p');
+        intro.className = 'overview-group-intro';
+        intro.textContent = group.intro;
+        groupEl.appendChild(intro);
+      }
 
       valid.forEach(function(entry) {
         var wrap = document.createElement('div');
@@ -4826,23 +5016,19 @@ panel 11-12는 *졸업 직후 첫 1년*에 가져다 댄다. 졸업 후의 호�
       if (!heading.id) heading.id = slugify(heading.textContent);
       if (heading.classList.contains('overview-title')) return;
 
-      if (heading.tagName === 'H1') {
-        var parsed = parseHeading(heading.textContent);
-        if (parsed) {
-          var key = parsed.kind + '-' + parsed.num;
-          if (GROUP_FIRST[key]) {
-            var label = document.createElement('div');
-            label.className = 'toc-group-label';
-            label.textContent = GROUP_FIRST[key];
-            fragment.appendChild(label);
-          }
-        }
-      }
-
       var link = document.createElement('a');
-      link.className = 'toc-item toc-' + heading.tagName.toLowerCase();
+      var parsed = parseHeading(heading.textContent);
+      var tocClass = 'toc-section';
+      if (heading.classList.contains('part-title')) tocClass = 'toc-part';
+      else if (parsed) tocClass = 'toc-chapter' + (parsed.kind === 'excerpt' ? ' toc-excerpt' : '');
+      link.className = 'toc-item ' + tocClass;
       link.href = '#' + heading.id;
-      link.textContent = heading.textContent;
+      if (heading.classList.contains('part-title')) {
+        var kicker = heading.parentElement ? heading.parentElement.querySelector('.part-kicker') : null;
+        link.textContent = (kicker ? kicker.textContent + ' · ' : '') + heading.textContent;
+      } else {
+        link.textContent = heading.textContent;
+      }
       link.dataset.headingId = heading.id;
       fragment.appendChild(link);
     });
@@ -4925,10 +5111,8 @@ panel 11-12는 *졸업 직후 첫 1년*에 가져다 댄다. 졸업 후의 호�
     searchInput.addEventListener('input', function() {
       var query = this.value.trim().toLowerCase();
       var tocItems = tocContainer.querySelectorAll('.toc-item');
-      var groupLabels = tocContainer.querySelectorAll('.toc-group-label');
       if (!query) {
         tocItems.forEach(function(item) { item.classList.remove('toc-hidden'); });
-        groupLabels.forEach(function(label) { label.classList.remove('toc-hidden'); });
         noResults.style.display = 'none';
         return;
       }
@@ -4938,7 +5122,6 @@ panel 11-12는 *졸업 직후 첫 1년*에 가져다 댄다. 졸업 후의 호�
         if (text.includes(query)) { item.classList.remove('toc-hidden'); matchCount++; }
         else item.classList.add('toc-hidden');
       });
-      groupLabels.forEach(function(label) { label.classList.add('toc-hidden'); });
       noResults.style.display = matchCount === 0 ? 'block' : 'none';
     });
   }

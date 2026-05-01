@@ -1,7 +1,6 @@
-# Nilsson — 글쓰기 과정 6 points
+# 글쓰기는 일찍 시작하고 여러 번 고쳐진다
 
 **출처**: Nils J. Nilsson (lecture transcribed in Knuth, Larrabee, Roberts, 1989) — *Mathematical Writing*, Stanford CS Report STAN-CS-88-1193 / MAA Notes 14
-**위치**: §34 — Nilsson의 6 points: start early / rewrite / read / model the reader / master the medium / master the material
 
 ---
 

@@ -1,7 +1,6 @@
-# Hazelrigg 4-type + 아인슈타인 인용 — contribution claim의 *정량화 도구*
+# 기여는 종류가 아니라 증가분으로 말한다
 
 **출처**: George A. Hazelrigg (NSF), "On the Role and Use of Mathematical Models in Engineering Design" (research-type taxonomy circulating in NSF program-officer talks 2000s) + 권창현 교수 (Changhyun Kwon), 「지금 하고 있는 게 연구인가, 아닌가?」, *Grad School Story*, gradschoolstory.chkwon.net/changhyun/지금-하고-있는-게-연구인가-아닌가/
-**위치**: 본문 후반 — task vs research 분기를 닫는 분류 도구. 챕터 마지막에 아인슈타인 인용으로 mood 전환
 
 ---
 

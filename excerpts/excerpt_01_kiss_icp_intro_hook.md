@@ -1,11 +1,10 @@
-# KISS-ICP Intro Hook — 분야 통증·기존 복잡함·단순한 해법의 3-beat
+# 좋은 서론은 분야의 통증에서 시작한다
 
 **출처**: Vizzo, Guadagnino, Mersch, Wiesmann, Behley, Stachniss, 2023 — *KISS-ICP: In Defense of Point-to-Point ICP — Simple, Accurate, and Robust Registration If Done the Right Way*, IEEE Robotics and Automation Letters
-**위치**: Abstract 첫 두 문장 + Introduction 첫 단락 일부 (arXiv:2209.15397v2)
 
 ---
 
-## 발췌 (영문 원문 인용)
+## 발췌
 
 Abstract 도입부:
 

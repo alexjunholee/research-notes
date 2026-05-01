@@ -1,7 +1,6 @@
-# Knuth Proof Rewrite — "stylistically atrocious" 증명을 publishable한 형태로 다시 쓰기
+# 증명도 문장으로 다시 써야 읽힌다
 
 **출처**: Knuth, Larrabee, Roberts, 1989 — *Mathematical Writing*, Stanford CS Report STAN-CS-88-1193 / MAA Notes 14
-**위치**: §2-§3 — 같은 정리의 atrocious 버전과 polished 버전 직접 대조
 
 ---
 

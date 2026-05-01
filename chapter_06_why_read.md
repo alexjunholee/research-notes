@@ -68,4 +68,4 @@ paper graph alert, author follow, venue page, OpenReview thread, project page를
 
 **출처.** [Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) §1, [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rules 5·6, [임형태 박사, paper-writing-checklist](https://github.com/LimHyungTae/paper-writing-checklist) §1, robotics-practice ch22 § 22.3·§ 22.5 (분야 쪽 논의).
 
-다음: [Ch.2 — Keshav 3-pass 방법](./chapter_07_keshav_three_passes.md)
+다음: [Ch.2 — 논문을 세 번에 나누어 읽기](./chapter_07_keshav_three_passes.md)

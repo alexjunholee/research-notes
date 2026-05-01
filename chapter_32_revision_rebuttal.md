@@ -68,7 +68,7 @@ ch14의 stress position 원칙이 여기서도 작동한다. 무례한 단어가
 
 ---
 
-## 32.4 마무리 섹션 회피 항목 — 엄태웅 대표 4종
+## 32.4 마무리 섹션에서 피할 네 가지
 
 revision 작업 중 manuscript의 마무리 섹션(Conclusion · Future work)에서 reject 사유가 *재발*하는 자리가 있다. [엄태웅 대표 G2 「영어 못해도 논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net/terry/englishpaperwriting/)가 같은 위치를 4 항목으로 정리했다.
 

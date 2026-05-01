@@ -1,8 +1,6 @@
-# Stachniss group Figure 1 — *abstract 한 컷 시각화*의 양식
+# Figure 1은 초록을 한 컷으로 압축한다
 
 **출처**: Chen, Vizzo, Läbe, Behley, Stachniss, 2021 — *Range Image-based LiDAR Localization for Autonomous Vehicles*, IEEE International Conference on Robotics and Automation (ICRA) 2021
-**위치**: Figure 1 + caption + abstract 마지막 한 문장 (arXiv:2105.12121)
-**분야**: 로보틱스 / LiDAR localization
 
 ---
 

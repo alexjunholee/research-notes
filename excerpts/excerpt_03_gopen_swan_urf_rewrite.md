@@ -1,7 +1,6 @@
-# Gopen-Swan URF/ATPase Rewrite — 같은 정보의 재배치만으로 가독성을 바꾸는 단락
+# 가독성은 정보의 위치만 바꿔도 달라진다
 
 **출처**: Gopen, Swan, 1990 — *The Science of Scientific Writing*, *American Scientist* 78(6): 550-558
-**위치**: 본문 중반 — 분자생물학 URF/ATPase 단락 원본과 단계별 rewrite
 
 ---
 

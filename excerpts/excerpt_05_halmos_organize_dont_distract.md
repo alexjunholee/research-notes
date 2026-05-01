@@ -1,11 +1,10 @@
-# Halmos — "Do organize material. Do not distract the reader."
+# 조직하고 산만하게 하지 않는다
 
 **출처**: Paul R. Halmos (lecture transcribed in Knuth, Larrabee, Roberts, 1989) — *Mathematical Writing*, Stanford CS Report STAN-CS-88-1193 / MAA Notes 14, §42 "Paul Halmos on Mathematical Writing"
-**위치**: §42 — 강연 도입의 두 anchor rule과 강연을 닫는 반복
 
 ---
 
-## 발췌 (영문 원문 인용)
+## 발췌
 
 강연 도입에서 Halmos는 자신의 강연을 두 명령으로 묶는다:
 

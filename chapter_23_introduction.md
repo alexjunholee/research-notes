@@ -1,4 +1,4 @@
-# Ch.23 — Introduction 해부: gap funnel과 Whitesides 5요소
+# Ch.23 — Introduction은 어떻게 좁혀지는가
 
 논문 1차 심사에서 reviewer가 verdict의 큰 뼈대를 잡는 곳 — Introduction이다. [Keshav (2007)](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)이 정리한 1st pass에서 reviewer가 읽는 페이지는 첫 한 장이고, 그 한 장의 대부분이 Introduction이다. 그 사실이 곧 Introduction의 비중. Introduction이 흔들리면 method가 정확해도 verdict는 reject 쪽으로 기운다.
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 23.1 Whitesides 5요소 — slot 점검
+## 23.1 서론의 다섯 슬롯
 
 Whitesides가 §III에 박은 다섯 칸은 다음과 같다.
 
@@ -39,7 +39,7 @@ Whitesides가 §III에 박은 다섯 칸은 다음과 같다.
 
 ---
 
-## 23.3 한국어 mirror — 엄태웅 대표 6단
+## 23.3 한국어 서론의 여섯 단계
 
 같은 흐름을 한국어 설명로 풀어낸 글이 [엄태웅 대표 G2 「영어 못해도 논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net/terry/englishpaperwriting/)의 Introduction 6단이다.
 
@@ -72,7 +72,7 @@ Whitesides가 §III에 박은 다섯 칸은 다음과 같다.
 
 ---
 
-## 23.5 사례 — KISS-ICP의 첫 단락
+## 23.5 첫 단락의 사례
 
 [KISS-ICP (Vizzo et al., RA-L 2023)](https://arxiv.org/abs/2209.15397)의 Introduction 첫 단락이 두 프레임을 한 호흡에 통과시킨다. field gap은 "LiDAR odometry는 풀린 문제처럼 보인다"로 열고, subfield gap은 "튜닝 지옥이다"로 좁힌다. 그러고는 paper gap이 "단순한 baseline이 부재하다"로 한 점에 모인다. 그 단락의 마지막 문장이 summary preview를 겸한다 — "we show that simple ICP is sufficient when carefully configured."
 

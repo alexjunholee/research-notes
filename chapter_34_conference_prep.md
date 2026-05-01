@@ -69,7 +69,7 @@ Sincerely, ...
 
 ---
 
-## 34.3 세션 사전 선별 — Keshav pass 1을 program 단위로
+## 34.3 세션 사전 선별 — program을 먼저 훑어 둔다
 
 학회 program/app을 그대로 들고 가지 않는다. 출국 전에 1-pass를 끝내 둔다. 메커니즘은 [Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) §2.1의 1st pass 그대로고, 다른 점은 *적용 단위*가 논문 한 편에서 학회 program 한 묶음으로 transfer된 정도다. Keshav가 §1에서 적은 문장이 그대로 학회에 적용된다 — *"It allows me to estimate the amount of time required to review a set of papers."* 이 권고는 일군의 논문에 들 시간을 미리 가늠하는 것이고, 학회는 일군의 논문이 압축된 형태다.
 
@@ -87,7 +87,7 @@ Sincerely, ...
 
 ---
 
-## 34.4 본인 발표 준비 — Whitesides §4.4를 slide로 transfer
+## 34.4 본인 발표 준비 — 첫 1분의 지도
 
 [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) §4.4는 introduction 첫 두 단락을 outline 단계에서 *완전히 써내라*고 적는다. 그 introduction에 들어가야 하는 다섯 element를 다음과 같이 명시한다.
 

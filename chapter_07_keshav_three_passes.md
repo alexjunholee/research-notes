@@ -1,4 +1,4 @@
-# Ch.7 — Keshav 3-pass 방법
+# Ch.7 — 논문을 세 번에 나누어 읽기
 
 [Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)이 §1에서 적은 문장 중 자주 인용되는 한 줄은 "각 패스는 고유한 목적이 있고, 다음 패스는 이전 패스 위에서만 의미가 있다"이다. 한 번에 다 읽으려는 충동을 가장 큰 적으로 둔다.
 

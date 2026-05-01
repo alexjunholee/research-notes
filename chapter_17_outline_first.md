@@ -1,4 +1,4 @@
-# Ch.17 — 아웃라인부터 시작하기: Whitesides 방법
+# Ch.17 — 아웃라인부터 시작하기
 
 [George Whitesides의 "Writing a Paper" (2004)](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767)는 글쓰기를 *연구의 기획 도구*로 정의한다. 데이터가 다 모인 뒤에야 논문을 쓰기 시작하는 학생을 두고 Whitesides가 적은 진단은 단순하다 — 그 시점이면 이미 늦었다는 한 줄.
 
@@ -60,7 +60,7 @@ Whitesides가 §I에 적은 표현은 강하다. "Interesting and unpublished is
 
 ---
 
-## 17.5 Whitesides와 Schimel — 층위가 다르다
+## 17.5 골조와 흐름은 층위가 다르다
 
 Whitesides의 outline-first 방법과 [Joshua Schimel의 *Writing Science* (2012)](https://global.oup.com/academic/product/writing-science-9780199760244)의 story-first 방법이 충돌한다는 인상을 받는 학생이 있다. Whitesides는 데이터에서 올라오는 bottom-up scaffold를, Schimel은 narrative arc(OCAR/ABDCE)를 먼저 권한다는 차이에서다.
 
@@ -70,7 +70,7 @@ Whitesides의 outline-first 방법과 [Joshua Schimel의 *Writing Science* (2012
 
 ---
 
-## 17.6 KISS-ICP의 도입을 따라 써 보기
+## 17.6 도입 문단을 따라 써 보기
 
 [KISS-ICP (Vizzo et al., RA-L 2023)](https://arxiv.org/abs/2209.15397)의 Introduction 첫 단락은 Whitesides의 5요소가 어떻게 채워지는지 보여 주는 사례다. (a) objective는 "robust LiDAR odometry without learning", (b) justification은 "단순함이 generality를 낳는다", (c) background는 ICP 계열의 기존 한계, (d) reader guidance는 "we show that point-to-point ICP, configured carefully, suffices", (e) summary preview는 KITTI/MulRan에서 SOTA에 근접한다는 한 줄.
 

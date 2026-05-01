@@ -1,12 +1,10 @@
-# ResNet Intro Hook — *질문문 Gap*과 degradation problem이라는 coined term
+# 좋은 서론은 질문 하나를 독자에게 남긴다
 
 **출처**: He, Zhang, Ren, Sun, 2015 — *Deep Residual Learning for Image Recognition*, arXiv:1512.03385 → CVPR 2016
-**위치**: Abstract 첫 두 문장 + Introduction 첫 단락 (arXiv:1512.03385)
-**분야**: CV / 딥러닝
 
 ---
 
-## 발췌 (영문 원문 인용)
+## 발췌
 
 Abstract 도입부:
 

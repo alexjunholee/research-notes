@@ -1,11 +1,10 @@
-# ORB-SLAM 기여 Claim — "We present" 톤과 contribution bullet 명료 나열
+# 기여 문장은 무엇을 만들었는지부터 말한다
 
 **출처**: Mur-Artal, Montiel, Tardós, 2015 — *ORB-SLAM: A Versatile and Accurate Monocular SLAM System*, IEEE Transactions on Robotics 31(5): 1147-1163
-**위치**: Abstract 첫 문장 + Introduction의 contribution bullet 단락 (arXiv:1502.00956v2)
 
 ---
 
-## 발췌 (영문 원문 인용)
+## 발췌
 
 Abstract 도입부:
 

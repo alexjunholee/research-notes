@@ -41,7 +41,7 @@ Whitesides가 §III에 박은 다섯 칸은 다음과 같다.
 
 ## 23.3 한국어 서론의 여섯 단계
 
-같은 흐름을 한국어 설명로 풀어낸 글이 [엄태웅 대표 G2 「영어 못해도 논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net/terry/englishpaperwriting/)의 Introduction 6단이다.
+같은 흐름을 한국어 설명으로 풀어낸 글이 [엄태웅 대표 G2 「영어 못해도 논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net/terry/englishpaperwriting/)의 Introduction 6단이다.
 
 > 1. 큰 문제 — 분야 전체가 푸는 문제.
 > 2. 점진적 스코프 축소 — 그 분야 안에서 본 논문이 향하는 자리.
@@ -50,7 +50,7 @@ Whitesides가 §III에 박은 다섯 칸은 다음과 같다.
 > 5. 본 연구 기여 — 한계를 메우는 본 논문의 시도.
 > 6. 논문 구성 — 다음 섹션 안내.
 
-이 6단이 §2의 gap funnel 3-tier(field → subfield → paper)와 §1의 Whitesides 5요소를 한 절차에 합친 한국어 적용 사례는다. 1·2·3·4가 gap funnel을 점진적으로 좁히고, 5가 contribution + summary preview를 채우고, 6이 Whitesides의 reader guidance 칸을 명시적으로 박는다. 한국어 문체가 빠뜨리지 않는 6번(논문 구성)이, 영어권 학생이 자주 누락하는 reader guidance와 정확히 같다.
+이 6단이 §2의 gap funnel 3-tier(field → subfield → paper)와 §1의 Whitesides 5요소를 한 절차에 합친 한국어 적용 사례다. 1·2·3·4가 gap funnel을 점진적으로 좁히고, 5가 contribution + summary preview를 채우고, 6이 Whitesides의 reader guidance 칸을 명시적으로 박는다. 한국어 문체가 빠뜨리지 않는 6번(논문 구성)이, 영어권 학생이 자주 누락하는 reader guidance와 정확히 같다.
 
 엄태웅 대표가 같은 글에서 강조하는 비율이 Intro에 노력의 40-50% 투자다. 90%의 reviewer가 abstract와 Introduction에서 verdict의 큰 뼈대를 잡는다는 관찰이 그 비율의 근거다. ch01 §6에서 다룬 readership-weighted budget(Mensh-Kording R9)의 한국어 mirror로 읽으면 된다.
 
@@ -90,7 +90,7 @@ Whitesides가 §III에 박은 다섯 칸은 다음과 같다.
 
 **Reader guidance 누락.** "In Sec. 2 we …" 한 단락이 통째로 빠진 Introduction이 흔하다. Whitesides가 5요소에 명시적으로 박아 둔 칸이다. 한 단락 또는 한 문장이라도 들어가야 한다.
 
-**Objective와 기여이 같은 표현으로 반복.** 첫 단락의 objective 문장과 기여 절의 첫 항이 동일한 어구이면 둘 중 하나가 잉여다. objective는 시도를, contribution은 결과를 적는다.
+**Objective와 기여가 같은 표현으로 반복.** 첫 단락의 objective 문장과 기여 절의 첫 항이 동일한 어구이면 둘 중 하나가 잉여다. objective는 시도를, contribution은 결과를 적는다.
 
 ---
 

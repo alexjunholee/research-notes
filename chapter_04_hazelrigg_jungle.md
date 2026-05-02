@@ -8,11 +8,11 @@
 
 ## 4.1 작업 vs 연구: task / objective / goal
 
-[권창현 교수](https://gradschoolstory.chkwon.net/changhyun/%ec%a7%80%ea%b8%88-%ed%95%98%ea%b3%a0-%ec%9e%88%eb%8a%94-%ea%b2%8c-%ec%97%b0%ea%b5%ac%ec%9d%b8%ea%b0%80-%ec%95%84%eb%8b%8c%ea%b0%80/)는 「지금 하고 있는 게 연구인가, 아닌가?」에서 학생의 시간 단위를 세 층으로 잘랐다. **task**는 오늘 한 일이다. 코드 한 줄, 실험 한 회, figure 한 컷이 task다. **objective**는 지금 쓰고 있는 한 논문에서 보일 것이다. "이 논문에서 BEV feature가 night-time loop closure에 효과적임을 보인다"가 objective다. **goal**은 분야 전체가 풀려는 큰 질문이다. "long-term autonomy를 어떻게 달성할 것인가"가 goal이다.
+[권창현 교수](https://gradschoolstory.chkwon.net/changhyun/%ec%a7%80%ea%b8%88-%ed%95%98%ea%b3%a0-%ec%9e%88%eb%8a%94-%ea%b2%8c-%ec%97%b0%ea%b5%ac%ec%9d%b8%ea%b0%80-%ec%95%84%eb%8b%8c%ea%b0%80/)는 「지금 하고 있는 게 연구인가, 아닌가?」에서 학생의 시간 단위를 세 층으로 잘랐다. **task**는 오늘 한 일이다. 코드 한 줄, 실험 한 회, 그림 한 컷이 task다. **objective**는 지금 쓰고 있는 한 논문에서 보일 것이다. "이 논문에서 BEV feature가 night-time loop closure에 효과적임을 보인다"가 objective다. **goal**은 분야 전체가 풀려는 큰 질문이다. "long-term autonomy를 어떻게 달성할 것인가"가 goal이다.
 
 학생이 시간을 쓰는 곳은 task다. 학생이 정해야 하는 곳은 objective이고, 학생이 바라보는 곳은 goal이다. 세 층은 위계를 이룬다. task만 쌓이고 objective가 비어 있으면 1년치 작업이 한 편의 논문으로 묶이지 않는다. objective는 있으나 goal과 연결이 흐릿하면 그 논문이 분야에 왜 필요한지가 답이 안 된다.
 
-"개발", "설계", "최적화", "제어" 같은 동사는 task로는 가능하지만 자동으로 objective·goal로 올라가지 않는다. SLAM system을 개발하는 일과 SLAM의 어떤 명제를 검증하는 일은 다르다. 전자는 engineering achievement이고 후자는 research contribution이다. 둘은 venue도, reviewer가 묻는 질문도, 졸업 심사에서 받는 평가도 다르다.
+"개발", "설계", "최적화", "제어" 같은 동사는 task로는 가능하지만 자동으로 objective·goal로 올라가지 않는다. SLAM system을 개발하는 일과 SLAM의 어떤 명제를 검증하는 일은 다르다. 전자는 engineering achievement이고 후자는 research contribution이다. 둘은 venue도, 심사위원이 묻는 질문도, 졸업 심사에서 받는 평가도 다르다.
 
 > **task ≠ objective ≠ goal.** 세 층의 구분이 흐릿한 채로 작업을 쌓으면 그 작업이 연구인지 task인지 진단되지 않는다.
 
@@ -36,7 +36,7 @@
 
 §1의 task/objective/goal이 시간 층위의 분류 — 오늘 / 이번 논문 / 분야 전체 — 였다면, Hazelrigg 4-type은 내용 층위의 분류다. objective 슬롯에 들어간 한 contribution이 어떤 종류의 새 지식을 만드는가를 묻는다. 두 분류는 직교 축이고, 이 장은 두 축을 같이 든 채로 진단을 진행한다.
 
-NSF의 George Hazelrigg가 On the Role and Use of Mathematical Models in Engineering Design에서 제시한 4-type은 한 한국어 paragraph로 옮길 수 있다. 연구는 새로운 지식을 만들어내는 활동이고, 그 활동이 만드는 지식의 종류는 네 가지다. 명제가 옳은지 그른지를 데이터로 결정하는 가설 검정, 현상의 정량적 성질을 데이터로 결정하는 측정, 명제가 옳다는 것을 논리로 결정하는 추측 증명, 다른 분야의 도구·관점을 본 분야 문제에 적용하는 학제간 융합. 새 지식을 만들지 않는 작업은 이 네 칸 어디에도 들어가지 않는다.
+NSF의 George Hazelrigg가 On the Role and Use of Mathematical Models in Engineering Design에서 제시한 4-type은 한 한국어 단락으로 옮길 수 있다. 연구는 새로운 지식을 만들어내는 활동이고, 그 활동이 만드는 지식의 종류는 네 가지다. 명제가 옳은지 그른지를 데이터로 결정하는 가설 검정, 현상의 정량적 성질을 데이터로 결정하는 측정, 명제가 옳다는 것을 논리로 결정하는 추측 증명, 다른 분야의 도구·관점을 본 분야 문제에 적용하는 학제간 융합. 새 지식을 만들지 않는 작업은 이 네 칸 어디에도 들어가지 않는다.
 
 네 칸을 분리해서 본다.
 
@@ -67,15 +67,15 @@ Hazelrigg 4-type이 작업의 종류를 묻는다면, [Mensh & Kording 2017](htt
 
 진단 도구는 추상 분류만으로는 손에 잘 잡히지 않는다. 자기 분야의 사례에 한 번 가져다 대 보면 분류의 칸이 비로소 구체화된다. 로보틱스/CV의 흔한 작업을 네 칸에 한 사례씩 박는다.
 
-가설 검정. "BEV feature pyramid는 night-time loop closure recall을 raw image보다 높인다"는 한 줄짜리 명제가 있다. 명제가 참이라면 night benchmark에서 BEV-feature 기반 retrieval의 recall@1이 image-feature baseline보다 통계적으로 유의하게 높을 것이라는 그림을 미리 그린다. 실험은 그 그림과 실제 측정을 비교한다. ICRA·IROS의 method paper 다수가 여기 들어간다.
+가설 검정. "BEV feature pyramid는 night-time loop closure recall을 raw image보다 높인다"는 한 줄짜리 명제가 있다. 명제가 참이라면 night benchmark에서 BEV-feature 기반 retrieval의 recall@1이 image-feature baseline보다 통계적으로 유의하게 높을 것이라는 그림을 미리 그린다. 실험은 그 그림과 실제 측정을 비교한다. ICRA·IROS의 방법 논문 다수가 여기 들어간다.
 
-측정. "KITTI-360, MulRan, Boreas 세 dataset에서 LIO-SAM·KISS-ICP·SuMa 세 system의 RTE 분포는 어떻게 다른가"는 명제가 아니라 정량 질문이다. 결정해야 하는 답은 옳은가/그른가가 아니라 얼마인가, 어떤 분포인가다. T-RO·IJRR의 benchmark·survey paper, 그리고 일부 dataset paper가 여기 들어간다.
+측정. "KITTI-360, MulRan, Boreas 세 dataset에서 LIO-SAM·KISS-ICP·SuMa 세 system의 RTE 분포는 어떻게 다른가"는 명제가 아니라 정량 질문이다. 결정해야 하는 답은 옳은가/그른가가 아니라 얼마인가, 어떤 분포인가다. T-RO·IJRR의 benchmark·survey 논문, 그리고 일부 dataset 논문이 여기 들어간다.
 
-추측 증명. "outlier ratio가 30% 미만일 때 graduated non-convexity가 global optimum으로 수렴한다"는 명제는 데이터로 결정할 작업이 아니다. 가정과 정리의 형태로 적히고, 증명이 결정의 도구가 된다. T-RO, IJRR의 일부 theoretical paper, 그리고 control·optimization 쪽 논문이 여기 들어간다. 다만 한국 lab에서는 빈도가 낮다.
+추측 증명. "outlier ratio가 30% 미만일 때 graduated non-convexity가 global optimum으로 수렴한다"는 명제는 데이터로 결정할 작업이 아니다. 가정과 정리의 형태로 적히고, 증명이 결정의 도구가 된다. T-RO, IJRR의 일부 theoretical 논문, 그리고 control·optimization 쪽 논문이 여기 들어간다. 다만 한국 연구실에서는 빈도가 낮다.
 
-학제간 융합. "communication theory의 vector quantization codebook 학습 절차를 visual place recognition descriptor에 적용한다"는 작업은 도구의 출처가 다른 분야이고 적용 대상이 본 분야다. 융합은 단순 적용으로 끝나지 않고 적용 과정에서 새로운 문제 정의를 동반하는 경우가 많다. CVPR의 cross-domain paper, ICRA의 learning-based perception paper 일부가 여기 들어간다.
+학제간 융합. "communication theory의 vector quantization codebook 학습 절차를 visual place recognition descriptor에 적용한다"는 작업은 도구의 출처가 다른 분야이고 적용 대상이 본 분야다. 융합은 단순 적용으로 끝나지 않고 적용 과정에서 새로운 문제 정의를 동반하는 경우가 많다. CVPR의 cross-domain 논문, ICRA의 learning-based perception 논문 일부가 여기 들어간다.
 
-분야 단면을 한 줄로 적는다. 한국 robotics lab은 가설 검정과 학제간 융합 빈도가 높고 측정과 증명 빈도가 낮다. venue로 옮기면 ICRA·IROS·CVPR은 type 1·4 우세, T-RO·IJRR은 type 2·3 비중이 높다. 한 lab이 type 1·4에만 몰리면 venue 선택의 자유도가 좁아진다.
+분야 단면을 한 줄로 적는다. 한국 robotics 연구실은 가설 검정과 학제간 융합 빈도가 높고 측정과 증명 빈도가 낮다. venue로 옮기면 ICRA·IROS·CVPR은 type 1·4 우세, T-RO·IJRR은 type 2·3 비중이 높다. 한 연구실이 type 1·4에만 몰리면 venue 선택의 자유도가 좁아진다.
 
 > type 다양화는 venue 선택의 자유도를 늘린다. type 2·3 작업을 한 번씩이라도 시도해 두면 졸업까지의 publication 분포가 균형을 잡는다.
 

@@ -14,9 +14,9 @@
 
 **입력 2 — 신뢰 그룹·저자·랩 페이지.** ch01에서 정한 신뢰 prior가 있는 그룹·저자의 신작을 받는다. cold start 그룹을 많이 follow하면 alert가 다시 잡음으로 바뀐다. 신뢰는 alert가 만들어 주지 않는다. 신뢰가 쌓인 뒤에 alert를 거는 편이 맞다.
 
-**입력 3 — venue와 review surface.** 학회 proceedings, OpenReview thread, accepted paper list, workshop page, tutorial page가 여기에 들어간다. 여기서는 어떤 논문이 어느 자리에서 논쟁됐는가가 보인다. rebuttal과 reviewer discussion이 공개된 venue에서는 abstract보다 review thread가 더 빠른 triage 신호가 되기도 한다.
+**입력 3 — venue와 심사 surface.** 학회 proceedings, OpenReview thread, accepted 논문 list, 워크숍 page, tutorial page가 여기에 들어간다. 여기서는 어떤 논문이 어느 자리에서 논쟁됐는가가 보인다. 답변서와 심사위원 토의가 공개된 venue에서는 초록보다 심사 thread가 더 빠른 triage 신호가 되기도 한다.
 
-**입력 4 — 해설과 큐레이션.** 분야 senior blog, lab note, tutorial slide, newsletter, 긴 form의 해설 글이다. 들어오는 것은 왜 이 논문이 중요한가의 해석이다. paper가 못 잡은 디테일이 senior의 blog에 풀려 있는 사례가 많은 만큼, 본 형식의 정독+구현 사이클은 [Ch.14](./chapter_14_reading_with_code.md)에서 자세히 다룬다.
+**입력 4 — 해설과 큐레이션.** 분야 senior blog, 연구실 note, tutorial slide, newsletter, 긴 form의 해설 글이다. 들어오는 것은 왜 이 논문이 중요한가의 해석이다. 논문이 못 잡은 디테일이 senior의 blog에 풀려 있는 사례가 많은 만큼, 본 형식의 정독+구현 사이클은 [Ch.14](./chapter_14_reading_with_code.md)에서 자세히 다룬다.
 
 SNS는 별도 입력 시스템으로 세지 않는다. 좋은 신호가 들어오기도 하지만 휘발성이 강하고, 클릭하는 순간 다른 것까지 같이 끌고 온다. 학회 주간에만 켜거나, 이미 신뢰하는 사람의 thread를 나중에 확인하는 정도면 충분하다.
 
@@ -37,7 +37,7 @@ weekly brief가 답해야 할 질문은 정해져 있다.
 | 어디를 확인해야 하는가 | abstract·figure·table·OpenReview 위치 |
 | 무엇을 안 읽을 것인가 | 제외 후보와 제외 이유 |
 
-AI에는 metadata와 abstract에 더해 source URL, project page, code link, OpenReview link가 있으면 같이 넣는다. 그러고 나서 "후보를 고르되 각 후보마다 근거 위치를 붙이고, 근거가 없으면 없음이라고 표시하라"고 묻는다. 한 시간짜리 weekly 블록은 AI가 올린 후보와 제외 사유를 검증하는 시간으로 바뀐다.
+AI에는 metadata와 초록에 더해 source URL, project page, 코드 link, OpenReview link가 있으면 같이 넣는다. 그러고 나서 "후보를 고르되 각 후보마다 근거 위치를 붙이고, 근거가 없으면 없음이라고 표시하라"고 묻는다. 한 시간짜리 weekly 블록은 AI가 올린 후보와 제외 사유를 검증하는 시간으로 바뀐다.
 
 AI 선별 결과를 읽었다고 착각하지 않는다. 0차 후보 선별과 근거 위치 후보까지가 AI의 몫이고, 1st pass는 본인이 들어간다. AI가 만든 5 Cs를 그대로 노트에 박아두면, 6개월 후 본인의 노트가 본인이 통과한 자료가 아닌 AI가 통과한 자료의 누적이 된다. 노트에 남길 것은 본인이 확인한 근거 위치와 다음 결정이다.
 

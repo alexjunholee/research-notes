@@ -1,6 +1,6 @@
 # Ch.26 — 결과와 논의
 
-Results와 Discussion이 별도 섹션이라는 사실이 신입생 입장에서 가장 자주 흐려지는 관점이다. 결과의 명시와 결과의 해석이 한 섹션에 섞이면 reviewer 입장에서 어느 줄이 새 정보이고 어느 줄이 해석인지 추적이 안 된다. ch04 §5의 content와 conclusion 스케일이 섞인다 결함이 두 섹션 사이에서 가장 자주 발현한다.
+Results와 Discussion이 별도 섹션이라는 사실이 신입생 입장에서 가장 자주 흐려지는 관점이다. 결과의 명시와 결과의 해석이 한 섹션에 섞이면 reviewer 입장에서 어느 줄이 새 정보이고 어느 줄이 해석인지 추적이 안 된다. ch04 §5의 content와 conclusion 스케일이 섞인다는 결함이 두 섹션 사이에서 가장 자주 발현한다.
 
 [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 5와 rule 8이 두 섹션의 분담을 정식화한다. Results는 figure·table·숫자가 박히는 곳, Discussion은 왜 그런 결과가 나왔는가와 어디까지가 한계인가를 받는 곳. 결국 새 결과는 Discussion에 들어가지 않는다는 한 줄이 두 섹션을 가르는 분기점이다.
 

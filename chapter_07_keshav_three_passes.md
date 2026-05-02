@@ -28,7 +28,7 @@ Keshav §2.1은 1st pass를 "bird's-eye view"로 적는다. 다섯에서 십 분
 
 읽는 곳은 정해져 있다. title, abstract, intro, 각 section·subsection 헤딩, conclusion, 그리고 reference 목록을 한 번 훑는 정도다. 본문 단락, 수식, figure caption의 디테일에는 들어가지 않는다.
 
-이 패스의 출력은 5 Cs — 종류, 맥락, 타당성, 기여, 명료성 — 다섯 칸짜리 요약이다 (Ch.3에서 시트로 다룬다). 5 Cs를 채운 직후 중단 / 보류 / 진행 셋 중 하나를 결정한다. 5분 안에 5 Cs가 다 채워지지 않으면 두 갈래다. 글쓴이가 abstract를 망쳤거나, 읽는 쪽 배경이 부족하다. 둘 다 멈춤 신호로 받는다.
+이 패스의 출력은 5 Cs — 종류, 맥락, 타당성, 기여, 명료성 — 다섯 칸짜리 요약이다 (Ch.3에서 시트로 다룬다). 5 Cs를 채운 직후 중단 / 보류 / 진행 셋 중 하나를 결정한다. 5분 안에 5 Cs를 다 채우지 못하면 두 갈래다. 글쓴이가 abstract를 망쳤거나, 읽는 쪽 배경이 부족하다. 둘 다 멈춤 신호로 받는다.
 
 ---
 
@@ -60,7 +60,7 @@ Keshav §2.3은 3rd pass를 "to virtually re-implement the paper"로 적는다. 
 | 2 | 본문·figure·graph (axis·error bar 포함) | 증명 디테일·미상 ref 추적 | 한 단락 요약 | ≤ 1시간 |
 | 3 | 전체 + 가정 점검 + 재구현 시도 | (없음) | 가정·약점·기법 목록 | 4–5시간 (숙련자 ~1시간) |
 
-Keshav가 §2 마지막에 환기하는 점은 패스 사이의 의존성이다. 1st pass 없이 2nd pass에 바로 들어가면 본문 어디에 시간을 쓸지 잡히지 않고, 2nd pass 없이 3rd pass에 들어가면 재구현할 핵심이 잡히지 않는다. 그래서 패스를 건너뛰지 않는 권고가 그 의존성에서 나온다.
+Keshav가 §2 마지막에 환기하는 점은 패스 사이의 의존성이다. 1st pass 없이 2nd pass에 바로 들어가면 본문 어디에 시간을 쓸지 잡지 못하고, 2nd pass 없이 3rd pass에 들어가면 재구현할 핵심을 잡지 못한다. 그래서 패스를 건너뛰지 않는 권고가 그 의존성에서 나온다.
 
 ---
 
@@ -74,7 +74,7 @@ Keshav가 §2 마지막에 환기하는 점은 패스 사이의 의존성이다.
 
 ## 7.6 읽기를 도와주는 도구
 
-3-pass 절차 위에 한 층위가 더 얹혀 있는 시점이다. 1st pass에서 abstract와 conclusion을 읽은 직후 paper packet — 논문 URL, PDF, project page, code, OpenReview나 supplementary가 있으면 그것까지 — 을 AI에 넣고 질문을 건다. 질문은 요약해 줘가 아니라 contribution claim 세 개와 각 claim의 근거 위치를 찾아 줘, related work에서 가장 자주 비교되는 baseline과 그 표/문단 위치를 짚어 줘, Eq. 5가 어떤 가정에서 나오는지 단계별로 풀고 모르면 모른다고 표시해 줘 쪽이 낫다. 2nd pass의 정독 단계에서 본문 어디에 시간을 쓸지 좌표가 더 빨리 잡히고, 한 시간 상한 안에서 ref 한두 편의 1st pass에 쓸 시간이 그만큼 확보된다.
+3-pass 절차 위에 한 층위가 더 얹혀 있는 시점이다. 1st pass에서 abstract와 conclusion을 읽은 직후 paper packet — 논문 URL, PDF, project page, code, OpenReview나 supplementary가 있으면 그것까지 — 을 AI에 넣고 질문을 건다. 질문은 요약해 줘가 아니라 contribution claim 세 개와 각 claim의 근거 위치를 찾아 줘, related work에서 가장 자주 비교되는 baseline과 그 표/문단 위치를 짚어 줘, Eq. 5가 어떤 가정에서 나오는지 단계별로 풀고 모르면 모른다고 표시해 줘 쪽이 낫다. 2nd pass의 정독 단계에서 본문 어디에 시간을 쓸지 좌표를 더 빨리 잡고, 한 시간 상한 안에서 ref 한두 편의 1st pass에 쓸 시간을 그만큼 확보한다.
 
 > AI가 찾아 준 근거 위치가 틀리면 그 결과는 버린다. 논문의 미묘한 가정, limitation 섹션의 뉘앙스, 실험 세팅의 세부 사항은 직접 읽어야 한다.
 

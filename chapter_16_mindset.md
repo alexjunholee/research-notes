@@ -34,7 +34,7 @@ reject 사유는 거창하지 않다. notation 불일치, baseline 비교 누락
 
 해결책은 모방이다. 자기 분야 인용 100 이상 논문을 한 편 골라 표현부터 figure 레이아웃까지 따라 쓴다. 임형태 박사는 박사 시절 [He et al. 2016](https://arxiv.org/abs/1512.03385) ResNet 논문의 모든 문단을 거의 외우다시피 필사하며 영어 글쓰기를 익혔다고 적었다.
 
-분야별 추천도 있다. 로보틱스라면 [Cyrill Stachniss 그룹](https://scholar.google.com/citations?user=8vib2lAAAAAJ&hl=en) 논문이 자주 추천된다. "논문은 이야기책처럼 술술 읽혀야 한다"가 그 그룹의 신조이고, 이 신조가 구조와 문장 양쪽에 일관되게 적용된다.
+분야별 추천도 있다. 로보틱스라면 [Cyrill Stachniss 그룹](https://scholar.google.com/citations?user=8vib2lAAAAAJ&hl=en) 논문이 자주 추천된다. "논문은 이야기책처럼 술술 읽혀야 한다"가 그 그룹의 신조이고, 그 그룹은 이 신조를 구조와 문장 양쪽에 일관되게 적용한다.
 
 [엄태웅 대표 G2 「영어 못해도 논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net/terry/englishpaperwriting/)는 같은 권고를 이렇게 옮겼다.
 

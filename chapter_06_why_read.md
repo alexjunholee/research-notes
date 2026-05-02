@@ -2,7 +2,7 @@
 
 [Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) 도입부는 "연구자는 매년 수백 시간을 논문 읽기에 쓴다"라는 관찰로 시작한다. 2007년의 관찰이고, arXiv가 하루에 수백 편씩 새 프리프린트를 받는 지금의 분야에서는 이 수치가 더 이상 충분치 않다. paper graph와 alert가 한 주에 수십 편을 밀어 넣는 동안 한 편도 끝까지 읽지 못했다는 후배의 푸념이 흔한 풍경이 됐다.
 
-[임형태 박사](https://github.com/LimHyungTae/paper-writing-checklist)는 비슷한 맥락에서 "다 읽으려 들지 마라"는 권고를 자주 든다. 다 읽기를 시도하는 순간 한 편도 못 읽는 상태로 빠진다는 관찰이다. 그래서 읽기 전에 먼저 결정할 것은 무엇을 안 읽을지가 된다.
+[임형태 박사](https://github.com/LimHyungTae/paper-writing-checklist)는 비슷한 맥락에서 "다 읽으려 들지 마라"는 권고를 자주 든다. 다 읽기를 시도하는 순간 한 편도 못 읽는 상태로 빠진다는 관찰이다. 그래서 읽기 전에 먼저 무엇을 안 읽을지를 결정한다.
 
 ---
 
@@ -24,7 +24,7 @@
 
 **Figure 1 test.** figure 1을 30초 본 후 한 줄 message가 잡히지 않으면 보류한다. [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 6은 figure 1이 논문 전체의 논증을 한 컷으로 담아야 한다고 적는다. 한 컷에서 message가 안 잡히면 글쓴이 본인이 아직 논증을 못 잡았다는 신호로 읽는다.
 
-**Abstract의 broad-narrow-broad 구조.** Mensh-Kording rule 5는 abstract가 broad 도입 → 핵심 narrow → broad 함의의 모래시계 구조를 가진다고 적는다. 이 구조가 무너진 abstract는 글쓴이가 자기 message를 못 잡았다는 1차 신호인 한편, abstract 첫 두 문장과 마지막 두 문장만 보고 모래시계가 잡히는지 30초 안에 판단해 본다.
+**Abstract의 broad-narrow-broad 구조.** Mensh-Kording rule 5는 abstract가 broad 도입 → 핵심 narrow → broad 함의의 모래시계 구조를 가진다고 적는다. 이 구조가 무너진 abstract는 글쓴이가 자기 message를 못 잡았다는 1차 신호다. 그래서 abstract 첫 두 문장과 마지막 두 문장만 보고 모래시계가 잡히는지 30초 안에 판단해 본다.
 
 네 신호 모두 빠른 거절을 위한 것이다. 빠른 거절이 빠른 읽기를 가능케 하는 만큼, 선별은 읽기의 첫 단계로 다루는 편이 자연스럽다.
 

@@ -2,7 +2,7 @@
 
 "이 분야 논문 좀 읽어 와." 분야에 막 들어온 학생이 가장 자주 듣는 첫 지시다. 지도교수는 분야의 이름까지만 일러준다. 그 안에서 무엇이 끝났고 무엇이 남았는지는 학생이 직접 추출한다. 그 작업에 먼저 필요한 것은 한 장의 지도다.
 
-이 장이 받는 학생은 "이미 주제가 있는 학생"보다 한 단계 앞에 서 있다. 주제도 흐릿하고, 어떤 venue가 중요한지도 모르고, 좋은 저자의 이름은 한둘뿐인 단계다. 한 달 안에 분야 지도를 그리는 도구로 리뷰 논문 한 편, 인용 그래프, hypothesis placeholder 셋을 잡는다. Part 1 ch02의 Keshav 3-pass는 논문 한 편 단위의 읽기 전략이고, 이 장은 분야 단위의 진입 전략이다. 적용 층위가 다른 두 단계다.
+분야에 막 들어온 학생은 "이미 주제가 있는 학생"보다 앞선 단계, 곧 아직 주제도 흐릿한 시점에 있다. 어떤 venue가 중요한지도 모르고, 좋은 저자의 이름은 한둘뿐인 단계다. 한 달 안에 분야 지도를 그리는 도구로 리뷰 논문 한 편, 인용 그래프, hypothesis placeholder 셋을 잡는다. Part 1 ch02의 Keshav 3-pass는 논문 한 편 단위의 읽기 전략이고, 여기서는 분야 단위의 진입 전략을 다룬다. 적용 층위가 다른 두 단계다.
 
 ---
 
@@ -37,11 +37,11 @@
 
 리뷰 한 편을 잡았다고 해서 분야 지도가 완성되지는 않는다. 리뷰는 한 시점의 단면이다. 그 시점 이후의 연구와 그 리뷰가 빠뜨린 subfield는 보이지 않는다. 단면을 입체로 키우려면 [Keshav 2007 §3](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)의 literature survey workflow가 필요하다.
 
-Keshav가 §3에 적은 절차는 단순하다. 2026년에 같은 절차를 실행하면 도구만 바뀐다. (1) Google Scholar·Semantic Scholar·OpenAlex·Connected Papers 같은 paper graph에서 분야 keyword로 최근 논문 3–5편을 seed로 찾고, 각각 1st pass로 본다. seed의 related-work에 좋은 서베이가 인용돼 있으면 거기서 끝이다. (2) seed들의 reference 목록과 forward citation을 같이 보며 공유 인용과 반복되는 저자를 추출한다. 여러 seed가 동시에 인용한 논문이 분야의 핵심 논문이고, 반복되는 저자가 분야의 핵심 연구자다. 그 연구자의 publication list에서 반복되는 venue가 곧 그 분야의 top conference다. (3) top venue의 최근 proceedings·OpenReview·project page를 훑어 최근 고품질 논문을 추가로 흡수한다. (4) 새로 흡수한 논문이 또 다른 "모두가 인용하는" 핵심 논문을 가리키면 그 논문도 가져와 반복한다. 새로운 핵심이 더 안 나오면 종료다.
+Keshav가 §3에 적은 절차는 단순하다. 2026년에 같은 절차를 실행하면 도구만 바뀐다. (1) Google Scholar·Semantic Scholar·OpenAlex·Connected Papers 같은 paper graph에서 분야 keyword로 최근 논문 3–5편을 seed로 찾고, 각각 1st pass로 본다. seed의 related-work에 좋은 서베이가 인용돼 있으면 거기서 끝이다. (2) seed들의 참고문헌 목록과 forward citation을 같이 보며 공유 인용과 반복되는 저자를 추출한다. 여러 seed가 동시에 인용한 논문이 분야의 핵심 논문이고, 반복되는 저자가 분야의 핵심 연구자다. 그 연구자의 publication list에서 반복되는 venue가 곧 그 분야의 top conference다. (3) top venue의 최근 proceedings·OpenReview·project page를 훑어 최근 고품질 논문을 추가로 흡수한다. (4) 새로 흡수한 논문이 또 다른 "모두가 인용하는" 핵심 논문을 가리키면 그 논문도 가져와 반복한다. 새로운 핵심이 더 안 나오면 종료다.
 
-최윤섭 박사가 한국어로 적은 "꼬리에 꼬리·인용 추적 3단계"는 같은 절차의 다른 표현이다. 한국어 표현이 더 직관적이지만, 길을 잃은 순간에는 정형화된 영어 procedure로 돌아가야 좌표가 빠르게 회복된다.
+최윤섭 박사가 한국어로 적은 "꼬리에 꼬리·인용 추적 3단계"는 같은 절차의 다른 표현이다. 한국어 표현이 더 직관적이지만, 길을 잃은 순간에는 정형화된 영어 절차로 돌아가야 좌표가 빠르게 회복된다.
 
-> citation-overlap survey는 backward 인용과 forward 인용을 같이 본다. Keshav가 §3에 적은 backward citation (reference 목록 추적)만으로는 최근 동향이 빠진다. Google Scholar·Semantic Scholar·OpenAlex의 citation graph로 forward citation — seed를 인용한 후속 논문 — 을 같이 추적한다.
+> citation-overlap survey는 backward 인용과 forward 인용을 같이 본다. Keshav가 §3에 적은 backward citation (참고문헌 목록 추적)만으로는 최근 동향이 빠진다. Google Scholar·Semantic Scholar·OpenAlex의 citation graph로 forward citation — seed를 인용한 후속 논문 — 을 같이 추적한다.
 
 ---
 
@@ -49,11 +49,11 @@ Keshav가 §3에 적은 절차는 단순하다. 2026년에 같은 절차를 실�
 
 [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767)는 §1에 "A paper is not just an archival device for storing a completed research program; it is also a structure for planning your research in progress"라고 적었다. 논문은 진행 중인 연구를 기획하는 구조라는 선언이다. 같은 개념은 [Ch.17 — 아웃라인 우선](./chapter_17_outline_first.md)의 `[HYPOTHESIS]` placeholder와 이어진다.
 
-이 장은 그 placeholder를 분야 진입 단계에서도 적용한다. 리뷰를 읽으며, 본인이 풀고 싶은 질문의 자리를 한 줄로 그려 둔다. 진짜 가설이 아니어도 괜찮고, 한 달 뒤에 통째로 갈아엎을 placeholder여도 괜찮다. 빈 줄만 잡혀 있으면, 다음에 읽는 논문이 그 자리에서 얼마나 떨어져 있는지가 측정된다.
+같은 placeholder를 분야 진입 단계에도 적용한다. 리뷰를 읽으며, 본인이 풀고 싶은 질문의 자리를 한 줄로 그려 둔다. 진짜 가설이 아니어도 괜찮고, 한 달 뒤에 통째로 갈아엎을 placeholder여도 괜찮다. 빈 줄만 잡혀 있으면, 다음에 읽는 논문이 그 자리에서 얼마나 떨어져 있는지가 측정된다.
 
 > hypothesis placeholder는 진입 단계에서는 한 줄짜리 stub로 충분하다. "X subfield에서 Y가 아직 안 풀렸고, 나는 Z 방향을 보고 싶다" 정도면 된다. 점차 채운다.
 
-이 placeholder가 다음 챕터([Ch.2 — 문제 정의: Feynman 3-step과 잘못된 질문](./chapter_02_feynman_problem.md))의 첫 줄, 파인만이 말한 "write down the problem"의 입력으로 이어진다. 분야 진입과 문제 정의가 한 흐름으로 묶인다.
+이 placeholder가 [Ch.2 — 문제 정의: Feynman 3-step과 잘못된 질문](./chapter_02_feynman_problem.md)의 첫 줄, 파인만이 말한 "write down the problem"의 입력으로 이어진다. 분야 진입과 문제 정의가 한 흐름으로 묶인다.
 
 ---
 
@@ -63,7 +63,7 @@ Keshav가 §3에 적은 절차는 단순하다. 2026년에 같은 절차를 실�
 
 로보틱스 쪽 review는 보통 [T-RO (IEEE Transactions on Robotics)](https://www.ieee-ras.org/publications/t-ro), [IJRR (International Journal of Robotics Research)](https://journals.sagepub.com/home/ijr), [RAS (Robotics and Autonomous Systems)](https://www.sciencedirect.com/journal/robotics-and-autonomous-systems)에 실린다. SLAM이라면 Cadena et al. 2016, motion planning이라면 LaValle의 Planning Algorithms 같은 reference book이 reference 역할을 한다. CV 쪽 review는 [TPAMI (IEEE Transactions on Pattern Analysis and Machine Intelligence)](https://www.computer.org/csdl/journal/tp)에 실리는 경우가 많고, CVPR/ICCV/ECCV의 tutorial track에서 신생 subfield의 review 격 자료가 나온다.
 
-entry tool로는 다음 4종이 잘 알려져 있다.
+분야 진입에는 다음 4종이 잘 알려져 있다.
 
 - [Google Scholar Profile](https://scholar.google.com): 분야 핵심 저자의 profile에 들어가 publication list를 시간순/인용순으로 본다. 인용수 top 10이 그 저자의 분야 입장을 압축한다.
 - [arXiv cs.RO / cs.CV](https://arxiv.org/list/cs.RO/recent): firehose지만 keyword + "survey" / "review" / "tutorial" 조합으로 검색하면 review 후보가 줄어든다.
@@ -76,7 +76,7 @@ entry tool로는 다음 4종이 잘 알려져 있다.
 
 ---
 
-분야 진입의 한 달은 본인이 어디에 서 있는지를 좌표화하는 시간이다. 리뷰 한 편(또는 신생 subfield라면 §5의 best paper·tutorial·thesis 대체) → 최윤섭 박사 4개 질문 → citation overlap → hypothesis placeholder 순으로 한 바퀴를 돌고 나면, 다음 챕터의 입력 — "문제 정의" — 이 준비된다. 좌표가 잡힌 뒤에야 비로소 잘못된 질문과 맞는 질문이 갈라진다. 다음 챕터의 첫 줄 "write down the problem"은 그제야 빈칸이 아니다.
+분야 진입의 한 달은 본인이 어디에 서 있는지를 좌표화하는 시간이다. 리뷰 한 편(또는 신생 subfield라면 §5의 best paper·tutorial·thesis 대체) → 최윤섭 박사 4개 질문 → citation overlap → hypothesis placeholder 순으로 한 바퀴를 돌고 나면 "문제 정의"의 입력이 준비된다. 좌표가 잡힌 뒤에야 비로소 잘못된 질문과 맞는 질문이 갈라진다. "write down the problem"은 그제야 빈칸이 아니다.
 
 ---
 

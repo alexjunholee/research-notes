@@ -6,11 +6,11 @@
 
 ## 발췌
 
-Abstract 도입부:
+초록 도입부:
 
 > Robust and accurate pose estimation of a robotic platform, so-called sensor-based odometry, is an essential part of many robotic applications. While many sensor odometry systems made progress by adding more complexity to the ego-motion estimation process, we move in the opposite direction. By removing a majority of parts and focusing on the core elements, we obtain a surprisingly effective system that is simple to realize and can operate under various environmental conditions using different LiDAR sensors.
 
-Introduction body가 같은 3-beat를 반복:
+서론 본문도 같은 세 박자를 반복한다.
 
 > This paper returns to the roots: classical point-to-point ICP, introduced 30 years ago by Besl and McKay. … Our design uses neither sophisticated feature extraction techniques, learning methods, nor loop closures. The same parameter set works in various challenging scenarios such as highway drives of robot cars with many dynamic objects, drone flights, handheld devices, segways, and more.
 
@@ -25,15 +25,15 @@ Introduction body가 같은 3-beat를 반복:
 
 ## 분석 — 왜 이 표현이 좋은가
 
-논문의 abstract와 introduction이 함께 도입의 정석을 보여 준다. 짧은 폭 안에 분야 통증, 기존 방법의 누적된 복잡함, 자신들의 단순한 해법이 차례로 놓인다. abstract 첫 문장은 LiDAR odometry가 모바일 로보틱스의 핵심 기능임을 짚는다("essential part of many robotic applications"). 두 번째 문장이 기존 방향성을 한 호흡으로 요약한다 — adding more complexity. 그리고 같은 문장 끝에 반전 동사가 등장한다 — we move in the opposite direction. 이 한 문장 안에 통증·기존 흐름·우리의 자세가 모두 들어 있다. 다음 문장의 removing a majority of parts가 그 자세를 행동으로 풀어내고, 마지막에 contribution 형용사 surprisingly effective, simple이 강조 자리에 놓인다.
+논문의 초록과 서론은 함께 도입의 정석을 보여 준다. 짧은 지면 안에 분야의 통증, 기존 방법에 쌓인 복잡함, 저자들의 단순한 해법이 차례로 놓인다. 초록 첫 문장은 LiDAR odometry가 모바일 로보틱스의 핵심 기능임을 짚는다("essential part of many robotic applications"). 두 번째 문장은 기존 방향을 adding more complexity라는 말로 요약하고, 문장 끝의 we move in the opposite direction에서 방향을 뒤집는다. 이 한 문장에 통증·기존 흐름·저자들의 자세가 모두 들어 있다. 다음 문장의 removing a majority of parts는 그 자세를 행동으로 풀어내고, 마지막에는 surprisingly effective와 simple이라는 기여의 형용사가 놓인다.
 
-3-beat가 깔끔히 작동하는 이유는 강조 위치(stress position)에 강조거리가 정확히 놓여 있기 때문이다. 두 번째 문장의 끝, 독자가 가장 오래 기억하는 위치에 opposite direction이 놓여 다음 문장의 동력을 만든다. 그 다음 문장의 끝에는 simple to realize 등 contribution claim이 정확히 자리 잡는다. 한 문장의 stress position이 다음 문장의 topic position으로 이어지는 old-before-new 사슬이 단락 전체를 끌고 간다. Gopen과 Swan이 말한 reader expectation의 단락 단위 적용이 살아 있는 사례다.
+세 박자가 깔끔하게 이어지는 까닭은 강조 위치(stress position)에 강조할 내용이 정확히 놓였기 때문이다. 독자가 오래 기억하는 두 번째 문장의 끝에 opposite direction이 놓여 다음 문장을 이끈다. 그다음 문장의 끝에는 simple to realize 같은 기여 주장이 자리 잡는다. 한 문장의 stress position이 다음 문장의 topic position으로 이어지는 old-before-new 사슬이 단락 전체를 끌고 간다. Gopen과 Swan이 말한 reader expectation을 단락에 적용한 사례다.
 
-부제 In Defense of Point-to-Point ICP가 본문 어조에 그대로 살아 있다. "옹호한다(in defense of)"는 표현은 우리가 새로 발명했다가 아니라 기존의 단순한 도구가 부당하게 평가절하되었다는 자세를 선언한다. introduction 본문의 This paper returns to the roots: classical point-to-point ICP, introduced 30 years ago by Besl and McKay가 같은 자세를 한 줄로 압축한다. "returns to the roots"라는 표현이 30년 된 알고리즘을 다시 꺼내드는 행위를 후퇴가 아닌 복귀로 프레이밍한다. 후배가 자신의 단순한 baseline을 옹호하고 싶을 때 빌릴 수 있는 어조다. 도전적이지만 점잖다.
+부제 In Defense of Point-to-Point ICP가 본문 어조에 그대로 살아 있다. "옹호한다(in defense of)"는 표현은 "우리가 새로 발명했다"가 아니라 "기존의 단순한 도구가 부당하게 평가절하되었다"는 자세를 선언한다. introduction 본문의 This paper returns to the roots: classical point-to-point ICP, introduced 30 years ago by Besl and McKay가 같은 자세를 한 줄로 압축한다. "returns to the roots"라는 표현이 30년 된 알고리즘을 다시 꺼내드는 행위를 후퇴가 아닌 복귀로 프레이밍한다. 후배가 자신의 단순한 baseline을 옹호하고 싶을 때 빌릴 수 있는 어조다. 도전적이지만 점잖다.
 
-이 단락 그 자체가 mini-CCC다. abstract 첫 문장에 context(분야 정의)가 깔리고, 두 번째에 content의 반전이 채워지며, 세 번째 이후에 conclusion(단순한 해법으로 충분함)이 닫힌다. Mensh와 Kording이 rule 3에서 권한 단락 단위 CCC가 abstract 첫 단락에서 그대로 구현된다. 가이드 Part 2 ch04에서 다룬 CCC fractal이 in-the-wild에서 어떻게 작동하는지 보여 주는 가장 깔끔한 사례 중 하나다.
+이 단락은 작은 CCC이기도 하다. 초록 첫 문장에 context(분야 정의)가 놓이고, 두 번째 문장에서 content의 방향을 뒤집으며, 세 번째 문장 이후에는 conclusion(단순한 해법으로 충분함)을 제시한다. Mensh와 Kording이 규칙 3에서 권한 단락 단위 CCC가 초록 첫 단락에서 그대로 구현된다. Part 2 ch04에서 다룬 CCC fractal이 실제 논문에서 작동하는 모습을 보여 주는 사례다.
 
-한 가지 더. 이 hook은 분야 통증을 과장하지 않는다. "LiDAR odometry는 풀리지 않은 거대 난제다"라 외치지 않고, 로봇 응용의 흔한 구성요소라 담담히 적는다("essential part of many robotic applications"). 후배 글쓰기에서 흔히 보이는 over-claiming — "이 분야는 위기에 처해 있다" 류 — 의 반대 방향이다. 통증이 작아 보일수록 "그런데 우리는 더 단순한 해법을 들고 왔다"는 contribution이 선명해진다. 통증의 크기와 contribution의 크기는 비례가 아니라 비대칭으로 짜는 편이 효과적이다. KISS-ICP는 이 비대칭이 제목, 부제, abstract 첫 두 문장, introduction 첫 단락에 일관되게 흐른다.
+이 hook은 분야의 통증을 과장하지 않는다. "LiDAR odometry는 풀리지 않은 거대 난제다"라고 외치지 않고, 로봇 응용의 흔한 구성요소라고 담담하게 적는다("essential part of many robotic applications"). 후배의 글에서 흔히 보이는 "이 분야는 위기에 처해 있다" 같은 과대주장과 반대되는 태도다. 통증을 작게 제시할수록 "그런데 우리는 더 단순한 해법을 들고 왔다"는 기여가 선명해진다. 통증과 기여의 크기는 비례시키기보다 비대칭으로 짜는 편이 효과적이다. KISS-ICP는 이 비대칭을 제목, 부제, 초록 첫 두 문장, 서론 첫 단락에서 일관되게 유지한다.
 
 ---
 

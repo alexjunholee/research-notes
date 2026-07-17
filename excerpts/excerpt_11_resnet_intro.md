@@ -23,31 +23,31 @@ Introduction 후반의 degradation 진술 한 줄:
 
 ## 한국어 의역
 
-깊은 신경망은 학습이 더 어렵다. 이 논문은 지금까지보다 훨씬 깊은 망의 학습을 수월하게 만드는 residual learning 골격을 내놓는다. 깊이의 중요성 위에서 한 질문이 자연스럽게 따라온다 — 더 좋은 망을 만드는 일이 단순히 층위를 더 쌓는 일만큼 쉬운가. 이 질문에 답하기 어려웠던 한 자리는 vanishing/exploding gradient라는 잘 알려진 문제였다. 그런데 그 문제를 normalization 기법들로 어느 정도 풀고 나서도, 깊이가 더 늘어나자 예상과 다른 자리에서 정확도가 포화하다 떨어지는 현상이 관찰됐다 — 학습 자체에 문제가 없는데도 깊은 망이 얕은 망보다 학습 오류까지 높아졌다. 이 현상이 overfitting과 분리되는 한 지점이 본 논문의 출발점이다.
+깊은 신경망은 학습하기가 더 어렵다. 이 논문은 지금까지보다 훨씬 깊은 망을 쉽게 학습하기 위한 residual learning 골격을 내놓는다. 여기서 한 질문이 자연스럽게 따라온다. 더 좋은 망을 만드는 일이 단순히 층을 더 쌓는 일만큼 쉬운가? 이 질문에 답하기 어려웠던 까닭은 잘 알려진 vanishing/exploding gradient 문제였다. 그런데 normalization 기법으로 그 문제를 어느 정도 푼 뒤에도 깊이가 늘어나자 정확도가 포화한 뒤 떨어지는 현상이 관찰됐다. 학습 자체에는 문제가 없는데도 깊은 망의 학습 오류가 얕은 망보다 높아졌다. 이 현상이 overfitting과 다르다는 지점에서 논문이 출발한다.
 
 ---
 
 ## 분석 — 왜 이 표현이 좋은가
 
-KISS-ICP가 we move in the opposite direction으로 자세 전환을 평서문에 박았다면, ResNet은 같은 자리를 수사적 질문에 박았다. Is learning better networks as easy as stacking more layers? — 이 한 문장이 분야의 기본 가정을 질문의 형태로 드러내고, 다음 문장이 그 기본이 작동하지 않는 자리를 짚는다. mensh-kording rule 6의 분야 통증 → 기존 한계 → 우리 접근 골격이 평서문 3-beat 대신 질문 + 장애물 + 반전의 3-beat로 변형된 사례다. 후배가 자기 분야의 기본 가정을 직접 부정하기 어려울 때, 그 가정을 질문으로 던지는 우회로가 한 도구로 쓰일 수 있다.
+KISS-ICP가 we move in the opposite direction이라는 평서문으로 자세를 바꿨다면, ResNet은 수사적 질문을 썼다. Is learning better networks as easy as stacking more layers? 이 한 문장이 분야의 기본 가정을 질문으로 드러내고, 다음 문장이 그 가정이 깨지는 지점을 짚는다. Mensh-Kording 규칙 6의 분야 통증 → 기존 한계 → 우리 접근 골격이 평서문 세 박자 대신 질문 + 장애물 + 반전의 세 박자로 바뀐 사례다. 자기 분야의 기본 가정을 직접 부정하기 어렵다면 그 가정을 질문으로 던지는 우회로를 쓸 수 있다.
 
-이 발췌의 두 번째 강점은 degradation problem이라는 coined term이다. 깊은 망의 정확도 저하는 직관적으로 overfitting으로 진단되기 쉬운데, 저자들은 그 라벨을 명시적으로 거부한다 — Unexpectedly, such degradation is not caused by overfitting. 기존의 진단 라벨에 들어가지 않는 현상을 발견했을 때 그 현상에 별도 이름을 붙이는 일이 contribution의 절반을 만든다. 이름이 붙고 나면 기존 도구(regularization, dropout)로 풀리지 않는다는 진술이 가능해지고, 자신들의 새 도구(residual mapping)가 들어설 자리가 비어 있게 된다. 후배가 새로운 현상을 발견했을 때 첫 단계에서 이름을 붙이고 기존 라벨에서 분리하는 두 작업이 분야 통증을 본인 자리로 끌어오는 운영이다.
+두 번째 강점은 degradation problem이라는 이름이다. 깊은 망의 정확도 저하는 직관적으로 overfitting으로 진단하기 쉽지만, 저자들은 그 라벨을 명시적으로 거부한다. Unexpectedly, such degradation is not caused by overfitting. 기존 진단으로 설명할 수 없는 현상에 별도 이름을 붙이면 기여가 분명해진다. 이름이 붙으면 기존 도구(regularization, dropout)로는 풀리지 않는 문제라고 말할 수 있고, 자신들의 새 도구(residual mapping)가 들어설 자리도 생긴다. 새로운 현상을 발견했다면 이름을 붙이고 기존 라벨에서 분리해야 그 현상을 자신의 연구 문제로 다룰 수 있다.
 
-Stress position의 활용도 짚어 둘 만하다. Unexpectedly가 문장의 맨 앞에 놓인 점이 한 도구다. 영어 문장에서 부사가 맨 앞에 오면 그 부사가 강조 위치가 되어 다음 절의 명제 전체에 비대칭 무게를 실어 준다. 거기서 예상과 다르다는 신호가 먼저 들어오고, 그 다음에 degradation이 overfitting이 아니라는 진술이 따라온다. 같은 정보를 Such degradation, surprisingly, is not caused by overfitting으로 풀어쓰면 surprisingly가 콤마 사이에 묻혀 신호가 약해진다. Gopen과 Swan이 강조한 reader expectation의 단어 단위 적용이다.
+Stress position의 활용도 눈여겨볼 만하다. Unexpectedly가 문장 맨 앞에 놓여 다음 절의 명제 전체에 무게를 싣는다. 예상과 다르다는 신호가 먼저 들어오고, degradation은 overfitting이 아니라는 진술이 뒤따른다. 같은 정보를 Such degradation, surprisingly, is not caused by overfitting으로 풀어쓰면 surprisingly가 쉼표 사이에 묻혀 신호가 약해진다. Gopen과 Swan이 강조한 reader expectation을 단어 수준에서 적용한 사례다.
 
-수치의 자리는 ORB-SLAM과 같은 비대칭 양식이다. 통증 진술은 학습이 어렵다, degradation이라는 짧은 라벨로 압축되고, contribution 진술 쪽에 구체 수치가 누적된다 — substantially deeper, 152 layers, 8x deeper than VGG, ImageNet 3.57% error. 통증의 무게를 단어 두세 개로 끝내고, contribution의 무게를 수치로 받친다. 통증을 길게 적으면 독자는 그래서 이 통증이 진짜 통증인가를 의심하고, contribution을 형용사로만 받치면 reviewer는 그래서 얼마만큼 좋은가를 묻는다. ResNet은 두 자리의 분배가 단단하다.
+수치의 배치는 ORB-SLAM과 마찬가지로 비대칭이다. 통증은 학습이 어렵다는 진술과 degradation이라는 짧은 라벨로 압축하고, 기여 쪽에는 substantially deeper, 152 layers, 8x deeper than VGG, ImageNet 3.57% error 같은 구체적인 수치를 쌓는다. 통증은 단어 두세 개로 끝내고 기여는 수치로 받친다. 통증을 길게 적으면 독자는 그 문제가 정말 심각한지 의심하고, 기여를 형용사로만 받치면 심사위원은 얼마나 좋은지 묻는다. ResNet은 두 부분의 무게를 단단하게 나눴다.
 
-마지막으로 자세. We present a residual learning framework to ease the training — 새 발명을 제안하는 자세가 아니라 학습을 수월하게 만드는 골격을 내놓는다는 자세다. propose가 아닌 present, novel이 아닌 to ease. 한 발 물러난 자리에서 시작해 본문 contribution에서 단정성을 회복하는 비대칭이 ORB-SLAM의 Building on excellent algorithms와 같은 형태다. 후배가 자기 contribution을 외부 톤은 점잖게 / 내부 진술은 단정적으로 분배하는 안전한 기본값을 이 발췌가 한 번 더 보여 준다.
+마지막은 자세다. We present a residual learning framework to ease the training은 새 발명을 제안하기보다 학습을 수월하게 만드는 골격을 내놓는다고 말한다. propose가 아니라 present이고, novel이 아니라 to ease다. 한발 물러나 시작한 뒤 본문의 기여에서는 단정성을 회복하는 비대칭이 ORB-SLAM의 Building on excellent algorithms와 같은 형태다. 겉의 어조는 점잖게 두되 기여는 단정적으로 진술하는 안전한 기본값을 보여 준다.
 
 ---
 
 ## 따라 쓰기 — 자기 분야에 적용
 
-이 패턴은 질문 + 장애물 + 반전 coined term의 3-beat 골격이다. "Driven by [분야의 기본 가정], a question arises: [그 가정이 정말 작동하는가]? An obstacle to this question is [기존 라벨]. Unexpectedly, [기존 라벨로 설명되지 않는 현상이 있다] — and we name it [coined term]." — 분야의 기본 가정을 직접 부정하기 어려울 때, 그 가정을 질문으로 던지고, 그 질문에 답할 때 기존 라벨이 작동하지 않는 자리를 짚어 본인의 coined term으로 자리를 만든다. 분야 통증을 본인 contribution으로 연결하는 다리가 coined term이다.
+질문 + 장애물 + 반전된 이름이 세 박자의 골격을 이룬다. "Driven by [분야의 기본 가정], a question arises: [그 가정이 정말 작동하는가]? An obstacle to this question is [기존 라벨]. Unexpectedly, [기존 라벨로 설명되지 않는 현상이 있다] — and we name it [coined term]." 분야의 기본 가정을 직접 부정하기 어려울 때는 그 가정을 질문으로 던진다. 이어 기존 라벨이 설명하지 못하는 지점을 짚고 본인의 coined term으로 이름 붙인다. 그 이름이 분야의 통증을 본인의 기여로 연결한다.
 
-Unexpectedly류 부사를 stress position에 두는 것이 한 운영 도구다. 새 현상을 짚을 때 그 부사를 문장 맨 앞에 두면 독자의 주의 자리가 정렬된다. 한 단락에 이 자리가 한 번만 나오게 하는 것이 안전한 기본 — 두 번 이상 나오면 모든 것이 예상 밖이 되어 신호가 사라진다.
+Unexpectedly 같은 부사를 stress position에 두면 새 현상에 독자의 주의를 모을 수 있다. 다만 한 단락에서는 한 번만 쓰는 편이 안전하다. 두 번 이상 나오면 모든 것이 예상 밖이 되어 신호가 사라진다.
 
-수치 분배는 ResNet과 ORB-SLAM이 공통으로 쓰는 양식이다. 통증을 짧은 라벨 한두 단어로 끝내고, contribution 쪽에 구체 수치 3-5개를 누적한다. 형용사가 아닌 수치다 — substantially deeper는 통증·자세 진술이고, 152 layers는 contribution 진술이다. 두 영역의 분배가 어그러지면 과대주장으로 읽히는 부분이 생긴다.
+ResNet과 ORB-SLAM은 통증을 짧은 라벨 한두 단어로 끝내고, 기여 쪽에는 구체적인 수치 3~5개를 쌓는다. 형용사가 아니라 수치로 받치는 방식이다. substantially deeper는 통증과 자세에 관한 진술이고, 152 layers는 기여에 관한 진술이다. 두 영역의 무게를 잘못 나누면 일부 문장이 과대주장으로 읽힌다.
 
 ---
 

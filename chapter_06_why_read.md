@@ -1,6 +1,6 @@
 # Ch.6 — 왜 읽는가, 그리고 무엇을 안 읽을지 정하는 법
 
-[Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) 도입부는 "연구자는 매년 수백 시간을 논문 읽기에 쓴다"라는 관찰로 시작한다. 2007년의 관찰이고, arXiv가 하루에 수백 편씩 새 프리프린트를 받는 지금의 분야에서는 이 수치가 더 이상 충분치 않다. paper graph와 alert가 한 주에 수십 편을 밀어 넣는 동안 한 편도 끝까지 읽지 못했다는 후배의 푸념이 흔한 풍경이 됐다.
+[Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) 도입부는 연구자가 논문을 읽는 데 매년 수백 시간을 쓸 수 있다는 관찰로 시작한다. 문제는 출간량이 그 수치보다 많으냐 적으냐가 아니라, 들어오는 후보 중 어느 논문에 읽기 시간을 쓸지 결정해야 한다는 데 있다. paper graph와 alert는 후보를 늘리므로 선별 규칙이 필요하다.
 
 [임형태 박사](https://github.com/LimHyungTae/paper-writing-checklist)는 비슷한 맥락에서 "다 읽으려 들지 마라"는 권고를 자주 든다. 다 읽기를 시도하는 순간 한 편도 못 읽는 상태로 빠진다는 관찰이다. 그래서 읽기 전에 먼저 무엇을 안 읽을지를 결정한다.
 
@@ -10,7 +10,7 @@
 
 논문 한 편을 읽는 비용은 시간만이 아니다. Keshav가 §1에서 적은 문장 중 하나가 "규율 잡힌 이 방식 덕분에 디테일에 빠져 익사하지 않는다"인데, 익사라는 표현이 시사하는 비용은 곧 집중력이다. 잘못 고른 한 편에 두 시간 집중력 예산을 쓰고 나면, 같은 날 다음 한 편을 제대로 읽기 어렵다.
 
-집중력이 시간보다 먼저 닳는다. 그러니 선별이 읽기보다 먼저 온다. 읽을 후보 30편을 늘어놓고 그중 안 읽을 25편을 먼저 표시한다. 남은 5편이 그 주의 진짜 후보다.
+집중력이 시간보다 먼저 닳을 수 있다. 그러니 선별이 읽기보다 먼저 온다. 이 장에서는 예시로 후보 30편 중 안 읽을 25편을 먼저 표시해 5편을 남긴다. 이 수는 선별 원리를 보이는 가상 예시이며 주간 표준이 아니다.
 
 ---
 
@@ -18,25 +18,25 @@
 
 후보를 줄이는 데 자주 쓰이는 신호 네 가지가 있다.
 
-**Citation velocity.** arXiv에 6개월 올라와 있는 동안 인용이 한 번도 안 잡힌 프리프린트는 일단 보류 큐로 보낸다. 분야의 동료들이 한 번도 인용하지 않았다는 신호 그 자체가 이미 정보다.
+**Citation velocity.** 인용 속도는 후보의 전파 정도를 보여 주지만 출간 시점·분야 규모·preprint 관행에 크게 좌우된다. 6개월 미인용을 보류의 자동 기준으로 쓰지 않는다. 최근 논문은 초록·근거·직접 관련성을 먼저 보고, 인용 정보는 보조 신호로만 쓴다.
 
-**저자·기관 prior.** 신뢰가 쌓인 그룹의 신작은 first pass 우선권을 받는 한편, cold start 그룹의 단발성 프리프린트는 survey 논문을 먼저 거친 후 돌아오는 편이 마찰이 적다. 로보틱스에서는 [Cyrill Stachniss 그룹](https://scholar.google.com/citations?user=8vib2lAAAAAJ&hl=en)의 신작이 우선권을 받는 패턴이 흔히 보인다.
+**저자·기관 prior.** 신뢰가 쌓인 그룹의 신작은 first pass 우선권을 받을 수 있다. 로보틱스에서는 [Cyrill Stachniss 그룹의 공개 논문 목록](https://scholar.google.com/citations?user=8vib2lAAAAAJ&hl=en)처럼 꾸준히 확인하는 저자군을 둘 수 있다. 다만 이 prior만으로 cold-start 그룹을 배제하면 기존 유명도를 반복하는 편향이 생긴다. 저자 prior와 주제 관련성·근거의 강도를 따로 본다.
 
-**Figure 1 test.** figure 1을 30초 본 후 한 줄 message가 잡히지 않으면 보류한다. [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 6은 figure 1이 논문 전체의 논증을 한 컷으로 담아야 한다고 적는다. 한 컷에서 message가 안 잡히면 글쓴이 본인이 아직 논증을 못 잡았다는 신호로 읽는다.
+**Figure 확인.** Figure 1을 짧게 보고 논문의 주장과 근거가 어떻게 연결되는지 임시로 적어 본다. [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 7은 그림이 Results의 선언적 주장을 받치는 근거라고 적고, rule 9는 그림에 충분한 작성 시간을 배분하라고 한다. 원문은 Figure 1이 논문 전체를 한 컷에 담아야 한다고 rule 6에서 규정하지 않는다. 30초 확인은 이 장의 triage 예시이며 보류의 단독 근거가 아니다.
 
-**Abstract의 broad-narrow-broad 구조.** Mensh-Kording rule 5는 abstract가 broad 도입 → 핵심 narrow → broad 함의의 모래시계 구조를 가진다고 적는다. 이 구조가 무너진 abstract는 글쓴이가 자기 message를 못 잡았다는 1차 신호다. 그래서 abstract 첫 두 문장과 마지막 두 문장만 보고 모래시계가 잡히는지 30초 안에 판단해 본다.
+**Abstract의 broad-narrow-broad 구조.** Mensh-Kording rule 5는 abstract가 broad 도입 → 핵심 narrow → broad 함의의 모래시계 구조를 가진다고 적는다. 초록의 context·gap·result·broader significance가 연결되는지 본다. 첫 두 문장과 마지막 두 문장을 30초 동안 보는 것은 이 장의 출발 휴리스틱이며, 세부 배치는 초록 길이와 venue에 따라 달라진다.
 
-네 신호 모두 빠른 거절을 위한 것이다. 빠른 거절이 빠른 읽기를 가능케 하는 만큼, 선별은 읽기의 첫 단계로 다루는 편이 자연스럽다.
+네 신호는 빠른 거절 버튼이 아니라 triage의 입력이다. 하나의 신호만으로 중단하지 말고, 읽기 목적과 직접 관련성을 함께 본다. 선별은 읽기의 첫 단계다.
 
 ---
 
 ## 6.3 목적이 패스를 결정한다
 
-같은 논문도 왜 읽는가에 따라 패스 깊이가 달라진다. 분야 지형을 훑는 읽기와 직접 재구현할 작정의 읽기는, 같은 paper에 같은 시간을 쓰는 일이 아니다.
+같은 논문도 왜 읽는가에 따라 패스 깊이가 달라진다. 분야 지형을 훑는 읽기와 직접 재구현할 작정의 읽기는, 같은 논문에 같은 시간을 쓰는 일이 아니다.
 
-지형 훑기는 한 편당 5분, 100편 메타데이터 수준에서 끝낸다. Keshav 1st pass 한 번에 5 Cs만 채우고 닫는다 (Ch.2·Ch.3에서 자세히). 재구현 작정의 읽기는 정반대다. 한 편에 4–5시간을 쓰고, Keshav 3rd pass의 virtual re-implementation까지 들어간다. 그 사이에 peer-review 의뢰를 받은 읽기, 평생 3–5편만 골라 한 줄도 안 빼고 읽는 gold-standard 읽기가 놓인다.
+지형 훑기는 Keshav의 1st pass 범위에서 5-10분 동안 5 Cs를 채우고 닫는다 (Ch.2·Ch.3에서 자세히). 재구현 작정의 읽기는 3rd pass의 virtual re-implementation까지 들어가며, Keshav는 초보 독자에게 4–5시간 정도가 걸릴 수 있다고 적었다. 100편 메타데이터나 평생 3–5편 같은 고정 수량은 두지 않는다. 목적에 따라 중단 지점을 정한다.
 
-한 세션에 두 목적을 섞지 않는 편이 좋다. 지형 훑기로 시작했는데 figure 한 컷이 흥미로워 3rd pass로 넘어가면, 그날의 다른 9편이 거기서 죽는다. Keshav가 경고한 "디테일에 익사"가 바로 그 양상이다. 같은 논문은 다음 세션에 다시 열면 그만이다.
+한 세션에 두 목적을 섞지 않는 편이 좋다. 지형 훑기로 시작했는데 그림 한 컷이 흥미로워 3rd pass로 넘어가면, 그날의 다른 9편이 거기서 죽는다. Keshav가 경고한 "디테일에 익사"가 바로 그 양상이다. 같은 논문은 다음 세션에 다시 열면 그만이다.
 
 분야 쪽 논의에서도 같은 관점이 양 vs 깊이로 반복된다. 로보틱스 신입은 흔히 논문부터 많이 읽으려고 한다.
 
@@ -66,6 +66,6 @@ paper graph alert, author follow, venue page, OpenReview thread, project page를
 
 ---
 
-**출처.** [Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) §1, [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rules 5·6, [임형태 박사, paper-writing-checklist](https://github.com/LimHyungTae/paper-writing-checklist) §1, robotics-practice ch22 § 22.3·§ 22.5 (분야 쪽 논의).
+**출처.** [Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) §1, [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rules 5·7·9, [임형태 박사, paper-writing-checklist](https://github.com/LimHyungTae/paper-writing-checklist) §1, robotics-practice ch22 § 22.3·§ 22.5 (분야 쪽 논의). 30/25/5 후보 예시와 30초 figure·abstract triage는 이 장의 작업 휴리스틱이다.
 
 다음: [Ch.2 — 논문을 세 번에 나누어 읽기](./chapter_07_keshav_three_passes.md)

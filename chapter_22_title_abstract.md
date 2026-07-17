@@ -1,72 +1,70 @@
 # Ch.22 — 제목과 초록
 
-한 reviewer가 한 학회에서 받는 manuscript 5-10편 중 다수가 제목만으로 1차 분류된다. 그 분류를 통과한 paper는 다음 단계에서 abstract 한 paragraph 안에서 verdict의 큰 뼈대를 받는다. 제목과 초록은 본문에 도달하기 위한 입장권이다.
+심사위원에게 배정되는 원고 수와 심사 workflow는 venue마다 다르다. 다만 [Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)의 1st pass처럼 제목·초록·서론을 먼저 읽는 독자가 많다. 제목과 초록은 본문에 도달하기 전 논문의 큰 틀을 전해야 한다.
 
 [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) §IV가 둘을 한 묶음으로 다룬 이유도 이 비대칭에서 나온다. [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 1과 rule 5가 각각 제목과 초록의 골격을 정의해 둔다. ch01 §6의 readership-weighted budget이 둘에 가장 큰 시간 비중을 할당하라고 권하는 것도 같은 이유다.
 
 ---
 
-## 22.1 Title — contribution 한 문장
+## 22.1 제목 — 기여를 담은 한 문장
 
-**제목은 한 문장으로 압축한 contribution이다.** Mensh-Kording rule 1의 정식화. 본인 논문이 분야에 무엇을 더했는가가 제목 한 줄로 추출되어야 한다.
+**제목은 논문의 기여를 한 문장으로 압축한다.** Mensh-Kording rule 1은 본인 논문이 분야에 무엇을 더했는지가 제목 한 줄에 드러나야 한다고 적었다.
 
-**동사가 들어가야 contribution이 산다.** "BEV-based Loop Closure"는 명사구일 뿐이다. 그 명사구가 무엇을 했는가는 본문을 읽어야 알 수 있다. "BEV-based loop closure halves recall failures on KITTI"는 동사·숫자·대상이 박혀 있다. ch05 §3의 헤딩 작성 절차와 같은 축.
+**제목에서 기여의 방향이 보여야 한다.** "BEV-based Loop Closure"는 주제만 말한다. "BEV-based loop closure halves recall failures on KITTI"처럼 동사·효과·대상을 넣으면 결과형 제목이 된다. 이 수치는 형식을 보이기 위한 가상 값이다. 분야 관행상 명사구 제목을 쓰더라도 무엇을 새로 보였는지가 드러나는지 확인한다.
 
-**길이 권고는 12-15 단어.** 너무 짧으면 contribution이 압축되지 않은 상태로 남고, 너무 길면 인덱싱·인용·자동화 분류기에서 손실이 생긴다. 분야 관행과 venue 한도 안에서.
+**길이는 venue 규정과 명료성으로 정한다.** 모든 분야에 통하는 12-15단어 규칙은 없다. 기여를 식별하는 데 필요한 말은 남기고, 검색 결과에서 잘려도 뜻이 무너지지 않게 앞부분을 다듬는다.
 
-**Keyword density.** contribution과 직결되는 keyword 2-3개가 제목에 들어가야 한다. 검색·인덱싱·자동 추천이 이 keyword를 입력으로 받는다.
+**Keyword 선택.** contribution과 직결되는 핵심 용어를 제목에 넣는다. 검색·인덱싱에 쓰이는 실제 분야 용어를 고르되, 정해진 개수나 같은 단어의 반복을 목표로 삼지 않는다.
 
 ---
 
-## 22.2 Abstract — full CCC self-contained
+## 22.2 초록 — 완결된 CCC
 
-**Abstract는 자기 안에서 닫혀야 한다.** Mensh-Kording rule 5가 key fits its lock 비유로 박았다. 결과(key)가 정확히 갭(lock)에 들어맞아야 abstract가 완성된다. ch04 §3에서 다룬 self-contained 조건과 같은 축.
+**초록은 자기 안에서 닫혀야 한다.** Mensh-Kording rule 5는 key fits its lock이라는 비유를 썼다. 결과(key)가 정확히 갭(lock)에 들어맞아야 초록이 완성된다. ch04 §3의 자기완결성과 같은 축에 있다.
 
-**다섯 칸이 한 paragraph 안에 들어간다.**
+**다섯 칸이 한 단락 안에 들어간다.**
 
 1. **Field gap** — 분야 전체의 큰 빈틈 한 줄.
 2. **Paper gap** — 본 논문이 메우는 정확한 자리 한 줄.
 3. **Approach** — 그 자리를 어떻게 메우는가 한두 줄.
-4. **Result** — 핵심 숫자. 수치 하나가 강하게 박혀야 reviewer가 verdict의 뼈대를 받는다.
+4. **Result** — 핵심 결과. 정량 연구라면 대표 수치를 넣고, 이론·질적 연구라면 검증된 중심 결론을 넣는다.
 5. **Implication** — 분야에 무엇을 의미하는가 한 줄.
 
-**외부 참조 금지.** "Fig. 3 shows …", "in Sec. 4 we …" 같은 본문 참조가 abstract에 들어가면 self-contained 조건이 깨진다. abstract만 떼어 별도 manuscript로 읽혔을 때 자족적이어야 한다.
+**외부 참조를 두지 않는다.** "Fig. 3 shows …", "in Sec. 4 we …" 같은 본문 참조가 초록에 들어가면 자기완결성이 깨진다. 초록만 떼어 독립된 원고로 읽어도 자족적이어야 한다.
 
-**길이 권고는 150-250 단어.** venue별 한계 안에서. 너무 짧으면 다섯 칸이 압축 안 되고, 너무 길면 reviewer 입장에서 본문을 미리 보는 글이 된다.
+**길이는 venue의 word limit를 따른다.** 150-250단어는 여러 분야에서 흔히 볼 수 있는 작업 범위일 뿐 보편 규칙이 아니다. 다섯 칸을 빠짐없이 담되 같은 맥락을 되풀이하지 않는다.
 
 ---
 
 ## 22.3 작성 순서 — 본문이 안정된 뒤
 
-**Abstract는 맨 마지막에 쓴다.** Whitesides §IV의 강한 권고. 본문이 흔들리는 동안 abstract를 깎으면 lock이 흔들리는 동안 key를 깎는 일. 본문 outline 4-5회차가 안정된 뒤, 그제서야 abstract 작업의 첫 칸이 열린다.
+**초록은 맨 마지막에 쓴다.** Whitesides §IV의 권고다. 본문이 흔들리는 동안 초록을 깎는 일은 lock이 흔들리는 동안 key를 깎는 것과 같다. 본문 outline 4-5회차가 안정된 뒤에야 초록 작업을 시작할 수 있다.
 
 제목도 같은 시점에 있다. outline iteration 1-3회차에서는 placeholder로 남아 있어도 된다. claim style로 다듬는 작업은 본문 결론이 안정된 뒤에야 의미가 자란다 — ch05 §3의 작성 절차와 같은 관점.
 
-**시간 배분.** ch01 §6의 readership-weighted budget을 그대로 따른다 — 제목에 한 시간, abstract에 두세 시간이 권장 비율이다. 본문 한 섹션에 8-10시간을 들이는 학생이 abstract에 30분을 쓰는 패턴이 흔하다. 그 비율이 reject 사유의 비율과 거의 정확히 반대로 작동한다.
+**시간 배분.** ch01 §6의 readership-weighted budget을 따른다. 제목과 초록에 별도 작업 시간을 잡되, 원 출처는 제목 한 시간·초록 두세 시간 같은 고정값을 제시하지 않는다. 실제 기록에서 본문 한 섹션에는 오래 쓰면서 초록은 마감 직전에만 다듬었다면 다음 원고의 예산을 조정한다.
 
 ---
 
-## 22.4 arXiv 시대 — 자동화 pipeline의 first filter
+## 22.4 arXiv 시대 — 자동화 파이프라인의 첫 관문
 
-[김기섭 교수 「연구길의 초입에서」](https://gsk1m.github.io/productivity/2024/05/25/entering-research.html)가 같은 문제를 arXiv 자동화의 관점으로 적었다.
+[김기섭 교수 「연구길의 초입에서」](https://gsk1m.github.io/productivity/2024/05/25/entering-research.html)가 같은 문제를 arXiv 자동화의 관점으로 적었다. 이 절에서는 그 논점을 제목과 초록이 검색·추천·인덱싱 단계에서 먼저 노출된다는 말로 정리한다.
 
-> "제목이 입력 pipeline의 first filter다. arXiv·alphaxiv·Google Scholar의 자동 추천·검색 분류기가 제목·초록 token을 보고 paper를 push할지 말지 결정한다."
+이 진단은 §1·§2의 권고에 검색·인덱싱 층위를 더한다. 서비스별 추천 알고리즘은 공개 범위가 다르므로 특정 token 수나 keyword density가 노출을 보장한다고 말할 수 없다. 다만 제목과 초록에 실제 분야 용어와 기여가 명료하게 들어가야 검색 결과에서도 논문을 식별할 수 있다.
 
-이 진단이 §1·§2의 권고에 한 층위를 더 얹는다. first filter가 reviewer 한 층뿐이라는 가정에 대한 수정. 자동화 분류기가 제목의 keyword density를 입력으로 받아 어디로 push할지를 결정한다. contribution keyword와 분야 keyword가 제목에 들어가야 자동화 층위를 통과한다.
+**초록의 첫 1-2문장은 독자와 여러 색인 화면이 먼저 보여 주는 부분이다.** 첫 두 문장에서 field와 paper gap을 구체화하고, 접근과 결과가 이어질 자리를 만든다. 자동 요약기나 추천기가 정확히 어느 문장을 쓰는지는 서비스마다 다르므로 노출을 보장하는 공식처럼 다루지 않는다.
 
-**Abstract의 첫 1-2 문장은 자동 요약기·LLM 추천기의 입력 slice.** 그 첫 두 문장에 paper gap과 contribution이 와야 자동화 추천에서 왜 이 paper가 추천되는가가 살아남는다. abstract의 마지막에 contribution을 두고 첫 문장을 분야 일반론으로 시작하는 패턴이 가장 자주 손실되는 결함.
-
-자동화 층위는 분야 reviewer가 작동하는 층위와 방향이 같다. 둘 다 first filter에서 contribution keyword와 paper gap을 본다. 자동화에 맞추는 작업이 reviewer에 맞추는 작업과 정렬된다.
+검색·인덱싱을 위해 기여와 분야 용어를 명료하게 쓰는 일은 사람 독자의 이해에도 도움이 된다. 다만 추천 알고리즘을 추측해 문장을 만드는 대신 사람에게 정확한 제목과 자족적인 초록을 쓰는 것을 기준으로 둔다.
 
 ---
 
 ## 22.5 흔한 실수 4종
 
-**제목이 명사구만.** "A New Method for Loop Closure"는 동사가 없어 contribution이 암시만 된다. reviewer가 본문을 읽어야 contribution이 추출되는 결함.
+**제목이 명사구만.** "A New Method for Loop Closure"는 동사가 없어 contribution이 암시만 된다. 심사위원이 본문을 읽어야 contribution이 추출되는 결함.
 
-**Abstract가 본문 도입처럼.** context만 길게 늘이고 result number가 들어가지 않는 패턴. 수치 하나가 abstract에 박히지 않으면 self-contained 조건이 깨진다.
+**Abstract가 본문 도입처럼.** context만 길게 늘이고 핵심 결과가 들어가지 않는 패턴. 정량 연구라면 대표 수치가, 이론·질적 연구라면 중심 결론이 들어가야 자기 안에서 닫힌다.
 
-**Abstract에 외부 참조.** 본문의 figure·section을 가리키는 reference가 들어가면 곧 self-contained 위반.
+**Abstract에 외부 참조.** 본문의 그림·section을 가리키는 reference가 들어가면 곧 self-contained 위반.
 
 **제목에 두 contribution.** 첫 논문이면 contribution이 한 줄로 압축되지 않은 시점. ch01 §1의 하나의 논문에는 하나의 메시지 권고와 같은 관점. contribution 둘이 제목에 동시에 박히면 두 곳에서 reject 사유가 자란다.
 

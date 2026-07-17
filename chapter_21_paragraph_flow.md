@@ -1,18 +1,18 @@
 # Ch.21 — 문단 흐름
 
-문장 단위는 다듬었는데 한 문단을 읽으면 흐름이 끊긴다고 느끼는 학생이 있다. 같은 단락의 문장 다섯을 따로따로 보면 다 멀쩡한데, 이어 붙이면 어딘가가 어긋난다. 그 어긋남의 정체가 ch14가 다룬 stress·topic 5원칙의 paragraph 층위다.
+문장 단위는 다듬었는데 한 단락을 읽으면 흐름이 끊긴다고 느끼는 학생이 있다. 같은 단락의 문장 다섯을 따로따로 보면 멀쩡하지만, 이어 붙이면 어딘가가 어긋난다. 그 어긋남은 ch14의 stress·topic 5원칙이 단락 층위에서 깨질 때 생긴다.
 
-[Gopen & Swan 1990](https://www.americanscientist.org/article/the-science-of-scientific-writing) §III가 한 줄로 박아 둔다. old before new. 한 문장 안에서 작동하는 이 원칙이 한 문단 안에서도 같은 형태로 작동한다는 진단이다. ch04의 CCC가 어디에 무엇이 들어가는가의 자리표라면, 이 장은 어떻게 흐르는가의 흐름표다.
+[Gopen & Swan 1990](https://www.americanscientist.org/article/the-science-of-scientific-writing) §III의 원칙은 old before new다. 한 문장 안에서 작동하는 이 원칙은 한 단락 안에서도 같은 형태로 작동한다. ch04의 CCC가 어디에 무엇이 들어가는지 보여 주는 자리표라면, 여기서는 문장이 어떻게 흐르는지 본다.
 
 ---
 
 ## 21.1 두 층위가 동시에 작동한다
 
-한 문단을 읽는 독자의 working memory는 두 층위를 동시에 받는다. 문장 층위에서는 topic position(첫 자리)이 backward link를 걸고 stress position(끝 자리)이 새 정보를 받는다. 문단 층위에서는 첫 문장이 단락의 진입점이 되고 마지막 문장이 takeaway를 받는다.
+한 단락을 읽는 독자의 작업 기억은 두 층위를 동시에 처리한다. 문장 층위에서는 topic position(첫 자리)이 backward link를 걸고 stress position(끝 자리)이 새 정보를 받는다. 단락 층위에서는 첫 문장이 진입점이 되고 마지막 문장이 takeaway를 받는다.
 
 두 층위가 같은 패턴(old → new)을 공유한다. 잘 굴러가는 문단은 두 곳에서 같은 인지 부담만을 요구한다. 한 층위가 깨지면 독자는 매 문장에서 왜 이 정보가 지금 들어오는지를 다시 추측해야 한다. 그 추측이 누적되면 문단 끝에 도달했을 때 takeaway가 무엇이었는지가 흐려진다.
 
-학생들이 가장 자주 어기는 곳이 paragraph 층위다. 문장 단위는 ch14의 5원칙으로 어느 정도 다듬어지지만, 문장 사이를 어떻게 묶는가는 별도의 작업으로 인식되지 않은 채 남는 경우가 많다.
+학생들이 가장 자주 어기는 곳이 단락 층위다. 문장 단위는 ch14의 5원칙으로 어느 정도 다듬어지지만, 문장 사이를 어떻게 묶는가는 별도의 작업으로 인식되지 않은 채 남는 경우가 많다.
 
 ---
 
@@ -24,9 +24,11 @@
 >
 > ✓ The proposed method achieves 14% improvement on KITTI. The improvement holds across sequences with dynamic objects, where loop closure is most critical.
 
-❌ 쪽은 세 문장의 첫 명사구가 the proposed method · many sequences · loop closure로 끊긴다. 연결이 0이다. ✓ 쪽은 the proposed method → the improvement → where loop closure로 backward link가 한 줄로 이어진다.
+여기의 14%는 문장 흐름을 보이기 위한 가상 수치다.
 
-**첫 명사구는 직전에 등장한 명사·대명사·요약 명사구로.** "this", "the result", "such configurations" 같은 요약 명사구가 backward link를 만드는 도구다.
+❌ 쪽은 세 문장의 첫 명사구가 the proposed method · many sequences · loop closure로 끊긴다. 서로 연결되지 않는다. ✓ 쪽은 the proposed method → the improvement → where loop closure로 backward link가 한 줄로 이어진다.
+
+**첫 명사구는 직전에 등장한 명사·대명사·요약 명사구를 받는다.** "this", "the result", "such configurations" 같은 요약 명사구가 backward link를 만드는 도구다.
 
 ---
 
@@ -36,9 +38,9 @@
 
 > ✓ Geometric ICP failed on textureless walls. These walls dominate indoor scans, where photometric gradients are weak. Weak gradients motivate hybrid methods.
 
-세 문장의 stress가 각각 textureless walls · weak gradients · hybrid methods. 다음 문장의 topic이 직전 stress를 받아 단락이 한 방향으로 흐른다. 단락의 마지막 stress에 hybrid methods가 도달했을 때, 그 끝점이 단락 전체의 takeaway 후보로 잡힌다 — ch04 §1의 conclusion 위치와 정확히 일치한다.
+세 문장의 stress는 각각 textureless walls · weak gradients · hybrid methods다. 다음 문장의 topic이 직전 stress를 받아 단락이 한 방향으로 흐른다. 단락의 마지막 stress에 hybrid methods가 도달하면, 그 끝점이 단락 전체의 takeaway 후보가 된다. ch04 §1의 conclusion 위치와 정확히 일치한다.
 
-**매 문장 끝에 보일러플레이트가 들어서면 stress chain이 비어 있다.** "in this paper", "of our approach" 같은 표현이 매 문장 stress를 차지하면 어느 자리에 새 정보가 박혔는지가 흐려진다. ch14의 stress position 진단과 같은 축.
+**매 문장 끝에 보일러플레이트가 들어서면 stress chain이 비어 있다.** "in this paper", "of our approach" 같은 표현이 매 문장의 stress를 차지하면 어느 자리에 새 정보가 들어갔는지가 흐려진다. ch14의 stress position 진단과 같은 축에 있다.
 
 ---
 
@@ -50,7 +52,7 @@
 
 **메시지 둘.** 한 단락에 takeaway 후보가 둘. ch04 §5의 흔한 실수 첫 항과 같은 결함. 쪼갠다.
 
-**접속사 남발.** "However", "Moreover", "Therefore"를 매 문장 첫 자리에 박는 패턴. backward link를 접속사가 대체하면 topic chain이 비어 있다는 증거. 접속사는 한 단락에 한두 번이 상한.
+**접속사 남발.** "However", "Moreover", "Therefore"를 매 문장 첫 자리에 박는 패턴. backward link를 접속사가 대체하면 topic chain이 빈다. 정보의 관계를 표시할 때만 접속사를 남긴다.
 
 ---
 
@@ -63,13 +65,13 @@
 
 두 줄을 나란히 놓는다. topic chain이 끊기지 않고 흐르는가. stress chain이 새 정보를 누적하는가. 둘 중 하나라도 깨지면 그곳이 흐름 결함이 박힌 곳이다.
 
-ch14의 reverse-read 진단(자기 문장 단위)이 paragraph 층위로 격상된 도구. 같은 도구를 읽기 측면에서 적용한 글이 [Part 1 ch07 reader expectations 진단](./chapter_12_reader_expectations_diagnosis.md)이다. 쓰기와 읽기 양쪽에서 같은 두 줄 추출이 작동한다.
+ch14의 reverse-read 진단을 단락 층위로 넓힌 도구다. 같은 도구를 읽기에 적용한 사례가 [Part 1 ch07 reader expectations 진단](./chapter_12_reader_expectations_diagnosis.md)에 있다. 쓰기와 읽기 양쪽에서 같은 두 줄 추출이 작동한다.
 
 ---
 
 ## 21.6 CCC와의 관계
 
-ch04의 CCC가 자리표라면 ch06은 흐름표. 두 관점이 서로 보완한다.
+ch04의 CCC가 자리표라면 ch06의 두 줄 추출법은 흐름표다. 두 관점은 서로 보완한다.
 
 CCC 골격이 잡힌 단락도 topic chain·stress chain이 무너질 수 있다. 첫 문장에 context가 잘 박혀 있어도, 그다음 문장의 topic이 첫 문장 stress를 받지 않으면 흐름이 깨진다. CCC가 깨진 단락은 두 줄 추출에서 stress chain의 마지막이 takeaway가 아닌 단어에 도달한다.
 

@@ -1,4 +1,4 @@
-# Ch.19 — CCC: 단락·섹션·논문의 fractal
+# Ch.19 — CCC: 단락·섹션·논문의 프랙털
 
 한 단락도 잘 닫지 못하는 학생이 논문 전체를 닫아야 한다는 요구를 받는다. 닫는 문제가 같은 형태로 세 번 반복된다는 점만 보이면 처방은 한 가지로 줄어든다. [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 3이 그 한 가지를 맥락-Content-Conclusion(CCC)으로 정식화했다.
 
@@ -6,15 +6,15 @@
 
 ## 19.1 독자의 두 질문
 
-독자가 한 단락 또는 한 섹션을 읽기 시작할 때 두 가지 질문을 동시에 던진다. "왜 이걸 읽고 있지?"와 "그래서 어쩌라고?"다. 앞 질문은 context의 부재가 만들고, 뒤 질문은 conclusion의 부재가 만든다. CCC가 두 질문에 동시에 답하는 최소 골격이다.
+독자가 한 단락이나 섹션을 읽기 시작할 때는 두 가지 질문을 동시에 던진다. "왜 이걸 읽고 있지?"와 "그래서 어쩌라고?"다. 앞 질문은 context의 부재가 만들고, 뒤 질문은 conclusion의 부재가 만든다. CCC는 두 질문에 동시에 답하는 최소 골격이다.
 
-신입생들이 자연스럽게 따라가는 구조는 시간순(chronological)이다. "처음에 A를 시도했는데 실패했고, 그래서 B로 갔는데 이건 또 다른 문제가 있어서, 결국 C에 도달했다." 이 구조는 lab notebook에는 적합하지만 논문에는 main failure mode다. Mensh-Kording이 §"chronological structure is the main failure mode"에 적은 표현 그대로다. 독자는 글쓴이가 결과에 도달한 시간 순서를 신경 쓰지 않는다.
+신입생들이 자연스럽게 따라가는 구조는 시간순(chronological)이다. "처음에 A를 시도했는데 실패했고, 그래서 B로 갔는데 이건 또 다른 문제가 있어서, 결국 C에 도달했다." 이 구조는 연구실 노트에는 적합하지만, 논문에서는 핵심 claim과 근거의 논리 순서를 가릴 수 있다. Mensh-Kording rule 3은 글쓴이가 자신의 작업을 시간순으로 기록하고 싶어 하는 것은 자연스럽지만, 독자는 결과에 도달한 경로보다 최종 claim과 그를 받치는 논리에 관심이 있다고 적는다.
 
 CCC가 시간순의 대안으로 들어선다. 첫 문장에서 context를 박고, 본문에서 novel content를 풀고, 마지막 문장에서 takeaway를 닫는다. 시간순이 과정을 그대로 노출한다면, CCC는 과정의 결과만 전달한다.
 
 ---
 
-## 19.2 3-scale fractal
+## 19.2 세 층위의 프랙털
 
 같은 패턴이 단락·섹션·논문 세 스케일에 그대로 반복된다.
 
@@ -24,27 +24,27 @@ CCC가 시간순의 대안으로 들어선다. 첫 문장에서 context를 박�
 
 세 스케일 어느 한 곳이라도 깨지면 fractal이 무너진다. 단락이 잘 닫혀 있어도 섹션이 시간순이면 독자는 길을 잃는다. 섹션이 CCC를 따라가도 단락마다 첫 문장이 결과로 시작하면 독자는 매번 "왜 이걸 읽지?"를 다시 묻는다.
 
-3-scale은 인지 부하 절감 장치다. 같은 골격을 세 번 반복하면 독자의 working memory가 같은 패턴 인식만으로 논문 전체를 따라간다. 패턴이 매 스케일에서 일치할 때 인식 비용이 가장 낮다.
+세 층위의 반복은 인지 부하를 줄인다. 같은 골격을 세 번 반복하면 독자의 작업 기억은 같은 패턴을 인식하며 논문 전체를 따라간다. 패턴이 모든 층위에서 일치할 때 인식 비용이 가장 낮다.
 
 ---
 
-## 19.3 Abstract — full CCC self-contained
+## 19.3 초록 — 완결된 CCC
 
-Abstract는 세 요소 모두를 한 단위 안에 담는 유일한 섹션이다. 한 문단 안에 context와 content와 conclusion이 모두 들어가야 한다. Mensh-Kording rule 5는 이를 "key fits its lock" 비유로 적었다 — 결과(key)가 갭(lock)에 정확히 들어맞아야 abstract가 완성된다는 뜻.
+초록은 세 요소 모두를 짧은 자기완결 단위 안에 담아야 한다. 한 문단이든 venue가 허용한 여러 문단이든 context·content·conclusion이 초록 안에서 닫혀야 한다. Mensh-Kording rule 5는 이를 "key fits its lock" 비유로 적었다. 결과(key)가 갭(lock)에 정확히 들어맞아야 초록이 완성된다는 뜻이다.
 
-이 비유의 함의는 작업 순서에 있다. abstract를 처음에 쓰면 lock(갭)이 흔들리는 동안 key를 깎는 일이 된다. 본문이 안정된 뒤에 abstract를 쓰는 [Whitesides의 권고](./chapter_17_outline_first.md)와 같은 결론에서 만난다.
+이 비유는 작업 순서에도 적용된다. 초록을 처음에 쓰면 lock(갭)이 흔들리는 동안 key를 깎는 일이 된다. 본문이 안정된 뒤에 초록을 쓰는 [Whitesides의 권고](./chapter_17_outline_first.md)와 같은 결론에서 만난다.
 
-Abstract의 self-contained 성격은 다른 섹션과의 차이도 만든다. 섹션 단위에서는 다음 섹션의 도입이 이전 섹션의 결론을 이어받지만, abstract는 자기 안에서만 닫혀야 한다. 외부 참조가 abstract에 들어가면 self-contained 조건이 깨진다.
+초록의 자기완결성은 다른 섹션과의 차이도 만든다. 섹션 단위에서는 다음 섹션의 도입이 이전 섹션의 결론을 이어받지만, 초록은 자기 안에서만 닫혀야 한다. 외부 참조가 초록에 들어가면 자기완결성이 깨진다.
 
 ---
 
 ## 19.4 Tension — 문장 stress vs 단락 CCC
 
-[Gopen & Swan 1990](https://www.americanscientist.org/sites/americanscientist.org/files/20053191534_306.pdf)이 §stress position에 적은 규칙은 새 정보는 문장 끝이다. Mensh-Kording rule 3은 takeaway는 단락 끝이다. 같은 "끝"을 다른 두 스케일에서 노린다. 학생들이 충돌처럼 받아들이는 지점이지만 충돌은 아니다.
+[Gopen & Swan 1990](https://www.americanscientist.org/sites/americanscientist.org/files/20053191534_306.pdf)의 §stress position 규칙은 새 정보를 문장 끝에 둔다. Mensh-Kording rule 3은 takeaway를 단락 끝에 둔다. 두 규칙은 같은 "끝"을 서로 다른 층위에서 가리킨다. 처음에는 충돌처럼 보일 수 있지만 실제로는 충돌하지 않는다.
 
-같은 원리가 두 스케일에 적용된 결과로 보는 쪽이 정확하다. 독자의 기대가 끝에서 충족된다는 한 원리가 sentence와 paragraph 양쪽에 작동한다. 단락의 마지막 문장 안에서도 stress position 규칙은 그대로 살아 있고, 그 마지막 문장의 끝에 단락 전체의 takeaway가 놓인다.
+독자의 기대가 끝에서 충족된다는 한 원리가 문장과 단락 양쪽에 작동한 결과다. 단락의 마지막 문장 안에서도 stress position 규칙은 그대로 살아 있고, 그 문장의 끝에 단락 전체의 takeaway가 놓인다.
 
-이 책의 입장은 둘 다 끝을 노린다는 한 줄로 정리된다. 스케일이 다르고 끝이 가리키는 단위도 다르지만, 독자의 기대 방향은 같다 — 충돌하지 않는 두 규칙이 같은 문장 끝에서 만난다.
+둘 다 끝을 노린다. 층위가 다르고 끝이 가리키는 단위도 다르지만, 독자의 기대 방향은 같다. 충돌하지 않는 두 규칙이 단락의 마지막 문장 끝에서 만난다.
 
 ---
 

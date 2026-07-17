@@ -1,18 +1,18 @@
 # Ch.34 — 학회 2-3주 전 체크리스트
 
-[ch01](./chapter_33_conference_roi.md)이 학회에 왜 가는가에 답했다면, 이 장은 가기 전에 무엇을 해두는가에 답한다. ch01에서 좁힌 세 이유 중 하나가 이 장 사전 준비의 입력이고, 사전 메일·triage·발표 준비가 [ch03](./chapter_35_first_sentence.md) 학회장 첫 마디의 받는 쪽 expectation을 미리 만들어 둔다. 학회는 사전 준비량에 비례해 결과가 갈라지는 곳에 가깝다. 출국 1-2일 전 학회 program/app을 처음 여는 학생은 이미 사전 약속의 기회를 모두 잃은 상태로 입장한다. 2-3주 lead time을 권장하는 이유는, 사전 메일의 응답을 받고 일정을 조율하기에 그 정도가 최소 시간이기 때문이다. 한국 대학원의 visa·여비 심사·학과 출장 결재 timeline과도 묘하게 정합한다. 행정이 마무리되는 시점에 마침 사전 약속이 시작된다.
+학회 준비는 출국 2-3주 전부터 시작하는 것을 이 장의 기본값으로 삼는다. 사전 메일, 세션 선별, 발표 준비가 학회장에서 나눌 첫마디의 맥락을 미리 만든다. 출국 1-2일 전에 학회 program/app을 처음 열면 답장을 받고 약속을 조율할 여유가 거의 없다. visa·여비 심사·학과 출장 결재의 소요 시간은 기관과 개최지에 따라 다르므로 더 일찍 확인한다.
 
-[권창현 교수 G10 「학회에 가면 무엇을 해야 하나요?」](https://gradschoolstory.chkwon.net/changhyun/%ed%95%99%ed%9a%8c%ec%97%90-%ea%b0%80%eb%a9%b4-%eb%ac%b4%ec%97%87%ec%9d%84-%ed%95%b4%ec%95%bc-%ed%95%98%eb%82%98%ec%9a%94/)이 정리한 사전 준비는 세 갈래다. **만남 사전 약속**, **세션 사전 triage**, **전문가에게 사전 메일**. 세 갈래가 각각 학회의 networking·learning·feedback 세 축에 대응한다. 본인 발표 준비는 그 위에 한 층을 더 얹는다.
+[권창현 교수 G10 「학회에 가면 무엇을 해야 하나요?」](https://gradschoolstory.chkwon.net/changhyun/%ed%95%99%ed%9a%8c%ec%97%90-%ea%b0%80%eb%a9%b4-%eb%ac%b4%ec%97%87%ec%9d%84-%ed%95%b4%ec%95%bc-%ed%95%98%eb%82%98%ec%9a%94/)은 사전 준비를 **만남 사전 약속**, **세션 사전 선별**, **전문가에게 사전 메일**의 세 갈래로 정리한다. 각각 학회의 networking·learning·feedback에 대응한다. 여기에 본인 발표 준비가 더해진다.
 
 ---
 
-## 34.1 만남 사전 약속 — 동세대 peer가 먼저다
+## 34.1 만남 사전 약속 — 동세대가 먼저다
 
-학회에서 만날 사람의 우선순위는 통념과 다르다. 본인 paper와 가장 인접한 lab의 PhD 1-2명, 그리고 본인 분야 mid-career 활동가가 먼저다. 동세대 peer와의 multi-year 관계가 long-term 가치를 만든다. [ch01](./chapter_33_conference_roi.md)에서 다룬 학회 ROI 명제가 여기서 그대로 적용 사례가 된다.
+학회에서 만날 사람의 우선순위는 통념과 다르다. 본인 논문과 가장 인접한 연구실의 박사 과정생 1-2명, 그리고 본인 분야 mid-career 활동가가 먼저다. 동세대 peer와의 multi-year 관계가 long-term 가치를 만든다. [ch01](./chapter_33_conference_roi.md)에서 다룬 학회 ROI 명제가 여기서 그대로 적용 사례가 된다.
 
-advisor가 senior 만남은 알선해 줄 수 있다. 다만 peer 만남은 학생이 직접 잡는다. 한편 이 층위가 한국 학생에게 가장 자주 빠지는 부분이기도 하다. advisor가 챙겨주지 않는 영역이라는 사실을 모르고 있으면, 그 층위 그 자체가 존재하지 않는 것처럼 학회가 끝난다.
+지도교수가 senior와의 만남은 알선해 줄 수 있다. 다만 동세대와의 만남은 학생이 직접 잡는다. 한국 학생에게 가장 자주 빠지는 부분이기도 하다. 지도교수가 챙겨 주지 않는 영역이라는 사실을 모르면 그런 만남이 있다는 사실조차 모른 채 학회가 끝난다.
 
-응답률은 50% 이하가 기본이다. 거절·무응답을 개인 평가로 환원하지 않는 편이 좋다. 상대도 학회 직전 메일이 쌓여 있는 상태고, 일정을 잡지 못하는 사정이 절반은 본인 외부에 깔려 있다.
+거절·무응답을 개인 평가로 환원하지 않는 편이 좋다. 상대도 학회 직전 메일이 쌓여 있고, 일정·이동·기존 약속처럼 발신자 밖의 사정이 많다. 여러 명에게 연락하되 각 메일은 상대의 연구에 맞게 쓴다.
 
 > 동세대 peer 만남을 우선순위 위에 둔다. 다음 다섯 학회에서 다시 마주칠 peer 한 명의 가치는 길게 본 좌표 위에서 무겁다.
 
@@ -20,13 +20,13 @@ advisor가 senior 만남은 알선해 줄 수 있다. 다만 peer 만남은 학�
 
 ## 34.2 사전 메일 양식 — 한 메일 한 질문
 
-사전 메일의 기본은 받는 쪽 cognitive load 최소화다. 자기소개 한 문장, 만남 제안 한 문장. 첨부 없음. 본인 paper title, session·요일·요청 시간대, 소요 분(15분/30분)까지 명시한다. 받는 쪽이 그 메일 하나로 의사결정을 끝낼 수 있어야 비로소 응답이 돌아온다.
+사전 메일은 받는 쪽의 인지 부담을 줄여야 한다. 자기소개 한 문장과 만남 제안 한 문장으로 쓰고 첨부는 두지 않는다. 본인 논문 제목, session·요일·요청 시간대, 소요 시간(15분/30분)까지 명시한다. 받는 쪽이 그 메일 하나로 결정할 수 있어야 답이 돌아온다.
 
-cold-email은 1-2주 전이 lead time 적정이다. 너무 이르면 상대가 일정을 아직 짜지 않았고, 너무 늦으면 일정이 이미 차 있는 만큼 그 사이를 노린다. 응답이 없을 때 1회 reminder는 OK, 2회는 X.
+cold email은 학회 일정이 공개된 뒤, 답장과 조율 시간을 남길 수 있을 때 보낸다. 이 장에서는 출국 1-2주 전을 기본값으로 쓰되, 학회 규모와 상대 일정에 맞춰 앞당긴다. 답이 없을 때 reminder는 한 번만 보낸다.
 
 좋은 예 / 나쁜 예 한 쌍을 본다.
 
-좋은 예:
+좋은 예다. 이름·논문·세션 표기는 형식을 보이기 위한 가상 정보다.
 
 ```
 Subject: ICRA 2026 — 15-min meeting request, point cloud registration
@@ -69,19 +69,19 @@ Sincerely, ...
 
 ---
 
-## 34.3 세션 사전 선별 — program을 먼저 훑어 둔다
+## 34.3 세션 사전 선별 — program을 먼저 훑는다
 
 학회 program/app을 그대로 들고 가지 않는다. 출국 전에 1-pass를 끝내 둔다. 메커니즘은 [Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) §2.1의 1st pass 그대로고, 다른 점은 적용 단위가 논문 한 편에서 학회 program 한 묶음으로 transfer된 정도다. Keshav가 §1에서 적은 문장이 그대로 학회에 적용된다 — "It allows me to estimate the amount of time required to review a set of papers." 이 권고는 일군의 논문에 들 시간을 미리 가늠하는 것이고, 학회는 일군의 논문이 압축된 형태다.
 
-선별은 5 Cs를 program 단위로 재사용한다. paper 한 편당 5-10분이 1-pass 예산이고, 한 session 10편 기준 1시간이 한 session의 사전 비용이다. 그 비용을 학회 전에 지불하지 않으면 학회 중에 두 배로 치르게 된다. 현장에서는 이동·점심·소셜 사이의 짧은 짬에 program을 처음 열어야 하기 때문이다.
+선별은 5 Cs를 program 단위로 재사용한다. Keshav가 제시한 논문 한 편당 5-10분을 1-pass 예산으로 잡으면, 발표가 열 편인 session을 훑는 데 대략 한 시간이 든다. 이 판단을 미루면 현장에서는 이동·점심·소셜 사이의 짧은 틈에 program을 처음 열어야 한다.
 
 분류는 세 칸이다.
 
-- **꼭 가야 할** — 본인 paper와 직결, advisor가 추천, 본인 future work의 baseline 후보. 출국 전 Keshav pass 2 깊이까지 읽고 간다. 발표 후 질문 1개를 가져갈 수 있어야 한다.
+- **꼭 가야 할** — 본인 논문과 직결, 지도교수가 추천, 본인 future work의 baseline 후보. 출국 전 Keshav pass 2 깊이까지 읽고 간다. 발표 후 질문 1개를 가져갈 수 있어야 한다.
 - **들으면 좋은** — 분야 인접, 방법론 차용 가능. pass 1만 끝낸 상태로 들어가 그 자리에서 결정한다.
-- ⚫ **skip** — 분야 외. program에서 줄을 그어 가시화한다.
+- **skip** — 분야 밖의 발표다. program에서 줄을 그어 표시한다.
 
-분류 paper의 사전 읽기는 두 기능을 한다. 첫째, 발표 그 자체의 이해 가속. 둘째, 사전 메일과 현장 대화의 단서 — 가령 저자에게 보낼 메일에 그 paper의 figure 3 어느 부분이 흥미롭더라는 한 줄을 붙일 수 있다.
+선별한 논문을 미리 읽으면 두 가지 이점이 있다. 첫째, 발표를 더 빨리 이해한다. 둘째, 사전 메일과 현장 대화의 단서를 얻는다. 가령 저자에게 보낼 메일에 그 논문의 그림 3에서 어느 부분이 흥미로웠는지 한 줄을 붙일 수 있다.
 
 > **학회 program은 출국 전에 1-pass 끝낸다.** 출국 직전·기내·도착 직후 program을 처음 여는 것은 사전 준비 0인 상태로 입장하는 것과 같다.
 
@@ -97,22 +97,22 @@ Sincerely, ...
 > 4. **Guidance to the reader** — What should the reader watch for in the paper? What are the interesting high points? What strategy did we use?
 > 5. **Summary/conclusion** — What should the reader expect as conclusion?
 
-이 다섯 element가 발표 slide deck의 presentation map으로 그대로 transfer된다. 청중이 발표 첫 1분 안에 어디로 가는지 알아채야 한다. Whitesides가 §4.4에서 덧붙인 한 문장은 발표에 더 강하게 적용된다 — "Pay particular attention to the opening sentence." 청중은 페이지를 넘길 수 없다. 첫 문장에서 길을 잃으면 복구할 수단이 없다. 결국 논문의 reader-guidance는 발표에서 발표자가 떠밀려 가는 단방향 trail로 굳는다.
+이 다섯 element가 발표 slide deck의 presentation map으로 그대로 옮겨진다. 청중이 발표 첫 1분 안에 어디로 가는지 알아채야 한다. Whitesides가 §4.4에서 덧붙인 한 문장은 발표에 더 강하게 적용된다 — "Pay particular attention to the opening sentence." 청중은 앞 페이지로 돌아가 다시 읽을 수 없다. 첫 문장에서 길을 잃으면 복구하기 어렵다. 논문에서 독자의 길을 안내하던 장치는 발표에서는 되돌아갈 수 없는 진행 순서를 직접 밝혀 주는 지도가 된다.
 
-5-min 발표와 20-min 발표는 다른 동물이다. slide budget이 갈린다.
+5분 발표와 20분 발표는 목적과 slide budget이 다르다.
 
-| 항목 | 5-min (spotlight·oral teaser) | 20-min (full oral) |
+| 항목 | 5-min (spotlight·구두 발표 teaser) | 20-min (full 구두 발표) |
 |---|---|---|
-| slide 수 | 5-7장 | 15-20장 |
+| 출발용 slide 예산 | 5-7장 | 15-20장 |
 | 5-element | 1·4·5만 (objective·guidance·conclusion) | 다섯 다 펼침 |
 | contribution | 1개 | 1-3개 |
-| figure | 1장 (figure 1만) | 5-8장 |
+| 그림 | 1장 (그림 1만) | 5-8장 |
 | takeaway | 1개 | 2-3개 |
-| 위치 | 광고 — 자세한 건 poster·논문 | 본 발표 — 자세한 건 그 자리에서 |
+| 위치 | 광고 — 자세한 건 포스터·논문 | 본 발표 — 자세한 건 그 자리에서 |
 
-5-min은 광고에 가깝다. 청중이 poster·논문을 찾아오게 만드는 것이 목적이지, 그 자리에서 모든 것을 전달하려는 것이 아니다. 오히려 다섯 element를 다 욱여넣으면 한 element도 남지 않는다.
+5분 발표는 광고에 가깝다. 청중이 포스터·논문을 찾아오게 만드는 것이 목적이지, 그 자리에서 모든 것을 전달하려는 것이 아니다. 위 slide 수는 학회 규정이 아니라 초안을 짜기 위한 예산이다. 실제 제한 시간과 template가 우선한다. 다섯 element를 모두 넣으면 어느 하나도 충분히 설명하기 어렵다.
 
-poster session은 또 다른 동물이다. standalone storytelling이 작동해야 한다. 사람이 5초 안에 이 poster가 무엇에 관한 것인지 읽어낼 수 있어야 한다 — title bar + key figure가 그 5초를 지탱한다. 한편 발표자 본인은 그 옆에서 움직이는 추가 층위로 작동한다. 30초 elevator + 2분 walk-through ([ch03](./chapter_35_first_sentence.md)에서 자세히).
+포스터 세션은 또 다르다. 포스터만으로 이야기가 완결되어야 한다. 지나가던 사람이 잠깐 보아도 무엇에 관한 포스터인지 알아볼 수 있어야 하며, title bar와 핵심 그림이 그 첫인상을 지탱한다. 발표자는 짧은 elevator pitch와 그보다 긴 walk-through를 따로 연습한다.
 
 > **본인 발표의 첫 1분은 청중이 어디로 가는지 알게 한다.** Whitesides §4.4의 reader-guidance가 발표에서는 더 강하게 적용된다. 청중은 페이지를 넘길 수 없다.
 
@@ -124,20 +124,20 @@ poster session은 또 다른 동물이다. standalone storytelling이 작동해�
 
 같은 사전 triage라도 venue 구조에 따라 비용이 갈린다.
 
-- **ICRA / IROS** — parallel session 8-12개 동시 진행, poster session이 networking의 main 채널. session room 이동 비용이 크므로 사전 선별이 다른 venue보다 더 중요하다 (예산 +30분). ICRA student forum 같은 학생 별도 venue는 별도 application이 필요하다 (학회 본 등록 외).
-- **CVPR / ICCV** — 1 main track + 30-50개 workshop. main track은 광고 성격이 강하고, workshop이 깊이·networking·feedback에서 모두 유리하다. workshop 사전 선별이 main track보다 ROI가 높다. CVPR doctoral consortium은 peer + senior 양쪽을 작은 방에서 만날 수 있다.
+- **ICRA / IROS** — 여러 parallel session과 포스터가 함께 돌아가므로 방 사이 이동 비용이 크다. 학생 forum처럼 별도 신청을 받는 행사는 해마다 조건이 바뀔 수 있으므로 해당 연도의 공식 program과 call을 확인한다.
+- **CVPR / ICCV** — main conference와 여러 workshop·tutorial이 함께 열린다. workshop은 좁은 주제를 오래 논의할 기회를 주지만, 어떤 행사가 networking·feedback에 더 유리한지는 그해 형식과 참가자에 따라 달라진다. doctoral consortium의 운영 여부와 신청 조건도 해당 연도의 공식 call을 확인한다.
 
-> ICRA/IROS는 parallel session 다수, CVPR/ICCV는 workshop이 networking 중심이다. venue 구조에 맞춰 사전 선별 시간 예산을 다르게 잡는다.
+> ICRA/IROS와 CVPR/ICCV는 session·poster·workshop 구성이 서로 다르다. 해당 연도의 공식 program을 보고 사전 선별 시간 예산을 다르게 잡는다.
 
 ---
 
 ## 34.6 흔한 실수와 처방
 
-- **program을 도착 후 처음 연다** → 출국 전 1-pass 강제. flight 예약과 같은 timeline에 program 선별를 캘린더에 박는다.
+- **program을 도착 후 처음 연다** → 출국 전에 1-pass를 끝낸다. flight 예약과 같은 시점에 program 선별을 캘린더에 넣는다.
 - **사전 메일을 길고 정중하게 쓴다** → §2의 한 메일 한 질문. 정중함의 척도는 받는 쪽 cognitive load 절감이다.
-- **senior만 만나려 한다** → §1의 peer 우선. senior 만남 1건당 peer 만남 2건 비율을 기본으로.
+- **senior만 만나려 한다** → §1의 peer 우선. 고정된 1:2 비율 대신, 다시 만날 동세대 연구자와 구체적인 대화를 일정에 함께 넣는다.
 - **5-min 발표에 20-min 분량을 넣는다** → §4의 표. 5-min은 광고. element 1·4·5에 압축.
-- **응답 없는 메일을 개인 평가로 받는다** → 응답률 50% 이하가 기본. 거절은 의사결정의 일부다.
+- **응답 없는 메일을 개인 평가로 받는다** → 일정과 기존 약속처럼 발신자 밖의 이유가 많다. reminder 한 번 뒤에는 다음 후보로 옮긴다.
 
 ---
 
@@ -147,23 +147,23 @@ poster session은 또 다른 동물이다. standalone storytelling이 작동해�
 
 ### Computer Vision
 
-| 학회 | 수준 | 특징 |
+| 학회 | 분야 | 특징 |
 | --- | --- | --- |
-| **CVPR** | Top | 가장 큰 CV 학회. 매년 6월 |
-| **ICCV** | Top | 2년 주기 (홀수년). CVPR과 함께 CV 양대 산맥 |
-| **ECCV** | Top | 유럽 중심, 2년 주기 (짝수년) |
-| **NeurIPS** | Top | ML 전반, Vision 포함. 매년 12월 |
-| **ICML** | Top | ML 전반. 매년 7월 |
-| **ICLR** | Top | 딥러닝 중심. 매년 5월 |
+| **CVPR** | Computer Vision | CV 전반의 주요 국제 학회 |
+| **ICCV** | Computer Vision | 2년 주기로 열리는 CV 국제 학회 |
+| **ECCV** | Computer Vision | 유럽에서 2년 주기로 열리는 CV 국제 학회 |
+| **NeurIPS** | Machine Learning | ML 전반을 다루며 Vision 논문도 포함 |
+| **ICML** | Machine Learning | ML 전반을 다루는 국제 학회 |
+| **ICLR** | Machine Learning | representation learning을 중심으로 성장한 ML 학회 |
 
 ### Robotics
 
-| 학회 | 수준 | 특징 |
+| 학회 | 분야 | 특징 |
 | --- | --- | --- |
-| **ICRA** | Top | IEEE 로보틱스. 가장 큰 로보틱스 학회 |
-| **IROS** | Top | IEEE/RSJ. ICRA와 함께 양대 산맥 |
-| **RSS** | Top | 소규모, 선별적. 질이 높다 |
-| **CoRL** | Top | 로봇 학습 특화. 최근 급성장 |
+| **ICRA** | Robotics | IEEE Robotics and Automation Society의 국제 학회 |
+| **IROS** | Robotics | IEEE/RSJ가 주최하는 지능형 로봇·시스템 국제 학회 |
+| **RSS** | Robotics | Robotics Science and Systems를 폭넓게 다루는 국제 학회 |
+| **CoRL** | Robot Learning | 로봇 학습에 특화된 국제 학회 |
 
 ### 자율주행
 
@@ -173,14 +173,12 @@ poster session은 또 다른 동물이다. standalone storytelling이 작동해�
 | **T-IV** | 지능형 차량 저널 |
 | **T-ITS** | 교통 시스템 저널 |
 
-마감일 추적은 [CV Conference Deadlines](http://conferences.visionbib.com/Iris-Conferences.html)가 주요 CV/로보틱스 학회를 한 자리에 모아 둔 reference다.
-
-표 3개는 robotics-practice ch20 § 20.5에서 이전.
+마감일을 한눈에 보는 데는 [CV Conference Deadlines](http://conferences.visionbib.com/Iris-Conferences.html) 같은 집계 페이지가 편리하다. 다만 날짜·submission policy·행사 형식은 반드시 해당 학회의 공식 call에서 다시 확인한다.
 
 ---
 
-**Takeaway.** 학회는 사전 약속의 결과물이다. 만남 사전 약속·세션 사전 triage·전문가 사전 메일 세 갈래가 출국 전 2-3주에 마무리된다. 본인 발표는 Whitesides §4.4 다섯 element를 slide map으로 transfer한 형태로 준비해 둔다. 5-min과 20-min은 slide budget이 다른 동물이다.
+만남 사전 약속·세션 사전 선별·전문가 사전 메일은 출국 2-3주 전에 마친다. 본인 발표는 Whitesides §4.4의 다섯 element를 바탕으로 준비하되, 5분과 20분 발표에는 서로 다른 slide budget을 쓴다.
 
-**출처.** [권창현 교수 G10 「학회에 가면 무엇을 해야 하나요?」](https://gradschoolstory.chkwon.net/changhyun/%ed%95%99%ed%9a%8c%ec%97%90-%ea%b0%80%eb%a9%b4-%eb%ac%b4%ec%97%87%ec%9d%84-%ed%95%b4%ec%95%bc-%ed%95%98%eb%82%98%ec%9a%94/), [Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf), [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767), robotics-practice ch20 § 20.5 (분야별 학회 표). 사전 메일 양식·응답률 50% 추정·venue program 패턴은 이 장에서 정리했다.
+**출처.** [권창현 교수 G10 「학회에 가면 무엇을 해야 하나요?」](https://gradschoolstory.chkwon.net/changhyun/%ed%95%99%ed%9a%8c%ec%97%90-%ea%b0%80%eb%a9%b4-%eb%ac%b4%ec%97%87%ec%9d%84-%ed%95%b4%ec%95%bc-%ed%95%98%eb%82%98%ec%9a%94/), [Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf), [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767), robotics-practice ch20 §20.5 (분야별 학회 표). 사전 메일 양식과 시간 예산은 이 장에서 제안한 출발값이며, venue 구조와 일정은 해당 연도의 공식 program을 우선한다.
 
 다음: [Ch.3 — 첫 마디의 기술](./chapter_35_first_sentence.md)

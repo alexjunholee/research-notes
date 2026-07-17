@@ -1,14 +1,14 @@
 # Ch.20 — 정보가 담긴 소제목과 결론 ≠ 요약
 
-논문 본문을 끝까지 읽는 독자는 소수다. 다수는 소제목만 훑고 figure로 내려간다. 그래서 그 다수에게 논문의 main message가 전달되려면 소제목 자체에 주장이 박혀 있어야 한다. [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) §III가 이 점을 정면으로 짚는다.
+논문 본문을 끝까지 읽는 독자는 소수다. 다수는 소제목만 훑고 그림으로 내려간다. 그들에게 논문의 핵심 메시지를 전달하려면 소제목 자체에 주장이 들어 있어야 한다. [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) §III가 이 점을 정면으로 짚는다.
 
 ---
 
-## 20.1 헤딩이 claim을 가져야 하는 이유
+## 20.1 소제목에 주장이 필요한 이유
 
-skim 패턴의 독자는 본문을 읽지 않고 소제목과 figure caption만 본다. 이 독자에게 "Loop Closure Experiments"라는 헤딩은 정보가 0이다. 같은 곳에 "Loop closure recall improves 14% with multi-scale BEV"가 들어가면, 그제서야 그 한 줄로 main message가 전달된다.
+훑어 읽는 독자는 본문보다 소제목과 그림 캡션을 먼저 볼 수 있다. 이 독자에게 "Loop Closure Experiments"라는 소제목은 실험 주제만 알려 준다. 같은 곳에 "Loop closure recall improves 14% with multi-scale BEV"가 들어가면 그 한 줄로 핵심 메시지가 전달된다. 여기와 아래 표의 수치는 claim 형식을 보이기 위한 가상 값이다.
 
-heading은 자동 생성되는 TOC고, 그 TOC가 곧 논문의 골격이다. Whitesides가 §III에 적은 권고를 다른 표현으로 옮기면 heading만 읽어도 논문의 main message가 재구성되어야 한다가 된다. 이 조건이 깨진 논문은 skim 단계에서 reject 사유를 만든다.
+소제목이 모이면 논문의 목차이자 골격이 된다. Whitesides가 §III에 적은 권고를 다른 표현으로 옮기면 "소제목만 읽어도 논문의 핵심 메시지를 재구성할 수 있어야 한다"가 된다. 이 조건이 깨진 논문은 훑어 읽는 단계에서 reject 사유를 만든다.
 
 topic-style heading("Network Architecture", "Ablation Study")은 분야의 관행으로 굳어 있어 거부감이 적다. 다만 그 관행이 정보 전달의 기회를 놓치고 있다는 진단이 Whitesides의 입장이다.
 
@@ -36,7 +36,7 @@ claim-style 헤딩 한 줄을 만드는 절차는 다음과 같다.
 
 1. 본문 핵심 결론을 한 문장으로 적는다.
 2. SVO로 다듬는다. Whitesides §III의 no nouns as adjectives 규칙이 여기에 작동한다. "ATP formation"이 아니라 "formation of ATP"가 권장 형태다.
-3. 길이를 60-80자 사이로 자른다. 90자가 넘으면 헤딩이 단락처럼 읽히고, 30자 아래로 내려가면 정보량이 부족하다.
+3. venue template와 지면 폭 안에서 한 줄로 읽히도록 줄인다. 이 장에서는 60-80자를 초안의 출발 범위로 쓰지만, 보편적인 길이 규칙은 아니다. 숫자보다 claim의 완결성과 같은 층위 헤딩의 평행성을 먼저 본다.
 
 이 절차는 outline iteration 4-5회차에 들어가는 작업이다. 1-3회차에서는 헤딩이 placeholder로 남아 있어도 된다. claim-style로 다듬는 작업은 본문 결론이 안정된 뒤에야 비로소 의미가 있다.
 
@@ -46,9 +46,9 @@ claim-style 헤딩 한 줄을 만드는 절차는 다음과 같다.
 
 Conclusions 섹션에 Results의 숫자를 다시 나열하는 패턴이 가장 흔한 결함이다. "In summary, we showed A, B, and C."로 시작하는 Conclusions는 abstract와 Results에 이미 있는 정보를 한 번 더 반복한다. 독자에게 새 정보가 0이다.
 
-Whitesides가 §III에 적은 정의는 명확하다. Conclusions는 higher-level analysis다. 결과들이 합쳐 무엇을 말하는지, 분야에 어떻게 기여하는지, 어떤 가설이 살아남고 어떤 가설이 죽었는지가 들어간다. 형태는 "목록 of short phrases"고, 각 phrase는 새로운 통찰이어야 한다.
+Whitesides가 §III에 적은 정의는 명확하다. Conclusions는 higher-level analysis다. 결과들이 합쳐 무엇을 말하는지, 분야에 어떻게 기여하는지, 어떤 가설이 살아남고 어떤 가설이 죽었는지가 들어간다. 형태는 "짧은 구의 목록"이고, 각 구는 새로운 통찰을 담아야 한다.
 
-Discussion 섹션이 별도로 있는 논문이라면 Conclusions는 더 짧아진다 — 3-5 phrase 정도가 적정선이다. Discussion이 없는 venue 형식이라면 Conclusions가 그 역할을 흡수해 길어진다. 어느 쪽이든 Results의 요약이 들어가서는 안 된다는 점은 같다.
+Discussion 섹션이 별도로 있는 논문이라면 Conclusions는 더 짧아질 수 있다. 이 장에서는 3-5개의 짧은 요점을 초안 출발값으로 쓰지만, venue 형식과 기여 수에 따라 달라진다. Discussion이 없는 형식이라면 Conclusions가 해석과 한계까지 흡수해 길어진다. 어느 쪽이든 Results의 숫자만 되풀이하는 요약에 머물러서는 안 된다.
 
 ---
 
@@ -57,7 +57,7 @@ Discussion 섹션이 별도로 있는 논문이라면 Conclusions는 더 짧아�
 Conclusions·heading 양쪽에서 반복되는 실수는 다음과 같다.
 
 - "In summary, we showed A, B, and C." — A·B·C는 이미 abstract와 Results에 있다. 한 단계 위로 올라가지 않았다.
-- Conclusions에 future work 한 줄만 달랑 쓰는 경우 — higher-level analysis가 비어 있다. future work는 Conclusions의 마지막 phrase에만 들어간다.
+- Conclusions에 future work 한 줄만 달랑 쓰는 경우 — higher-level analysis가 비어 있다. future work는 Conclusions의 마지막 구에만 들어간다.
 - 헤딩 길이가 들쭉날쭉한 경우 — 한 섹션 안에 10자 헤딩과 90자 헤딩이 섞이면 평행성이 깨진다. 같은 스케일의 헤딩은 길이가 비슷해야 skim에서 리듬이 살아난다.
 - claim-style 헤딩에서 동사가 빠지는 경우 — "BEV-based Loop Closure"는 명사구다. claim이 되려면 동사가 들어가야 한다.
 

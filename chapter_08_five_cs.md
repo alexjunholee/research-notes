@@ -8,7 +8,7 @@
 
 ## 8.1 종류 — 이 논문은 무엇을 하는가
 
-먼저 논문의 성격을 한 줄로 적는다. 새 시스템을 소개하는 논문인지, 기존 방법을 분석하는 논문인지, 새로운 측정이나 벤치마크를 제시하는 논문인지, 한 아이디어를 실험으로 밀어붙이는 논문인지 구분한다.
+먼저 논문의 성격을 간명하게 규정한다. 새 시스템을 소개하는 논문인지, 기존 방법을 분석하는 논문인지, 새로운 측정이나 벤치마크를 제시하는 논문인지, 한 아이디어를 실험으로 밀어붙이는 논문인지 구분한다.
 
 자료는 보통 제목과 초록 첫 문장에 있다. “딥러닝 논문” 같은 답은 너무 넓다. “RGB-D 입력으로 조밀한 지도를 만드는 시스템 논문” 정도는 되어야 다음 논문과 비교할 수 있다.
 
@@ -74,4 +74,4 @@ Authors / Year / Venue:
 
 **출처.** [Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) §2.1, [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rules 5·6, [Gopen & Swan 1990](https://www.americanscientist.org/blog/the-long-view/the-science-of-scientific-writing).
 
-다음: [Ch.4 — Literature Survey Workflow](./chapter_09_lit_survey_workflow.md)
+다음: [Ch.9 — Literature Survey Workflow](./chapter_09_lit_survey_workflow.md)

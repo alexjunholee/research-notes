@@ -14,7 +14,7 @@ Keshav는 3rd pass가 초보 독자에게 약 4-5시간, 숙련된 독자에게 
 
 > "실험 결과가 가설과 다르면, 결과를 의심하기 전에 가설을 의심하라."
 
-심사위원 자세에서 같은 권고를 적용하면, 본문이 자기 직관과 다르게 흘러갈 때 자기 사전 가정이 틀렸을 가능성을 먼저 본다는 절차가 된다. 자기 마음을 바꿀 수 있는 학생만이 심사위원 코멘트에서도 자기 가설을 의심하는 절차를 굴린다. 무엇을 모르는지 아는 메타인지가 심사위원 적격성의 본체와 겹친다.
+심사위원도 본문이 자기 직관과 다르게 흘러갈 때는 자기 사전 가정이 틀렸을 가능성부터 봐야 한다. 자기 마음을 바꿀 수 있는 학생만이 심사위원 코멘트에서도 자기 가설을 의심한다. 무엇을 모르는지 아는 메타인지가 심사위원 적격성의 핵심과 겹친다.
 
 ---
 
@@ -24,10 +24,10 @@ Keshav §2.3은 "challenge every assumption"을 심사위원 모드의 핵심 �
 
 1. **기여 목록을 자기 언어로 다시 적는다.** 저자 표현을 그대로 베끼지 않는다. 베끼면 자기 머리를 통과하지 않은 채 다음 단계로 간다.
 2. **각 contribution마다 "내가 이걸 만든다면 어떻게?"를 즉흥 설계한다.** 노트 한 페이지에 3-5분을 써 보는 것은 시작 예시일 뿐이다. 논문의 복잡도에 맞게 늘리되 초안을 깔끔하게 만드는 데 시간을 쓰지 않는다.
-3. **저자의 선택과 자기 즉흥을 비교한다.** 두 설계가 어긋나는 지점이 있다. 그 지점이 implicit assumption이다.
-4. **차이가 왜 다른지 본문에서 근거를 찾는다.** 못 찾으면 그 가정은 unstated assumption이고, 심사위원 코멘트의 일등 후보가 된다.
+3. **저자의 선택과 자기 즉흥을 비교한다.** 두 설계가 어긋나는 지점을 표시한다. 설계 대안이 다른지, 가정이나 자신의 이해가 다른지 살펴볼 출발점이다.
+4. **차이가 왜 생겼는지 본문에서 근거를 찾는다.** 결론에 필요한 가정인데도 본문에 설명이 없다면 unstated assumption의 후보로 기록한다. 아직 이유를 모르는 설계 차이는 먼저 확인할 질문으로 남긴다.
 
-이 절차는 `내가 다르게 했을 텐데 저자는 왜 같지 않았나?`를 질문으로 만든다. 그것이 곧 evidence-based question이다. 그 질문이 심사위원이 작성할 자격이 있는 코멘트가 된다.
+이 절차는 `내가 했다면 다르게 했을 텐데, 저자는 왜 이렇게 했나?`라는 질문을 만든다. 그것이 곧 evidence-based question이다. 그런 질문이라야 심사위원 코멘트로 쓸 자격이 생긴다.
 
 ---
 
@@ -41,11 +41,11 @@ Keshav는 가정 유형을 따로 분류하지 않았다. 로보틱스/CV 분야
 
 **Baseline 선택 가정.** claim과 가장 가까운 강한 비교군이 빠져 있는 경우다. 제출 시점의 관련 연구와 동일 protocol에서 비교 가능한 방법을 확인하고, "이 baseline을 고른 이유가 본문에 있나?"라고 묻는다.
 
-**Ablation 누락 가정.** 기여가 셋인데 ablation은 하나만 등장하는 표가 자주 보인다. 나머지 둘은 검증 없이 기여로 적혔다.
+**Ablation 누락 가정.** 기여가 셋인데 ablation은 하나만 등장하는 표를 만났다면, 나머지 둘을 어떤 근거로 뒷받침하는지 확인한다. 다른 실험이나 증명이 있을 수 있으므로 ablation의 수만으로 검증이 없다고 판단하지 않는다.
 
 **수학적 가정.** 가정 1, 2, 3이 나열되었는데 그중 하나가 결과에 결정적이고 그 한 가정만 본문에 motivation 한 줄도 없는 경우다. Keshav가 든 "challenge every assumption"이 적용되는 곳이다.
 
-다섯 유형의 공통점은 challenge가 곧 evidence 요청이라는 점이다. 톤은 [Part 3 ch11 (Revision·Rebuttal)](./chapter_32_revision_rebuttal.md)에서 받는 쪽 입장과 함께 다룬다.
+다섯 유형의 공통점은 challenge가 곧 evidence 요청이라는 점이다. 톤은 [Ch.32 (개정과 답변서)](./chapter_32_revision_rebuttal.md)에서 받는 쪽 입장과 함께 다룬다.
 
 ---
 
@@ -71,8 +71,8 @@ Major issue의 심각도와 수정 가능성은 추천을 판단하는 근거 �
 
 ---
 
-같은 referee-as-teacher 회로가 후배 멘토링에서 다시 굴러간다. 「대학원노트」 [Part 5 ch01 「후배를 키운다」](../grad-notes/chapter_21_mentor_juniors.md)가 이 장의 관점을 후배 멘토링 층위로 옮긴다. 동료의 글을 reviewer-as-teacher 자세로 읽는 일과 후배를 미래의 본인을 위한 리더십 위치에서 가르치는 일이, 결국 같은 관점의 두 적용이다.
+같은 referee-as-teacher 회로가 후배 멘토링에서 다시 굴러간다. 「대학원노트」 [Ch.21 「후배를 키운다」](../grad-notes/chapter_21_mentor_juniors.md)가 이 장의 관점을 후배 멘토링 층위로 옮긴다. 동료의 글을 reviewer-as-teacher 자세로 읽는 일과 미래의 독립 연구 책임자로서 설명과 피드백을 연습하며 후배를 가르치는 일이, 결국 같은 관점의 두 적용이다.
 
-**출처.** [Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) §2.3(3rd pass, virtual re-implementation, "challenge every assumption", 독서 시간의 대략적 예). reviewer 수락·confidence·recommendation 기준은 각 venue의 공식 policy를 우선한다. 가정 유형 분류·심각도 규칙·위치 매칭 양식은 이 장에서 정리했다.
+**출처.** [Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) §2.3(3rd pass, virtual re-implementation, "challenge every assumption", 독서 시간의 대략적 예). reviewer 수락·confidence·recommendation 기준은 각 venue의 공식 policy를 우선한다. 가정 유형 분류와 심각도 판별 기준, 위치 매칭 양식은 심사 실무에 맞추어 본문에서 체계화한 것이다.
 
-다음: [Ch.6 — CCC 렌즈로 논문 해부하기](./chapter_11_ccc_lens.md)
+다음: [Ch.11 — CCC 렌즈로 논문 해부하기](./chapter_11_ccc_lens.md)

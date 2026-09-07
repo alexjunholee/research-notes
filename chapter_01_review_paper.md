@@ -2,7 +2,7 @@
 
 "이 분야 논문 좀 읽어 와." 분야에 막 들어온 학생이 가장 자주 듣는 첫 지시다. 지도교수는 분야의 이름까지만 일러준다. 그 안에서 무엇이 끝났고 무엇이 남았는지는 학생이 직접 추출한다. 그 작업에 먼저 필요한 것은 한 장의 지도다.
 
-분야에 막 들어온 학생은 "이미 주제가 있는 학생"보다 앞선 단계, 곧 아직 주제도 흐릿한 시점에 있다. 어떤 venue가 중요한지도 모르고, 좋은 저자의 이름은 한둘뿐인 단계다. 한 달 안에 분야 지도를 그리는 도구로 리뷰 논문 한 편, 인용 그래프, hypothesis placeholder 셋을 잡는다. Part 1 ch02의 Keshav 3-pass는 논문 한 편 단위의 읽기 전략이고, 여기서는 분야 단위의 진입 전략을 다룬다. 적용 층위가 다른 두 단계다.
+분야에 막 들어온 학생은 "이미 주제가 있는 학생"보다 앞선 단계, 곧 아직 주제도 흐릿한 시점에 있다. 어떤 venue가 중요한지도 모르고, 좋은 저자의 이름은 한둘뿐인 단계다. 한 달 안에 분야 지도를 그리는 도구로 리뷰 논문 한 편, 인용 그래프, hypothesis placeholder 셋을 잡는다. Ch.7의 Keshav 3-pass가 개별 논문을 파고드는 독해법이라면, 여기서는 연구 분야 전체를 조망하며 진입하는 전략에 집중한다. 적용 층위가 다른 두 단계다.
 
 ---
 
@@ -10,15 +10,15 @@
 
 분야 지도 없이 단일 논문에서 출발하면, 어디가 끝이고 어디가 시작인지 모르는 채 한 학기가 흘러간다. 지도교수가 던져 준 한 편을 정독하고, 그 인용을 따라가다 동일 저자의 다음 논문을 찾고, 거기서 다시 인용을 따라간다. 일종의 random walk다. random walk 그 자체가 나쁘지는 않다. 다만 이렇게 해서는 언제 멈출지의 기준이 안 생긴다. 좌표가 없으면 거리감도 없다.
 
-리뷰 논문은 시간 순서·subfield 분기·해결된 문제·열린 문제를 한 편에 압축한다. 한 저자(또는 한 그룹)의 시선으로 분야의 history와 taxonomy가 정리되어 있다. 본인이 처음부터 세우지 않아도 된다. 좋은 리뷰 한 편과 그 리뷰가 인용한 그래프, 이것만으로 한 달 분량의 분야 좌표가 잡힌다. 좌표가 잡힌 뒤에야 비로소 단일 논문이 어디에 놓여 있는지 보인다.
+리뷰 논문은 시간 순서·subfield 분기·해결된 문제·열린 문제를 한 편에 압축한다. 한 저자(또는 한 그룹)의 시선으로 분야의 history와 taxonomy가 정리되어 있다. 본인이 처음부터 세우지 않아도 된다. 좋은 리뷰 한 편과 그 리뷰에서 시작해 따라간 논문 간 인용 그래프, 이것만으로 한 달 분량의 분야 좌표가 잡힌다. 좌표가 잡힌 뒤에야 비로소 단일 논문이 어디에 놓여 있는지 보인다.
 
-> **분야 진입의 시작점은 리뷰 논문(또는 그에 준하는 분야-단위 자료)이다.** 단일 논문만으로 시작하면 좌표 없이 읽는다. 리뷰가 없는 신생 subfield의 대체 자료(best paper·tutorial·thesis)는 §5에서 다룬다.
+> **분야 진입의 시작점은 리뷰 논문(또는 그에 준하는 분야-단위 자료)이다.** 단일 논문만으로 시작하면 좌표 없이 읽는다. 리뷰가 없는 신생 subfield의 대체 자료(best paper·tutorial·thesis)는 §1.5에서 다룬다.
 
 ---
 
 ## 1.2 논문을 읽었다고 말하기 위한 네 질문
 
-[최윤섭 박사](https://gradschoolstory.chkwon.net/yoonsup/first-research-subject/)가 「첫 연구 주제를 어떻게 정하고 접근할 것인가」에서 정리한 질문 네 개가 좋은 entry다. 한 논문을 다 읽었다고 말하기 위해 답해야 하는 질문 목록이고, 본인이 한 논문의 의미를 파악했는지 자가 진단하는 도구이기도 하다.
+[최윤섭 박사](https://gradschoolstory.chkwon.net/yoonsup/first-research-subject/)가 「첫 연구 주제를 어떻게 정하고 접근할 것인가」에서 정리한 질문 네 개가 좋은 출발점이다. 한 논문을 제대로 소화했는지 판별하는 기준이자, 연구의 본질적인 맥락을 정확히 짚어냈는지 점검하는 자가 진단 도구다.
 
 > 1. 왜 이 주제인가
 > 2. 기존 연구는 어디까지 와 있는가
@@ -27,9 +27,9 @@
 >
 > 이 질문에 답할 수 없으면 그 연구의 의미를 파악하고 있다 할 수 없다.
 
-분야 진입 단계에서 4번 질문이 비어 있는 것은 오히려 정상이다. 지금의 목표는 비어 있다는 사실을 인지한 채 보관하는 것이다. 1·2·3번은 리뷰 한 편으로 거의 채워지지만, 4번은 시간을 두고 천천히 차오른다. 한 논문은 핵심 질문 4개짜리 카드, 한 분야는 그 카드들의 묶음으로 보면 된다.
+분야 진입 단계에서는 4번 질문이 비어 있는 상태가 자연스럽다. 지금의 목표는 비어 있다는 사실을 인지한 채 보관하는 것이다. 1·2·3번은 리뷰 한 편으로 거의 채워지지만, 4번은 시간을 두고 천천히 차오른다. 한 논문은 핵심 질문 4개짜리 카드, 한 분야는 그 카드들의 묶음으로 보면 된다.
 
-> **최윤섭 박사의 4개 질문에 답할 수 없는 논문은 읽지 않은 논문이다.** 페이지를 넘긴 것 ≠ 의미 파악 완료.
+> **최윤섭 박사의 4개 질문으로 이해한 범위를 확인한다.** 진입 단계에서는 네 번째 질문을 빈칸으로 남길 수 있다. 페이지를 넘겼다는 사실만으로 의미 파악이 끝나지는 않는다.
 
 ---
 
@@ -61,7 +61,7 @@ Keshav가 §3에 적은 절차는 단순하다. 2026년에 같은 절차를 실�
 
 추상적인 절차는 진입 단계의 학생에게 마찰이 크다. 그래서 분야별로 review가 어디에 살고 entry tool이 무엇인지 구체적으로 박아 두는 편이 빠르다.
 
-로보틱스 쪽 review는 보통 [T-RO (IEEE Transactions on Robotics)](https://www.ieee-ras.org/publications/t-ro), [IJRR (International Journal of Robotics Research)](https://journals.sagepub.com/home/ijr), [RAS (Robotics and Autonomous Systems)](https://www.sciencedirect.com/journal/robotics-and-autonomous-systems)에 실린다. SLAM이라면 Cadena et al. 2016, motion planning이라면 LaValle의 Planning Algorithms 같은 reference book이 reference 역할을 한다. CV 쪽 review는 [TPAMI (IEEE Transactions on Pattern Analysis and Machine Intelligence)](https://www.computer.org/csdl/journal/tp)에 실리는 경우가 많고, CVPR/ICCV/ECCV의 tutorial track에서 신생 subfield의 review 격 자료가 나온다.
+로보틱스 쪽 review는 보통 [T-RO (IEEE Transactions on Robotics)](https://www.ieee-ras.org/publications/t-ro), [IJRR (International Journal of Robotics Research)](https://journals.sagepub.com/home/ijr), [RAS (Robotics and Autonomous Systems)](https://www.sciencedirect.com/journal/robotics-and-autonomous-systems)에 실린다. SLAM이라면 Cadena et al. 2016, motion planning이라면 LaValle의 Planning Algorithms 같은 reference book이 리뷰 역할을 한다. CV 쪽 review는 [TPAMI (IEEE Transactions on Pattern Analysis and Machine Intelligence)](https://www.computer.org/csdl/journal/tp)에 실리는 경우가 많고, CVPR/ICCV/ECCV의 tutorial track에서 신생 subfield의 review 격 자료가 나온다.
 
 분야 진입에는 다음 4종이 잘 알려져 있다.
 
@@ -76,10 +76,10 @@ Keshav가 §3에 적은 절차는 단순하다. 2026년에 같은 절차를 실�
 
 ---
 
-분야 진입의 한 달은 본인이 어디에 서 있는지를 좌표화하는 시간이다. 리뷰 한 편(또는 신생 subfield라면 §5의 best paper·tutorial·thesis 대체) → 최윤섭 박사 4개 질문 → citation overlap → hypothesis placeholder 순으로 한 바퀴를 돌고 나면 "문제 정의"의 입력이 준비된다. 좌표가 잡힌 뒤에야 비로소 잘못된 질문과 맞는 질문이 갈라진다. "write down the problem"은 그제야 빈칸이 아니다.
+분야 진입의 한 달은 본인이 어디에 서 있는지를 좌표화하는 시간이다. 리뷰 한 편(또는 신생 subfield라면 §1.5의 best paper·tutorial·thesis 대체) → 최윤섭 박사 4개 질문 → citation overlap → hypothesis placeholder 순으로 한 바퀴를 돌고 나면 "문제 정의"의 입력이 준비된다. 좌표가 잡힌 뒤에야 비로소 잘못된 질문과 맞는 질문이 갈라진다. "write down the problem"은 그제야 빈칸이 아니다.
 
 ---
 
-**출처.** [최윤섭 박사 G3 「첫 연구 주제를 어떻게 정하고 접근할 것인가」](https://gradschoolstory.chkwon.net/yoonsup/first-research-subject/), [Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) §3, [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) §1.
+**출처.** [최윤섭 박사 「첫 연구 주제를 어떻게 정하고 접근할 것인가」](https://gradschoolstory.chkwon.net/yoonsup/first-research-subject/), [Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) §3, [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) §1.
 
 다음: [Ch.2 — 문제 정의는 답보다 먼저 좁혀진다](./chapter_02_feynman_problem.md)

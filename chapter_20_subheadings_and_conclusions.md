@@ -1,12 +1,12 @@
 # Ch.20 — 정보가 담긴 소제목과 결론 ≠ 요약
 
-논문 본문을 끝까지 읽는 독자는 소수다. 다수는 소제목만 훑고 그림으로 내려간다. 그들에게 논문의 핵심 메시지를 전달하려면 소제목 자체에 주장이 들어 있어야 한다. [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) §III가 이 점을 정면으로 짚는다.
+논문 본문을 끝까지 읽는 독자는 소수다. 다수는 소제목만 훑고 그림으로 내려간다. 그들에게 논문의 핵심 메시지를 전달하려면 소제목 자체가 주장을 담아야 한다. [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) §III가 이 점을 정면으로 짚는다.
 
 ---
 
 ## 20.1 소제목에 주장이 필요한 이유
 
-훑어 읽는 독자는 본문보다 소제목과 그림 캡션을 먼저 볼 수 있다. 이 독자에게 "Loop Closure Experiments"라는 소제목은 실험 주제만 알려 준다. 같은 곳에 "Loop closure recall improves 14% with multi-scale BEV"가 들어가면 그 한 줄로 핵심 메시지가 전달된다. 여기와 아래 표의 수치는 claim 형식을 보이기 위한 가상 값이다.
+훑어 읽는 독자는 본문보다 소제목과 그림 캡션을 먼저 볼 수 있다. 이 독자에게 "Loop Closure Experiments"라는 소제목은 실험 주제만 알려 준다. 같은 곳에 "Loop closure recall improves 14% with multi-scale BEV"가 들어가면 그 한 줄로 핵심 메시지가 전달된다. 여기와 아래 표에 제시된 수치는 주장이 담긴 소제목의 문장 구조를 설명하기 위한 예시 데이터다.
 
 소제목이 모이면 논문의 목차이자 골격이 된다. Whitesides가 §III에 적은 권고를 다른 표현으로 옮기면 "소제목만 읽어도 논문의 핵심 메시지를 재구성할 수 있어야 한다"가 된다. 이 조건이 깨진 논문은 훑어 읽는 단계에서 reject 사유를 만든다.
 
@@ -26,7 +26,7 @@ topic-style heading("Network Architecture", "Ablation Study")은 분야의 관�
 | Network Architecture | **A two-branch encoder separates appearance from geometry** |
 | Dataset and Metrics | **We evaluate on KITTI-360 and VIVID with rotation/translation error** |
 
-After 쪽 다섯 헤딩의 공통점은 동사·숫자·대상이 명시되어 있다는 점이다. "improves 14%", "degrades RTE by 38%", "matches at 1/3 runtime", "separates appearance from geometry"가 한 줄에 박혔다. 동사가 빠진 명사구만 남으면 헤딩은 정보를 잃는다.
+After 쪽 다섯 헤딩의 공통점은 동사와 대상이 명시되어 있다는 점이다. "improves 14%", "degrades RTE by 38%", "matches at 1/3 runtime", "separates appearance from geometry"가 한 줄에 박혔다. 동사가 빠진 명사구만 남으면 헤딩은 정보를 잃는다.
 
 ---
 
@@ -35,8 +35,8 @@ After 쪽 다섯 헤딩의 공통점은 동사·숫자·대상이 명시되어 �
 claim-style 헤딩 한 줄을 만드는 절차는 다음과 같다.
 
 1. 본문 핵심 결론을 한 문장으로 적는다.
-2. SVO로 다듬는다. Whitesides §III의 no nouns as adjectives 규칙이 여기에 작동한다. "ATP formation"이 아니라 "formation of ATP"가 권장 형태다.
-3. venue template와 지면 폭 안에서 한 줄로 읽히도록 줄인다. 이 장에서는 60-80자를 초안의 출발 범위로 쓰지만, 보편적인 길이 규칙은 아니다. 숫자보다 claim의 완결성과 같은 층위 헤딩의 평행성을 먼저 본다.
+2. SVO로 다듬고, 명사구 안의 수식 관계도 확인한다. Whitesides §III의 '명사의 형용사적 용법 지양' 규칙에 따라, 가령 "ATP formation" 대신 전치사구를 활용한 "formation of ATP" 형태를 권장한다.
+3. venue template와 지면 폭 안에서 한 줄로 읽히도록 줄인다. 60-80자를 초안의 출발 범위로 둘 수 있지만 보편적인 길이 규칙은 아니다. 숫자보다 claim의 완결성과 같은 층위 헤딩의 평행성을 먼저 본다.
 
 이 절차는 outline iteration 4-5회차에 들어가는 작업이다. 1-3회차에서는 헤딩이 placeholder로 남아 있어도 된다. claim-style로 다듬는 작업은 본문 결론이 안정된 뒤에야 비로소 의미가 있다.
 
@@ -46,9 +46,9 @@ claim-style 헤딩 한 줄을 만드는 절차는 다음과 같다.
 
 Conclusions 섹션에 Results의 숫자를 다시 나열하는 패턴이 가장 흔한 결함이다. "In summary, we showed A, B, and C."로 시작하는 Conclusions는 abstract와 Results에 이미 있는 정보를 한 번 더 반복한다. 독자에게 새 정보가 0이다.
 
-Whitesides가 §III에 적은 정의는 명확하다. Conclusions는 higher-level analysis다. 결과들이 합쳐 무엇을 말하는지, 분야에 어떻게 기여하는지, 어떤 가설이 살아남고 어떤 가설이 죽었는지가 들어간다. 형태는 "짧은 구의 목록"이고, 각 구는 새로운 통찰을 담아야 한다.
+Whitesides가 §III에 적은 정의는 명확하다. Conclusions는 higher-level analysis다. 결과들이 합쳐 무엇을 말하는지, 분야에 어떻게 기여하는지, 어떤 가설이 살아남고 어떤 가설이 죽었는지가 들어간다. 각 항목은 간결한 구의 형태로 작성하되, 단순한 사실 나열을 넘어 새로운 학술적 통찰을 온전히 담아내야 한다.
 
-Discussion 섹션이 별도로 있는 논문이라면 Conclusions는 더 짧아질 수 있다. 이 장에서는 3-5개의 짧은 요점을 초안 출발값으로 쓰지만, venue 형식과 기여 수에 따라 달라진다. Discussion이 없는 형식이라면 Conclusions가 해석과 한계까지 흡수해 길어진다. 어느 쪽이든 Results의 숫자만 되풀이하는 요약에 머물러서는 안 된다.
+Discussion 섹션이 별도로 있는 논문이라면 Conclusions는 더 짧아질 수 있다. 3-5개의 짧은 요점을 초안 출발값으로 삼을 수 있지만 venue 형식과 기여 수에 따라 달라진다. Discussion이 없는 형식이라면 Conclusions가 해석과 한계까지 흡수해 길어진다. 어느 쪽이든 Results의 숫자만 되풀이하는 요약에 머물러서는 안 된다.
 
 ---
 
@@ -69,6 +69,6 @@ claim-style 헤딩은 본문 한 섹션에서 결론 문장을 먼저 추출한 
 
 ---
 
-**출처.** [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) §III (information-rich subheadings, conclusions as higher-level analysis). [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 7 (declarative statements, 보조). 로보틱스 5쌍은 이 장에서 정리했다.
+**출처.** [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) §III (information-rich subheadings, conclusions as higher-level analysis). [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 7 (declarative statements, 보조). 로보틱스 분야를 위한 5쌍의 소제목 대비 예시는 본문에서 독자적으로 재구성한 자료다.
 
-다음: [Part 3 — 섹션별 작성법](./chapter_22_title_abstract.md)
+다음: [Ch.21 — 문단 흐름](./chapter_21_paragraph_flow.md)

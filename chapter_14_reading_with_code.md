@@ -2,17 +2,17 @@
 
 SLAM·CV 논문 가운데는 코드를 공개한 사례가 많지만, 공개가 모든 논문의 기본값이나 의무는 아니다. 공식 저장소가 있는 논문은 원고와 코드를 함께 읽을 때 구현 세부와 재현 조건을 더 깊이 확인할 수 있다. 같은 한 편이 두 학생에게 다른 깊이로 남는다.
 
-[ch08](./chapter_13_reading_math_proofs.md)에서 dense math를 어느 패스에 어디까지 펼치는가를 정했다. 논문이 못 잡은 디테일이 GitHub 저장소·issue tracker·PR comment에 자주 풀려 있는 만큼, 재구현 작정의 읽기는 논문만으로 끝낼 수 없다. 논문은 what을 적고, GitHub은 how를 담는다.
+[Ch.13](./chapter_13_reading_math_proofs.md)에서 dense math를 어느 패스에 어디까지 펼치는가를 정했다. 논문에 담기지 않은 디테일이 GitHub 저장소·issue tracker·PR comment에 자주 풀려 있는 만큼, 재구현 작정의 읽기는 논문만으로 끝낼 수 없다. 논문은 what을 적고, GitHub은 how를 담는다.
 
 ---
 
 ## 14.1 논문과 저장소의 거리
 
-Keshav 3rd pass — virtual re-implementation — 은 논문만으로 끝낼 수 있는 작업이 아니다. 논문 §3 방법이 알고리즘의 골격을 적는다면, 같은 알고리즘이 어떤 hyperparameter에서 안정적이고 어디서 무너지는가는 코드와 issue tracker 안에 놓여 있다.
+Keshav 3rd pass — virtual re-implementation — 은 논문을 바탕으로 저자의 가정과 작업을 재구성하는 읽기다. 공개 구현이 있는 논문에서는 코드와 issue tracker를 함께 살펴 이 읽기를 확장할 수 있다. 논문 §3 방법에 적힌 알고리즘의 골격과 실제 구현의 hyperparameter·동작 조건이 어떻게 이어지는지 확인하는 것이다.
 
 학생이 자주 빠지는 함정은 공식 저장소가 있는데도 논문만 읽고 구현까지 이해했다고 결론을 내리는 일이다. 1st·2nd pass 뒤 저장소를 열지 않으면, 나중에 thesis의 baseline으로 실행할 때 필요한 환경·전처리·parameter 정보가 빠질 수 있다.
 
-분야 senior가 자기 블로그에 해설형 자료를 남기는 동기가 같은 결에 놓여 있다. 김기섭 교수의 SLAM 14편 블로그 — FAST-LIO Fast 한 이유·Pose-graph SLAM Tutorial 같은 형식 — 가 한 본보기다. 논문만으로는 안 잡히는 왜 이 코드가 이렇게 빠른가를 issue·코드·본인 빌드 + 논문 셋의 교차에서 풀어 적은 형식이다. 같은 결의 자료를 한 편에 두 시간 들여 합치는 작업이 senior의 층위로 굳었다.
+분야 senior가 자기 블로그에 해설형 자료를 남기는 이유도 같다. 김기섭 교수의 SLAM 14편 블로그(FAST-LIO Fast 한 이유·Pose-graph SLAM Tutorial 같은 형식)가 한 사례다. 논문만으로는 코드가 왜 이렇게 빠른지 잡히지 않을 때, issue·코드·직접 빌드 결과와 논문을 함께 보며 그 이유를 풀어 적은 형식이다. 이런 자료 한 편을 두 시간에 걸쳐 엮는 일은 senior가 하는 읽기 방식으로 자리 잡았다.
 
 ---
 
@@ -20,13 +20,13 @@ Keshav 3rd pass — virtual re-implementation — 은 논문만으로 끝낼 수
 
 한 편을 재구현·실행 단계까지 끌고 가는 사이클은 네 단계로 잡을 수 있다. 아래 시간은 이 장이 제안하는 첫 계획값이며, 저장소 규모·dependency·hardware에 따라 크게 달라진다. 한 세션에 다 끝내려 들지 않고 단계를 나눈다.
 
-**단계 1 — 논문 Keshav 1st·2nd pass (1-2시간).** GitHub은 아직 안 연다. 5 Cs 한 줄이 잡히고 초록의 broad-narrow-broad가 통과하는지 확인한 후 다음 단계로 넘어간다. 이 단계에서 논문이 막히면 다음 단계는 미루는 편이 마찰이 적다.
+**단계 1 — 논문 Keshav 1st·2nd pass (1-2시간).** GitHub은 아직 안 연다. 5 Cs 한 줄이 잡히고 초록의 broad-narrow-broad가 통과하는지 확인한 후 다음 단계로 넘어간다. 이 단계에서 논문의 맥락이 제대로 잡히지 않는다면, 무리하게 코드를 열기보다 논문 독해를 먼저 보완해야 한다.
 
 **단계 2 — 저장소 둘러보기 (30분).** README·디렉토리 구조·entry script 위치를 한 번 훑는다. 이 단계의 출력은 어디서 시작해서 어디로 가는가의 한 줄 답이다. SLAM 코드라면 "main에서 sequential하게 관측을 받아 odometry 모듈로 넘기고 mapping이 받아 keyframe을 뽑는다" 같은 한 줄이 들어간다.
 
 **단계 3 — 직접 빌드 + 한 번 돌려본다 (초기 예산 2-4시간).** docker 또는 native에서 빌드한다. 첫 build error에서 예산을 넘길 수 있다. CMake·OpenCV·CUDA·ROS 버전이 어긋나는지 확인하고, issue tracker에서 같은 환경의 보고가 있는지 찾는다. 알려진 함정이 모두 issue에 있다는 보장은 없다.
 
-**단계 4 — 논문과 코드 1:1 대응 (2-4시간).** 논문 §3 방법의 한 단락이 코드의 어느 함수에 있는가? 매핑 노트를 만든다. 논문 안의 수식 2와 코드의 line 47-83이 짝지어지면 그 한 점이 본인 안에 박힌다. 다만 모든 단락·수식을 매핑하지 않는다. 단계 4의 매핑은 ch08 §2의 결정적 한두 줄이 코드에서 어디에 놓이는지 찾는 작업이고, 그 한두 점이 본인의 thesis가 돌아갈 좌표가 된다.
+**단계 4 — 논문과 코드 1:1 대응 (2-4시간).** 논문 §3 방법의 한 단락이 코드의 어느 함수에 있는가? 매핑 노트를 만든다. 논문 안의 수식 2와 코드의 line 47-83이 짝지어지면 그 한 점이 본인 안에 박힌다. 다만 모든 단락·수식을 매핑하지 않는다. 단계 4의 매핑은 Ch.13 §13.2의 결정적 한두 줄이 코드에서 어디에 놓이는지 찾는 작업이고, 그 한두 점이 본인의 thesis가 돌아갈 좌표가 된다.
 
 단계 1-4를 한 세션에 다 끝내려 들지 않는다. 규모가 큰 저장소는 실행과 대응표 작성만으로 여러 작업일이 들 수 있다.
 
@@ -36,7 +36,7 @@ Keshav 3rd pass — virtual re-implementation — 은 논문만으로 끝낼 수
 
 GitHub issue tracker에는 사용자가 보고한 알려진 함정이 모인다. 본인이 build에서 막혔을 때 먼저 같은 오류를 검색하되, 답이 없거나 오래된 답일 가능성도 남겨 둔다. 같은 자료가 코드의 design 결정을 설명할 때도 있다. 왜 이 모듈을 multi-thread로 만들지 않았는지가 issue 토론에 남는 식이다.
 
-PR comment에는 논문에 없는 디테일이 들어간다. 왜 hyperparameter A를 0.05가 아니라 0.1로 바꿨는가가 PR에서 한 줄로 풀려 있으면, 논문 §4 실험의 한 줄 "set α = 0.1"보다 더 많은 정보를 던진다. 논문이 실험 결과를 적은 글이라면, PR은 그 결과에 도달하기까지 들었던 시도 중 살아남은 한 결정을 적은 글이다.
+PR comment에는 논문에 없는 디테일이 들어간다. 왜 hyperparameter A를 0.05가 아니라 0.1로 바꿨는가가 PR에서 한 줄로 풀려 있으면, 논문 §4 실험의 한 줄 "set α = 0.1"보다 더 많은 정보를 던진다. 논문이 실험 결과를 적은 글이라면, PR은 그 결과에 도달하기까지 거친 시도 중 살아남은 한 결정을 적은 글이다.
 
 issue·PR은 막혔을 때뿐 아니라 단계 4 매핑 작업에서도 읽기 자료로 둔다. 정독의 양식은 단순하다.
 
@@ -46,17 +46,17 @@ issue·PR은 막혔을 때뿐 아니라 단계 4 매핑 작업에서도 읽기 �
 | merge된 PR 상위 5개 | 결정적 design 변경 이유 |
 | open issue 상위 3개 | 현재 알려진 한계 |
 
-이 세 출력이 논문 §6 limitation에 적힌 한 단락보다 더 정확한 분야 쪽 논의의 한계를 본인 안에 남긴다. 논문의 limitation 섹션이 저자가 인지한 한계라면, issue tracker의 open issue는 사용자가 부딪힌 한계다.
+이 세 출력은 논문의 limitation 섹션을 실제 구현과 사용 조건에서 보완하는 자료가 된다. 논문의 limitation 섹션이 저자가 설명한 한계라면, issue tracker의 open issue에는 사용자가 부딪힌 문제와 아직 확인되지 않은 보고가 함께 있다. 재현 여부와 적용 버전을 확인한 뒤 해당 시스템의 한계로 해석한다.
 
 ---
 
 ## 14.4 분야 쪽 논의 — 정전 저장소 1편이 우선
 
-분야의 정전 저장소가 robotics-practice ch20 § 20.6 유용한 GitHub 저장소에 정리되어 있다. SLAM 쪽이라면 ORB-SLAM3, FAST-LIO2, LIO-SAM, RTAB-Map이 머리에 놓이고, CV 쪽이라면 SAM, DINOv2, NeRF Studio, COLMAP가 같이 들어간다.
+분야의 정전 저장소가 robotics-practice ch20 §20.6 유용한 GitHub 저장소에 정리되어 있다. SLAM 쪽이라면 ORB-SLAM3, FAST-LIO2, LIO-SAM, RTAB-Map이 머리에 놓이고, CV 쪽이라면 SAM, DINOv2, NeRF Studio, COLMAP가 같이 들어간다.
 
 한 분야 신입에게는 대표 저장소 한두 편을 네 단계 사이클로 끝내고, 논문과 저장소가 지정한 benchmark에서 결과를 비교하는 작업이 유용하다. KITTI·TUM·EuRoC는 SLAM에서 널리 쓰이는 예지만, 센서 구성과 task가 본인 문제에 맞는지 먼저 확인한다. robotics-practice ch20 §20.7의 중급 마일스톤도 이 작업을 제안한다.
 
-신입이 자기 코드를 처음부터 모두 짜기 전에, 대표 저장소 한 편을 끝까지 따라가면 셋업·디버깅·logging의 구체적인 예를 얻을 수 있다. 「대학원노트」 [Part 3 ch05 「도구 함정」](../grad-notes/chapter_11_tool_trap.md)의 작게 시작하라 관점과 같은 결이다. 한 편을 실행해 본 뒤 그대로 쓸 부분과 바꿀 부분을 결정한다.
+신입이 자기 코드를 처음부터 모두 짜기 전에, 대표 저장소 한 편을 끝까지 따라가면 셋업·디버깅·logging의 구체적인 예를 얻을 수 있다. 「대학원노트」 [Ch.11 「도구 함정」](../grad-notes/chapter_11_tool_trap.md)의 작게 시작하라 관점과 같은 결이다. 한 편을 실행해 본 뒤 그대로 쓸 부분과 바꿀 부분을 결정한다.
 
 ---
 
@@ -64,18 +64,18 @@ issue·PR은 막혔을 때뿐 아니라 단계 4 매핑 작업에서도 읽기 �
 
 논문과 코드의 1:1 매핑은 AI에 위임하기 좋다. "이 논문의 'we apply pre-integration on IMU measurements between keyframes' 줄이 코드의 어느 함수에 있는지 찾아줘" 같은 질문을 던지면, AI가 후보 함수 2-3개를 짚어 준다. 본인이 그 후보를 검증하면, 본인이 코드를 처음부터 grep하던 한 시간이 줄어든다.
 
-PR comment의 분야 표현 직역이 막혔을 때도 AI가 한 번에 풀어 준다. PR comment의 영어가 분야 jargon이 dense하고 informal한 톤이 섞여 있어, 본인이 한 단락을 다섯 번 읽고도 안 잡힐 때가 있다. AI에 "이 PR comment의 핵심 결정 + 그 이유를 한 단락으로 풀어 줘"를 던지면, 본인이 그 결정의 위치를 한 번에 잡는다.
+PR comment의 분야 표현을 직역하다 막혔을 때도 AI가 한 번에 풀어 준다. PR comment의 영어는 분야 전문용어가 빽빽하고 비격식 어조가 섞여 있어, 본인이 한 단락을 다섯 번 읽고도 안 잡힐 때가 있다. AI에 "이 PR comment의 핵심 결정 + 그 이유를 한 단락으로 풀어 줘"를 던지면, 본인이 그 결정의 위치를 한 번에 잡는다.
 
 AI가 만든 논문-코드 매핑은 본인이 한 번 더 검증한다. line 번호가 틀리거나, 비슷해 보이지만 실제로는 다른 함수를 짚을 수 있기 때문이다. 검증하지 않은 매핑을 노트에 남기면 나중에 thesis 근거를 되짚을 때 잘못된 위치를 따라갈 수 있다.
 
 > 코드 작성 도구가 널리 쓰이는 지금도, 만 줄짜리 문서를 읽고 맥락을 파악하는 일은 사람에게 남아 있다. 잘 읽는 사람이 도구도 잘 다룬다.
 >
-> — robotics-practice ch22 § 22.5
+> — robotics-practice ch22 §22.5
 
-논문-코드 매핑에는 사람이 읽고 결정해야 하는 작업이 남는다. 코드는 AI가 짜고, 그 코드와 논문이 어떻게 짝지어지는가의 결정은 본인이 들어간다. 그 결정의 누적이 5년 후 본인의 분야 senior 위치를 만든다.
+논문-코드 매핑에는 사람이 읽고 결정해야 하는 작업이 남는다. 코드는 AI가 짜고, 그 코드와 논문을 어떻게 짝지을지는 본인이 결정한다. 그 결정의 누적이 5년 후 본인의 분야 senior 위치를 만든다.
 
 ---
 
-**출처.** [Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) §2.3 (3rd pass · virtual re-implementation), robotics-practice ch20 § 20.4 (필독 논문 리스트)·§ 20.6 (유용한 GitHub 저장소)·§ 20.7 (중급 마일스톤)·ch22 § 22.5 (AI 시대 참조). [김기섭 교수 SLAM 14편 블로그](https://gisbi-kim.github.io/) — 분야 정독+구현 사례. 「대학원노트」 [Part 3 ch05 (도구 함정)](../grad-notes/chapter_11_tool_trap.md) — 작게 시작하라 관점 연결. 4단계 사이클, issue·PR 정독 자세, AI 보조 도구 정책은 이 장에서 정리했다.
+**출처.** [Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) §2.3 (3rd pass · virtual re-implementation), robotics-practice ch20 §20.4 (필독 논문 리스트)·§20.6 (유용한 GitHub 저장소)·§20.7 (중급 마일스톤)·ch22 §22.5 (AI 시대 참조). [김기섭 교수 SLAM 14편 블로그](https://gisbi-kim.github.io/) — 분야 정독+구현 사례. 「대학원노트」 [Ch.11 (도구 함정)](../grad-notes/chapter_11_tool_trap.md) — 작게 시작하라 관점 연결. 4단계 사이클, issue와 PR을 독해 자료로 활용하는 관점, AI 보조 도구 정책은 실무적인 코드 분석을 돕기 위해 본문에서 체계적으로 구성했다.
 
-다음: [Ch.10 — 노트와 인용 관리](./chapter_15_notes_and_citations.md)
+다음: [Ch.15 — 노트와 인용 관리](./chapter_15_notes_and_citations.md)

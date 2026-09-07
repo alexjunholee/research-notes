@@ -60,7 +60,6 @@ body {
   height: var(--progress-height);
   background: linear-gradient(90deg, #0071e3, #2997ff);
   z-index: 10000;
-  transition: width 0.1s linear;
   width: 0%;
 }
 
@@ -523,7 +522,7 @@ mark.search-highlight {
   font-size: 24px !important;
   line-height: 1.18 !important;
 }
-.about-document h4 {
+.about-document h3 {
   color: var(--link) !important;
   margin-top: 22px !important;
 }
@@ -602,7 +601,8 @@ mark.search-highlight {
   border-bottom: 1px solid var(--border);
 }
 
-.guide-overview + .part-intro { margin-top: 70px; }
+.guide-overview + .part-intro,
+.about-document + .part-intro { margin-top: 70px; }
 
 #content .part-kicker {
   color: var(--accent);
@@ -670,7 +670,6 @@ mark.search-highlight {
 
   #sidebar {
     transform: translateX(-100%);
-    transition: transform 0.3s ease;
     box-shadow: none;
   }
 
@@ -724,7 +723,7 @@ mark.search-highlight {
 <div id="progress-bar"></div>
 
 <div id="topbar">
-  <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+  <button class="menu-toggle" id="menu-toggle" aria-label="목차" aria-controls="sidebar" aria-expanded="false">&#9776;</button>
   <span class="title" id="topbar-title">Research Notes</span>
   <div class="lang-toggle" id="lang-toggle" aria-hidden="true"></div>
   <a href="../" class="back-link">← repos</a>
@@ -732,9 +731,9 @@ mark.search-highlight {
 
 <div id="sidebar-overlay"></div>
 
-<nav id="sidebar">
+<nav id="sidebar" aria-label="문서 목차">
   <div id="search-box">
-    <input type="text" id="search-input" placeholder="챕터/섹션 검색... (Ctrl+K)">
+    <input type="text" id="search-input" aria-label="챕터 및 섹션 검색" placeholder="챕터/섹션 검색... (Ctrl+K)">
   </div>
   <div id="toc-container"></div>
   <div class="toc-no-results" id="toc-no-results">검색 결과 없음</div>
@@ -752,19 +751,19 @@ mark.search-highlight {
 <div class="about-document">
 <h2>About This Document</h2>
 
-<h4>출처 자료</h4>
+<h3>출처 자료</h3>
 <p>과학 글쓰기 고전, 논문 읽기 자료, 한국어 대학원 회고, 실제 SLAM·CV 논문 사례를 함께 참고했다.</p>
 
 <table>
 <tr><th>출처</th><th>주요 자료</th><th>쓰임</th></tr>
-<tr><td>과학 글쓰기</td><td>Gopen & Swan, Keshav, Whitesides, Mensh & Kording, Knuth</td><td>읽기 절차, 논문 구조, 문단 흐름, 수식과 rebuttal 원칙</td></tr>
+<tr><td>과학 글쓰기</td><td>Gopen & Swan, Keshav, Whitesides, Mensh & Kording, Knuth</td><td>읽기 절차, 논문 구조, 문단 흐름, 수식과 반박문 작성 원칙</td></tr>
 <tr><td>연구 문제와 생활</td><td>Feynman, Hazelrigg, Matt Might, <em>대학원생 때 알았더라면 좋았을 것들</em> 1권, 김기섭 교수, 임형태 박사</td><td>문제 정의, 연구성 판단, 생각의 시간, 연구자의 운영 감각</td></tr>
-<tr><td>논문 사례</td><td>KISS-ICP, ORB-SLAM, ResNet, Stachniss group 논문</td><td>서론, contribution, figure 1, claim과 evidence의 실제 형태</td></tr>
+<tr><td>논문 사례</td><td>KISS-ICP, ORB-SLAM, ResNet, Stachniss 연구진의 논문</td><td>서론, 기여, 첫 번째 그림, 주장과 근거의 실제 형태</td></tr>
 <tr><td>시각 자료와 표</td><td>Chenxin Li의 그래프 자료, 로보틱스 논문 관행</td><td>그림과 표가 논문의 주장을 어떻게 받치는지 설명</td></tr>
 </table>
 
-<h4>범위</h4>
-<p>본문은 분야 지도를 잡는 일에서 시작해, 논문 한 편을 읽고, 자기 논문의 구조를 만들고, 학회장에서 다음 질문을 얻는 자리까지 이어진다. 뒤쪽의 발췌 사례는 좋은 글과 좋은 figure가 실제 논문 안에서 어떤 모양으로 작동하는지 보여 주는 부록이다.</p>
+<h3>범위</h3>
+<p>본문은 분야 지도를 잡는 일에서 시작해, 논문 한 편을 읽고, 자기 논문의 구조를 만들고, 학회장에서 다음 질문을 얻는 자리까지 이어진다. 뒤쪽의 발췌 사례는 좋은 글과 좋은 그림이 실제 논문 안에서 어떻게 작동하는지 보여 주는 부록이다.</p>
 
 <p class="source-tag">자매 문서: <a href="../grad-notes/guide.html">대학원노트</a> · <a href="../robotics-practice/guide.html">robotics-practice</a></p>
 </div>
@@ -787,33 +786,33 @@ mark.search-highlight {
   var STORAGE_KEY = "research-notes-lang";
   var CHAPTER_GROUPS = [
     {
-      label: "Part 0 · 연구는 주제보다 질문의 모양에서 시작된다",
-      intro: "연구는 질문의 모양을 좁히는 순간에 시작된다. 이 Part는 리뷰 논문, 문제 진술, 주도권, 연구성 판단, 생각의 시간을 하나의 진입 절차로 묶는다.",
+      label: "0부 · 연구는 주제보다 질문의 모양에서 시작된다",
+      intro: "연구는 질문의 모양을 좁히는 순간에 시작된다. 이 부에서는 리뷰 논문, 문제 진술, 주도권, 연구성 판단, 생각의 시간을 하나의 진입 절차로 묶는다.",
       items: [{"kind":"chapter","num":1},{"kind":"chapter","num":2},{"kind":"chapter","num":3},{"kind":"chapter","num":4},{"kind":"chapter","num":5}]
     },
     {
-      label: "Part 1 · 읽기는 판단을 남기는 절차다",
-      intro: "읽기의 목적은 다음 결정을 남기는 것이다. 이 Part는 한 편을 훑고, 걸러내고, 코드와 노트로 연결해 자기 연구의 판단 자료를 만드는 절차를 다룬다.",
+      label: "1부 · 읽기는 판단을 남기는 절차다",
+      intro: "읽기의 목적은 다음 결정을 남기는 것이다. 이 부에서는 한 편을 훑고, 걸러내고, 코드와 노트로 연결해 자기 연구의 판단 자료를 만드는 절차를 다룬다.",
       items: [{"kind":"chapter","num":6},{"kind":"chapter","num":7},{"kind":"chapter","num":8},{"kind":"chapter","num":9},{"kind":"chapter","num":10},{"kind":"chapter","num":11},{"kind":"chapter","num":12},{"kind":"chapter","num":13},{"kind":"chapter","num":14},{"kind":"chapter","num":15}]
     },
     {
-      label: "Part 2 · 쓰기는 체계의 반복이다",
-      intro: "글쓰기는 outline·CCC·단락·문장이라는 작은 단위를 반복해 쌓는 운영이다. 이 Part는 글의 마음가짐과 단락 단위의 메커닉을 다룬다.",
+      label: "2부 · 쓰기는 체계의 반복이다",
+      intro: "글쓰기는 개요·CCC·단락·문장이라는 작은 단위를 반복해 쌓는 운영이다. 이 부에서는 글의 마음가짐과 단락을 구성하는 방법을 다룬다.",
       items: [{"kind":"chapter","num":16},{"kind":"chapter","num":17},{"kind":"chapter","num":18},{"kind":"chapter","num":19},{"kind":"chapter","num":20},{"kind":"chapter","num":21}]
     },
     {
-      label: "Part 3 · 논문은 독자의 기대를 설계하는 구조다",
-      intro: "큰 뼈대를 채우는 일이다. 제목과 초록부터 서론·관련 연구·방법·결과·표·표기·rebuttal까지 한 편의 글이 판정되는 순서로 따라간다.",
+      label: "3부 · 논문은 독자의 기대를 설계하는 구조다",
+      intro: "논문 쓰기는 큰 뼈대를 채우는 일이다. 제목과 초록부터 서론·관련 연구·방법·결과·표·표기·반박문까지 한 편의 글이 판정되는 순서로 따라간다.",
       items: [{"kind":"chapter","num":22},{"kind":"chapter","num":23},{"kind":"chapter","num":24},{"kind":"chapter","num":25},{"kind":"chapter","num":26},{"kind":"chapter","num":27},{"kind":"chapter","num":28},{"kind":"chapter","num":29},{"kind":"chapter","num":30},{"kind":"chapter","num":31},{"kind":"chapter","num":32}]
     },
     {
-      label: "Part 4 · 발표는 끝난 글을 다음 질문으로 돌려보낸다",
-      intro: "발표는 다음 질문이 생기는 자리다. 이 Part는 학회에 왜 가는지, 무엇을 준비하는지, 첫 마디를 어떻게 여는지를 연구의 다음 입력으로 연결한다.",
+      label: "4부 · 발표는 끝난 글을 다음 질문으로 돌려보낸다",
+      intro: "발표는 다음 질문이 생기는 자리다. 이 부에서는 학회에 왜 가는지, 무엇을 준비하는지, 첫마디를 어떻게 여는지를 연구의 다음 입력으로 연결한다.",
       items: [{"kind":"chapter","num":33},{"kind":"chapter","num":34},{"kind":"chapter","num":35}]
     },
     {
       label: "발췌와 사례 · 좋은 글은 원문 위에서 배운다",
-      intro: "뒤쪽의 발췌와 사례는 원문 위에서 배운다. 앞의 원칙들이 실제 논문과 글쓰기 예시 안에서 어떤 모양으로 작동하는지 확인하는 자리다.",
+      intro: "뒤쪽의 발췌와 사례에서는 원문을 직접 보며 배운다. 앞의 원칙들이 실제 논문과 글쓰기 예시 안에서 어떤 모양으로 작동하는지 확인하는 자리다.",
       items: [{"kind":"excerpt","num":1},{"kind":"excerpt","num":2},{"kind":"excerpt","num":3},{"kind":"excerpt","num":4},{"kind":"excerpt","num":5},{"kind":"excerpt","num":6},{"kind":"excerpt","num":7},{"kind":"excerpt","num":8},{"kind":"excerpt","num":9},{"kind":"excerpt","num":10},{"kind":"excerpt","num":11},{"kind":"excerpt","num":12},{"kind":"excerpt","num":13}]
     }
   ];
@@ -970,6 +969,13 @@ mark.search-highlight {
       var html = marked.parse(mathData.src);
       html = restoreAndRenderMath(html, mathData.placeholders);
       contentEl.innerHTML = html;
+      contentEl.querySelectorAll('a[href]').forEach(function(link) {
+        var url = new URL(link.getAttribute('href'), window.location.href);
+        if ((url.protocol === 'http:' || url.protocol === 'https:') && url.origin !== window.location.origin) {
+          link.target = '_blank';
+          link.rel = 'noopener';
+        }
+      });
 
       if (window.mermaid) {
         var mermaidBlocks = contentEl.querySelectorAll('pre > code.language-mermaid');
@@ -1059,6 +1065,8 @@ mark.search-highlight {
       groupEl.className = 'overview-group';
       var label = document.createElement('div');
       label.className = 'overview-group-label';
+      label.setAttribute('role', 'heading');
+      label.setAttribute('aria-level', '2');
       label.textContent = group.label;
       groupEl.appendChild(label);
       if (group.intro) {
@@ -1086,7 +1094,7 @@ mark.search-highlight {
     });
 
     var about = contentEl.querySelector('.about-document');
-    if (about) contentEl.insertBefore(overview, about.nextSibling);
+    if (about) contentEl.insertBefore(overview, about);
     else contentEl.insertBefore(overview, contentEl.firstChild);
   }
 
@@ -1239,8 +1247,9 @@ mark.search-highlight {
     var sidebar = document.getElementById('sidebar');
     var overlay = document.querySelector('#sidebar-overlay');
     toggle.addEventListener('click', function() {
-      sidebar.classList.toggle('open');
-      overlay.classList.toggle('visible');
+      var isOpen = sidebar.classList.toggle('open');
+      overlay.classList.toggle('visible', isOpen);
+      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
     });
     overlay.addEventListener('click', closeMobileSidebar);
   }
@@ -1248,6 +1257,7 @@ mark.search-highlight {
   function closeMobileSidebar() {
     document.getElementById('sidebar').classList.remove('open');
     document.querySelector('#sidebar-overlay').classList.remove('visible');
+    document.getElementById('menu-toggle').setAttribute('aria-expanded', 'false');
   }
 
   function setupKeyboard() {

@@ -1,14 +1,14 @@
 # Ch.16 — 마음가짐
 
-글쓰기는 정해진 형식 안에서 같은 단위를 반복해 쌓는 일이다. 재미없고 체계화된 절차에 가깝다. Part 2에서는 그 작은 단위들 — outline, CCC, 단락 흐름, 자기 점검 — 을 차례로 다룬다.
+글쓰기는 정해진 형식 안에서 같은 단위를 반복해 쌓는 일이다. 재미없고 체계화된 절차에 가깝다. Part 2에서는 마음가짐, outline, 시간 배분, CCC, 소제목·결론, 단락 흐름을 차례로 다룬다.
 
 논문을 처음 쓰는 학생이 가장 먼저 버려야 할 것은 학부 시험의 채점 방식이다. 학부 시험에는 100점이라는 천장이 있었지만, 논문에는 그 천장이 없다. 만점이 없는 글에 만점을 노리면 수정이 한없이 길어진다.
 
-같은 권고를 다른 각도에서 풀어낸 글이 [최윤섭 박사 G4 「첫 번째 논문을 최대한 빨리 써라」](https://gradschoolstory.chkwon.net/yoonsup/first-paper/)다. 실험 능력과 논문 출판 능력은 같지 않다. 두 능력이 분리되어 있으므로 출판 능력은 조기 경험으로만 길러진다. 박사 말년에 첫 논문을 처음 시도하면 졸업 지연 위험이 그대로 따라온다.
+같은 권고를 다른 각도에서 풀어낸 글이 [최윤섭 박사 「첫 번째 논문을 최대한 빨리 써라」](https://gradschoolstory.chkwon.net/yoonsup/first-paper/)다. 실험 능력과 논문 출판 능력은 같지 않다. 실험과 집필·투고에는 서로 다른 경험이 필요하므로, 출판 과정도 일찍 겪어 볼 이유가 있다. 박사 말년에 첫 논문을 처음 시도하면 졸업 지연 위험이 그대로 따라온다.
 
 > "방귀도 자꾸 뀌어야 똥이 나온다."
 
-최윤섭 박사는 이 한 줄로 첫 논문을 작은 단위로 자주 시도해 글쓰기 회로를 트라고 권한다. 같은 글의 일화(첫 논문 수락까지 계획보다 2년 초과, 3회 리젝, 6개월 리비전)는 완성된 첫 논문이 어떤 시간 곡선 위에 놓이는지 보여 준다. 이 곡선은 만점을 노리는 채점 방식과 정면으로 부딪힌다. 리비전 기간(약 2개월)에 추가 실험이 들어가는 대목은 ch17에 있다.
+최윤섭 박사는 이 한 줄로 첫 논문을 작은 단위로 자주 시도해 글쓰기 회로를 트라고 권한다. 같은 글의 일화(첫 논문 수락까지 계획보다 2년 초과, 3회 리젝, 6개월 리비전)는 첫 결실이 맺어지기까지 거쳐야 하는 현실적인 시간 곡선을 가감 없이 보여 주는 사례다. 이러한 지난한 과정은 완벽한 만점을 기대하는 수험생식 사고방식과 정면으로 배치되기 마련이다. 리비전 중 추가 실험에 약 2개월을 쓴 이 일화에서 드러나는 대응 원칙은 [Ch.32](./chapter_32_revision_rebuttal.md)에서 다룬다.
 
 ---
 
@@ -16,7 +16,7 @@
 
 acceptance rate와 심사 절차는 venue·track·연도마다 다르다. 이 절의 "reject의 complement"는 특정 합격률을 사실로 두는 모형이 아니라, 기여를 주장하는 동시에 치명적인 결함도 먼저 줄이라는 점검 태도다.
 
-이 비대칭이 글쓴이의 우선순위를 정한다. 먼저 reject 사유를 줄여야 한다. [임형태 박사](https://github.com/LimHyungTae/paper-writing-checklist)는 이 마인드를 "accept를 노리는 것이 아니라 reject의 complement를 노리는 것"이라 정리했다.
+이 점검 태도로 글쓴이의 우선순위를 정해 볼 수 있다. 먼저 reject 사유를 줄여야 한다. [임형태 박사](https://github.com/LimHyungTae/paper-writing-checklist)는 이 마인드를 "accept를 노리는 것이 아니라 reject의 complement를 노리는 것"이라 정리했다.
 
 reject 사유는 거창하지 않다. notation 불일치, baseline 비교 누락, 그림 1이 한눈에 메시지를 전달하지 못하는 문제, "ensure consistency" 같은 vague phrasing의 반복이 그 사례다. 이 중 하나만 있어도 reject 사유로 잡힌다.
 
@@ -34,9 +34,9 @@ reject 사유는 거창하지 않다. notation 불일치, baseline 비교 누락
 
 해결책은 좋은 본보기를 정해 구조를 분석하는 일이다. 인용 수에 고정 문턱을 두기보다 본인 문제와 가까우며 명료하게 쓰인 대표 논문을 고른다. 임형태 박사는 박사 시절 [He et al. 2016](https://arxiv.org/abs/1512.03385) ResNet 논문의 문단을 필사하며 영어 글쓰기를 익혔다고 적었다.
 
-분야별 추천도 있다. 로보틱스라면 [Cyrill Stachniss 그룹](https://scholar.google.com/citations?user=8vib2lAAAAAJ&hl=en) 논문이 자주 추천된다. "논문은 이야기책처럼 술술 읽혀야 한다"가 그 그룹의 신조이고, 그 그룹은 이 신조를 구조와 문장 양쪽에 일관되게 적용한다.
+분야별 추천도 있다. 로보틱스라면 [Cyrill Stachniss 그룹](https://scholar.google.com/citations?user=8vib2lAAAAAJ&hl=en) 논문이 자주 추천된다. "논문은 이야기책처럼 술술 읽혀야 한다"는 확고한 신조 아래, 구조 설계부터 문장 다듬기까지 명료성을 일관되게 관철하는 그룹으로 잘 알려져 있다.
 
-[엄태웅 대표 G2 「영어 못해도 논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net/terry/englishpaperwriting/)는 같은 권고를 이렇게 옮겼다.
+[엄태웅 대표 「영어 못해도 논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net/terry/englishpaperwriting/)는 같은 권고를 이렇게 옮겼다.
 
 > "일단 쓰기부터. 영어가 어렵다면 한글로라도."
 
@@ -67,13 +67,13 @@ reject 사유는 거창하지 않다. notation 불일치, baseline 비교 누락
 
 영어 과학 글쓰기에서 능동태와 `we`는 허용되며, 무조건 수동태로 바꿀 필요는 없다. [Knuth, Larrabee, Roberts 1989](https://www-cs-faculty.stanford.edu/~knuth/klr.html) §1 point 6은 저자와 독자가 함께 논의를 따라간다는 뜻의 `we`가 수동태를 피하는 데 유용하다고 설명한다. 다만 `we`를 `I`의 형식적 대체어로 쓰지는 말라고 단서를 붙인다.
 
-해결은 `native급` 같은 모호한 등급이 아니라 팀의 style guide와 문장의 기능을 기준으로 삼는다. 지도교수·공동 저자와 능동태, 대명사, 용어 표기를 미리 합의하고 원고 안에서 일관되게 쓴다. 의미가 달라지거나 문장이 불명확해지는 선택에는 근거를 들어 의견을 낸다.
+문장의 수준을 가늠할 때 '원어민 수준' 같은 막연한 감각에 매달리기보다, 연구팀의 스타일 가이드와 문장이 수행하는 기능적 명확성을 확고한 기준으로 삼아야 한다. 지도교수·공동 저자와 능동태, 대명사, 용어 표기를 미리 합의하고 원고 안에서 일관되게 쓴다. 의미가 달라지거나 문장이 불명확해지는 선택에는 근거를 들어 의견을 낸다.
 
 ---
 
-## 16.5 맥락-Content-Conclusion 단락 구조
+## 16.5 Context-Content-Conclusion 단락 구조
 
-[Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 3은 단락의 기본 구조로 맥락-Content-Conclusion을 제안한다. 첫 문장은 맥락, 본문은 내용, 마지막 문장은 결론을 담는다. 저자들은 같은 패턴을 단락 → 섹션 → 논문 전체로 확장한다.
+[Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 3은 단락의 기본 구조로 Context-Content-Conclusion을 제안한다. 첫 문장은 맥락, 본문은 내용, 마지막 문장은 결론을 담는다. 저자들은 같은 패턴을 단락 → 섹션 → 논문 전체로 확장한다.
 
 단락 길이는 진단 신호일 뿐 규칙이 아니다. 유난히 길거나 짧은 단락은 맥락·내용·결론 가운데 무엇이 빠졌는지 확인한다. 한 줄로 메시지를 답할 수 없는 단락에는 두 메시지가 섞여 있을 수 있으므로 둘로 나누어 점검한다.
 
@@ -87,6 +87,6 @@ reject 사유는 거창하지 않다. notation 불일치, baseline 비교 누락
 
 ---
 
-**출처.** [임형태 박사, paper-writing-checklist](https://github.com/LimHyungTae/paper-writing-checklist), [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767), [Knuth, Larrabee, Roberts 1989](https://www-cs-faculty.stanford.edu/~knuth/klr.html), [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619), [최윤섭 박사 G4 「첫 논문 빨리」](https://gradschoolstory.chkwon.net/yoonsup/first-paper/), [엄태웅 대표 G2 「논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net/terry/englishpaperwriting/).
+**출처.** [임형태 박사, paper-writing-checklist](https://github.com/LimHyungTae/paper-writing-checklist), [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767), [Knuth, Larrabee, Roberts 1989](https://www-cs-faculty.stanford.edu/~knuth/klr.html), [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619), [최윤섭 박사 「첫 논문 빨리」](https://gradschoolstory.chkwon.net/yoonsup/first-paper/), [엄태웅 대표 「논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net/terry/englishpaperwriting/).
 
-다음: [Ch.2 — 아웃라인부터 시작하기: Whitesides 방법](./chapter_17_outline_first.md)
+다음: [Ch.17 — 아웃라인부터 시작하기: Whitesides 방법](./chapter_17_outline_first.md)

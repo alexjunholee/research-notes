@@ -1,4 +1,4 @@
-# 그림 1은 초록을 한 컷으로 압축한다
+# 그림 1은 초록의 핵심 흐름을 한 컷으로 압축한다
 
 **출처**: Chen, Vizzo, Läbe, Behley, Stachniss, 2021 — Range Image-based LiDAR Localization for Autonomous Vehicles, IEEE International Conference on Robotics and Automation (ICRA) 2021
 
@@ -27,7 +27,7 @@
 
 ## 분석 — 왜 이 그림 1이 좋은가
 
-그림 1은 초록과 1:1로 대응한다. 초록 마지막 문장에는 vehicle을 reliably localize한다, 사전 map과 매칭한다, 높은 frame rate라는 세 명제가 들어 있다. 그림 1은 이 세 명제를 다시 보여 준다. vehicle은 LiDAR scan 입력, 사전 map은 reference scan 박스, localize는 pose estimate 결과에 대응한다. 독자가 초록을 읽고 그림 1로 눈을 옮기면 방금 읽은 단어가 그림의 박스와 정렬된다. cxli233의 Friends Don't Let Friends 시리즈가 비판하는, 그림 1과 초록이 따로 노는 안티패턴의 정반대다. 그림 1을 만들 때 가장 먼저 이 대응을 점검해야 한다.
+그림 1은 초록의 핵심 대상과 처리 흐름에 대응한다. 초록 마지막 문장에는 vehicle을 reliably localize한다, 사전 map과 매칭한다, 높은 frame rate라는 세 명제가 들어 있다. 그림 1은 이 가운데 사전 map을 기준으로 vehicle을 localize하는 처리 흐름을 다시 보여 준다. vehicle은 LiDAR scan 입력, 사전 map은 reference scan 박스, localize는 pose estimate 결과에 대응한다. 높은 frame rate 주장은 이 구조도만으로 확인되지 않으며 실험 결과에서 근거를 찾아야 한다. 독자가 초록을 읽고 그림 1로 시선을 옮길 때, 방금 접한 핵심 개념들이 다이어그램의 각 블록과 직관적으로 맞아떨어지는 구조다. cxli233의 Friends Don't Let Friends 시리즈가 비판하는, 그림 1과 초록이 따로 노는 안티패턴의 정반대다. 그림 1을 만들 때 가장 먼저 이 대응을 점검해야 한다.
 
 Stachniss 연구진의 여러 논문에서는 입력 sensor → 핵심 표현 → 출력 결정으로 이어지는 system overview를 볼 수 있다. 다만 KISS-ICP, surfel SLAM, OverlapNet, MOS의 모든 그림 1이 같은 3~4개 박스 구조라고 단정하지 않는다. 이 발췌에서 가져올 원칙은 연구진 전체의 고정 template가 아니라, 이 논문에서 초록의 핵심 명사와 그림의 입력·표현·출력이 대응한다는 점이다.
 
@@ -41,7 +41,7 @@ Whitesides §III의 promise-deliver alignment는 그림 1까지 이어진다. �
 
 ## 따라 쓰기 — 자기 분야에 적용
 
-초록과 그림 1의 1:1 대응을 작업 순서에 넣는다. 초록의 마지막 문장을 먼저 쓰고, 그 문장의 동사·명사·형용사를 그림 1의 박스·화살표·라벨에 직접 대응시킨다. 초록에 대응하지 않는 단어가 있다면 그림 2에 들어갈 세부 내용이거나 지나친 형용사다. 그림 1에 대응하지 않는 박스가 있다면 초록에서 빠진 정보다. 두 곳을 함께 다듬는다.
+초록의 핵심 처리 흐름과 그림 1의 대응을 작업 순서에 넣는다. 초록의 마지막 문장을 먼저 쓰고, 그 문장에서 처리 흐름을 나타내는 동사·명사를 그림 1의 박스·화살표·라벨에 대응시킨다. 그림 1에 대응하지 않는 초록의 단어는 그림 2에서 설명할 세부 내용인지, 실험 근거가 필요한 성능 주장인지, 지나친 형용사인지 구분한다. 초록에 대응하지 않는 그림 1의 박스가 있다면 초록에서 빠진 정보다. 두 곳을 함께 다듬는다.
 
 먼저 초록의 중심 claim을 설명하는 최소 흐름만 박스로 둔다. 세부 모듈이 핵심 입출력을 가리면 overview와 상세 시스템 그림을 나눈다. 박스 수를 맞추기 위해 필요한 조건을 빼거나, 반대로 그림 2를 채우려고 세부를 억지로 늘리지 않는다.
 

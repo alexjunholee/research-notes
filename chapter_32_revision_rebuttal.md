@@ -10,11 +10,11 @@
 
 각 유형마다 답변의 어조와 변경 여부가 다르다. 유형부터 정확히 분류하지 않으면 모든 comment에 같은 어조로 답하게 된다.
 
-**유형 1 — Factual error.** 수식·실험 설정·인용·수치의 명백한 오류. 답변 톤은 완전 인정 + 즉시 수정이다. 오히려 변호 시도 그 자체가 심사위원을 적대로 돌린다.
+**유형 1 — Factual error.** 수식·실험 설정·인용·수치의 명백한 오류. 답변 톤은 완전 인정 + 즉시 수정이다. 오히려 변호 시도 그 자체가 심사위원을 적으로 돌린다.
 
 > "We thank the reviewer for catching this. Equation (7) was incorrect; the corrected derivation is now in §3.2 (page 5)."
 
-**유형 2 — Presentation 요구.** 그림 추가·표 재구성·문장 재배치·정의 명시가 여기에 속한다. 타당한 요청은 수용하고 어디를 바꾸었는지 밝힌다. 본문 한도를 넘으면 venue policy가 허용하는 보충자료나 압축안을 검토한다. 수용하지 못할 때는 지면·scope·중복 같은 이유와 대신 한 조치를 적는다.
+**유형 2 — Presentation 요구.** 그림 추가·표 재구성·문장 재배치·정의 명시가 여기에 속한다. 타당한 요청은 적극 수용하여 수정된 위치를 명확히 안내해야 한다. 지면 한도를 초과할 경우 venue 정책이 허용하는 보충자료나 압축안을 폭넓게 검토한다. 수용이 불가능한 사안이라면 지면 한계나 논문 범위(scope) 등의 구체적 근거와 함께 대안적 보완 조치를 제시하는 편이 안전하다.
 
 **유형 3 — Scope/contribution 의문.** "이게 왜 새로운가?" "X와 차별점이 뭔가?" 같은 질문이다. 핵심 contribution을 1-2문장으로 다시 밝히고 인용·실험으로 근거를 댄다. 본문의 서론과 Related Work도 보강한다. comment 자체에만 답하면 같은 의문이 다음 심사위원에게서 재발할 수 있다.
 
@@ -30,17 +30,17 @@
 
 몇몇 단어는 답변서의 어조를 한 번에 무너뜨린다. 학생들이 자기도 모르게 쓰는 단어다.
 
-**금지어와 대안.**
+**주의할 표현과 대안.**
 
 - "outperform" — 그 자체로 무례한 금지어는 아니지만 비교 조건이 빠지기 쉽다. → metric·dataset·불확실성을 함께 명시
 - "fail to" — 심사위원 동작에 쓰면 모욕. → "may have been unclear because"
-- "obviously / clearly" — 독자에게 넌 멍청해 신호. → 그냥 삭제
+- "obviously / clearly" — 독자에게 "넌 멍청해"라는 신호. → 그냥 삭제
 - "the reviewer is mistaken" → "we have clarified that …"
 - "as we already stated" — 짜증 신호. → "to make this clearer, we have added …"
 
-ch14의 stress position 원칙이 여기서도 작동한다. 무례한 단어가 문장 끝에 오면 그 무례함이 강조된다. 단어만 바꾸기 어렵다면 문장 전체를 다시 쓴다.
+Ch.29의 stress position 원칙이 여기서도 작동한다. 무례한 단어가 문장 끝에 오면 그 무례함이 강조된다. 단어만 바꾸기 어렵다면 문장 전체를 다시 쓴다.
 
-인사말이 길면 변경 사항에 도달하기 늦어진다. "We thank the reviewers for their comments."처럼 짧게 열고 곧바로 주요 변경으로 간다. 긴 인사가 특정한 심리 상태의 신호라고 단정할 필요는 없다.
+인사말이 길면 변경 사항에 도달하는 시점이 늦어진다. "We thank the reviewers for their comments."처럼 짧게 열고 곧바로 주요 변경으로 간다. 긴 인사가 특정한 심리 상태의 신호라고 단정할 필요는 없다.
 
 ---
 
@@ -70,7 +70,7 @@ ch14의 stress position 원칙이 여기서도 작동한다. 무례한 단어가
 
 ## 32.4 마무리 섹션에서 피할 네 가지
 
-원고를 개정할 때 마무리 섹션(Conclusion · Future work)에서 거절 사유가 되풀이되기도 한다. [엄태웅 대표 G2 「영어 못해도 논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net/terry/englishpaperwriting/)은 이를 네 항목으로 정리했다.
+원고를 개정할 때 마무리 섹션(Conclusion · Future work)에서 거절 사유가 되풀이되기도 한다. [엄태웅 대표 「영어 못해도 논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net/terry/englishpaperwriting/)은 이를 네 항목으로 정리했다.
 
 > **Conclusion = Abstract 반복.** 두 곳에 같은 문장이 들어가면 Conclusion의 자리값이 빈다.
 >
@@ -82,7 +82,7 @@ ch14의 stress position 원칙이 여기서도 작동한다. 무례한 단어가
 
 네 항목은 Whitesides의 마무리 섹션 권고와도 맞닿는다. 답변서를 쓰다가 심사위원의 지적이 결론에 들어갔어야 할 내용을 가리킨다면 본문의 그 부분부터 다시 본다.
 
-[최윤섭 박사 G4 「첫 번째 논문을 최대한 빨리 써라」](https://gradschoolstory.chkwon.net/yoonsup/first-paper/)의 일화도 같은 어조다. 약 6개월의 개정 기간에 추가 실험을 하며 심사위원의 지적에 데이터로 대응했다. 변호하는 답변서를 쓰는 일과 본문에 근거를 더하는 일은 다르다. 후자를 택해야 심사위원의 의문이 다음 심사에서 되풀이되지 않는다.
+[최윤섭 박사 「첫 번째 논문을 최대한 빨리 써라」](https://gradschoolstory.chkwon.net/yoonsup/first-paper/)의 일화도 같은 어조다. 약 6개월의 개정 기간에 추가 실험을 하며 심사위원의 지적에 데이터로 대응했다. 변호하는 답변서를 쓰는 일과 본문에 근거를 더하는 일은 다르다. 후자를 택해야 심사위원의 의문이 다음 심사에서 되풀이되지 않는다.
 
 심사위원이 추가 ablation을 요구했다면 AI로 실험 설계의 초안을 만들 수 있다. 내 모델이 baseline에 비해 무엇을 개선했는지 보이려면 어떤 ablation이 필요한지 묻는다. 결과 표가 나온 뒤 이 표에서 가능한 분석을 묻는 방법도 있다. AI는 놓친 관점을 짚어 주는 보조 도구로만 쓴다.
 
@@ -118,6 +118,6 @@ AI가 만든 초안이 자기 기여 주장과 어긋나지 않는지 점검한�
 
 ---
 
-**출처.** [임형태 박사, paper-writing-checklist](https://github.com/LimHyungTae/paper-writing-checklist) — rebuttal 마음가짐, 내 글이 그렇게 읽힌 책임 인용, 24시간 룰 권고. [최윤섭 박사 G4 「첫 번째 논문을 최대한 빨리 써라」](https://gradschoolstory.chkwon.net/yoonsup/first-paper/) — 6개월 리비전 일화·데이터 기반 대응. [엄태웅 대표 G2 「영어 못해도 논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net/terry/englishpaperwriting/) — 마무리 섹션 4 회피 항목. robotics-practice ch19 § 19.7.3 — 실험 설계 보조 도구에 관한 보조 사례 (분야 쪽 논의). ch01·ch14와 교차. 4유형 분류, 표현 swap 사전, 3블록 letter 구조, conference vs journal 구분은 이 장에서 정리했다.
+**출처.** [임형태 박사, paper-writing-checklist](https://github.com/LimHyungTae/paper-writing-checklist) — rebuttal 마음가짐, 내 글이 그렇게 읽힌 책임 인용, 24시간 룰 권고. [최윤섭 박사 「첫 번째 논문을 최대한 빨리 써라」](https://gradschoolstory.chkwon.net/yoonsup/first-paper/) — 6개월 리비전 일화·데이터 기반 대응. [엄태웅 대표 「영어 못해도 논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net/terry/englishpaperwriting/) — 마무리 섹션 4 회피 항목. robotics-practice ch19 §19.7.3 — 실험 설계 보조 도구에 관한 보조 사례 (분야 쪽 논의). Ch.16·Ch.29와 교차. 4유형 분류, 표현 대체 사전, 3블록 letter 구조, 학회와 저널 간 대응 전략은 본문에서 독자적으로 구조화했다.
 
 [Part 4 — 발표와 학회](./chapter_33_conference_roi.md)

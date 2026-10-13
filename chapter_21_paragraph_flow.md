@@ -20,13 +20,13 @@
 
 **각 문장의 첫 명사구가 앞 문장의 어딘가와 연결되어야 한다.** 직전 문장의 stress position에 등장한 명사구가 다음 문장의 topic position을 받는 패턴이 가장 자연스럽다.
 
-> ❌ The proposed method achieves 14% improvement on KITTI. Many sequences are challenging due to dynamic objects. Loop closure is critical.
+> 원문: The proposed method achieves 14% improvement on KITTI. Many KITTI sequences are challenging due to dynamic objects. Loop closure is critical.
 >
-> ✓ The proposed method achieves 14% improvement on KITTI. The improvement holds across sequences with dynamic objects, where loop closure is most critical.
+> 연결을 일부 고친 문장: The proposed method achieves 14% improvement on KITTI. This benchmark contains many sequences that are challenging due to dynamic objects. Loop closure is critical.
 
-예문의 14% 향상 수치는 문맥 간 연결 구조를 설명하기 위해 설정한 예시값이다.
+예문의 14% 향상 수치는 문장 연결을 설명하기 위해 설정한 예시값이다. 두 문안은 같은 정보를 담고 있다. 수정문에서는 둘째 문장의 this benchmark가 앞 문장의 KITTI를 받아, 어느 자료의 sequence인지 바로 알 수 있다.
 
-❌ 쪽은 세 문장의 첫 명사구가 the proposed method · many sequences · loop closure로 끊긴다. 서로 연결되지 않는다. ✓ 쪽은 둘째 문장의 the improvement가 첫 문장의 improvement를 받는다. 둘째 문장 안에서는 where절이 앞의 sequences를 이어받는다.
+셋째 문장은 여전히 연결이 부족하다. Loop closure가 왜 중요한지, 앞의 성능이나 동적 물체와 어떤 관계인지는 주어진 문장만으로 알 수 없다. 이 빈틈을 메우려면 방법과 실험의 근거를 더 확인해야 한다. 동적 물체가 있는 sequence에서도 14% 향상이 유지된다고 덧붙이거나 critical을 most critical로 바꾸면, 연결을 고치는 동안 새 결과와 최상급 주장을 만든 셈이 된다.
 
 **첫 명사구는 직전에 등장한 명사·대명사·요약 명사구를 받는다.** "this", "the result", "such configurations" 같은 요약 명사구가 backward link를 만드는 도구다.
 
@@ -36,9 +36,9 @@
 
 **문장 끝(stress position)의 새 정보가 다음 문장 첫 자리(topic position)로 흘러간다.** 이 받기는 단락 안에서 정보를 누적하는 한 방법이다.
 
-> ✓ Geometric ICP failed on textureless walls. These walls dominate indoor scans, where photometric gradients are weak. Weak gradients motivate hybrid methods.
+> ✓ Textureless walls provide weak image gradients. Weak image gradients make photometric motion estimation less informative. This loss of photometric information motivates adding geometric constraints in a hybrid method.
 
-세 문장의 stress는 각각 textureless walls · weak gradients · hybrid methods다. 다음 문장의 topic이 직전 stress를 받아 단락이 한 방향으로 흐른다. 단락의 마지막 stress에 hybrid methods가 도달하면, 그 끝점이 단락 전체의 takeaway 후보가 된다. Ch.19 §19.1의 conclusion 위치와 정확히 일치한다.
+첫 문장의 weak image gradients를 둘째 문장이 그대로 받는다. 셋째 문장의 this loss of photometric information은 둘째 문장이 설명한 정보 부족을 받아, 기하 제약을 함께 쓰려는 이유로 연결한다. 질감 부족은 영상 밝기 변화에 기대는 추정을 어렵게 할 수 있지만, 그 자체로 geometric ICP의 실패 원인이 되지는 않는다. 기하 제약도 장면의 형상에 따라 부족할 수 있으므로, 이 예는 hybrid method의 성공을 보장하는 설명이 아니다. 마지막 문장이 담은 방법 선택의 이유가 이 문단의 takeaway에 해당한다.
 
 **매 문장 끝에 보일러플레이트가 들어서면 stress chain이 비어 있다.** "in this paper", "of our approach" 같은 표현이 매 문장의 stress를 차지하면 어느 자리에 새 정보가 들어갔는지가 흐려진다. [Ch.29](./chapter_29_reader_expectations.md)의 stress position 진단과 같은 축에 있다.
 

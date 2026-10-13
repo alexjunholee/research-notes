@@ -74,7 +74,7 @@ Keshav는 §2 마지막에 패스 사이의 의존성을 적는다. 1st pass 없
 
 ## 7.6 읽기를 도와주는 도구
 
-3-pass 절차 위에 한 층위가 더 얹혀 있는 시점이다. 1st pass에서 abstract와 conclusion을 읽은 직후 paper packet — 논문 URL, PDF, project page, 코드, OpenReview나 supplementary가 있으면 그것까지 — 을 AI에 넣고 질문을 건다. 단순히 "요약해 줘"라고 막연하게 요청하기보다는, "주요 기여 세 가지와 각 주장을 뒷받침하는 본문 위치를 찾아 줘", "related work에서 가장 자주 비교되는 baseline과 그 표·단락의 위치를 짚어 줘", "Eq. 5가 어떤 가정에서 나오는지 단계별로 풀고 모르면 모른다고 표시해 줘"처럼 구체적으로 질문하는 편이 효과적이다. 2nd pass의 정독 단계에서 본문 어디에 시간을 쓸지 좌표를 더 빨리 잡고, 한 시간 상한 안에서 ref 한두 편의 1st pass에 쓸 시간을 그만큼 확보한다.
+3-pass 절차로 논문을 읽을 때 AI를 보조 도구로 쓸 수 있다. 1st pass에서 abstract와 conclusion을 읽은 직후 paper packet — 논문 URL, PDF, project page, 코드, OpenReview나 supplementary가 있으면 그것까지 — 을 AI에 넣고 질문을 건다. 단순히 "요약해 줘"라고 막연하게 요청하기보다는, "주요 기여 세 가지와 각 주장을 뒷받침하는 본문 위치를 찾아 줘", "related work에서 가장 자주 비교되는 baseline과 그 표·단락의 위치를 짚어 줘", "Eq. 5가 어떤 가정에서 나오는지 단계별로 풀고 모르면 모른다고 표시해 줘"처럼 구체적으로 질문하는 편이 효과적이다. 2nd pass의 정독 단계에서 본문 어디에 시간을 쓸지 좌표를 더 빨리 잡고, 한 시간 상한 안에서 ref 한두 편의 1st pass에 쓸 시간을 그만큼 확보한다.
 
 > AI가 찾아 준 근거 위치가 틀리면 그 결과는 버린다. 논문의 미묘한 가정, limitation 섹션의 뉘앙스, 실험 세팅의 세부 사항은 직접 읽어야 한다.
 

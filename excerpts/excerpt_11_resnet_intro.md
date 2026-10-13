@@ -10,13 +10,13 @@ Abstract 도입부:
 
 > Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously.
 
-Introduction 첫 단락의 핵심 두 문장:
+Introduction 두 번째 단락의 핵심 두 문장(참고문헌 번호 생략):
 
 > Driven by the significance of depth, a question arises: Is learning better networks as easy as stacking more layers? An obstacle to answering this question was the notorious problem of vanishing/exploding gradients, which hamper convergence from the beginning.
 
-Introduction 후반의 degradation 진술 한 줄:
+Introduction 세 번째 단락의 degradation 진술 일부:
 
-> Unexpectedly, such degradation is not caused by overfitting, and adding more layers to a suitably deep model leads to higher training error.
+> Unexpectedly, such degradation is not caused by overfitting, and adding more layers to a suitably deep model leads to higher training error, …
 
 
 ---
@@ -35,7 +35,7 @@ KISS-ICP가 we move in the opposite direction이라는 평서문으로 자세를
 
 문장 첫머리 신호의 활용도 눈여겨볼 만하다. Unexpectedly가 문장 맨 앞에 놓여 다음 절의 명제 전체에 무게를 싣는다. 예상과 다르다는 신호를 문두에 먼저 제시한 다음, degradation 현상이 overfitting과 무관하다는 핵심 명제를 뒤이어 배치한다. 같은 정보를 Such degradation, surprisingly, is not caused by overfitting으로 풀어쓰면 surprisingly가 쉼표 사이에 묻혀 신호가 약해진다. Gopen과 Swan이 강조한 reader expectation을 단어 수준에서 적용한 사례다.
 
-수치의 배치는 ORB-SLAM과 마찬가지로 비대칭이다. 통증은 학습이 어렵다는 진술과 degradation이라는 짧은 라벨로 압축하고, 기여 쪽에는 substantially deeper, 152 layers, 8x deeper than VGG, ImageNet 3.57% error 같은 구체적인 수치를 쌓는다. 통증은 단어 두세 개로 끝내고 기여는 수치로 받친다. 통증 서술이 불필요하게 길어지면 독자에게 문제의 심각성을 납득시키기 어렵다. 아울러 기여를 모호한 형용사로만 둘러대면 실질적인 효용을 입증하기 어렵다. ResNet은 두 부분의 무게를 단단하게 나눴다.
+수치의 배치는 ORB-SLAM과 마찬가지로 비대칭이다. 통증은 학습이 어렵다는 진술과 degradation이라는 짧은 라벨로 압축하고, 기여 쪽에는 substantially deeper, 152 layers, 8x deeper than VGG, ImageNet 앙상블의 top-5 test error 3.57% 같은 구체적인 수치를 쌓는다. 통증은 단어 두세 개로 끝내고 기여는 수치로 받친다. 통증 서술이 불필요하게 길어지면 독자에게 문제의 심각성을 납득시키기 어렵다. 아울러 기여를 모호한 형용사로만 둘러대면 실질적인 효용을 입증하기 어렵다. ResNet은 두 부분의 무게를 단단하게 나눴다.
 
 마지막은 자세다. We present a residual learning framework to ease the training은 새 발명을 제안하기보다 학습을 수월하게 만드는 골격을 내놓는다고 말한다. propose 대신 present를, 거창한 novel 대신 완곡한 to ease를 택한 문장이다. 한발 물러나 시작한 뒤 본문의 기여에서는 단정성을 회복하는 비대칭이 ORB-SLAM의 Building on excellent algorithms와 같은 형태다. 겉의 어조는 점잖게 두되 기여는 단정적으로 진술하는 안전한 기본값을 보여 준다.
 
@@ -47,7 +47,7 @@ KISS-ICP가 we move in the opposite direction이라는 평서문으로 자세를
 
 Unexpectedly 같은 부사를 문장 첫머리에 두면 새 현상에 독자의 주의를 모을 수 있다. 다만 한 단락에서는 한 번만 쓰는 편이 안전하다. 두 번 이상 나오면 모든 것이 예상 밖이 되어 신호가 사라진다.
 
-ResNet과 ORB-SLAM은 통증을 간결한 라벨 한두 단어로 갈무리하는 한편, 기여 단락에는 3~5개의 구체적인 수치를 집중적으로 배치한다. 형용사가 아니라 수치로 받치는 방식이다. substantially deeper가 연구 배경과 겸손한 태도를 드러내는 표현이라면, 152 layers는 실질적 기여를 입증하는 정량적 증거에 해당한다. 두 영역의 무게를 잘못 나누면 일부 문장이 과대주장으로 읽힌다.
+ResNet은 학습의 어려움을 짧게 제시한 뒤 초록에서 깊이와 분류 오류율 등의 수치를 제시한다. ORB-SLAM은 시스템의 기능과 27개 평가 시퀀스를 제시한다. 두 논문이 모두 기여 단락에 수치 3~5개를 배치한다는 공통 규칙으로 읽지는 않는다. 형용사가 아니라 수치로 받치는 방식이다. substantially deeper가 연구 배경과 겸손한 태도를 드러내는 표현이라면, 152 layers는 실질적 기여를 입증하는 정량적 증거에 해당한다. 두 영역의 무게를 잘못 나누면 일부 문장이 과대주장으로 읽힌다.
 
 ---
 

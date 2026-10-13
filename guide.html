@@ -829,7 +829,7 @@ Keshav가 §3에 적은 절차는 단순하다. 2026년에 같은 절차를 실�
 
 ## 1.5 로보틱스/CV에서의 entry
 
-추상적인 절차는 진입 단계의 학생에게 마찰이 크다. 그래서 분야별로 review가 어디에 살고 entry tool이 무엇인지 구체적으로 박아 두는 편이 빠르다.
+분야에 처음 들어선 학생에게는 추상적인 절차를 따르는 부담이 크다. 그래서 분야별 리뷰 자료를 어디에서 찾을 수 있는지, 입문할 때 어떤 도구를 쓰는지 구체적으로 알려 주는 편이 빠르다.
 
 로보틱스 쪽 review는 보통 [T-RO (IEEE Transactions on Robotics)](https://www.ieee-ras.org/publications/t-ro), [IJRR (International Journal of Robotics Research)](https://journals.sagepub.com/home/ijr), [RAS (Robotics and Autonomous Systems)](https://www.sciencedirect.com/journal/robotics-and-autonomous-systems)에 실린다. SLAM이라면 Cadena et al. 2016, motion planning이라면 LaValle의 Planning Algorithms 같은 reference book이 리뷰 역할을 한다. CV 쪽 review는 [TPAMI (IEEE Transactions on Pattern Analysis and Machine Intelligence)](https://www.computer.org/csdl/journal/tp)에 실리는 경우가 많고, CVPR/ICCV/ECCV의 tutorial track에서 신생 subfield의 review 격 자료가 나온다.
 
@@ -950,9 +950,9 @@ Ch.1에서 stub로 잡아 둔 hypothesis placeholder가 좁히기 절차를 거�
 
 # Ch.3 — 주도권의 이동: 교수 제안에서 내 주제로
 
-[Ch.2 (문제 정의)](./chapter_02_feynman_problem.md)에서 problem statement가 학생의 손으로 옮겨오는 순간을 봤다. 한 줄짜리 문제 진술이 본인의 종이 위에 적힌 시점, 그 시점에서 주도권 이동이 비로소 가능해진다. 문제 진술이 지도교수 입에서만 살아 있는 동안에는 주도권 이동이라는 말 그 자체가 성립하지 않는다.
+한 줄짜리 [문제 진술](./chapter_02_feynman_problem.md)을 학생이 직접 적었더라도, 다음 행동은 여전히 지도교수에게 맡기고 있을 수 있다. 실험이 잘 안됐다는 보고에서 멈추면 지도교수가 다음 시도를 정해야 한다. 권창현 교수의 「내 연구하기」에서 다루는 화법의 전환은 이 보고에 학생이 생각한 다음 행동을 더하는 데서 드러난다. 무엇을 바꾸어 볼지 함께 가져와야 학생의 제안을 놓고 논의할 수 있다.
 
-문제 진술이 학생 손에 들어왔다고 해서 주도권이 저절로 이동하지는 않는다. 화법과 작업 단위, 그리고 시점이 함께 옮겨가야 비로소 완전한 전환이 이루어진다. 권창현 교수 「내 연구하기」는 이러한 주도권 이동의 메커니즘을 명쾌하게 설명하는 길잡이다. 아울러 Whitesides 2004 §2의 협업 모델은 그 구체적인 작업 단위를 outline 한 장으로 제시하며, Lamport가 Stanford CS 209 (1987) 게스트 강의에서 남긴 wastebasket criterion은 실패와 폐기를 두려워하지 않는 태도를 보조축으로 보탠다. 세 자료는 지도교수와 학생 관계의 서로 다른 단면을 입체적으로 조명한다.
+Whitesides 2004 §2의 협업 모델에서는 이 제안을 outline에 담아 주고받는다. 학생이 outline을 갱신해 보내고 지도교수가 의견을 돌려주는 동안, 무엇이 바뀌었고 누가 변경을 제안했는지 살필 수 있다. 제안한 방향이 다음 라운드에서 폐기될 수도 있다. Lamport가 Stanford CS 209 (1987) 게스트 강의에서 제시한 wastebasket criterion은 발표한 작업뿐 아니라 발표하지 않기로 한 작업의 질도 보라는 기준이다. 학생에게 적용하면, 폐기될 것을 두려워해 새 방향을 제안하지 못하는 태도를 돌아보게 한다. 실패한 가정을 다음 outline의 입력으로 삼는 일도 학생이 다음 행동을 정하는 작업이다.
 
 ---
 
@@ -1062,7 +1062,7 @@ delta가 학생 손에서 나오기 시작하면 제안한 변경 가운데 상�
 
 [Ch.3 (주도권의 이동)](./chapter_03_ownership_shift.md)에서 화법·작업 단위가 학생 쪽으로 기울고 나면 책상 위의 작업을 내 작업이라 부를 수 있는 단계가 온다. 이 단계에 이르면 마주하는 난관의 성격도 달라진다. 매일 코드를 짜고, system을 tuning하고, 새로운 dataset을 돌려도, 그 작업이 연구인지 task인지의 감각이 흐릿하게 남는 단계다. 손에 들어온 작업이 의미를 가지려면 그 작업이 새 지식을 만드는지 아닌지를 진단할 도구가 필요하다.
 
-진단 도구는 두 가지다. 정글 탐험가 비유가 직관적 표현이고, 네 가지 연구 유형이 추상 분류다. [Ch.2 (문제 정의)](./chapter_02_feynman_problem.md)에서 좁힌 problem statement를 두 도구에 가져다 댄다.
+진단 도구는 두 가지다. 정글 탐험가 비유로 새로 밝힐 대상을 생각하고, 연구 목표를 적는 네 가지 문형으로 무엇을 알아내려는지 구체화한다. [Ch.2 (문제 정의)](./chapter_02_feynman_problem.md)에서 좁힌 problem statement를 두 도구에 가져다 댄다.
 
 ---
 
@@ -1088,22 +1088,22 @@ delta가 학생 손에서 나오기 시작하면 제안한 변경 가운데 상�
 
 끝 안쪽은 누군가 이미 그렸고, 누구나 들여다볼 수 있다. 그 영역에서 작업을 잘하는 일은 가치 있는 task다. 다만 지도를 새로 그리는 일은 아니다. 새 지식은 끝 바깥에서만 만들어진다. 한 발짝의 크기는 작아도 된다. 지도에 안 적힌 곳이라는 조건만 만족하면 된다.
 
-연구라 부를 수 있는 작업은 모두 이 한 발짝의 변형이다. 다만 한 발짝을 어떤 방향으로 디디는지가 분류된다. Hazelrigg의 4-type이 그 방향의 분류이고, §1의 시간 층위(task/objective/goal)와 직교하는 내용 층위다.
+연구라 부를 수 있는 작업은 모두 이 한 발짝의 변형이다. 그 한 발짝에서 무엇을 알아낼지 적을 때 Hazelrigg의 4-type을 참고할 수 있다. 이는 공학 연구제안서의 목표를 표현하는 문형이며, §1의 task/objective/goal과는 다른 질문에 답한다.
 
 ---
 
-## 4.3 새 지식의 네 가지 형태
+## 4.3 연구 목표를 적는 네 가지 문형
 
-§1의 task/objective/goal이 시간 층위의 분류 — 오늘 / 이번 논문 / 분야 전체 — 였다면, Hazelrigg 4-type은 내용 층위의 분류다. objective 슬롯에 들어간 한 contribution이 어떤 종류의 새 지식을 만드는가를 묻는다. 두 분류는 직교 축이다.
+§1의 task/objective/goal이 오늘의 일, 이번 연구의 목표, 분야 전체의 질문을 구분했다면, Hazelrigg의 네 문형은 연구 목표를 구체적으로 적는 데 쓰인다. 이번 연구에서 무엇을 검정하고, 얼마나 정확하게 측정하며, 무엇을 증명하거나 다른 분야의 방법으로 풀려는지 묻는다.
 
-NSF의 George Hazelrigg가 Honing Your Proposal Writing Skills에서 제시하고 권창현 교수가 소개한 연구 목표의 네 문형은 한 한국어 단락으로 옮길 수 있다. 연구란 새로운 지식을 축적하는 활동이다. 이때 생산되는 지식은 성격에 따라 크게 네 가지 유형으로 구분된다. 그 네 가지는 명제가 옳은지 그른지를 데이터로 결정하는 가설 검정, 현상의 정량적 성질을 데이터로 결정하는 측정, 명제가 옳다는 것을 논리로 결정하는 추측 증명, 다른 분야의 도구·관점을 본 분야 문제에 적용하는 학제간 융합이다. 새 지식을 만들지 않는 작업은 이 네 칸 어디에도 들어가지 않는다.
+NSF의 George Hazelrigg는 Honing Your Proposal Writing Skills에서 공학 연구제안서의 목표를 적는 네 문형을 제시했고, 권창현 교수가 이를 소개했다. 가설을 데이터로 검정하기, 특정 정확도로 매개변수를 측정하기, 추측을 논리로 증명하기, 다른 분야의 방법으로 문제를 풀기가 그 네 가지다. Hazelrigg는 이를 연구에서 무엇을 새로 알아내려는지 명료하게 쓰는 방법으로 설명한다. 모든 분야의 새 지식을 네 종류로 나눈 완전한 분류로 제시한 것은 아니다.
 
-- **가설 검정 (hypothesis testing).** 명제가 옳은지 그른지를 데이터로 결정하는 작업이다. 명제가 미리 적혀 있고, 그 명제가 참이라면 어떤 데이터가 보일지가 미리 그려져 있고, 실험은 그 그림과 실제 데이터를 비교한다. "BEV feature가 night-time loop closure에 효과적이다"가 가설의 한 예다.
+- **가설 검정 (hypothesis testing).** 명제를 데이터로 검토하는 작업이다. 명제가 미리 적혀 있고, 그 명제가 참이라면 어떤 데이터가 보일지가 미리 그려져 있고, 실험은 그 그림과 실제 데이터를 비교한다. "BEV feature가 night-time loop closure에 효과적이다"가 가설의 한 예다.
 - **측정 (measurement).** 현상의 정량적 성질을 데이터로 결정하는 작업이다. 가설은 어느 쪽이 옳은가를 묻지만 측정은 얼마인가를 묻는다. "KITTI-360에서 6개 SLAM system의 RTE (relative translation error) 분포는 어떻게 생겼는가"가 측정의 한 예다.
 - **추측 증명 (proof of conjecture).** 명제가 옳다는 것을 논리로 결정하는 작업이다. 데이터가 아니라 증명이 결정의 도구다. 예컨대 "관측 오염률 $r$이 명시된 상한 $r_{\max}$보다 작으면 제안한 최적화 절차가 전역 최적해로 수렴한다"는 명제를 세우고 증명하는 작업이 여기에 해당한다.
 - **학제간 융합 (interdisciplinary transfer).** 다른 분야의 도구·관점을 본 분야 문제에 적용하는 작업이다. 도구의 출처와 적용 대상이 분야 경계를 넘는다. "communication theory의 codebook 학습을 visual descriptor 설계에 적용한다"가 한 예다.
 
-자기 작업을 네 칸에 가져다 대 본다. 어디에도 안 들어가면 그 작업은 task일 가능성이 높다. 한 칸에 들어가면 그게 곧 contribution claim의 type이다. 한 기여가 두 칸에 동시에 들어갈 수도 있다. 예를 들어 다른 분야의 방법을 적용하고 그 효과를 가설 검정으로 확인할 수 있다.
+자기 작업을 네 문형으로 설명해 본다. 어느 문형으로도 쓰기 어렵다면 무엇을 새로 알아내려는지와 그 방법이 충분히 구체적인지 살핀다. 네 문형에 들어간다는 이유만으로 연구 기여가 입증되는 것은 아니며, 들어가지 않는다는 이유만으로 단순 task라고 판정할 수도 없다. 한 기여가 두 칸에 동시에 들어갈 수도 있다. 예를 들어 다른 분야의 방법을 적용하고 그 효과를 가설 검정으로 확인할 수 있다.
 
 ---
 
@@ -1123,9 +1123,9 @@ Hazelrigg 4-type이 연구 목표를 어떤 형식으로 설명할지 묻는다�
 
 ## 4.5 로보틱스/CV에서의 4-type
 
-진단 도구는 추상 분류만으로는 손에 잘 잡히지 않는다. 자기 분야의 사례에 한 번 가져다 대 보면 분류의 칸이 비로소 구체화된다. 로보틱스/CV의 흔한 작업을 네 칸에 한 사례씩 박는다.
+네 문형을 자기 분야의 사례에 적용하면 연구 목표를 어떻게 적을지 구체적으로 생각할 수 있다. 다음은 로보틱스/CV의 작업을 각 문형으로 표현한 예다.
 
-가설 검정. "BEV feature pyramid는 night-time loop closure recall을 raw image보다 높인다"는 한 줄짜리 명제가 있다. 명제가 참이라면 night benchmark에서 BEV-feature 기반 retrieval의 recall@1이 image-feature baseline보다 통계적으로 유의하게 높을 것이라는 그림을 미리 그린다. 실험은 그 그림과 실제 측정을 비교한다. ICRA·IROS의 방법 논문 다수가 여기 들어간다.
+가설 검정. "BEV feature pyramid는 night-time loop closure recall을 raw image보다 높인다"는 한 줄짜리 명제가 있다. 명제가 참이라면 night benchmark에서 BEV-feature 기반 retrieval의 recall@1이 image-feature baseline보다 통계적으로 유의하게 높을 것이라는 그림을 미리 그린다. 실험은 그 그림과 실제 측정을 비교한다. 이런 형식으로 ICRA·IROS의 방법 논문이 검정하려는 가설을 적어 볼 수 있다.
 
 측정. "KITTI-360, MulRan, Boreas 세 dataset에서 LIO-SAM·KISS-ICP·SuMa 세 system의 RTE 분포는 어떻게 다른가"라는 물음은 참과 거짓을 가리는 명제가 아닌 정량적 측정 질문이다. 여기서 도출해야 할 결론은 옳고 그름의 이분법을 넘어 구체적인 수치와 오차 분포의 특성에 있다. T-RO·IJRR의 benchmark·survey 논문, 그리고 일부 dataset 논문이 여기 들어간다.
 
@@ -1155,15 +1155,15 @@ Hazelrigg 4-type이 연구 목표를 어떤 형식으로 설명할지 묻는다�
 
 ---
 
-4-type 어디에 들어가는지 매번 즉답할 수 있는 학생은 거의 없다. 같은 곳에서 권창현 교수가 인용한 아인슈타인의 한 줄이 위안이 된다.
+4-type 어디에 들어가는지 매번 즉답할 수 있는 학생은 거의 없다. 권창현 교수는 같은 글에서 다음 말을 아인슈타인에게 귀속해 소개한다. 아인슈타인의 원문 출처는 확인되지 않았으므로, 여기서는 권창현의 글에 실린 표현으로 읽는다.
 
 > 우리도 우리가 뭐하는지 잘 모르잖아요. 알면 연구 아니잖아요.
 
-자기 작업이 어느 type인지 흐릿한 채로 한 학기가 지나가는 일은 정상이다. 흐릿한 채로 한 발짝씩 디디면서 type이 점차 또렷해지는 게 정상의 모양이다. 다만 흐림과 막힘은 다르다. type을 전혀 묻지 않은 채로 1년이 지나가면 그 1년의 작업이 task의 더미로 끝날 위험이 있다. 한 달에 한 번이라도 자기 작업을 4-type 목록과 정글 비유에 가져다 대는 습관이 그 위험을 막는다.
+자기 작업으로 무엇을 새로 알아내려는지 처음부터 또렷하게 적기는 어렵다. 일을 진행하며 목표를 다시 쓰고, 목표에 비추어 다음 일을 고를 수 있다. 한 학기나 1년 동안 작업만 쌓이지 않도록, 한 달에 한 번이라도 무엇을 새로 알게 됐는지 돌아본다. 네 문형과 정글 비유는 이 질문에 답할 때 참고할 도구다. 문형을 고르는 일만으로 연구가 진전되는 것은 아니다.
 
 같은 정글 비유가 「대학원노트」 Ch.1 「박사를 결정한다는 일」에서 진학 여부를 가늠하는 나침반으로 쓰였다면, 여기서는 책상 위의 일상적 작업을 점검하는 진단 도구로 활용된다. 같은 비유가 두 층위에 적용된다.
 
-작업이 4-type 중 한 칸에 들어간다는 진단이 끝나도 그 작업이 언제 어떻게 진행되는가는 별개의 질문이다.
+연구 목표를 구체적으로 적은 뒤에도 그 작업을 언제 어떻게 진행할지는 따로 정해야 한다.
 
 ---
 
@@ -1395,7 +1395,7 @@ Keshav는 §2 마지막에 패스 사이의 의존성을 적는다. 1st pass 없
 
 ## 7.6 읽기를 도와주는 도구
 
-3-pass 절차 위에 한 층위가 더 얹혀 있는 시점이다. 1st pass에서 abstract와 conclusion을 읽은 직후 paper packet — 논문 URL, PDF, project page, 코드, OpenReview나 supplementary가 있으면 그것까지 — 을 AI에 넣고 질문을 건다. 단순히 "요약해 줘"라고 막연하게 요청하기보다는, "주요 기여 세 가지와 각 주장을 뒷받침하는 본문 위치를 찾아 줘", "related work에서 가장 자주 비교되는 baseline과 그 표·단락의 위치를 짚어 줘", "Eq. 5가 어떤 가정에서 나오는지 단계별로 풀고 모르면 모른다고 표시해 줘"처럼 구체적으로 질문하는 편이 효과적이다. 2nd pass의 정독 단계에서 본문 어디에 시간을 쓸지 좌표를 더 빨리 잡고, 한 시간 상한 안에서 ref 한두 편의 1st pass에 쓸 시간을 그만큼 확보한다.
+3-pass 절차로 논문을 읽을 때 AI를 보조 도구로 쓸 수 있다. 1st pass에서 abstract와 conclusion을 읽은 직후 paper packet — 논문 URL, PDF, project page, 코드, OpenReview나 supplementary가 있으면 그것까지 — 을 AI에 넣고 질문을 건다. 단순히 "요약해 줘"라고 막연하게 요청하기보다는, "주요 기여 세 가지와 각 주장을 뒷받침하는 본문 위치를 찾아 줘", "related work에서 가장 자주 비교되는 baseline과 그 표·단락의 위치를 짚어 줘", "Eq. 5가 어떤 가정에서 나오는지 단계별로 풀고 모르면 모른다고 표시해 줘"처럼 구체적으로 질문하는 편이 효과적이다. 2nd pass의 정독 단계에서 본문 어디에 시간을 쓸지 좌표를 더 빨리 잡고, 한 시간 상한 안에서 ref 한두 편의 1st pass에 쓸 시간을 그만큼 확보한다.
 
 > AI가 찾아 준 근거 위치가 틀리면 그 결과는 버린다. 논문의 미묘한 가정, limitation 섹션의 뉘앙스, 실험 세팅의 세부 사항은 직접 읽어야 한다.
 
@@ -1719,7 +1719,7 @@ zig-zag가 그림 순서에 새겨진 경우가 가장 잦다. 그림 1·2·3이
 
 # Ch.12 — 독자 기대로 진단하기
 
-초록 한 단락을 다섯 번 읽었는데도 잡히지 않을 때, 한국어 모어 화자인 학생이 자주 떠올리는 자기 진단은 둘 중 하나다. "내 영어 실력이 부족한가" 또는 "내 분야 배경이 약한가". [Gopen & Swan 1990](https://www.cs.cmu.edu/~kk3n/sciencewriting/Science-of-Scientific-Writing.pdf)이 §1 첫머리에서 깨고 들어가는 곳이 여기다. 안 읽힘의 원인이 구조인 경우가 압도적으로 많다는 진단이다. 문장의 강조 위치가 어긋나 있다.
+초록 한 단락을 다섯 번 읽었는데도 잡히지 않을 때, 한국어 모어 화자인 학생이 자주 떠올리는 자기 진단은 둘 중 하나다. "내 영어 실력이 부족한가" 또는 "내 분야 배경이 약한가". [Gopen & Swan 1990](https://www.cs.cmu.edu/~kk3n/sciencewriting/Science-of-Scientific-Writing.pdf)이 §1 첫머리에서 깨고 들어가는 곳이 여기다. 복잡한 내용도 정보의 배치와 강조 위치를 바꾸면 더 명료하게 전달할 수 있다는 주장이다. 독해가 막혔다는 이유만으로 독자의 능력이나 글의 결함 중 어느 한쪽을 원인으로 확정하지는 않는다.
 
 [Ch.11](./chapter_11_ccc_lens.md)은 단락 스케일에서 안 읽힘을 진단했다. 여기서는 한 칸 더 좁혀 문장 단위에서 진단한다. 도구는 네 가지이며, 큰 결함부터 살피는 순서로 적용한다.
 
@@ -1731,7 +1731,7 @@ zig-zag가 그림 순서에 새겨진 경우가 가장 잦다. 그림 1·2·3이
 
 학생 입장에서는 초록 한 단락을 다섯 번 읽고도 모르겠을 때 배경 지식이나 피로와 함께 글의 구조도 살펴볼 수 있다. 자기검열만으로 진단을 끝내지 않는다.
 
-Gopen-Swan은 difficulty is structural, not lexical이라고 적는다. 단어를 사전에서 더 찾는다고 해결되는 것이 아니라, 문장의 어디에 무엇이 놓였는가가 답이 된다.
+Gopen-Swan이 분석한 URF 단락은 어려운 전문용어를 임시 기호로 바꿔도 문장 사이의 관계가 불분명했다. 이 사례에서는 어휘를 확인하는 데 더해, 문장의 어디에 무엇이 놓였는지도 살펴야 했다.
 
 ---
 
@@ -1757,9 +1757,9 @@ Gopen-Swan §2가 분석 대상으로 든 분자생물학 단락이 있다. 처�
 
 진단 1을 적용하면, 각 문장의 stress position에 핵심어가 없다. 강조 위치에 본문 맥락과 무관한 보조어가 자리 잡은 탓에, 정작 중요한 핵심어는 문장 복판에 파묻혀 버렸다. 진단 4를 적용하면, 단락의 두 번째 문장이 정의 안 된 novel term으로 시작하고, topic position의 다리가 끊겨 있다.
 
-같은 단락을 두 진단의 처방에 따라 재배치한 버전이 §2 후반에 나온다. 단어는 거의 그대로고 위치만 바뀌었지만, 같은 정보와 어휘가 다른 인지 부담을 만든다. 결론은 같다. 안 읽힘은 문장 구조에서 온다.
+같은 단락을 고친 예에서는 주어와 동사를 가까이 놓고, 강조할 정보와 뒤에서 사용할 명칭을 나누어 제시한다. 이 과정에서 일부 세부 정보도 생략되므로 위치만 바뀐 것은 아니다. 저자들도 이 개작이 원저자의 의도를 그대로 보존한다고 보장하지 않는다. 정보의 배치가 이해를 도울 수 있다는 점과, 개작 전후의 뜻을 따로 대조해야 한다는 점을 함께 읽어야 한다.
 
-> **초록을 다섯 번 읽고도 막혔다면 어학 실력부터 자책하기보다, 네 가지 진단 항목을 종이 위에 적어 구조를 분석하는 편이 훨씬 효과적이다.** 단락 한 칸의 stress 위치 네댓 개를 점검하는 데 5분이면 충분하고, 그 5분이 다섯 번 재독보다 정보를 더 준다. 자세한 시연과 양식은 [발췌 `gopen_swan_urf_rewrite`](./excerpts/excerpt_03_gopen_swan_urf_rewrite.md)에 따로 둔다.
+> **초록을 다섯 번 읽고도 막혔다면, 네 가지 진단 항목으로 어디에서 관계를 놓쳤는지 표시해 본다.** 문장 끝의 강조 위치, 앞 문장과의 연결, 주어와 동사의 거리, 구정보와 신정보의 배치를 하나씩 확인한다. 그 뒤에도 남는 어려움은 용어와 배경지식, 피로 등 다른 조건과 함께 살핀다. 자세한 시연과 양식은 [발췌 `gopen_swan_urf_rewrite`](./excerpts/excerpt_03_gopen_swan_urf_rewrite.md)에 따로 둔다.
 
 Gopen-Swan은 §3에서 "긴 문장이 읽기 어려운 것은 아니다. 단지 쓰기 어려울 뿐이다"라고 적는다. 진단 도구가 잡으려는 것은 위치다.
 
@@ -1849,7 +1849,7 @@ proof block에서 막혔을 때의 진단 질문은 "글쓴이가 signpost를 �
 
 ## 13.5 막힘 좌표 노트 — 학습 곡선의 기록
 
-한 페이지 막힘은 진단 분류가 가능하다. 본인의 어휘 부족인가, 분야 prior 부족인가, 글쓴이의 prose 부족인가의 세 갈래로 갈라진다. 진단이 잡히면 다음 행동이 달라진다. 어휘 부족이면 그 어휘를 노트에 박고, 분야 prior 부족이면 핵심 논문 한 편 더, 글쓴이 prose 부족이면 그 부분을 건너뛰거나 심사위원 코멘트 evidence로 둔다.
+한 페이지를 읽다가 막혔다면 그 원인을 나눠 볼 수 있다. 자신의 어휘가 부족한지, 분야의 배경지식이 부족한지, 글쓴이의 서술이 부족한지의 세 갈래다. 원인을 구분하면 다음에 할 일도 달라진다. 어휘가 부족하면 그 어휘를 노트에 적고, 분야의 배경지식이 부족하면 핵심 논문을 한 편 더 읽으며, 글쓴이의 서술이 부족하면 그 부분을 건너뛰거나 심사 의견의 근거로 남긴다.
 
 막힘 좌표 노트의 양식은 단순하다.
 
@@ -1977,7 +1977,7 @@ AI가 논문을 다시 열어 요약해 줄 수 있는 시대에는 긴 요약�
 
 ## 15.2 인용 관리 — reference manager는 본체가 아니다
 
-참고문헌 관리 도구는 원 출처의 서지 정보를 모아 인용 양식에 맞게 변환하는 데 쓴다. 서지 정보의 본체는 DOI·arXiv·OpenReview 및 학회와 출판사 페이지에 위치하며, 참고문헌 관리 도구는 이를 논문 양식에 맞춰 내보내는 포맷팅 계층 역할을 수행한다.
+참고문헌 관리 도구는 원 출처의 서지 정보를 모아 인용 양식에 맞게 변환하는 데 쓴다. 서지 정보는 DOI가 가리키는 문서나 arXiv·OpenReview 및 학회와 출판사의 페이지에서 확인할 수 있다. 참고문헌 관리 도구는 이렇게 모은 서지 정보를 논문 양식에 맞춰 내보낸다.
 
 손으로 BibTeX를 typing하지 않는다. 자동 생성 출처는 DOI, arXiv, CrossRef, Semantic Scholar, OpenAlex, venue page다. Google Scholar의 export는 빠르지만 필드가 비거나 venue 정보가 거칠게 들어오는 일이 있으므로 최종본의 기준으로 두지 않는다.
 
@@ -2301,7 +2301,9 @@ Outline 반복과 초고 수정 사이에 간격을 두면 직전에 쓴 문장�
 
 # Ch.19 — CCC: 단락·섹션·논문의 프랙털
 
-한 단락도 잘 닫지 못하는 학생이 논문 전체를 닫아야 한다는 요구를 받는다. 닫는 문제가 같은 형태로 세 번 반복된다는 점만 보이면 처방은 한 가지로 줄어든다. [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 3이 그 한 가지를 Context-Content-Conclusion(CCC)으로 정식화했다.
+단락을 읽고도 요점이 남지 않는다면, 마지막 문장이 어떤 판단을 남기는지 먼저 확인한다. 이어 그 문장의 끝에 핵심 판단이 놓였는지 읽는다. 그 판단을 뒷받침할 맥락과 근거가 앞선 문장에 있는지도 살핀다.
+
+단락에서 확인한 맥락·주장·결론의 연결은 섹션과 논문 전체에서도 점검할 수 있다. [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 3은 Context-Content-Conclusion(CCC)을 과학 논문의 기본 구조로 제안한다.
 
 ---
 
@@ -2311,21 +2313,21 @@ Outline 반복과 초고 수정 사이에 간격을 두면 직전에 쓴 문장�
 
 신입생들이 자연스럽게 따라가는 구조는 시간순(chronological)이다. "처음에 A를 시도했는데 실패했고, 그래서 B로 갔는데 이건 또 다른 문제가 있어서, 결국 C에 도달했다." 이 구조는 연구실 노트에는 적합하지만, 논문에서는 핵심 claim과 근거의 논리 순서를 가릴 수 있다. Mensh-Kording rule 3은 글쓴이가 자신의 작업을 시간순으로 기록하고 싶어 하는 것은 자연스럽지만, 독자는 결과에 도달한 경로보다 최종 claim과 그것을 받치는 논리에 관심이 있다고 적는다.
 
-CCC가 시간순의 대안으로 들어선다. 첫 문장에서 context를 박고, 본문에서 novel content를 풀고, 마지막 문장에서 takeaway를 닫는다. 시간순이 과정을 그대로 노출한다면, CCC는 과정의 결과만 전달한다.
+CCC는 독자가 맥락에서 주장과 근거를 거쳐 결론에 도달하도록 돕는 기본 구조다. 첫 문장에서 context를 제시하고, 본문에서 새로운 내용과 근거를 설명한 뒤, 마지막 문장에서 기억할 결론을 남긴다. 연구 과정을 다룰 때에도 시간순의 작업 기록을 그대로 옮기기보다, 어떤 주장을 뒷받침하려고 그 과정을 설명하는지 먼저 정한다.
 
 ---
 
 ## 19.2 세 층위의 프랙털
 
-같은 패턴이 단락·섹션·논문 세 스케일에 그대로 반복된다.
+CCC는 단락·섹션·논문의 여러 층위에 적용할 수 있다. 각 층위에서 세 요소가 맡는 역할을 다음과 같이 대응시켜 볼 수 있다.
 
 - **단락.** 첫 문장 = topic/context. 가운데 문장들 = novel content. 마지막 문장 = takeaway.
 - **섹션.** 도입 1단락 = 섹션의 목적과 위치. 본문 단락들 = develop. 마무리 단락 = land.
 - **논문 전체.** Introduction = context. Results = content. Discussion = conclusion.
 
-세 스케일 어느 한 곳이라도 깨지면 fractal이 무너진다. 단락이 잘 닫혀 있어도 섹션이 시간순이면 독자는 길을 잃는다. 섹션이 CCC를 따라가도 단락마다 첫 문장이 결과로 시작하면 독자는 매번 "왜 이걸 읽지?"를 다시 묻는다.
+단락에 결론이 있어도 섹션 전체가 실험 순서만 따르면, 그 결과가 어떤 주장을 뒷받침하는지 놓칠 수 있다. 반대로 앞 단락에서 맥락을 충분히 제시했다면 다음 단락을 결과로 시작할 수도 있다. 세 요소를 모든 자리에 기계적으로 반복하기보다, 독자가 필요한 맥락과 근거를 그때그때 얻는지 확인한다.
 
-세 층위의 반복은 인지 부하를 줄인다. 같은 골격을 세 번 반복하면 독자의 작업 기억은 같은 패턴을 인식하며 논문 전체를 따라간다. 패턴이 모든 층위에서 일치할 때 인식 비용이 가장 낮다.
+Mensh와 Kording은 이런 구조가 독자가 글을 따라가는 데 도움이 된다고 설명한다. 모든 층위의 형식이 같아야 인지 비용이 최소가 된다는 실험 결과를 제시한 것은 아니다. 문단과 섹션의 목적에 맞게 구조를 적용한다.
 
 ---
 
@@ -2339,13 +2341,13 @@ CCC가 시간순의 대안으로 들어선다. 첫 문장에서 context를 박�
 
 ---
 
-## 19.4 Tension — 문장 stress vs 단락 CCC
+## 19.4 문장의 강조와 단락의 결론을 연결하기
 
-[Gopen & Swan 1990](https://www.americanscientist.org/sites/americanscientist.org/files/20053191534_306.pdf)의 stress position 규칙은 새 정보를 문장 끝에 둔다. Mensh-Kording rule 3은 takeaway를 단락 끝에 둔다. 두 규칙은 같은 "끝"을 서로 다른 층위에서 가리킨다. 처음에는 충돌처럼 보일 수 있지만 실제로는 충돌하지 않는다.
+[Gopen & Swan 1990](https://www.americanscientist.org/sites/americanscientist.org/files/20053191534_306.pdf)은 독자가 문장 끝의 정보를 중요하게 읽는 경향을 설명한다. Mensh-Kording rule 3은 단락의 마지막 문장에 독자가 기억할 결론을 두도록 권한다. 하나는 문장 안의 강조 위치이고, 다른 하나는 문단 안의 정보 배치다.
 
-독자의 기대가 끝에서 충족된다는 한 원리가 문장과 단락 양쪽에 작동한 결과다. 단락의 마지막 문장 안에서도 stress position 규칙은 그대로 살아 있고, 그 문장의 끝에 단락 전체의 takeaway가 놓인다.
+마지막 문장에 결론이 있어도 끝을 부수적인 출처나 앞서 말한 내용으로 채우면, 독자는 무엇에 무게를 둘지 다시 판단해야 한다.
 
-둘 다 끝을 노린다. 층위가 다르고 끝이 가리키는 단위도 다르지만, 독자의 기대 방향은 같다. 충돌하지 않는 두 규칙이 단락의 마지막 문장 끝에서 만난다.
+문장마다 중요한 정보를 끝에 놓았다는 사실만으로 단락의 결론이 생기지는 않는다. 각 문장이 전한 내용이 마지막에 어떤 주장으로 모이는지도 필요하다. 문장의 강조 위치와 단락의 결론을 따로 확인한 뒤 연결하면, 문장은 매끄럽지만 요점은 남지 않는 경우를 찾을 수 있다.
 
 ---
 
@@ -2353,7 +2355,7 @@ CCC가 시간순의 대안으로 들어선다. 첫 문장에서 context를 박�
 
 CCC가 깨지는 패턴은 비교적 정형화되어 있다.
 
-- 단락 첫 문장에 결과부터 박는 경우 — context 슬롯이 비어 있고, 독자는 "왜 이걸 읽지?"를 묻는다.
+- 앞선 문맥에서도 필요한 맥락을 제시하지 않은 채 단락 첫 문장에 결과부터 쓰는 경우 — 독자는 그 결과를 왜 읽어야 하는지 알기 어렵다.
 - 단락 마지막 문장이 다음 단락의 도입으로 새는 경우 — conclusion 칸에 transition을 두면 takeaway가 사라진다. 가장 빈번한 결함이다.
 - 섹션 도입 단락 없이 §2.1로 바로 진입하는 경우 — 섹션 스케일의 context가 비어 있다.
 - Discussion에 새 결과가 등장하는 경우 — content 스케일과 conclusion 스케일이 섞인다. Discussion은 새 결과를 두는 곳이 아니다.
@@ -2363,7 +2365,7 @@ CCC가 깨지는 패턴은 비교적 정형화되어 있다.
 
 ---
 
-**출처.** [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 3·4·5. [Gopen & Swan 1990](https://www.americanscientist.org/sites/americanscientist.org/files/20053191534_306.pdf) (stress position). 두 원칙 간의 긴장을 조율하는 관점은 집필 실무를 고려해 본문에서 새롭게 제시했다.
+**출처.** [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 3·4·5. [Gopen & Swan 1990](https://www.americanscientist.org/sites/americanscientist.org/files/20053191534_306.pdf) (stress position). 문장의 강조 위치와 단락의 결론을 함께 점검하는 절차는 두 자료를 바탕으로 구성했다.
 
 다음: [Ch.20 — 정보가 담긴 소제목과 결론 ≠ 요약](./chapter_20_subheadings_and_conclusions.md)
 
@@ -2464,13 +2466,13 @@ claim-style 헤딩은 본문 한 섹션에서 결론 문장을 먼저 추출한 
 
 **각 문장의 첫 명사구가 앞 문장의 어딘가와 연결되어야 한다.** 직전 문장의 stress position에 등장한 명사구가 다음 문장의 topic position을 받는 패턴이 가장 자연스럽다.
 
-> ❌ The proposed method achieves 14% improvement on KITTI. Many sequences are challenging due to dynamic objects. Loop closure is critical.
+> 원문: The proposed method achieves 14% improvement on KITTI. Many KITTI sequences are challenging due to dynamic objects. Loop closure is critical.
 >
-> ✓ The proposed method achieves 14% improvement on KITTI. The improvement holds across sequences with dynamic objects, where loop closure is most critical.
+> 연결을 일부 고친 문장: The proposed method achieves 14% improvement on KITTI. This benchmark contains many sequences that are challenging due to dynamic objects. Loop closure is critical.
 
-예문의 14% 향상 수치는 문맥 간 연결 구조를 설명하기 위해 설정한 예시값이다.
+예문의 14% 향상 수치는 문장 연결을 설명하기 위해 설정한 예시값이다. 두 문안은 같은 정보를 담고 있다. 수정문에서는 둘째 문장의 this benchmark가 앞 문장의 KITTI를 받아, 어느 자료의 sequence인지 바로 알 수 있다.
 
-❌ 쪽은 세 문장의 첫 명사구가 the proposed method · many sequences · loop closure로 끊긴다. 서로 연결되지 않는다. ✓ 쪽은 둘째 문장의 the improvement가 첫 문장의 improvement를 받는다. 둘째 문장 안에서는 where절이 앞의 sequences를 이어받는다.
+셋째 문장은 여전히 연결이 부족하다. Loop closure가 왜 중요한지, 앞의 성능이나 동적 물체와 어떤 관계인지는 주어진 문장만으로 알 수 없다. 이 빈틈을 메우려면 방법과 실험의 근거를 더 확인해야 한다. 동적 물체가 있는 sequence에서도 14% 향상이 유지된다고 덧붙이거나 critical을 most critical로 바꾸면, 연결을 고치는 동안 새 결과와 최상급 주장을 만든 셈이 된다.
 
 **첫 명사구는 직전에 등장한 명사·대명사·요약 명사구를 받는다.** "this", "the result", "such configurations" 같은 요약 명사구가 backward link를 만드는 도구다.
 
@@ -2480,9 +2482,9 @@ claim-style 헤딩은 본문 한 섹션에서 결론 문장을 먼저 추출한 
 
 **문장 끝(stress position)의 새 정보가 다음 문장 첫 자리(topic position)로 흘러간다.** 이 받기는 단락 안에서 정보를 누적하는 한 방법이다.
 
-> ✓ Geometric ICP failed on textureless walls. These walls dominate indoor scans, where photometric gradients are weak. Weak gradients motivate hybrid methods.
+> ✓ Textureless walls provide weak image gradients. Weak image gradients make photometric motion estimation less informative. This loss of photometric information motivates adding geometric constraints in a hybrid method.
 
-세 문장의 stress는 각각 textureless walls · weak gradients · hybrid methods다. 다음 문장의 topic이 직전 stress를 받아 단락이 한 방향으로 흐른다. 단락의 마지막 stress에 hybrid methods가 도달하면, 그 끝점이 단락 전체의 takeaway 후보가 된다. Ch.19 §19.1의 conclusion 위치와 정확히 일치한다.
+첫 문장의 weak image gradients를 둘째 문장이 그대로 받는다. 셋째 문장의 this loss of photometric information은 둘째 문장이 설명한 정보 부족을 받아, 기하 제약을 함께 쓰려는 이유로 연결한다. 질감 부족은 영상 밝기 변화에 기대는 추정을 어렵게 할 수 있지만, 그 자체로 geometric ICP의 실패 원인이 되지는 않는다. 기하 제약도 장면의 형상에 따라 부족할 수 있으므로, 이 예는 hybrid method의 성공을 보장하는 설명이 아니다. 마지막 문장이 담은 방법 선택의 이유가 이 문단의 takeaway에 해당한다.
 
 **매 문장 끝에 보일러플레이트가 들어서면 stress chain이 비어 있다.** "in this paper", "of our approach" 같은 표현이 매 문장의 stress를 차지하면 어느 자리에 새 정보가 들어갔는지가 흐려진다. [Ch.29](./chapter_29_reader_expectations.md)의 stress position 진단과 같은 축에 있다.
 
@@ -3688,13 +3690,13 @@ venue 형식·비용·소속의 분석을 한국 학생의 입장에서 보면 i
 
 ## 34.1 만남 사전 약속 — 동세대가 먼저다
 
-학회에서 만날 사람의 우선순위는 통념과 다르다. 본인 논문과 가장 인접한 연구실의 박사 과정생 1-2명, 그리고 본인 분야 mid-career 연구자가 먼저다. 동세대 peer와의 multi-year 관계가 long-term 가치를 만든다. [Ch.33](./chapter_33_conference_roi.md)에서 다룬 학회 ROI 명제가 여기서 그대로 적용된다.
+학회에서 만날 사람의 우선순위는 통념과 다르다. 본인 논문과 가장 인접한 연구실의 박사 과정생 1-2명, 그리고 본인 분야의 중견 연구자가 먼저다. 동세대 동료와 여러 해에 걸쳐 맺는 관계가 장기적인 가치를 만든다. [Ch.33](./chapter_33_conference_roi.md)에서 다룬 학회 ROI 명제가 여기서 그대로 적용된다.
 
 지도교수는 senior와의 만남을 알선해 줄 수 있다. 다만 동세대와의 만남은 학생이 직접 잡는다. 한국 학생이 가장 자주 놓치는 부분이기도 하다. 지도교수가 챙겨 주지 않는 영역이라는 사실을 모르면 그런 만남이 있다는 사실조차 모른 채 학회가 끝난다.
 
 거절이나 무응답을 연구 역량에 대한 부정적 평가로 받아들일 필요는 없다. 상대도 학회 직전 메일이 쌓여 있고, 일정·이동·기존 약속처럼 발신자 밖의 사정이 많다. 여러 명에게 연락하되 각 메일은 상대의 연구에 맞게 쓴다.
 
-> 동세대 peer 만남을 우선순위에 둔다. 다음 다섯 학회에서 다시 마주칠 peer 한 명의 가치는 길게 본 좌표 위에서 무겁다.
+> 동세대 동료와의 만남을 우선순위에 둔다. 다음 다섯 학회에서 다시 마주칠 동료 한 명의 가치는 장기적으로 크다.
 
 ---
 
@@ -3987,7 +3989,9 @@ open question, 90초 senior 화법, 5초 발표 opener, fact/해석 분리, 포�
 
 ---
 
-「연구노트」의 다섯 파트는 모두 하나의 일관된 명제로 수렴한다. 연구자로서 책상 위에 쏟는 정직한 노동은 결코 사라지지 않고 스스로의 역량으로 온전히 축적된다. [Part 0](./chapter_01_review_paper.md)을 통해 분야의 GAP을 분별하고, [Part 1](./chapter_06_why_read.md)에서는 GAP·기여도·검증 구조를 치밀하게 짚으며 논문을 독해해야 한다. [Part 2](./chapter_16_mindset.md)에서 제시한 4-5회의 아웃라인 반복 과정을 거쳐, [Part 3](./chapter_22_title_abstract.md)에서는 독자의 인지적 기대를 충족하도록 각 섹션을 벼려 나간다. 나아가 [Part 4](./chapter_33_conference_roi.md)에 이르러서는 글쓰기의 첫 문장 원칙을 학회 현장의 발표와 즉석 대화로 확장할 수 있다. 문제를 정의하고, 읽고, 쓰고, 소통하는 이 순환 회로는 학위 취득과 함께 소멸하지 않는다. 연구자로서 마주할 다음 무대에서도 동일한 회로가 힘을 발휘하며, 책상 앞에서 마주하는 매일의 성실한 시간이 그 위대한 누적을 완성한다.
+학회에서 연구를 설명하고 질문에 답한 경험은 다음 연구에서도 돌아볼 수 있다. 새로운 문제를 정할 때는 [분야의 GAP을 분별하고](./chapter_01_review_paper.md), [논문에서 GAP·기여도·검증 구조를 짚는다](./chapter_06_why_read.md). 앞선 작업의 기록과 경험을 바탕으로 문제를 다시 정의할 수도 있다.
+
+[글을 쓰고 고치는 과정에서는](./chapter_16_mindset.md) 아웃라인을 협업으로 다듬는다. Whitesides가 자신의 원고 작업에서 보통 4-5회 반복했다고 설명한 사례를 참고하되, 그 횟수를 고정 규칙으로 삼지는 않는다. [각 섹션은 독자의 기대에 맞게 구성하고](./chapter_22_title_abstract.md), [발표와 현장 대화](./chapter_33_conference_roi.md)를 준비할 때는 글쓰기의 첫 문장 원칙을 첫마디에 적용한다. 문제를 정의하고, 읽고, 쓰고, 소통하는 작업은 학위를 받은 뒤에도 이어진다.
 
 **「연구노트」 끝.**
 
@@ -4016,7 +4020,7 @@ open question, 90초 senior 화법, 5초 발표 opener, fact/해석 분리, 포�
 
 ## 한국어 의역
 
-로봇의 자세를 정확하고 강건하게 추정하는 일, 즉 센서 기반 odometry는 수많은 로봇 응용의 본질적 구성요소다. 대다수 odometry 시스템은 ego-motion 추정 파이프라인에 복잡함을 더해 발전해 왔지만, 우리는 반대 방향으로 간다. 부품을 덜어내고 핵심에만 집중함으로써, 다양한 LiDAR 센서와 다양한 환경에서 동작하는 놀랄 만큼 단순하고 효과적인 시스템을 얻는다. 이 논문은 30년 전 Besl과 McKay가 제안한 고전적 point-to-point ICP로 돌아간다. 복잡한 feature 추출 기법, 학습 모듈, loop closure 어느 것도 쓰지 않는다. 같은 parameter 집합이 자율주행 고속도로, 드론, 핸드헬드, segway 모두에서 동작한다.
+로봇의 자세를 정확하고 강건하게 추정하는 일, 즉 센서 기반 odometry는 수많은 로봇 응용의 본질적 구성요소다. 많은 odometry 시스템은 ego-motion 추정 파이프라인에 복잡함을 더해 발전해 왔지만, 우리는 반대 방향으로 간다. 부품을 덜어내고 핵심에만 집중함으로써, 다양한 LiDAR 센서와 다양한 환경에서 동작하는 놀랄 만큼 단순하고 효과적인 시스템을 얻는다. 이 논문은 30년 전 Besl과 McKay가 제안한 고전적 point-to-point ICP로 돌아간다. 복잡한 feature 추출 기법, 학습 모듈, loop closure 어느 것도 쓰지 않는다. 같은 parameter 집합이 자율주행 고속도로, 드론, 핸드헬드, segway 모두에서 동작한다.
 
 ---
 
@@ -4030,7 +4034,7 @@ open question, 90초 senior 화법, 5초 발표 opener, fact/해석 분리, 포�
 
 이 단락은 작은 CCC이기도 하다. 초록 첫 문장에 context(분야 정의)가 놓이고, 두 번째 문장에서 content의 방향을 뒤집으며, 세 번째 문장 이후에는 conclusion(단순한 해법으로 충분함)을 제시한다. Mensh와 Kording이 규칙 3에서 권한 단락 단위 CCC가 초록 첫 단락에서 그대로 구현된다. Ch.19에서 다룬 CCC fractal이 실제 논문에서 작동하는 모습을 보여 주는 사례다.
 
-이 hook은 분야의 통증을 과장하지 않는다. "LiDAR odometry는 풀리지 않은 거대 난제다"라고 외치지 않고, 로봇 응용의 흔한 구성요소라고 담담하게 적는다("essential part of many robotic applications"). 후배의 글에서 흔히 보이는 "이 분야는 위기에 처해 있다" 같은 과대주장과 반대되는 태도다. 통증을 작게 제시할수록 "그런데 우리는 더 단순한 해법을 들고 왔다"는 기여가 선명해진다. 통증과 기여의 크기는 비례시키기보다 비대칭으로 짜는 편이 효과적이다. KISS-ICP는 이 비대칭을 제목, 부제, 초록 첫 두 문장, 서론 첫 단락에서 일관되게 유지한다.
+이 hook은 분야의 통증을 과장하지 않는다. "LiDAR odometry는 풀리지 않은 거대 난제다"라고 외치지 않고, 로봇 응용의 흔한 구성요소라고 담담하게 적는다("essential part of many robotic applications"). 후배의 글에서 흔히 보이는 "이 분야는 위기에 처해 있다" 같은 과대주장과 반대되는 태도다. 통증을 작게 제시할수록 "그런데 우리는 더 단순한 해법을 들고 왔다"는 기여가 선명해진다. 통증과 기여의 크기는 비례시키기보다 비대칭으로 짜는 편이 효과적이다. KISS-ICP는 이 비대칭을 제목, 부제, 초록 첫 두 문장, 서론 도입부에서 일관되게 유지한다.
 
 ---
 
@@ -4080,15 +4084,15 @@ open question, 90초 senior 화법, 5초 발표 opener, fact/해석 분리, 포�
 
 ## 분석 — 왜 이 표현이 좋은가
 
-ORB-SLAM의 기여 진술은 시스템 논문이 자기 기여를 묶어 보여 주는 유용한 사례다. 초록은 "This paper presents ORB-SLAM, a feature-based monocular SLAM system that operates in real time, in small and large, indoor and outdoor environments"라는 한 문장으로 시스템을 선언한다. 능동형 동사 + 시스템 명사 + 핵심 능력이라는 슬롯이 채워져 있다. "We"라는 1인칭은 초록 후반의 "we designed from scratch a novel system"에서 등장하며, Knuth §1 point 6의 `we`와 `I`에 대한 권고와 맞닿는다. 이어지는 feature-based, real time, small and large, indoor and outdoor는 단순한 수식어를 넘어 향후 실험 섹션에서 증명해야 할 구체적 평가 축의 선언이다. 결과 섹션이 feature-based(ORB feature 사용), real-time(CPU에서 실시간 동작), versatility(27 sequences across indoor/outdoor)라는 축을 실제로 보고하는지가 약속과 이행의 일치를 가른다. Whitesides §III의 outline-first 구조와 함께 읽으면, 초록의 약속이 본문의 그림·표·기여 목록에서 실현되는지 점검할 수 있다.
+ORB-SLAM의 기여 진술은 시스템 논문이 자기 기여를 묶어 보여 주는 유용한 사례다. 초록은 "This paper presents ORB-SLAM, a feature-based monocular SLAM system that operates in real time, in small and large, indoor and outdoor environments"라는 한 문장으로 시스템을 선언한다. 능동형 동사 + 시스템 명사 + 핵심 능력이라는 슬롯이 채워져 있다. "We"라는 1인칭은 초록 후반의 "we designed from scratch a novel system"에서 저자들을 가리킨다. Knuth §1 point 6이 권한 독자와 저자가 함께 추론하는 `we`와는 용법이 다르다. 이어지는 feature-based, real time, small and large, indoor and outdoor는 단순한 수식어를 넘어 향후 실험 섹션에서 증명해야 할 구체적 평가 축의 선언이다. 결과 섹션이 feature-based(ORB feature 사용), real-time(CPU에서 실시간 동작), versatility(27 sequences across indoor/outdoor)라는 축을 실제로 보고하는지가 약속과 이행의 일치를 가른다. Whitesides §2의 outline-first 구조와 함께 읽으면, 초록의 약속이 본문의 그림·표·기여 목록에서 실현되는지 점검할 수 있다.
 
 Introduction 끝의 contribution 나열은 각 항목이 동일한 슬롯 구조를 따른다. 어떤 모듈 + 어떤 새로움 + 어떤 결과. 가령 첫 항목은 "tracking, mapping, relocalization and loop closing 모두에 같은 ORB feature를 사용해(모듈)" 시스템을 통일하고, "ORB feature는 GPU 없이 실시간 동작이 가능하며 viewpoint·조명에 강건한(새로움)" 특성을 가지므로, "more efficient, simple and reliable(결과)"한 시스템이 된다. 같은 문법이 여섯 번 반복되어 독자가 항목 사이를 비교하기 쉽다. 한 항목이라도 슬롯이 비어 있다면 — 가령 "어떤 결과"가 누락되면 — 그 contribution은 약하다는 신호다. 자기 논문 contribution을 점검하는 가장 빠른 방법은 항목들을 표로 옮겨 슬롯이 모두 채워졌는지 보는 것이다.
 
-Abstract 한 문장과 Introduction bullet의 대응도 이 발췌가 모범인 이유 중 하나다. abstract의 압축된 한 줄("uses the same features for all SLAM tasks: tracking, mapping, relocalization, and loop closing")이 introduction의 첫 bullet으로 그대로 풀려 나온다. 다만 survival of the fittest는 마지막 bullet에만 등장하므로 abstract와 bullet의 일대일 대응 사례로 보기는 어렵다. ORB-SLAM에서 두 진술이 단단하게 맞물리는 대목은 모든 기여가 아니라, 네 task에 같은 feature를 쓴다는 핵심 주장이다. 자기 원고도 abstract와 Introduction 마지막 단락을 나란히 펼쳐, contribution이 같은 핵심 단어와 근거로 묶이는지 확인한다. 이 비교는 글쓴이의 '자기 인식 수준'을 판정하는 5분 검사가 아니라, 약속과 근거의 누락을 찾는 편집 도구다.
+Abstract 한 문장과 Introduction bullet의 대응도 이 발췌가 모범인 이유 중 하나다. abstract의 압축된 한 줄("uses the same features for all SLAM tasks: tracking, mapping, relocalization, and loop closing")이 introduction의 첫 bullet으로 그대로 풀려 나온다. 이 발췌에서 생략한 초록의 다음 문장에는 survival of the fittest도 등장하며 마지막 bullet과 대응한다. 네 task에 같은 feature를 쓴다는 주장과 지도 점·키프레임을 선별한다는 주장이 초록과 기여 목록을 함께 묶는다. 자기 원고도 abstract와 Introduction 마지막 단락을 나란히 펼쳐, contribution이 같은 핵심 단어와 근거로 묶이는지 확인한다. 이 비교는 글쓴이의 '자기 인식 수준'을 판정하는 5분 검사가 아니라, 약속과 근거의 누락을 찾는 편집 도구다.
 
-번호를 매긴 까닭도 분명하다. 같은 내용을 "We present a system that uses common ORB features for tracking, mapping, relocalization, and loop closing, while introducing a novel covisibility graph for real-time local mapping, and an Essential Graph for efficient large-scale optimization, and …"처럼 산문으로 풀면 절들이 등위접속사로 길게 이어져 기여의 경계가 흐려진다. 글머리표 목록은 정보를 구획화하는 도구다. 항목이 셋에서 여섯 사이이고, 각 항목을 두세 줄로 압축할 수 있으며, 항목들이 비교 가능한 같은 슬롯 구조를 가질 때 글머리표 목록으로 구조화하는 편이 훨씬 명확하다. ORB-SLAM은 세 조건을 모두 만족한다.
+글머리표로 나눈 까닭도 분명하다. 같은 내용을 "We present a system that uses common ORB features for tracking, mapping, relocalization, and loop closing, while introducing a novel covisibility graph for real-time local mapping, and an Essential Graph for efficient large-scale optimization, and …"처럼 산문으로 풀면 절들이 등위접속사로 길게 이어져 기여의 경계가 흐려진다. 글머리표 목록은 정보를 구획화하는 도구다. 항목이 셋에서 여섯 사이이고, 각 항목을 두세 줄로 압축할 수 있으며, 항목들이 비교 가능한 같은 슬롯 구조를 가질 때 글머리표 목록으로 구조화하는 편이 훨씬 명확하다. ORB-SLAM은 세 조건을 모두 만족한다.
 
-마지막은 어조다. "This paper presents"는 시스템을 제시한다는 말이고, "we designed from scratch"는 새 시스템을 처음부터 설계했다는 기여를 명시한다. 앞선 "Building on excellent algorithms"와 함께 읽으면 선행 알고리즘의 공로를 인정하면서 시스템 설계의 새로움을 주장하는 문장이다. Building on excellent algorithms of recent years는 선행 연구를 훌륭하다고 부르며 그 위에서 작업했음을 인정한다. 세부 기여 항목에서는 "introduce", "use", "present", "make public"처럼 능동적이고 단정적인 동사들을 채택한다. 바깥의 어조는 점잖게 두되 안쪽의 진술은 단정하는 비대칭이 시스템 논문의 기여 단락에 알맞다. 바깥의 어조를 지나치게 단정하면("We propose a revolutionary …") 심사위원의 거부 반응을 부르고, 안쪽 진술을 약하게 쓰면("We try to …") 기여가 무너진다. ORB-SLAM의 비대칭이 안전한 기본값이다.
+마지막은 어조다. "This paper presents"는 시스템을 제시한다는 말이고, "we designed from scratch"는 새 시스템을 처음부터 설계했다는 기여를 명시한다. 앞선 "Building on excellent algorithms"와 함께 읽으면 선행 알고리즘의 공로를 인정하면서 시스템 설계의 새로움을 주장하는 문장이다. Building on excellent algorithms of recent years는 선행 연구를 훌륭하다고 부르며 그 위에서 작업했음을 인정한다. 기여 목록과 그 앞뒤 문장에서는 "use", "present", "make public"처럼 능동적이고 단정적인 동사를 쓴다. 바깥의 어조는 점잖게 두되 안쪽의 진술은 단정하는 비대칭이 시스템 논문의 기여 단락에 알맞다. 바깥의 어조를 지나치게 단정하면("We propose a revolutionary …") 심사위원의 거부 반응을 부르고, 안쪽 진술을 약하게 쓰면("We try to …") 기여가 무너진다. ORB-SLAM의 비대칭이 안전한 기본값이다.
 
 ---
 
@@ -4127,7 +4131,7 @@ Abstract 한 줄과 Introduction bullet의 대응을 직접 표로 그려 보는
 
 개작 과정에서는 무엇을 강조하고 무엇을 생략할지 판단해야 한다. 원본의 배치가 그 판단을 충분히 안내하지 않으면 독자와 저자의 해석이 달라질 수 있다. 따라서 이 사례를 따라 쓸 때는 위치를 바꾼 정보뿐 아니라 삭제한 정보와 새로 명시한 연결도 함께 확인해야 한다. 구조를 정리하는 작업이 생각을 점검하는 작업으로 이어지는 지점이다.
 
-한국어로 옮길 때는 주의가 필요하다. 영어의 stress position은 SVO 어순상 문장 끝이지만, 한국어는 SOV이므로 술어가 자연스럽게 끝에 온다. 따라서 "끝에 강조할 내용을 두라"는 원칙을 그대로 옮기기는 어렵다. 한국어에서는 목적어를 앞으로 빼는 어순 변형, "은/는"으로 topic을 표시하고 "이/가"로 새 정보를 표시하는 조사, "것은 …이다" 같은 강조 구문을 쓴다. topic position에 backward link를 두라는 원칙은 한국어에도 적용된다. 문장 첫머리의 명사구가 앞 문장 끝과 연결되는지, 곧 "은/는"이 받는 명사가 앞 문장에 이미 나왔는지를 점검해야 한다.
+한국어로 옮길 때는 주의가 필요하다. Gopen과 Swan의 stress position은 문장이나 절이 문법적으로 닫히는 자리이며, 세미콜론 앞에도 생길 수 있다. 한국어는 술어가 자연스럽게 끝에 오는 경우가 많다. 따라서 "끝에 강조할 내용을 두라"는 원칙을 그대로 옮기기는 어렵다. 한국어에서는 목적어를 앞으로 빼는 어순 변형, "은/는"으로 topic을 표시하고 "이/가"로 새 정보를 표시하는 조사, "것은 …이다" 같은 강조 구문을 쓴다. topic position에 backward link를 두라는 원칙은 한국어에도 적용된다. 문장 첫머리의 명사구가 앞 문장 끝과 연결되는지, 곧 "은/는"이 받는 명사가 앞 문장에 이미 나왔는지를 점검해야 한다.
 
 ---
 
@@ -4163,13 +4167,13 @@ Point 1은 서로 다른 수식 사이에 관계를 알려 주는 단어를 넣�
 
 한 사례에서 여러 원칙을 함께 살펴볼 수도 있다. §2는 $N^n$과 $L(C,P)$의 정의를 수식과 산문으로 보완해 설명하고, §3는 목표와 하위 목표를 문장으로 안내한다. 또 식 (2)와 혼동하지 않도록 증명 속 벡터 성분을 $p_i$ 대신 $b_i$로 적는다. 정의를 두 방식으로 설명하기(point 11), 수식 사이를 산문으로 연결하기(point 10), 기호를 혼동 없이 쓰기(point 14)를 실제 대목과 대조해 볼 수 있다.
 
-한국어 수학 글쓰기 환경에서는 어순의 위치 문제가 추가로 대두된다. 영어의 "where"나 "such that" 구문은 종속절을 문장 뒤에 배치하여 진술의 자기완결성을 보강한다. 한국어는 술어가 맨 끝에 오는 구조이므로 조건절이 문두에 와야 훨씬 자연스럽다("$q < p$인 $S_q$에 대해, …"처럼). "단,"이나 "여기서" 같은 접속 어구도 유용하지만, 정리 진술 내부의 기호 정의는 뒤로 미루기보다 문장 앞머리에 선제적으로 제시할 때 완결성이 더욱 돋보인다. 이러한 언어적 특성을 고려하지 않고 영문 개작 패턴을 기계적으로 직역하면 글의 호흡이 어색해지기 쉽다.
+한국어로 수학 글을 쓸 때는 문장 성분을 놓는 순서도 문제가 된다. 영어의 "where"나 "such that" 구문은 종속절을 문장 뒤에 배치하여 진술의 자기완결성을 보강한다. 한국어는 술어가 맨 끝에 오는 구조이므로 조건절이 문두에 와야 훨씬 자연스럽다("$q < p$인 $S_q$에 대해, …"처럼). "단,"이나 "여기서" 같은 접속 어구도 유용하지만, 정리 진술 내부의 기호 정의는 뒤로 미루기보다 문장 앞머리에 선제적으로 제시할 때 완결성이 더욱 돋보인다. 이러한 언어적 특성을 고려하지 않고 영문 개작 패턴을 기계적으로 직역하면 글의 호흡이 어색해지기 쉽다.
 
 ---
 
 ## 따라 쓰기 패턴
 
-자기 증명의 한 단락은 세 가지로 점검한다. ① 모든 displayed equation을 "blah"로 바꾼 문장 골격만 읽는다. 산문이 흐르는가, 끊기는가? ② 정리 진술만 복사해 새 페이지에서 읽는다. 모든 기호가 그 자리에서 정의되는가? ③ 인접한 두 수식 사이에 "$x$, where $y > 0$"처럼 의미를 잇는 단어가 배치되어 있는가? 하나라도 실패하면 §3 버전의 문장 결합 방식으로 재배치한다.
+자기 증명의 한 단락은 세 가지로 점검한다. ① 가장 단순한 수식을 제외한 모든 수식을 "blah"로 바꾼 문장 골격을 읽는다. 산문이 흐르는가, 끊기는가? ② 정리 진술만 복사해 새 페이지에서 읽는다. 모든 기호가 그 자리에서 정의되는가? ③ 인접한 두 수식 사이에 "$x$, where $y > 0$"처럼 의미를 잇는 단어가 배치되어 있는가? 하나라도 실패하면 §3 버전의 문장 결합 방식으로 재배치한다.
 
 한국어 증명 단락을 쓸 때는 정리 진술의 기호 정의 어구를 진술 앞에 두는 패턴이 자기완결성에 유리하다는 점을 기억해 둔다. "정리. $f$가 연속이고 $K$가 컴팩트일 때, $f$는 $K$ 위에서 균등연속이다"처럼 조건이 앞에 와야 한국어 어순이 살고, 동시에 진술이 단독으로 닫힌다.
 
@@ -4210,11 +4214,11 @@ Halmos는 자신의 강연을 닻 하나와 거친 outline 하나로 묶는다. 
 
 여덟 단어로 글쓰기의 결정을 두 축에 압축한 격언이다. 짧지만 적용 범위는 넓다. 이 책 전체의 epigraph로 삼아도 좋을 만큼 강하다.
 
-첫째, Do organize material이 가리키는 핵심은 독자의 읽는 순서를 세심하게 설계하는 일이다. 글의 완성도는 담긴 정보의 양보다 그 정보가 배열되는 순서에서 판가름 난다. 같은 사실이라도 어떤 순서로 마주치는가에 따라 독자의 머릿속에 구축되는 인지적 지도가 완전히 달라진다. Halmos가 강연 후반에 덧붙인 "the plot of an exposition is rarely a straight line"은 이 명령의 깊이를 드러낸다. 설명의 플롯은 단순한 직선이라기보다, 본류와 지류가 정교하게 엮인 입체적 구조라는 뜻이다. 단락 단위에서 이 명령은 CCC(context-content-conclusion)로 구체화된다. 섹션 단위에서는 gap funnel(분야 정의, 기존 한계, 우리 기여)로 실현된다. 논문 전체 단위에서는 Whitesides의 outline-first 절차로 이어진다. Halmos가 정적인 명사 organization 대신 능동적 동사 organize를 채택했다는 점도 주목할 만하다. 고정된 결과물보다 구조를 짜 나가는 능동적 실천 행위 자체가 권고의 본체이기 때문이다.
+첫째, Do organize material이 가리키는 핵심은 독자의 읽는 순서를 세심하게 설계하는 일이다. 글의 완성도는 담긴 정보의 양보다 그 정보가 배열되는 순서에서 판가름 난다. 같은 사실이라도 어떤 순서로 마주치는가에 따라 독자의 머릿속에 그려지는 지도가 완전히 달라진다. Halmos가 강연 후반에 덧붙인 "the plot of an exposition is rarely a straight line"은 이 명령의 깊이를 드러낸다. 설명의 플롯은 단순한 직선이라기보다, 본류와 지류가 정교하게 엮인 입체적 구조라는 뜻이다. 단락 단위에서 이 명령은 CCC(context-content-conclusion)로 구체화된다. 섹션 단위에서는 gap funnel(분야 정의, 기존 한계, 우리 기여)로 실현된다. 논문 전체 단위에서는 Whitesides의 outline-first 절차로 이어진다. Halmos가 정적인 명사 organization 대신 능동적 동사 organize를 채택했다는 점도 주목할 만하다. 고정된 결과물보다 구조를 짜 나가는 능동적 실천 행위 자체가 권고의 본체이기 때문이다.
 
 둘째, Do not distract the reader는 산만함의 카탈로그다. 문장과 단락 어디에도 본 줄기에서 주의를 빼앗는 요소를 두지 말라는 명령이다. Halmos가 강연 마지막에 역으로 한 말이 산만함의 종류를 정확히 뒤집어 보여 준다 — changing your notation, screaming ungrammatical sentences, being awkwardly repetitious. 즉 표기를 흔드는 것, 비문, 어색한 반복이 산만함의 세 표본이다. 이 외에 흔한 산만함의 사례를 더 꼽을 수 있다. 본문에 들어가야 할 정보를 각주로 분산시켜 시선을 두 번 옮기게 만드는 footnote 남발, 단락의 호흡을 툭툭 끊어먹는 의미 없는 부연 괄호 "(see also …)", "Before we continue, let us briefly note …"처럼 본류의 전개를 흐리는 불필요한 우회 구문, 강조 위치를 점령해 버리는 상투적 boilerplate, bold나 italic을 남용하여 정작 중요한 포인트를 가리는 과도한 강조, 그리고 같은 개념에 서로 다른 기호를 부여하여 불필요한 정렬 비용을 독자에게 전가하는 일관성 없는 표기 등이 대표적이다. cxli가 그림 안티패턴 카탈로그에서 짚는 것들도 결국 그림 수준에서 이 한 명령을 푼 것이다.
 
-셋째, 두 명령의 순서는 비대칭이다. Halmos는 organize를 먼저, do not distract를 뒤에 두었다. 산만함을 제거해도 조직이 없으면 글에는 방향이 없다. 뼈대가 튼튼히 잡혀 있다면 국소적인 산만함은 후반 교정 단계에서 손쉽게 걷어낼 수 있다. Halmos가 I spend most of my writing time working on organization이라고 강조한 이유도 여기에 있다. 글쓰기 시간의 대부분을 뼈대 구축에 쏟아붓고, 부차적인 산만함은 구조가 완성된 뒤에 순차적으로 정돈한다. 구상과 초고가 organize에 해당하고, 마지막 교정이 do not distract에 해당한다. 순서를 뒤집으면 조직이 흐트러진 상태에서 표면만 매끈하게 다듬게 된다. organize는 작업 순서에 관한 명령이기도 하다.
+셋째, 두 명령의 순서는 비대칭이다. Halmos는 organize를 먼저, do not distract를 뒤에 두었다. 산만함을 제거해도 조직이 없으면 글에는 방향이 없다. 뼈대가 튼튼히 잡혀 있다면 국소적인 산만함은 후반 교정 단계에서 손쉽게 걷어낼 수 있다. 강연 기록이 Halmos는 글쓰기 시간의 대부분을 자료의 조직에 쓴다고 전하는 이유도 여기에 있다. 글쓰기 시간의 대부분을 뼈대 구축에 쏟아붓고, 부차적인 산만함은 구조가 완성된 뒤에 순차적으로 정돈한다. 구상과 초고가 organize에 해당하고, 마지막 교정이 do not distract에 해당한다. 순서를 뒤집으면 조직이 흐트러진 상태에서 표면만 매끈하게 다듬게 된다. organize는 작업 순서에 관한 명령이기도 하다.
 
 넷째, 격언의 형식도 기억을 돕는다. 두 명령은 "Do"를 반복하면서 하나는 해야 할 일, 다른 하나는 피할 일을 제시한다. 짧은 명령 두 개를 나란히 놓아 글의 조직과 독자의 주의를 함께 떠올리게 한다. Halmos는 강연 끝에서 이 명령을 다시 말하고, 모든 규칙에는 깨뜨릴 때가 있다는 단서도 붙인다. 원칙을 기억하되 실제 글의 목적에 맞춰 판단하라는 조언으로 읽을 수 있다.
 
@@ -4229,7 +4233,7 @@ Halmos는 자신의 강연을 닻 하나와 거친 outline 하나로 묶는다. 
 ---
 
 ## 출처
-- `halmos-in-knuth-1989` — Halmos, P. R. (lecture, December 9, 1987), in Knuth, D. E., Larrabee, T., Roberts, P. M., 1989. Mathematical Writing. Stanford Computer Science Report STAN-CS-88-1193, also published as MAA Notes Series #14, Mathematical Association of America. §42 "Paul Halmos on Mathematical Writing", pp. 110-116.
+- `halmos-in-knuth-1989` — Halmos, P. R. (lecture, December 9, 1987), in Knuth, D. E., Larrabee, T., Roberts, P. M., 1989. Mathematical Writing. Stanford Computer Science Report STAN-CS-88-1193, also published as MAA Notes Series #14, Mathematical Association of America. §42 "Paul Halmos on Mathematical Writing", pp. 106-111.
 
 ---
 
@@ -4241,7 +4245,7 @@ Halmos는 자신의 강연을 닻 하나와 거친 outline 하나로 묶는다. 
 
 ## 발췌
 
-Nilsson이 실제 강연에서 정리한 항목은 아홉 개에 달한다.
+Nilsson이 강연에서 정리한 아홉 항목의 제목을 한데 모았다.
 
 > **Start early. Write, rewrite, rewrite, rewrite. Read. Model the Reader. Master the Medium. Master the Material. Simplify. Avoid Recycling. Aim for Excellence.**
 
@@ -4251,7 +4255,7 @@ Nilsson이 실제 강연에서 정리한 항목은 아홉 개에 달한다.
 
 Nilsson의 아홉 항목은 글쓰기를 완성 산출물 이전의 연속된 과정으로 파악하는 체크리스트다. Halmos의 두 명령이 원칙을 압축한다면, Nilsson의 목록은 습관과 판단을 함께 묶는다. 두 발췌가 자매 쌍을 이룬다. 무엇을 지킬 것인가(원칙)와 작업 중 무엇을 할 것인가(과정)를 나란히 보여 준다.
 
-아홉 항목을 한국어로 옮기고 한두 줄씩 풀어 본다. **Start early — 일찍 시작하라.** 글쓰기는 마감 직전에 한꺼번에 끝내는 일이 아니다. 데이터 수집과 함께 단락을 키우면 초고의 빈자리가 어떤 실험이 더 필요한지 역으로 알려 준다. Mensh와 Kording이 rule 9에서 권한 "draft alongside experiments"가 이 항목의 절차적 표현이다. **Write, rewrite, rewrite, rewrite — 쓰고 거듭 다시 써라.** 초고는 발견을 위한 도구이지 완성품이 아니다. 한 번에 좋은 글이 나온다는 환상이 가장 큰 함정이다. 다른 사람의 비평을 받기 전에는 출판하지 말라는 Nilsson의 설명도 이 항목에 붙어 있다. **Read — 읽어라.** 많이 읽으면 문체와 비판적 판단이 날카로워진다. 읽어야 자기 글의 부족한 자리를 가늠할 기준이 생긴다. **Model the reader — 독자를 모델링하라.** 누가 어떤 순서로 무엇을 알고 읽는가를 머릿속에 시뮬레이션한다. 독자가 어디서 자신을 오해할지를 계속 묻는 행동 지시다.
+아홉 항목을 한국어로 옮기고 한두 줄씩 풀어 본다. **Start early — 일찍 시작하라.** Nilsson은 젊을 때부터 글쓰기 경험을 쌓고 쓰고 싶은 마음을 따르라는 뜻으로 이 항목을 설명한다. 개별 연구에서도 글을 일찍 시작하자는 것은 이 책의 적용이다. 데이터 수집과 함께 단락을 키우면 초고의 빈자리가 어떤 실험이 더 필요한지 역으로 알려 준다. Mensh와 Kording의 rule 9도 진행 중인 실험의 논리를 문서로 정리해 논문 아웃라인으로 발전시키라고 권한다. **Write, rewrite, rewrite, rewrite — 쓰고 거듭 다시 써라.** 초고는 발견을 위한 도구이지 완성품이 아니다. 한 번에 좋은 글이 나온다는 환상이 가장 큰 함정이다. 다른 사람의 비평을 받기 전에는 출판하지 말라는 Nilsson의 설명도 이 항목에 붙어 있다. **Read — 읽어라.** 많이 읽으면 문체와 비판적 판단이 날카로워진다. 읽어야 자기 글의 부족한 자리를 가늠할 기준이 생긴다. **Model the reader — 독자를 모델링하라.** 누가 어떤 순서로 무엇을 알고 읽는가를 머릿속에 시뮬레이션한다. 독자가 어디서 자신을 오해할지를 계속 묻는 행동 지시다.
 
 **Master the medium — 매체를 다스려라.** 단어 선택을 비롯해 색인·표·그래프·타이포그래피를 고루 운용하는 매체 장악력까지 포괄한다. 오늘의 작업에서는 LaTeX, BibTeX, 표기 매크로, 그림 도구가 여기에 들어간다. **Master the material — 내용을 다스려라.** 글로 조직하는 과정에서 내용에 대한 내부 모형도 바뀐다. 모르는 채로 쓰면 글의 빈틈을 메울 수 없다. **Simplify — 단순화하라.** 처음에는 독자가 붙들 수 있는 단순한 예에서 시작하고, 뒤에서 정확한 조건과 세부를 갚는다. 단순화는 사실을 덮어두는 행위와 다르다. 독자의 이해 단계에 맞춰 설명의 위계를 정교하게 설계하라는 뜻이다. **Avoid recycling — 예전 글을 그대로 재활용하지 말라.** 새 글은 맥락과 강조점이 다르므로, 예전 문단을 붙여 넣기보다 그 맥락에 맞춰 다시 쓴다. **Aim for excellence — 탁월함을 지향하라.** 완벽에 끝내 닿지 못하더라도 더 나은 문장을 향해 계속 고친다.
 
@@ -4277,6 +4281,8 @@ Nilsson은 이 목록을 고정된 단계 모형이라기보다 글쓰기 craft 
 
 ## 발췌
 
+원문의 연구 주제·선행 연구·미해결 문제·자기 가설에 관한 질문을 이 책에서 네 칸으로 재구성했다. 아래는 원문 그대로의 인용이 아니다.
+
 > 1. 왜 이 주제인가?
 > 2. 기존 연구는 어디까지 밝혔는가?
 > 3. 남은 미해결 문제는?
@@ -4290,15 +4296,15 @@ Nilsson은 이 목록을 고정된 단계 모형이라기보다 글쓰기 craft 
 
 네 가지 질문은 읽지 않은 부분과 아직 자라지 않은 가설을 구분해 드러낸다. 한 논문을 읽고 나서 1·2·3번 칸이 채워지지 않았다면, 그 칸이 곧 읽지 않은 부분을 가리킨다. 1번 칸이 비어 있으면 동기, 곧 왜 이 연구가 이 시점에 이 형태로 쓰였는지를 잡지 못한 것이다. 2번 칸이 비어 있으면 분야의 좌표, 곧 어디까지 알려졌는지를 잡지 못한 것이고, 3번 칸이 비어 있으면 대상 논문을 포함한 기존 연구 뒤에도 어떤 문제가 남았는지 잡지 못한 것이다. 4번 칸은 분야 진입 직후에 비어 있을 수 있고, 읽기가 누적되면 내 가설의 자리가 점차 채워진다. 네 칸짜리 카드 하나가 한 논문의 의미를 파악했는지 점검하는 도구가 된다.
 
-이 질문은 논문 한 편을 넘어 분야 단위로도 확장된다. 한 논문이 카드 한 장이라면 한 분야는 카드 묶음이다. 모든 카드의 4번 칸, 곧 나의 가설을 비교하면 그 분야의 빈자리가 한눈에 드러난다. 각 카드의 3번 칸(미해결 문제)을 대조해 보면 여러 카드에 걸쳐 겹치는 질문과 단일 카드에 머무는 착상 사이에 분명한 차이가 있다. 이처럼 거듭 확인되는 미해결 문제 가운데 본인의 분석 도구로 다룰 만한 항목을 우선 검토 대상으로 고르면 곧 연구 주제 후보가 된다. 최윤섭 박사는 네 가지 질문을 논문 한 편에 적용했지만, 그 활용 범위는 분야 전체로 넓어진다.
+이 질문은 논문 한 편을 넘어 분야 단위로도 확장된다. 한 논문이 카드 한 장이라면 한 분야는 카드 묶음이다. 모든 카드의 4번 칸, 곧 나의 가설을 비교하면 그 분야의 빈자리가 한눈에 드러난다. 각 카드의 3번 칸(미해결 문제)을 대조해 보면 여러 카드에 걸쳐 겹치는 질문과 단일 카드에 머무는 착상 사이에 분명한 차이가 있다. 이처럼 거듭 확인되는 미해결 문제 가운데 본인의 분석 도구로 다룰 만한 항목을 우선 검토 대상으로 고르면 곧 연구 주제 후보가 된다. 최윤섭 박사는 첫 연구 주제의 맥락을 파악하기 위해 이 질문들을 제시했다. 논문별 카드와 카드 묶음은 이 책에서 제안하는 활용 방식이다.
 
 "답할 수 없으면 의미 파악이 끝나지 않은 것이다"는 이해했다고 말하기 위한 필요조건을 세운다. 이를 "답할 수 있으면 의미 파악이 끝난 것이다"로 바꾸면, 답할 수 있다는 사실만으로 이해를 보장하는 충분조건이 되어 뜻이 달라진다. 네 질문은 이해가 부족한 자리를 찾는 기준으로 쓸 수 있지만, 칸을 채웠다는 사실만으로 독해가 끝났다고 판정할 수는 없다. 적은 답이 논문의 근거와 실제로 맞는지도 확인해야 한다.
 
-네 가지 질문은 Mensh-Kording R1의 single contribution과 반대 방향에서 맞물린다. R1은 쓰는 사람에게 한 논문에 하나의 기여만 담으라고 요구한다. 반대로 네 가지 질문은 읽는 사람에게 한 논문을 네 칸으로 정리하라고 요구한다. 둘은 같은 논문을 바라보는 시선 자체가 서로 다르다. 잘 쓰인 논문이라면 연구 동기와 기존 연구의 범위, 여전히 남은 문제를 판단할 근거를 제공한다. 저자의 기여가 해결한 문제를 2번 칸의 지식에 반영하고, 그 뒤에도 남는 문제를 3번 칸에 적는다. 4번 칸의 경우 독자 고유의 가설을 적는 자리여서 논문 본문만으로 채워질 필요는 없다. 1·2·3번 중 어느 하나를 근거로 채우기 어렵다면 문제·맥락·기여 제시를 다시 점검할 신호다. 이처럼 네 가지 질문은 읽기 도구이면서 쓰기를 점검하는 도구이기도 하다.
+네 가지 질문은 Mensh-Kording R1의 single contribution과 반대 방향에서 맞물린다. R1은 쓰는 사람에게 논문의 여러 결과를 하나의 중심 기여로 묶으라고 권한다. 반대로 네 가지 질문은 읽는 사람에게 한 논문을 네 칸으로 정리하라고 요구한다. 둘은 같은 논문을 바라보는 시선 자체가 서로 다르다. 잘 쓰인 논문이라면 연구 동기와 기존 연구의 범위, 여전히 남은 문제를 판단할 근거를 제공한다. 저자의 기여가 해결한 문제를 2번 칸의 지식에 반영하고, 그 뒤에도 남는 문제를 3번 칸에 적는다. 4번 칸의 경우 독자 고유의 가설을 적는 자리여서 논문 본문만으로 채워질 필요는 없다. 1·2·3번 중 어느 하나를 근거로 채우기 어렵다면 문제·맥락·기여 제시를 다시 점검할 신호다. 이처럼 네 가지 질문은 읽기 도구이면서 쓰기를 점검하는 도구이기도 하다.
 
 한국어에서는 네 질문을 짧게 압축할 수 있다. 영어로 옮기면 "Why this topic? / What has prior work clarified? / What remains unsolved? / What is my hypothesis?"가 된다. 한국어 네 줄은 "왜 / 어디까지 / 남은 / 나의"라는 물음을 먼저 드러내 카드 머리말로 쓰기 쉽다. 한국어 노트에 그대로 써도 어색하지 않고, 영문 논문 노트에서도 네 칸의 머리말만 한국어로 두고 내용을 영문으로 채우는 혼합 형식을 쓸 수 있다.
 
-Keshav의 3-pass와는 다른 축에서 작동한다. Keshav는 한 논문을 어느 깊이로 읽을지를 3단계(skim → grasp → reproduce)로 나눈다. 최윤섭 박사의 네 가지 질문은 읽은 뒤 무엇이 남아야 하는지를 네 칸으로 나눈다. Keshav가 읽기 시간을 운영하는 도구라면, 네 가지 질문은 읽은 결과를 점검하는 도구다. 두 도구를 함께 쓰면 "이 논문은 first pass로 충분한가, second pass까지 가야 하는가"를 결정할 수 있다. 1·2번 칸이 first pass에서 채워지지 않으면 second pass가 필요하고, 3번 칸이 second pass에서도 채워지지 않으면 third pass(reproduce)가 필요하다. 4번 칸은 자기 가설이 자라는 자리이므로 패스 완료의 기준으로 쓰지 않는다. 두 도구가 함께 읽기의 깊이를 정한다.
+Keshav의 3-pass와는 다른 축에서 작동한다. Keshav는 한 논문을 어느 깊이로 읽을지를 3단계(skim → grasp → reproduce)로 나눈다. 최윤섭 박사의 네 가지 질문은 읽은 뒤 무엇이 남아야 하는지를 네 칸으로 나눈다. Keshav가 읽기 시간을 운영하는 도구라면, 네 가지 질문은 읽은 결과를 점검하는 도구다. 두 도구를 함께 쓰면 "이 논문은 first pass로 충분한가, second pass까지 가야 하는가"를 결정할 수 있다. 이 책의 카드와 함께 쓸 때는 1·2번 칸의 근거가 부족하면 second pass나 관련 문헌 읽기로 보완한다. 3번 칸이 비어 있으면 배경 문헌이 부족한지, 논문의 가정과 방법을 직접 재구성할 필요가 있는지 구분해 다음 읽기를 정한다. 4번 칸은 자기 가설이 자라는 자리이므로 패스 완료의 기준으로 쓰지 않는다. 두 도구가 함께 읽기의 깊이를 정한다.
 
 ---
 
@@ -4310,7 +4316,7 @@ Keshav의 3-pass와는 다른 축에서 작동한다. Keshav는 한 논문을 �
 
 흔한 함정은 두 가지다. 첫째는 초록만 보고 네 칸을 채우는 것이다. 초록에는 1·3번 칸에 해당하는 저자의 설명이 들어갈 수 있어서 겉으로는 네 칸이 빠르게 채워지는 듯 보인다. 그러나 초록은 논문이 독자에게 보여 주고 싶은 그림이다. 2번 칸(기존 연구의 범위)과 3번 칸(미해결 문제에 대한 자기 진단)은 본문의 배경과 토의에서 따로 검증해야 한다. 둘째는 네 칸을 한 번에 채우려는 것이다. first pass에서는 1·2번의 임시 답을 적고, second pass에서 3번을 검증하며, 필요하면 third pass를 거쳐 4번을 고친다. 논문에 따라 채워지는 순서는 달라질 수 있다. 즉시 모든 칸을 채우려 하면 저자의 문장을 그대로 옮겨 적을 위험이 커진다.
 
-이 도구의 장점은 비대칭 불완전성을 허용한다는 점이다. 1·2·3번 칸은 본 논문 안에서 답이 닫혀야 한다. 4번 칸은 한 달, 한 학기, 한 학년에 걸쳐 자라는 칸이다. 처음에는 비어 있어도 괜찮다. 처음부터 4번 칸이 채워질 수도 있다. 논문을 읽기 전부터 가진 가설이라면 읽은 근거에 맞춰 다시 점검한다. 4번 칸의 진척이 곧 분야 진입의 진척이다.
+이 도구의 장점은 칸마다 답을 채운 정도가 달라도 괜찮다는 점이다. 1번 칸은 대상 논문의 동기에서 출발하고, 2·3번 칸은 관련 연구와 후속 연구까지 대조하며 답을 보완한다. 4번 칸은 한 달, 한 학기, 한 학년에 걸쳐 자라는 칸이다. 처음에는 비어 있어도 괜찮다. 처음부터 4번 칸이 채워질 수도 있다. 논문을 읽기 전부터 가진 가설이라면 읽은 근거에 맞춰 다시 점검한다. 4번 칸의 진척이 곧 분야 진입의 진척이다.
 
 이 도구를 분야 단위로 쓸 때는 작은 seed 논문 묶음으로 시작해 각 논문의 4번 칸을 한 표에 정렬한다. 3~5편은 첫 표를 만들기 위한 예시일 뿐 고정 횟수가 아니다. 여러 카드에 반복해서 등장하는 가설은 반복해 등장한 미해결 질문이지, 반복 자체만으로 시급성이 증명되지는 않는다. 한 카드에만 등장하고 본인의 도구와 환경으로 접근할 수 있는 가설은 주제 후보가 될 수 있다. 카드 묶음을 누적하면 자기 분야의 지도가 그려지고, 그 지도가 Ch.2 Feynman 첫 줄(problem statement)의 입력이 된다. Ch.1의 분야 진입 도구는 네 가지 질문을 거쳐 Ch.2의 문제 정의 도구로 이어진다.
 
@@ -4320,29 +4326,29 @@ Keshav의 3-pass와는 다른 축에서 작동한다. Keshav는 한 논문을 �
 
 ## 출처
 
-- 최윤섭 박사 (Yoonsup Choi), 「첫 연구 주제를 어떻게 정하고 접근할 것인가」, Grad School Story 시리즈, 2014. URL slug `/yoonsup/first-research-subject/`. 한국어 회고체 원문에서 네 가지 핵심 질문과 후속 명제 한 문장을 인용했다.
+- 최윤섭 박사 (Yoonsup Choi), 「첫 연구 주제를 어떻게 정하고 접근할 것인가」, Grad School Story, 2016년 11월 6일. [원문](https://gradschoolstory.chkwon.net/yoonsup/first-research-subject/). 원문의 질문과 설명을 네 칸의 카드로 재구성했다.
 
 # 문제 정의는 답보다 먼저 좁혀진다
 
-**출처**: Richard P. Feynman (apocryphal three-step algorithm, widely circulated 1980s onward) + 권창현 교수 (Changhyun Kwon), 「연구의 비법: 파인만 알고리즘」, Grad School Story, gradschoolstory.chkwon.net/changhyun/연구의-비법-파인만-알고리즘/
+**출처**: 파인만 알고리즘(권창현 교수 글에서 Murray Gell-Mann의 농담으로 소개) + 권창현 교수 (Changhyun Kwon), 「연구의 비법: 파인만 알고리즘」, Grad School Story, gradschoolstory.chkwon.net/changhyun/연구의-비법-파인만-알고리즘/
 
 ---
 
 ## 발췌
 
-영문(Feynman의 농담조 3단계):
+권창현 교수 글이 소개한 영문 3단계:
 
 > 1. Write down the problem.
 > 2. Think real hard.
 > 3. Write down the solution.
 
-한국어로 옮긴 두 비유와 명제:
+권창현 교수의 디버깅·구호 물자 운송 사례를 이 책에서 다시 풀어 쓴 두 비유와 명제다. 트럭 N대와 평균 도착 시간은 이 책에서 구체화한 예이며, 아래 문장은 원문 그대로의 인용이 아니다.
 
 > 첫째, 버그 디버깅. 모호한 진술 — "잘 안 돌아가요" — 을 구체적 단계 — "어떤 입력에서, 어떤 출력이 나오는가" — 로 좁히는 과정과 같다. 둘째, 지진 물자 운송. 광범위한 주제 — "지진 피해를 어떻게 줄일까" — 를 검증 가능한 질문 — "이 도로망에서 트럭 N대를 어떻게 배치하면 평균 도착 시간이 최소가 되는가" — 로 좁히는 과정과 같다.
 >
 > 연구는 답을 찾는 과정이 아니라 문제를 찾는 과정이다.
 
-두 비유는 같은 축을 다르게 조명하고 있다. 디버깅 비유는 모호한 증상을 관찰 가능한 조건으로 전환하는 작업에 초점을 맞춘다. 아울러 지진 물자 운송 비유를 통해 지나치게 거대한 주제를 검증 가능한 질문으로 좁혀낸다. 한쪽이 해상도를 끌어올릴 때 다른 쪽은 외연을 좁혀주는 구조다. 둘이 합쳐져야 문제 한 줄이 작업 가능한 단위가 된다.
+두 비유는 문제를 구체화하는 서로 다른 작업을 보여 준다. 디버깅 비유는 모호한 증상을 관찰 가능한 조건으로 전환하는 작업에 초점을 맞춘다. 아울러 지진 물자 운송 비유를 통해 지나치게 거대한 주제를 검증 가능한 질문으로 좁혀낸다. 디버깅 비유는 문제의 조건을 더 또렷하게 하고, 지진 물자 운송 비유는 문제의 범위를 좁힌다. 둘이 합쳐져야 문제 한 줄이 작업 가능한 단위가 된다.
 
 ---
 
@@ -4356,7 +4362,7 @@ Keshav의 3-pass와는 다른 축에서 작동한다. Keshav는 한 논문을 �
 
 ## 분석 — 왜 이 표현이 좋은가
 
-세 줄짜리 알고리즘이 농담처럼 들리는 이유는 둘째 줄의 "Think real hard"가 알고리즘 진술의 형식을 흉내 내면서 절차를 비워 두기 때문이다. 세 줄의 형식은 알고리즘을 충실히 따르지만, 둘째 줄에서 절차가 무너진다. 이 농담의 무게는 첫째 줄에 있다. 둘째 줄이 비어 있어도 첫째 줄을 적는 일이 연구 과정에서 가장 큰 비중을 차지한다는 점이 골자다. 둘째 줄을 시작할 수 없는 이유는 거의 언제나 첫째 줄을 충분히 좁히지 않았기 때문이다. Feynman이 칠판 농담으로 던졌든 후배 누군가가 그렇게 정리했든, 이 세 줄은 문제 정의가 작업의 단위라는 명제를 짧게 압축한다.
+세 줄짜리 알고리즘이 농담처럼 들리는 이유는 둘째 줄의 "Think real hard"가 알고리즘 진술의 형식을 흉내 내면서 절차를 비워 두기 때문이다. 세 줄의 형식은 알고리즘을 충실히 따르지만, 둘째 줄에서 절차가 무너진다. 이 발췌는 첫째 줄에 초점을 맞춘다. 권창현 교수는 첫째 줄의 어려움을 강조하면서도 세 단계가 비슷하게 중요하다고 명시한다. 둘째 줄을 시작하기 어렵다면 첫째 줄에 쓴 문제가 충분히 구체적인지 점검할 수 있다. 글의 각주는 이 알고리즘을 Murray Gell-Mann의 농담으로 소개하며, 이 책은 그중 문제 정의가 작업의 단위라는 점을 가져온다.
 
 권창현 교수의 두 비유는 첫째 줄을 적는 과정을 보여 준다. 비유 1(버그 디버깅)은 모호한 진술에서 구체적인 진술로 가는 방향을 보인다. "잘 안 돌아가요"는 problem statement가 아니다. "입력 X에서 출력 Y가 나와야 하는데 Z가 나옵니다"가 problem statement다. 비유 2(지진 물자 운송)는 광범위한 주제를 검증 가능한 질문으로 좁히는 방향을 보인다. "지진 피해를 줄이자"는 goal이지 problem statement가 아니다. "도로망 G 위에서 트럭 N대의 배치를 최적화"가 problem statement다. 두 비유가 한 쌍을 이루는 이유는 축이 다르기 때문이다. 한 비유는 해상도 축(모호 ↔ 구체)을, 다른 비유는 범위 축(광범위 ↔ 한정된 대상·환경)을 짚는다. 두 축을 함께 적용해야 첫째 줄에 쓸 수 있는 problem statement가 나온다.
 
@@ -4364,7 +4370,7 @@ Keshav의 3-pass와는 다른 축에서 작동한다. Keshav는 한 논문을 �
 
 이 명제는 부정문을 앞에, 긍정문을 뒤에 둔 평행 구조다. 앞선 부정 절이 답 찾기라는 흔한 편견을 차단하는 한편, 뒤따르는 긍정 절이 올바른 방향을 제시한다. 두 절은 길이가 비슷하고 같은 동사("찾는 과정이다")와 같은 명사 위치("답"·"문제")를 갖는다. Halmos의 "Do organize. Do not distract."와 같은 기억 압축 형식이다. 연구실에서 후배가 "어떤 답을 내야 할지 모르겠어요"라고 말할 때 "지금은 먼저 올바른 문제를 발굴하는 단계입니다"라고 응답하면 대화가 다시 살아난다.
 
-Whitesides §3.3의 hypothesis placeholder도 이 발췌와 자연스럽게 이어진다. Whitesides가 가상의 답을 미리 스케치하라고 권고했다면, 권창현 교수의 조언은 문제를 먼저 또렷하게 적는 쪽에 방점이 찍힌다. 두 명령은 같은 곳을 가리킨다. 가설을 적는 일은 결국 문제를 적는 일이다. 처음에 적은 문제가 틀려도 되기 때문에 가설도 placeholder로 남겨 두고 작업 중에 다시 적는다.
+Whitesides §2.2의 가설에 따른 예상 데이터 표시도 이 발췌와 자연스럽게 이어진다. Whitesides가 가상의 답을 미리 스케치하라고 권고했다면, 권창현 교수의 조언은 문제를 먼저 또렷하게 적는 쪽에 방점이 찍힌다. 두 명령은 같은 곳을 가리킨다. 문제와 가설은 서로를 구체화하지만, 가설은 그 문제에 대한 잠정적 답이므로 둘을 구분해 적는다. 처음에 적은 문제가 틀려도 되기 때문에 가설도 placeholder로 남겨 두고 작업 중에 다시 적는다.
 
 영어 "Write down the problem"은 명령형이다. 한국어로 옮기면 "문제를 적는다"가 더 자연스럽지만, 명령의 힘은 조금 약해진다. 두 문장은 서로 다른 역할을 맡는다. 영어는 기억에 남고, 한국어는 손을 움직이게 한다.
 
@@ -4374,7 +4380,7 @@ Whitesides §3.3의 hypothesis placeholder도 이 발췌와 자연스럽게 이�
 
 problem statement는 4단계로 좁힌다. ① "잘 안 됩니다" 또는 "성능을 높이고 싶습니다" 형태의 문장을 한 줄 적는다. 시작점일 뿐 problem statement는 아니다. ② 비유 1(해상도)을 적용해 어떤 입력에서, 어떤 측정으로, 어떤 결과가 나오는지를 수치로 다시 적는다. ③ 비유 2(범위)를 적용해 그 측정이 어떤 환경 조건의 부분집합에서 일어나는지를 조건절로 다시 적는다. ④ 결과를 한 단락 이내로 줄인다. 한 단락을 넘으면 아직 좁히지 못한 것이다. 이 4단계가 Ch.2 Feynman 3-step의 첫 줄인 "Write down the problem"을 절차로 풀어낸다.
 
-로보틱스/CV에서 흔한 시작점과 좁히기의 가상 예시를 보자. 여기의 30%와 X%는 형식을 보이기 위한 placeholder이지 보고된 성능값이 아니다. "SLAM 정확도를 높이고 싶다"는 goal이지 problem statement가 아니다. 비유 1을 적용하면 "indoor low-light에서 ORB feature 탐지 실패율 30% 이상"으로 해상도가 올라간다. 비유 2를 적용하면 "feature density가 임계값 이하인 프레임의 비율이 전체의 X% 이상일 때 ICP가 suboptimal solution으로 수렴"으로 범위가 닫힌다. constraint·objective·test condition이 채워질 때까지 좁히면 problem statement가 작업 가능한 단위로 내려온다. 문제가 작업 가능한 단위가 되어야 둘째 줄인 "Think real hard"를 시작할 수 있다.
+로보틱스/CV에서 흔한 시작점과 좁히기의 가상 예시를 보자. 여기의 30%와 X%는 형식을 보이기 위한 placeholder이지 보고된 성능값이 아니다. "SLAM 정확도를 높이고 싶다"는 goal이지 problem statement가 아니다. 비유 1을 적용하면 "indoor low-light에서 ORB feature 탐지 실패율 30% 이상"으로 해상도가 올라간다. 비유 2를 적용하면 "indoor low-light 구간에서 ORB feature density가 임계값 이하인 프레임의 비율이 전체의 X% 이상일 때 영상 기반 pose tracking이 실패"으로 범위가 닫힌다. constraint·objective·test condition이 채워질 때까지 좁히면 problem statement가 작업 가능한 단위로 내려온다. 문제가 작업 가능한 단위가 되어야 둘째 줄인 "Think real hard"를 시작할 수 있다.
 
 problem statement는 마지막에 정의된다. 처음부터 완벽한 첫 줄을 기대하기는 어렵기에, 초기 단계의 problem statement는 일종의 placeholder로 기능한다. 작업 중 데이터가 등장하고 베이스라인이 깨지며 인접 분야의 도구가 나타날 때마다 첫 줄을 다시 적는다. 수정 횟수에 표준은 없다. 첫 줄이 끝까지 유지되었다고 해서 발견이 없었다고 단정할 수도 없다. 중요한 것은 결과와 가정이 바뀐 뒤에도 첫 줄이 그 변화를 정확히 담는지 다시 묻는 일이다.
 
@@ -4382,8 +4388,8 @@ problem statement는 마지막에 정의된다. 처음부터 완벽한 첫 줄�
 
 ## 출처
 
-- Feynman 3-step: 출처 미상의 칠판 농담으로 1980년대 이후 광범위하게 회자. 가장 빈번하게 인용되는 표현형(Murray Gell-Mann의 회고 등)을 그대로 사용. 이 발췌에서는 Feynman의 친필 저술 대신 후배와 동료들의 회고를 거쳐 학계에 정착한 표현형을 다룬다.
-- 권창현 교수 (Changhyun Kwon), 「연구의 비법: 파인만 알고리즘」, Grad School Story, 2014. URL slug `/changhyun/연구의-비법-파인만-알고리즘/`.
+- Feynman 3-step: 권창현 교수 글에 실린 표현형을 인용했다. 그 글의 각주는 Murray Gell-Mann이 한 농담으로 설명한다. 이 발췌는 파인만 자신의 발언 기록이나 최초 유통 시점을 확정하지 않는다.
+- 권창현 교수 (Changhyun Kwon), 「연구의 비법: 파인만 알고리즘」, Grad School Story, 2016년 10월 5일. [원문](https://gradschoolstory.chkwon.net/changhyun/연구의-비법-파인만-알고리즘/).
 
 # 기여는 어떤 새 지식을 만드는지로 말한다
 
@@ -4393,34 +4399,34 @@ problem statement는 마지막에 정의된다. 처음부터 완벽한 첫 줄�
 
 ## 발췌
 
-연구의 네 가지 유형(Hazelrigg, 한국어 의역):
+공학 연구 제안서의 목표를 서술하는 네 문형(Hazelrigg, 한국어 의역):
 
-> 1. **가설 검정** — 특정 명제의 참/거짓을 데이터로 입증한다.
+> 1. **가설 검정** — 특정 가설을 데이터로 검정한다.
 > 2. **측정** — 특정 현상의 정량적 성질을 정해진 정확도로 잰다.
 > 3. **추측 증명** — 명제가 옳다는 것을 논리·수학으로 증명한다.
 > 4. **학제간 융합** — 한 분야의 도구·관점을 다른 분야의 문제에 적용한다.
 >
-> 네 type 중 어느 것에도 해당하지 않는 작업은 연구의 외연 바깥에 놓인 다른 종류의 일이다.
+> Hazelrigg는 자신이 아는 연구 목표의 서술 방식이 이 네 가지라고 설명하며, 다른 방식이 있다면 알려 달라고 덧붙인다.
 
-아인슈타인(권창현 교수 글에 한국어로 인용된 형태):
+권창현 교수 글이 아인슈타인의 말로 소개한 한국어 표현(원 발언 출처 미확인):
 
 > 우리도 우리가 뭐하는지 잘 모르잖아요. 알면 연구 아니잖아요.
 
-원 영문은 "If we know what it was we were doing, it would not be called research, would it?"이다. 사이트 원문에는 두 절 뒤에 "그렇잖아요"라는 절이 하나 더 붙지만, 위 인용문에는 두 절만 옮겼다.
+사이트에 실린 영문은 "If we know what it was we were doing, it would not be called research, would it?"이다. 사이트 원문에는 두 절 뒤에 "그렇잖아요"라는 절이 하나 더 붙지만, 위 인용문에는 두 절만 옮겼다.
 
 ---
 
 ## 분석 — 왜 이 표현이 좋은가
 
-네 유형은 분류 바깥에 놓이는 작업까지 드러낸다. 보통 분류는 어떤 항목이 어느 칸에 들어가는지를 다룬다. Hazelrigg의 분류 체계는 한 발 더 나아가, 어느 칸에도 들어가지 않는 항목을 연구 외적인 영역—곧 엔지니어링 성과, 단순 개발, 튜닝, 데모—으로 규정한다는 점에서 큰 의미가 있다. 이 분류는 식별뿐 아니라 배제에도 쓰인다. "이 작업은 네 유형 중 어디에 해당하는가"라는 질문으로 자기 작업을 점검할 수 있다. 답하기 어렵다면 그 일은 아직 개별 작업에 머물러 있고 연구 목표로 올라오지 못한 것이다.
+네 문형은 연구 목표와 그 목표를 이루기 위한 작업을 구분하게 한다. Hazelrigg는 NSF가 기초 연구를 지원한다는 맥락에서 개발·설계·최적화 같은 작업명만으로 목표를 쓰지 말라고 권한다. 개발이나 튜닝을 포함한 연구 전체가 연구가 아니라는 뜻은 아니다. 권창현 교수도 이런 활동을 연구 목표를 달성하는 데 필요한 작업으로 구분하며, 네 문형이 모든 분야를 포괄하는지에는 여지를 둔다. "이 작업으로 무엇을 새로 알게 되는가"를 먼저 적고, 그 답을 네 문형 가운데 어떤 방식으로 설명할 수 있는지 점검한다.
 
 네 문형은 기여가 어떤 새 지식을 만드는지 구체화하는 데 도움이 된다. "robotic system을 개선했다"는 말에서 더 나아가 어떤 가설을 검정했는지, 무엇을 측정했는지, 어떤 명제를 증명했는지, 다른 분야의 어떤 도구를 적용했는지 묻는다. 이는 주장을 분명히 하는 작업이며, 분류 자체가 정량화는 아니다. 한 기여가 두 유형에 걸칠 수도 있다. 타 분야의 방법을 적용하고 그 효과를 검정하는 작업이 하나의 중심 메시지를 뒷받침한다면 Mensh-Kording R1과 충돌하지 않는다.
 
 네 유형은 venue 선택 전에 기여의 형태를 설명하는 데도 쓸 수 있다. 다만 학회·저널마다 특정 유형이 우세하다는 주장은 accepted-paper corpus와 분류 기준 없이 단정할 수 없다. 실제 투고 과정에서는 각 venue의 scope·call·최근 게재본을 먼저 확인한 뒤, 본인의 기여가 가설 검정·측정·증명·학제간 응용 가운데 어느 범주에 해당하는지 명료하게 서술하는 기준선으로 삼는다. 유형 분포는 경력의 질을 판정하는 순위표가 아니다.
 
-뒤따르는 아인슈타인 인용은 이 분류의 경직성을 누그러뜨린다. 네 유형이 단단한 분류 도구라면, "우리도 우리가 뭐하는지 잘 모르잖아요. 알면 연구 아니잖아요"라는 말은 그 단단함을 현장의 불확실성 위에 놓는다. 연구란 확정된 지식에서 출발하기보다 무지에서 출발해 앎으로 나아가는 과정이라는 통찰이, 분류의 경직성을 깨뜨리지 않으면서도 현장의 고투를 따뜻하게 감싸 안는다. 처음부터 자기 작업이 어느 유형인지 명확하게 답하지 못해도 정상이라는 뜻이다. 분류의 단단함과 작업의 불확실성을 함께 보는 시선이 글의 분위기를 잡는다.
+뒤따르는 아인슈타인 인용은 이 분류의 경직성을 누그러뜨린다. 네 유형이 단단한 분류 도구라면, "우리도 우리가 뭐하는지 잘 모르잖아요. 알면 연구 아니잖아요"라는 말은 그 단단함을 현장의 불확실성 위에 놓는다. 연구란 확정된 지식에서 출발하기보다 무지에서 출발해 앎으로 나아가는 과정이라는 통찰이, 분류의 경직성을 깨뜨리지 않으면서도 연구 현장에서 어려움을 겪는 사람을 따뜻하게 다독인다. 처음부터 자기 작업이 어느 유형인지 명확하게 답하지 못해도 정상이라는 뜻이다. 분류의 단단함과 작업의 불확실성을 함께 보는 시선이 글의 분위기를 잡는다.
 
-이 분위기를 한국어 회고체로 옮겼다는 점도 발췌의 효과를 높인다. "우리도 우리가 뭐하는지 잘 모르잖아요"의 종결 어미 "잖아요"는 청자에게 "당신도 그렇지 않은가"라고 동의를 구한다. 영문 원문의 "would it?"도 동의를 구한다. 한국어 회고체의 "잖아요" 역시 이 동의 요청을 살려 후배를 안심시키는 어조를 만든다. 네 유형으로 후배의 작업이 연구가 아닐 수 있음을 진단한 다음 "그래도 모르는 게 정상"이라고 다독이는 두 문체가 발췌의 분위기를 완성한다.
+이 분위기를 한국어 회고체로 옮겼다는 점도 발췌의 효과를 높인다. "우리도 우리가 뭐하는지 잘 모르잖아요"의 종결 어미 "잖아요"는 청자에게 "당신도 그렇지 않은가"라고 동의를 구한다. 영문 원문의 "would it?"도 동의를 구한다. 한국어 회고체의 "잖아요" 역시 이 동의 요청을 살려 후배를 안심시키는 어조를 만든다. 네 문형으로 연구 목표가 충분히 구체적인지 점검한 다음 "그래도 모르는 게 정상"이라고 다독이는 두 문체가 발췌의 분위기를 완성한다.
 
 Knuth의 point 12에 붙은 겸손과 최상급 표현 자제 권고와도 자연스럽게 이어진다. 네 유형은 그 자체로 겸손을 지키는 도구다. "best", "novel", "state-of-the-art" 같은 최상급 표현은 어느 칸에도 직접 들어가지 않는다. 각 칸은 "검정", "측정", "증명", "적용" 같은 행위로 정의되지만, 최상급 표현은 비교 우위만 말할 뿐 행위를 말하지 않기 때문이다. 최상급 표현을 쓰고 싶을 때 네 유형을 다시 묻는 절차가 자기 점검의 기준이 된다.
 
@@ -4439,7 +4445,7 @@ Knuth의 point 12에 붙은 겸손과 최상급 표현 자제 권고와도 자�
 ## 출처
 
 - George A. Hazelrigg (NSF), ["Honing Your Proposal Writing Skills"](https://aykuterdem.github.io/resources/Honing-Proposal-Skillls.pdf). 공학 연구 제안서의 목표를 서술하는 네 문형을 제시한다. 한국어 의역은 권창현 교수 글 「지금 하고 있는 게 연구인가, 아닌가?」에서 소개한 형태를 따른다.
-- 권창현 교수 (Changhyun Kwon), 「지금 하고 있는 게 연구인가, 아닌가?」, Grad School Story, 2014. URL slug `/changhyun/지금-하고-있는-게-연구인가-아닌가/`. 아인슈타인 인용은 본 글 안에서 한국어 회고체로 정리된 형태를 그대로 인용했다. 아인슈타인 원문 출처는 미상 — 권창현 교수 글의 인용 형태를 1차 표현으로 다룬다.
+- 권창현 교수 (Changhyun Kwon), 「지금 하고 있는 게 연구인가, 아닌가?」, Grad School Story, 2016년 11월 19일. [원문](https://gradschoolstory.chkwon.net/changhyun/지금-하고-있는-게-연구인가-아닌가/). 아인슈타인 인용은 본 글 안에서 한국어 회고체로 정리된 형태를 그대로 인용했다. 아인슈타인 원문 출처는 미상 — 권창현 교수 글의 인용 형태를 1차 표현으로 다룬다.
 
 # 생각은 책상 밖의 빈 시간에도 자란다
 
@@ -4449,27 +4455,29 @@ Knuth의 point 12에 붙은 겸손과 최상급 표현 자제 권고와도 자�
 
 ## 발췌
 
-최윤섭 박사는 몰입을 이렇게 정의한다.
+최윤섭 박사가 말하는 연구에 집중한 생각을 요약하면 다음과 같다.
 
 > 이것저것 잡생각이 아니라, 완전히 연구에 집중해서 몰두하는 '생각'이다.
 
-최윤섭 박사 (몰입 계기 다섯 가지):
+원문에 나오는 일곱 가지 계기 가운데 다섯 가지를 골라 재서술했다. 원문에는 화장실에 있을 때와 누워서 잠들기 직전도 있다.
 
-> 아침에 샤워할 때, 걷거나 산책할 때, 버스나 지하철 안에서, 지하철역에 서 있을 때, 다른 사람의 세미나가 재미없을 때. 다섯 자리의 공통점은 외부 자극이 줄어든 자투리 — 손이 비고 시야가 단순해지는 시간이다. 책상은 계기가 아닐 수 있다. 화면·메시지·이메일이 자극을 계속 공급한다.
+> 아침 샤워, 산책, 버스·지하철 이동, 지하철역에서 기다림, 흥미를 붙이기 어려운 세미나가 그 다섯 자리다.
 
-케큘레 일화:
+이 책에서는 그중 혼자 보내는 시간을 외부 방해가 줄어드는 계기로 읽는다. 다만 원문은 사람마다 조건이 다르다고 하고, 재미없는 세미나에서도 다른 연구 내용을 듣다 자기 아이디어가 떠올랐다고 설명한다. 모든 계기를 외부 자극 감소 하나로 설명하지는 않는다. 책상은 계기가 아닐 수 있다. 화면·메시지·이메일이 자극을 계속 공급한다.
 
-> August Kekulé는 1890년 강연에서, 1865년 벤젠 구조 발표에 앞서 난로 앞에서 졸다가 떠올린 이미지를 회고했다. 뱀 한 마리가 자기 꼬리를 무는 형상이 의식의 가장자리에 떠올랐고, 깨고 난 뒤 그 형상이 고리 구조의 가설로 정리됐다. 의식적 시도가 답을 닫지 않을 때, 멈춤이 답을 연 사례로 화학사에 남았다.
+케큘레의 1890년 강연 회고를 재서술한 일화:
+
+> August Kekulé는 1890년 강연에서, 1865년 벤젠 구조 발표에 앞서 난로 앞에서 졸다가 떠올린 이미지를 회고했다. 뱀 한 마리가 자기 꼬리를 무는 형상이 의식의 가장자리에 떠올랐고, 깨고 난 뒤 그 형상이 고리 구조의 가설로 정리됐다. 그는 남은 밤에 가설의 결과를 따져 보았다고 덧붙였으며, 깨어 있는 이성으로 검토하기 전에 꿈을 발표하지 말라고 당부했다.
 
 ---
 
 ## 분석 — 왜 이 표현이 좋은가
 
-다섯 가지 계기는 외부 자극이 줄어든다는 한 조건으로 묶인다. 최윤섭 박사가 다섯 항목을 임의로 나열했다면 도구로 쓸 수 없었을 것이다. 손이 비고 시야가 단순해지는 시간이라는 공통점을 찾으면 학생도 자기 일상에서 같은 조건을 찾을 수 있다. 출근길 자전거, 점심 식후 산책, 빨래 개기, 식기 세척도 그 예다. 다섯 항목이 단순 나열을 넘어 구체적인 실행 조건으로 인식될 때 비로소 도구의 구실을 한다.
+선택한 다섯 가지 계기는 평소와 다른 환경에서 연구 생각을 이어갔다는 경험으로 묶인다. 최윤섭 박사가 다섯 항목을 임의로 나열했다면 도구로 쓸 수 없었을 것이다. 손이 비고 시야가 단순해지는 시간이라는 공통점을 찾으면 학생도 자기 일상에서 같은 조건을 찾을 수 있다. 출근길 자전거, 점심 식후 산책, 빨래 개기, 식기 세척도 그 예다. 다섯 항목이 단순 나열을 넘어 구체적인 실행 조건으로 인식될 때 비로소 도구의 구실을 한다.
 
 목록에는 제외할 자리도 함께 나온다. "책상은 계기가 아닐 수 있다"는 한 줄은 책상이라고 해서 저절로 생각이 일어난다는 가정을 뒤집는다. 책상에서는 화면, 메시지, 이메일, 코드가 자극을 계속 공급하기 때문이다. 자극이 멈춘 시간이 필요한 사람에게는 책상이 방해 요인이 될 수 있다. 책상에 오래 머물렀다는 사실과 생각에 몰입했다는 판단은 구분해야 한다.
 
-최윤섭 박사는 몰입을 부정형으로 먼저 정의한다. "이것저것 잡생각이 아니라, 완전히 연구에 집중해서 몰두하는 '생각'이다." 앞선 부정 표현으로 자투리 시간에 떠오르는 잡념을 차단한 뒤, 정의 문장을 통해 온전한 학술적 사유의 상을 또렷이 부각한다. 다섯 항목이 마련하는 것은 몰입할 자리이지 몰입 자체가 아니다. 그 자리에 몸을 두고, 손에 쥔 문제에 의식을 붙들어 두는 일은 학생의 몫이다.
+최윤섭 박사는 자신이 말하는 생각을 잡생각과 구분한다. "이것저것 잡생각이 아니라, 완전히 연구에 집중해서 몰두하는 '생각'이다." 앞선 부정 표현으로 자투리 시간에 떠오르는 잡념을 차단한 뒤, 정의 문장으로 온전히 연구에 몰두하는 생각이 어떤 것인지 또렷이 보여 준다. 다섯 항목이 마련하는 것은 몰입할 자리이지 몰입 자체가 아니다. 그 자리에 몸을 두고, 손에 쥔 문제에 의식을 붙들어 두는 일은 학생의 몫이다.
 
 케큘레 일화는 다섯 가지 계기 뒤에 놓인다. 다섯 계기는 자기 일상에서 같은 조건을 의도적으로 마련하는 도구다. 케큘레의 일화에서는 예기치 못한 졸음이 뜻밖의 통찰을 가져다주었다. 둘을 나란히 배치하면 사고를 운영하는 두 양극단이 드러난다. 전자가 다섯 계기를 일과로 훈련하는 의도적 설계라면, 후자는 무의식적인 멈춤과 이완에 가깝다. 양쪽이 함께 작동해야 생각의 시간이 누적된다. 의도적 운영만 붙들면 기계적이 되고, 비의도적 멈춤만 기다리면 수동적이 된다.
 
@@ -4481,7 +4489,7 @@ Knuth §6(pencil-first / hand speed = thought speed)도 같은 흐름으로 이�
 
 ## 따라 쓰기 — 자기 분야에 적용
 
-자기 일상에서 손이 비고 시야가 단순해지는 시간을 먼저 찾는다. 샤워, 산책, 빨래, 식사, 통근처럼 화면을 보지 않아도 되는 시간이면 충분하다. 최윤섭 박사의 다섯 자리를 그대로 따라 할 필요는 없다. 조건은 하나다. 외부 자극이 줄어들어야 한다.
+자기 일상에서 손이 비고 시야가 단순해지는 시간을 먼저 찾는다. 샤워, 산책, 빨래, 식사, 통근처럼 화면을 보지 않아도 되는 시간이면 충분하다. 최윤섭 박사의 다섯 자리를 그대로 따라 할 필요는 없다. 외부 방해를 줄이는 것부터 시도하되, 어떤 환경에서 생각이 이어지는지는 자기 경험으로 확인한다.
 
 그 시간에 들어가기 직전에는 문제 한 줄만 들고 간다. 거창한 계획 대신 지금 당장 막혀 있는 질문 하나면 족하다. 걷는 동안 답을 억지로 짜내려 하지 않는다. 문제를 의식의 가장자리에 올려 두고 몸이 하는 일을 그대로 한다.
 
@@ -4497,8 +4505,8 @@ Knuth §6(pencil-first / hand speed = thought speed)도 같은 흐름으로 이�
 
 ## 출처
 
-- 최윤섭 박사 (Yoonsup Choi), 「생각해라. 생각해라. 생각해라.」, Grad School Story, 2014. URL slug `/yoonsup/think/`.
-- August Kekulé의 벤젠 고리 일화: 1865년 벤젠 구조 발표와 1890년 Benzolfest 강연의 회고가 핵심 출처다. 꿈의 세부 내용과 후대의 해석을 주의 깊게 분리해서 보아야 하며, 이 발췌에서는 incubation을 설명하는 역사적 사례로만 한정해 다룬다.
+- 최윤섭 박사 (Yoonsup Choi), 「생각해라. 생각해라. 생각해라.」, Grad School Story, 2017년 4월 6일. [원문](https://gradschoolstory.chkwon.net/yoonsup/think/).
+- August Kekulé의 벤젠 고리 일화: 1865년 벤젠 구조 발표와 [1890년 Benzolfest 강연의 회고](https://www.sgipt.org/wisms/geswis/chem/kek1890.htm)가 핵심 출처다. 꿈의 세부 내용과 후대의 해석을 주의 깊게 분리해서 보아야 하며, 이 발췌에서는 incubation을 설명하는 역사적 사례로만 한정해 다룬다.
 
 # 좋은 서론은 질문 하나를 독자 앞에 놓는다
 
@@ -4512,13 +4520,13 @@ Abstract 도입부:
 
 > Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously.
 
-Introduction 첫 단락의 핵심 두 문장:
+Introduction 두 번째 단락의 핵심 두 문장(참고문헌 번호 생략):
 
 > Driven by the significance of depth, a question arises: Is learning better networks as easy as stacking more layers? An obstacle to answering this question was the notorious problem of vanishing/exploding gradients, which hamper convergence from the beginning.
 
-Introduction 후반의 degradation 진술 한 줄:
+Introduction 세 번째 단락의 degradation 진술 일부:
 
-> Unexpectedly, such degradation is not caused by overfitting, and adding more layers to a suitably deep model leads to higher training error.
+> Unexpectedly, such degradation is not caused by overfitting, and adding more layers to a suitably deep model leads to higher training error, …
 
 
 ---
@@ -4537,7 +4545,7 @@ KISS-ICP가 we move in the opposite direction이라는 평서문으로 자세를
 
 문장 첫머리 신호의 활용도 눈여겨볼 만하다. Unexpectedly가 문장 맨 앞에 놓여 다음 절의 명제 전체에 무게를 싣는다. 예상과 다르다는 신호를 문두에 먼저 제시한 다음, degradation 현상이 overfitting과 무관하다는 핵심 명제를 뒤이어 배치한다. 같은 정보를 Such degradation, surprisingly, is not caused by overfitting으로 풀어쓰면 surprisingly가 쉼표 사이에 묻혀 신호가 약해진다. Gopen과 Swan이 강조한 reader expectation을 단어 수준에서 적용한 사례다.
 
-수치의 배치는 ORB-SLAM과 마찬가지로 비대칭이다. 통증은 학습이 어렵다는 진술과 degradation이라는 짧은 라벨로 압축하고, 기여 쪽에는 substantially deeper, 152 layers, 8x deeper than VGG, ImageNet 3.57% error 같은 구체적인 수치를 쌓는다. 통증은 단어 두세 개로 끝내고 기여는 수치로 받친다. 통증 서술이 불필요하게 길어지면 독자에게 문제의 심각성을 납득시키기 어렵다. 아울러 기여를 모호한 형용사로만 둘러대면 실질적인 효용을 입증하기 어렵다. ResNet은 두 부분의 무게를 단단하게 나눴다.
+수치의 배치는 ORB-SLAM과 마찬가지로 비대칭이다. 통증은 학습이 어렵다는 진술과 degradation이라는 짧은 라벨로 압축하고, 기여 쪽에는 substantially deeper, 152 layers, 8x deeper than VGG, ImageNet 앙상블의 top-5 test error 3.57% 같은 구체적인 수치를 쌓는다. 통증은 단어 두세 개로 끝내고 기여는 수치로 받친다. 통증 서술이 불필요하게 길어지면 독자에게 문제의 심각성을 납득시키기 어렵다. 아울러 기여를 모호한 형용사로만 둘러대면 실질적인 효용을 입증하기 어렵다. ResNet은 두 부분의 무게를 단단하게 나눴다.
 
 마지막은 자세다. We present a residual learning framework to ease the training은 새 발명을 제안하기보다 학습을 수월하게 만드는 골격을 내놓는다고 말한다. propose 대신 present를, 거창한 novel 대신 완곡한 to ease를 택한 문장이다. 한발 물러나 시작한 뒤 본문의 기여에서는 단정성을 회복하는 비대칭이 ORB-SLAM의 Building on excellent algorithms와 같은 형태다. 겉의 어조는 점잖게 두되 기여는 단정적으로 진술하는 안전한 기본값을 보여 준다.
 
@@ -4549,7 +4557,7 @@ KISS-ICP가 we move in the opposite direction이라는 평서문으로 자세를
 
 Unexpectedly 같은 부사를 문장 첫머리에 두면 새 현상에 독자의 주의를 모을 수 있다. 다만 한 단락에서는 한 번만 쓰는 편이 안전하다. 두 번 이상 나오면 모든 것이 예상 밖이 되어 신호가 사라진다.
 
-ResNet과 ORB-SLAM은 통증을 간결한 라벨 한두 단어로 갈무리하는 한편, 기여 단락에는 3~5개의 구체적인 수치를 집중적으로 배치한다. 형용사가 아니라 수치로 받치는 방식이다. substantially deeper가 연구 배경과 겸손한 태도를 드러내는 표현이라면, 152 layers는 실질적 기여를 입증하는 정량적 증거에 해당한다. 두 영역의 무게를 잘못 나누면 일부 문장이 과대주장으로 읽힌다.
+ResNet은 학습의 어려움을 짧게 제시한 뒤 초록에서 깊이와 분류 오류율 등의 수치를 제시한다. ORB-SLAM은 시스템의 기능과 27개 평가 시퀀스를 제시한다. 두 논문이 모두 기여 단락에 수치 3~5개를 배치한다는 공통 규칙으로 읽지는 않는다. 형용사가 아니라 수치로 받치는 방식이다. substantially deeper가 연구 배경과 겸손한 태도를 드러내는 표현이라면, 152 layers는 실질적 기여를 입증하는 정량적 증거에 해당한다. 두 영역의 무게를 잘못 나누면 일부 문장이 과대주장으로 읽힌다.
 
 ---
 
@@ -4558,7 +4566,7 @@ ResNet과 ORB-SLAM은 통증을 간결한 라벨 한두 단어로 갈무리하�
 
 ---
 
-# 그림 1은 초록의 핵심 흐름을 한 컷으로 압축한다
+# 그림 1은 초록의 핵심 표현을 한눈에 보여 준다
 
 **출처**: Chen, Vizzo, Läbe, Behley, Stachniss, 2021 — Range Image-based LiDAR Localization for Autonomous Vehicles, IEEE International Conference on Robotics and Automation (ICRA) 2021
 
@@ -4566,46 +4574,46 @@ ResNet과 ORB-SLAM은 통증을 간결한 라벨 한두 단어로 갈무리하�
 
 ## 발췌
 
-초록 마지막 문장(원문 인용):
+초록 마지막 문장의 요지:
 
-> The experiments suggest that our approach can reliably localize a vehicle in challenging environments and at high frame rates with respect to a previously generated map of the area.
+> 여러 환경에서 이동체의 위치를 안정적으로 추정하고, LiDAR 센서의 프레임 속도에 맞춰 온라인으로 차량 자세를 추적한다.
 
+원문 Fig. 1의 첫 문장은 다음과 같다.
+
+> Visualization of range images and triangular mesh map.
 
 ```
-[ 그림 1 묘사 — 인용·재현 대신 구조만 적는다 ]
+[ 그림 1의 네 패널을 글로 정리한 배치 ]
 
-  ┌──────────────┐    ┌────────────────┐    ┌───────────────┐    ┌─────────────┐
-  │ 3D LiDAR scan│ →  │ range image    │ →  │ map reference │ →  │ 6-DoF pose  │
-  │ (online)     │    │ (2D projection)│    │ scan match    │    │ estimate    │
-  └──────────────┘    └────────────────┘    └───────────────┘    └─────────────┘
+  왼쪽 위: Mesh map              오른쪽 위: Current scan
+  왼쪽 아래: Synthetic range image  오른쪽 아래: Current range image
 ```
 
-캡션(요지): 본 연구의 입력은 online 3D LiDAR scan, 중간 표현은 range image(2D projection), 매칭 대상은 사전 구축된 map의 reference scan, 출력은 6-DoF pose estimate.
-
+왼쪽은 삼각형 mesh 지도와 그 지도에서 렌더링한 range image다. 오른쪽은 같은 위치에서 얻은 LiDAR scan과 이를 투영한 range image다. 지도에서 빨간색은 지면, 파란색은 지면 이외의 구조를 표시한다. 입력을 네 박스에 차례로 통과시키는 처리 흐름도가 아니라, 지도와 현재 관측을 같은 표현으로 비교하는 그림이다. 시스템 전체의 처리 흐름은 별도의 Fig. 2에 나온다. 그 흐름은 두 range image의 차이로 관측 모델을 구성하고 Monte Carlo localization에서 입자 가중치를 갱신하는 것이다. 추정하는 차량 자세는 $(x,y,\theta)$이며 6-DoF pose가 아니다. 센서 프레임 속도의 온라인 처리는 입자 분포가 수렴한 뒤의 추적 단계에 해당한다.
 
 ---
 
 ## 분석 — 왜 이 그림 1이 좋은가
 
-그림 1은 초록의 핵심 대상과 처리 흐름에 대응한다. 초록 마지막 문장에는 vehicle을 reliably localize한다, 사전 map과 매칭한다, 높은 frame rate라는 세 명제가 들어 있다. 그림 1은 이 가운데 사전 map을 기준으로 vehicle을 localize하는 처리 흐름을 다시 보여 준다. vehicle은 LiDAR scan 입력, 사전 map은 reference scan 박스, localize는 pose estimate 결과에 대응한다. 높은 frame rate 주장은 이 구조도만으로 확인되지 않으며 실험 결과에서 근거를 찾아야 한다. 독자가 초록을 읽고 그림 1로 시선을 옮길 때, 방금 접한 핵심 개념들이 다이어그램의 각 블록과 직관적으로 맞아떨어지는 구조다. cxli233의 Friends Don't Let Friends 시리즈가 비판하는, 그림 1과 초록이 따로 노는 안티패턴의 정반대다. 그림 1을 만들 때 가장 먼저 이 대응을 점검해야 한다.
+그림 1은 초록에 나오는 지도와 현재 관측의 range image를 나란히 보여 준다. 서로 다른 출발점인 mesh 지도와 LiDAR scan을 같은 표현으로 바꾼다는 핵심이 네 패널의 대응으로 드러난다. 위치 추정의 정확도와 처리 속도는 이 그림만으로 확인되지 않으며 실험 결과에서 근거를 찾아야 한다. 독자가 초록을 읽고 그림 1로 시선을 옮길 때, 방금 접한 핵심 표현을 실제 모습과 연결할 수 있다. 초록과 그림의 대응을 점검하자는 것은 이 책의 분석이다.
 
-Stachniss 연구진의 여러 논문에서는 입력 sensor → 핵심 표현 → 출력 결정으로 이어지는 system overview를 볼 수 있다. 다만 KISS-ICP, surfel SLAM, OverlapNet, MOS의 모든 그림 1이 같은 3~4개 박스 구조라고 단정하지 않는다. 이 발췌에서 가져올 원칙은 연구진 전체의 고정 template가 아니라, 이 논문에서 초록의 핵심 명사와 그림의 입력·표현·출력이 대응한다는 점이다.
+Stachniss 연구진의 여러 논문에서는 입력 sensor → 핵심 표현 → 출력 결정으로 이어지는 system overview를 볼 수 있다. 다만 KISS-ICP, surfel SLAM, OverlapNet, MOS의 모든 그림 1이 같은 3~4개 박스 구조라고 단정하지 않는다. 이 발췌에서 가져올 원칙은 연구진 전체의 고정 template가 아니라, 이 논문에서 초록의 핵심 명사와 그림의 두 입력·공통 표현이 대응한다는 점이다.
 
-Whitesides §III의 promise-deliver alignment는 그림 1까지 이어진다. 제목(Range Image-based), 초록(range image projection으로 localize), 그림 1(중간에 놓인 range image 박스), 기여 항목(range image 표현의 효율성)에서 같은 명제가 반복된다. range image라는 명사구가 네 곳에 되풀이되므로 심사위원은 초록만 읽고도 논문의 핵심을 짚을 수 있다. 그림 1을 점검할 때는 제목·초록·그림 1·기여의 네 곳에서 같은 핵심 명사구를 썼는지 먼저 확인한다.
+Whitesides §2.3은 서론에서 목적과 독자가 기대할 결론을 제시하라고 권한다. 이 책에서는 그 대응을 그림에도 적용한다. 제목(Range Image-based), 초록(range image 기반 관측 모델), 그림 1(나란히 놓인 두 range image), 기여 설명(range image의 차이로 구성한 관측 모델)이 같은 표현을 중심으로 연결된다. range image라는 명사구가 네 곳에 되풀이되므로 심사위원은 초록만 읽고도 논문의 핵심을 짚을 수 있다. 그림 1을 점검할 때는 제목·초록·그림 1·기여의 네 곳에서 같은 핵심 명사구를 썼는지 먼저 확인한다.
 
-그림 1은 입력·표현·매칭·출력의 큰 흐름에 집중한다. 자세한 시스템 다이어그램을 별도 그림으로 나누면 overview와 구현 세부가 서로 다른 질문에 답할 수 있다. 박스 수에 보편적인 4~5개 제한은 없다. 핵심 흐름을 한눈에 따라갈 수 있는지, 세부 모듈 때문에 주요 입출력이 묻히지 않는지를 기준으로 나눈다.
+그림 1은 지도와 현재 관측을 같은 표현으로 보여 주는 데 집중하고, 그림 2는 입자별 렌더링·관측 모델·자세 사후분포를 잇는 처리 흐름을 보여 준다. 핵심 표현과 시스템 다이어그램을 나누면 두 그림이 서로 다른 질문에 답할 수 있다. 박스 수에 보편적인 4~5개 제한은 없다. 핵심 흐름을 한눈에 따라갈 수 있는지, 세부 모듈 때문에 주요 입출력이 묻히지 않는지를 기준으로 나눈다.
 
-캡션은 그림을 본문 없이 이해하는 데 필요한 입력·핵심 표현·출력을 설명한다. 모든 그림 1 캡션을 한 문장으로 제한할 필요는 없다. 약어·색·화살표·panel을 설명하려면 더 길어질 수 있다. 길이보다 그림만으로 해석하는 데 필요한 정보가 빠지지 않았는지 본다.
+캡션은 각 패널의 대상과 지도 색상의 뜻, 같은 위치에서 얻은 두 range image의 관계를 설명한다. 모든 그림 1 캡션을 한 문장으로 제한할 필요는 없다. 약어·색·화살표·panel을 설명하려면 더 길어질 수 있다. 길이보다 그림만으로 해석하는 데 필요한 정보가 빠지지 않았는지 본다.
 
 ---
 
 ## 따라 쓰기 — 자기 분야에 적용
 
-초록의 핵심 처리 흐름과 그림 1의 대응을 작업 순서에 넣는다. 초록의 마지막 문장을 먼저 쓰고, 그 문장에서 처리 흐름을 나타내는 동사·명사를 그림 1의 박스·화살표·라벨에 대응시킨다. 그림 1에 대응하지 않는 초록의 단어는 그림 2에서 설명할 세부 내용인지, 실험 근거가 필요한 성능 주장인지, 지나친 형용사인지 구분한다. 초록에 대응하지 않는 그림 1의 박스가 있다면 초록에서 빠진 정보다. 두 곳을 함께 다듬는다.
+초록의 핵심 개념과 그림 1의 대응을 작업 순서에 넣는다. 초록에서 핵심 표현이나 처리 흐름을 설명하는 문장을 고르고, 동사·명사를 그림의 패널·박스·화살표·라벨에 대응시킨다. 그림 1에 대응하지 않는 초록의 단어는 그림 2에서 설명할 세부 내용인지, 실험 근거가 필요한 성능 주장인지, 지나친 형용사인지 구분한다. 초록에 대응하지 않는 그림 요소가 있다면 초록에 필요한 핵심 정보인지, 그림의 이해를 돕는 세부인지 판단한다. 두 곳을 함께 다듬는다.
 
 먼저 초록의 중심 claim을 설명하는 최소 흐름만 박스로 둔다. 세부 모듈이 핵심 입출력을 가리면 overview와 상세 시스템 그림을 나눈다. 박스 수를 맞추기 위해 필요한 조건을 빼거나, 반대로 그림 2를 채우려고 세부를 억지로 늘리지 않는다.
 
-캡션의 첫 문장에는 입력 → 핵심 표현 → 출력의 골격을 적는다. 이어 그림을 해석하는 데 필요한 기호·색·panel을 설명한다. 알고리즘의 세부 내용·hyperparameter·실험 결과는 그림에 직접 필요할 때만 넣는다.
+캡션의 첫 문장에는 그림이 보여 주는 핵심 대상을 적는다. 흐름도라면 입력 → 핵심 표현 → 출력의 골격을 쓸 수 있다. 이어 그림을 해석하는 데 필요한 기호·색·panel을 설명한다. 알고리즘의 세부 내용·hyperparameter·실험 결과는 그림에 직접 필요할 때만 넣는다.
 
 마지막으로 핵심 명사구가 제목·초록·그림 1·기여 항목의 네 곳에 모두 등장하는지 확인한다. 이 논문의 range image가 그 사례다. coined term이나 시스템 이름을 네 곳에서 일관되게 써야 심사위원의 첫인상도 단단해진다.
 
@@ -4618,7 +4626,7 @@ Whitesides §III의 promise-deliver alignment는 그림 1까지 이어진다. �
 
 # 박사는 지식의 경계를 조금 미는 일이다
 
-**출처**: Matt Might, 2010 — The Illustrated Guide to a PhD. https://matt.might.net/articles/phd-school-in-pictures/. CC BY-NC 2.5.
+**출처**: [Matt Might](https://matt.might.net/), 2010 — [The Illustrated Guide to a Ph.D.](https://matt.might.net/articles/phd-school-in-pictures/). CC BY-NC 2.5.
 
 ---
 
@@ -4627,7 +4635,7 @@ Whitesides §III의 promise-deliver alignment는 그림 1까지 이어진다. �
 
 패널 1은 인류가 지금까지 쌓아 올린 지식 전체를 거대한 원 하나로 형상화한다. 패널 2에서는 초등학교를 마쳤을 때 중심부에 작은 점 하나가 채워진다. 이어 패널 3에서는 고등학교 교육을 거치며 그 점이 조금 더 자라난 상태다. 학사를 마치는 패널 4에 이르면 한 분야를 향한 가느다란 부채꼴이 길게 뻗어 나온다. 석사 과정에 해당하는 패널 5에서는 부채꼴 끝자락이 특정 지점을 향해 더욱 깊어진다. 패널 6에서 논문 정독을 거친 부채꼴 끝자락이 마침내 원의 바깥 경계면에 맞닿는 형태다. 이어 패널 7과 8은 그 경계의 좁은 한 점에 시선을 고정한 채 몇 해 동안 묵묵히 같은 자리를 밀어붙이는 분투를 묘사한다. 패널 9에 이르러 마침내 경계면이 바깥쪽으로 한 뼘 밀려나며, 패널 10은 그 미세한 돌출부가 곧 박사 학위의 실체임을 선언한다. 패널 11은 이 작은 돌출 자리에 서서 바라본 세계의 낯선 풍경을 담고 있다. 마지막 패널 12는 한 걸음 물러나 원 전체를 조망하면서, 인류 지식의 총체적 윤곽은 여전히 본래 모습을 간직하고 있음을 잊지 말라는 당부를 남긴다.
 
-마지막 패널의 문장은 짧다.
+12개 패널 뒤에 붙은 맺음말은 짧다.
 
 > "Keep pushing."
 
@@ -4635,7 +4643,7 @@ Whitesides §III의 promise-deliver alignment는 그림 1까지 이어진다. �
 
 ## 분석 — 이 비유를 박사 결정의 자리에 어떻게 쓸 수 있는가
 
-이 비유는 먼저 박사 학위의 범위를 눈에 보이게 만든다. "박사 학위는 무엇인가"를 글로 적으면 한 단락이 필요하지만, 12개 패널은 작은 점 하나만큼 경계를 민다는 명제를 그림 한 장으로 보여 준다. 박사 진학을 고민하는 학생이 박사를 모든 것을 아는 사람이나 최고 전문가로 그리고 있다면, 이 그림은 그 이미지를 작은 돌출 하나로 바꾼다. 최윤섭 박사는 같은 관점을 "경계를 한 발짝 넓힐 능력자"라는 한국어로 적었다. 두 출처가 같은 관점을 서로 다른 매체로 보여 준다.
+이 비유는 먼저 박사 학위의 범위를 눈에 보이게 만든다. "박사 학위는 무엇인가"를 글로 적으면 한 단락이 필요하지만, 12개 패널은 작은 점 하나만큼 경계를 민다는 명제를 그림 한 장으로 보여 준다. 박사 진학을 고민하는 학생이 박사를 모든 것을 아는 사람이나 최고 전문가로 그리고 있다면, 이 그림은 그 이미지를 작은 돌출 하나로 바꾼다. 최윤섭 박사는 [「박사 학위라는 것의 의미」](https://gradschoolstory.chkwon.net/yoonsup/what-phd-means/)에서 박사를 지식의 경계를 스스로 넓혀갈 준비가 된 사람으로 설명했다. 두 출처가 같은 관점을 서로 다른 매체로 보여 준다.
 
 학부에서 석사를 거쳐 박사로 나아가는 과정은 지식의 부채꼴이 길게 확장되는 궤적으로 형상화된다. 패널 4~6을 거치며 특정 분야를 파고드는 가느다란 부채꼴이 깊어지고, 패널 7에 이르면 그 끝자락의 한 점에 시선이 단단히 고정된 모습이다. 박사 진학을 단순한 학습의 연장선으로만 여기는 학생에게, 이 그림은 부채꼴의 면적 전체를 넓히기보다 경계면의 외딴 한 점에 오롯이 머무는 과정임을 직관적으로 일깨워 준다. 학부와 석사 시기에는 학문 분야의 전반적인 지형을 폭넓게 조망하지만, 박사 과정에서는 그중 극히 좁은 한 지점을 수년간 집요하게 밀어붙여야 한다. 따라서 진학 전에는 자신이 수년간 천착할 만한 단단한 질문이 있는지 단기 연구 경험을 통해 미리 가늠해 보는 절차가 긴요하다.
 
@@ -4652,7 +4660,7 @@ Whitesides §III의 promise-deliver alignment는 그림 1까지 이어진다. �
 
 패널 7~9는 박사 과정의 연간 우선순위를 점검하는 도구로 쓸 수 있다. 자신의 학위 기간을 패널 8 한 장으로 그리면 "같은 한 점을 민다"라는 한 줄이 남는다. 매년 우선순위를 정할 때 그 문장을 시금석으로 삼는다. 새로운 부채꼴을 그리는 일만 남았는지, 기존의 한 점에서 경계를 미는 일이 이어지는지 확인한다.
 
-패널 11~12는 졸업 직후의 정체성 전환에 적용할 수 있다. 졸업 후의 호칭·affiliation·자기 관점이 흔들릴 때 두 패널을 한 쌍으로 본다. 자긍심이 너무 커지면 패널 12를, 박사과정의 무게가 너무 작아지면 패널 11을 떠올린다. 두 패널을 나란히 결합하여 균형 있게 조망할 때 전환기 정체성을 온전하게 확립할 수 있다.
+패널 11~12는 졸업 직후의 정체성 전환에 적용할 수 있다. 졸업 후의 호칭·affiliation·자기 관점이 흔들릴 때 두 패널을 한 쌍으로 본다. 자긍심이 너무 커지면 패널 12를, 박사과정의 무게가 너무 작아지면 패널 11을 떠올린다. 두 패널을 나란히 놓고 균형 있게 볼 때, 전환기의 정체성을 온전하게 세울 수 있다.
 
 자기 발표나 글에서는 같은 원을 자기 연구의 언어로 다시 그려 보면 된다. 부채꼴의 방향, 경계에 닿은 한 점, 조금 밀려난 돌출을 자기 주제의 이름으로 채우면 비유가 남의 그림에서 자기 좌표로 옮겨온다.
 

@@ -59,7 +59,7 @@ Keshav가 §3에 적은 절차는 단순하다. 2026년에 같은 절차를 실�
 
 ## 1.5 로보틱스/CV에서의 entry
 
-추상적인 절차는 진입 단계의 학생에게 마찰이 크다. 그래서 분야별로 review가 어디에 살고 entry tool이 무엇인지 구체적으로 박아 두는 편이 빠르다.
+분야에 처음 들어선 학생에게는 추상적인 절차를 따르는 부담이 크다. 그래서 분야별 리뷰 자료를 어디에서 찾을 수 있는지, 입문할 때 어떤 도구를 쓰는지 구체적으로 알려 주는 편이 빠르다.
 
 로보틱스 쪽 review는 보통 [T-RO (IEEE Transactions on Robotics)](https://www.ieee-ras.org/publications/t-ro), [IJRR (International Journal of Robotics Research)](https://journals.sagepub.com/home/ijr), [RAS (Robotics and Autonomous Systems)](https://www.sciencedirect.com/journal/robotics-and-autonomous-systems)에 실린다. SLAM이라면 Cadena et al. 2016, motion planning이라면 LaValle의 Planning Algorithms 같은 reference book이 리뷰 역할을 한다. CV 쪽 review는 [TPAMI (IEEE Transactions on Pattern Analysis and Machine Intelligence)](https://www.computer.org/csdl/journal/tp)에 실리는 경우가 많고, CVPR/ICCV/ECCV의 tutorial track에서 신생 subfield의 review 격 자료가 나온다.
 

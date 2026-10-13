@@ -26,7 +26,7 @@ AI가 논문을 다시 열어 요약해 줄 수 있는 시대에는 긴 요약�
 
 ## 15.2 인용 관리 — reference manager는 본체가 아니다
 
-참고문헌 관리 도구는 원 출처의 서지 정보를 모아 인용 양식에 맞게 변환하는 데 쓴다. 서지 정보의 본체는 DOI·arXiv·OpenReview 및 학회와 출판사 페이지에 위치하며, 참고문헌 관리 도구는 이를 논문 양식에 맞춰 내보내는 포맷팅 계층 역할을 수행한다.
+참고문헌 관리 도구는 원 출처의 서지 정보를 모아 인용 양식에 맞게 변환하는 데 쓴다. 서지 정보는 DOI가 가리키는 문서나 arXiv·OpenReview 및 학회와 출판사의 페이지에서 확인할 수 있다. 참고문헌 관리 도구는 이렇게 모은 서지 정보를 논문 양식에 맞춰 내보낸다.
 
 손으로 BibTeX를 typing하지 않는다. 자동 생성 출처는 DOI, arXiv, CrossRef, Semantic Scholar, OpenAlex, venue page다. Google Scholar의 export는 빠르지만 필드가 비거나 venue 정보가 거칠게 들어오는 일이 있으므로 최종본의 기준으로 두지 않는다.
 

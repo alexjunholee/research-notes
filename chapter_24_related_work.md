@@ -1,86 +1,76 @@
 # Ch.24 — Related Work: 분류와 비판의 자리
 
-Ch.23의 서론이 왜 이 논문이 존재하는가에 답한다면, Related Work는 그 주변에서 누가 무엇을 시도했는가에 답한다. 두 섹션이 함께 심사위원의 1차 판단을 받는다. 두 섹션의 분담이 무너지면 한쪽은 분야 분위기만 늘어놓게 된다.
+Ch.23의 서론은 이 논문이 왜 필요한지를 밝힌다. Related Work는 그 주변에서 누가 무엇을 시도했는지를 정리한다. 두 섹션이 할 일을 나누지 않으면 어느 한쪽이 분야 소개만 늘어놓게 된다.
 
-Related Work를 연도순 인용 나열로만 채우면 어떤 차원에서 연구들을 비교하는지 보이지 않는다. "Smith et al. 2018 did A. Lee et al. 2019 did B. ..." 식으로 단락이 흐르면 본인 방법의 위치도 끝까지 잡히지 않는다. 이 결함 하나가 언제나 reject를 결정한다고 단정할 수는 없지만, novelty와 baseline coverage를 의심하게 만든다.
+Related Work를 연도순 인용 목록으로 채우면 연구들을 어떤 기준으로 비교하는지 드러나지 않는다. "Smith et al. 2018 did A. Lee et al. 2019 did B. ..."처럼 단락이 흘러가면 끝까지 읽어도 자기 방법이 어디에 놓이는지 알 수 없다. 그런 원고에서는 novelty와 비교 대상(baseline)을 충분히 다뤘는지 확인하기 어렵다.
 
-Ch.16 §16.1의 reject의 complement 관점이 여기에 직결된다. 나열식 목록과 핵심 baseline 누락은 심사에서 반복해서 점검되는 결함이다.
-
----
-
-## 24.1 분류축 — 나열식 목록 피하기
-
-**Related Work의 골격은 분류축이다.** 본인이 정한 축 위에 선행 연구를 위치시키는 것이 Related Work의 중심 작업이다. 축을 잡지 않은 채 인용을 나열하면 나열식 목록이 된다.
-
-**분류축 후보.** 분야마다 다르지만 로보틱스·CV에서는 다음 네 종류가 자주 등장한다.
-
-- 입력 modality — LiDAR · RGB · RGB-D · IMU 융합
-- 표현 방식 — sparse · dense · neural field
-- 학습 의존도 — geometric · learned · hybrid
-- 적용 scenario — 실내 · 야외 · 동적 환경
-
-**이차원 표.** 연구 수가 많고 두 축이 실제 차이를 설명한다면 행과 열로 분류표를 만들 수 있다. 이는 분야 표준이나 필수 형식이 아니라 사고 도구다. 본인 방법이 표에서 비어 있던 칸에 들어가면 paper gap 후보가 시각적으로 드러나지만, 빈 칸 자체가 연구 가치나 novelty를 증명하지는 않는다.
-
-이차원 표가 분류를 더 명료하게 만든다면 Related Work에 넣는다. 축이 하나이거나 연구 수가 적다면 산문이 더 낫다. 표를 쓰든 산문을 쓰든 분류 기준과 본인 방법의 위치를 독자가 추측하게 두지 않는다.
+[엄태웅 대표의 「영어 못해도 논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net/terry/englishpaperwriting/)은 Related Work가 "내 연구결과의 상대적인 위치를 보여주는 곳"이라고 하고, "논문들에 대한 단순 나열을 피하고 비판적 시각을 견지하도록 하자"고 쓴다. [Ch.16 §16.1](./chapter_16_mindset.md)에서 본 대로 떨어질 이유부터 줄이려면 나열식 목록과 핵심 baseline 누락을 먼저 손봐야 한다.
 
 ---
 
-## 24.2 비판의 강도 — 정확하되 정중히
+## 24.1 분류 기준 세우기
 
-**비판은 방법의 한계에 한정한다.** 저자에 대한 비난·저평가 금지. "Smith et al.'s approach is naive"는 심사위원 입장에서 저자 비난으로 읽힌다. "Smith et al.'s approach assumes static environments"가 방법의 한계에 한정한 표현이다.
+**Related Work의 뼈대는 분류 기준이다.** 스스로 정한 기준에 따라 선행 연구를 나누고 각 연구의 자리를 정하는 일이 Related Work의 중심이다. 기준 없이 인용을 늘어놓으면 목록이 된다.
 
-**Vague phrasing 점검.** "may suffer from", "is limited in some scenarios", "could be improved"만으로 끝내면 한계의 범위를 알 수 없다. 출처가 보고한 dataset·조건·metric을 구체적으로 적되, 원 논문이 보고하지 않은 수치를 만들어 넣지 않는다.
+**로보틱스와 컴퓨터 비전에서 자주 쓰는 기준**은 다음과 같다. 분야마다 기준은 다르다.
+
+- 입력 modality — LiDAR, RGB, RGB-D, IMU 융합
+- 표현 방식 — sparse, dense, neural field
+- 학습에 기대는 정도 — geometric, learned, hybrid
+- 적용 환경 — 실내, 야외, 동적 환경
+
+**두 기준으로 표 만들기.** 연구 수가 많고 두 기준이 연구 사이의 실제 차이를 설명한다면 한 기준을 행에, 다른 기준을 열에 놓고 분류표를 만들어 본다. 이 표는 먼저 생각을 정리하는 데 쓴다. 자기 방법이 표의 빈칸에 들어간다면 그 칸이 이 논문이 메울 빈틈의 후보다. 그 칸이 연구할 가치가 있는지는 따로 논증해야 한다.
+
+표가 분류를 더 분명하게 보여 주면 Related Work에 넣는다. 기준이 하나뿐이거나 연구 수가 적으면 산문으로 쓰는 편이 낫다. 어느 쪽이든 분류 기준과 자기 방법의 자리는 글에 밝혀 둔다.
+
+---
+
+## 24.2 정확하고 정중하게 비판하기
+
+**비판은 방법의 한계에 한정한다.** 저자를 깎아내리는 표현은 쓰지 않는다. "Smith et al.'s approach is naive"는 저자에 대한 비난으로 읽힐 수 있다. "Smith et al.'s approach assumes static environments"는 방법의 한계만 말한다. 엄태웅 대표도 남의 논문을 비판할 때는 조심하자고 했다. 심사에서 강한 반발을 살 수 있고, 지적이 과하거나 틀렸다면 "본인 논문 띄우기 위해 부풀려 얘기했네"라는 인상을 주어 신뢰를 크게 잃을 수 있기 때문이다.
+
+**흐릿한 표현을 점검한다.** "may suffer from", "is limited in some scenarios", "could be improved"만으로는 한계가 어디까지인지 알 수 없다. 출처가 보고한 데이터셋, 조건, 지표를 구체적으로 적고, 수치는 원 논문이 보고한 것만 쓴다. 엄태웅 대표는 "B연구는 A연구를 개선하였다"라고 두루뭉술하게 쓰기보다 "B연구는 어떠한 측면에서 이러한 아이디어를 사용하여 A연구를 정확도 OO%에서 OO%로 개선하였다"처럼 수치를 들어 비교하라고 권한다.
 
 > ❌ Method X may suffer from drift in long sequences.
 >
 > ✓ Method X reports $d_1$ drift on sequence A, compared with $d_2$ on the shorter sequences [citation].
 
-✓ 쪽의 $d_1$, $d_2$, sequence 이름은 실제 출처에서 확인해 채운다. 조건과 수치, 인용을 함께 적어 비판의 근거를 추적할 수 있게 한다.
+✓ 문장의 $d_1$, $d_2$, sequence 이름은 실제 출처에서 확인해 채운다. 조건과 수치와 인용을 함께 적으면 독자가 비판의 근거를 따라가 확인할 수 있다.
 
-**비판이 강할수록 근거도 강해야 한다.** 본인 실험이나 선행 연구가 보고한 한계를 인용한다. 근거 없이 비판만 강하면 심사위원은 본인 방법의 우위를 만들기 위해 비교를 비튼 것은 아닌지 의심한다.
+**비판이 셀수록 근거도 탄탄해야 한다.** 자기 실험 결과나 선행 연구가 직접 보고한 한계를 인용한다. 근거 없이 비판만 세면 심사위원은 자기 방법을 돋보이게 하려고 비교를 비튼 것은 아닌지 의심한다.
 
----
-
-## 24.3 핵심 baseline 누락의 비용
-
-**본인 방법과 가장 가까운 baseline을 빠뜨리면 novelty와 공정 비교가 흔들린다.** Related Work에 등장하지 않은 baseline은 실험 섹션에서도 빠질 수 있다. 누락이 심사 결과에 미치는 정도는 논문의 주장과 venue에 따라 다르지만, 왜 비교하지 않았는지는 설명해야 한다.
-
-**Coverage 기준.** 고정된 5편·3-5편 최소선은 없다. 문제 정의를 만든 anchor, 가장 가까운 방법, 같은 benchmark의 강한 비교군, 최근의 직접 관련 연구가 빠지지 않았는지 claim별로 확인한다. 최신 연구의 범위는 검색 종료일을 적어 경계를 분명히 한다.
-
-**본인 연구실 self-citation 편중.** 본인 연구실 논문만 골라 인용하면 분야의 범위를 비뚤게 제시할 수 있다. 모든 분야에 통하는 30% 안전선은 없다. 각 self-citation이 현재 주장에 직접 필요한지 확인하고, 독립 연구 그룹의 가장 가까운 선행 연구도 같은 기준으로 찾는다.
-
-분야별 탐색의 출발점으로 [robotics-practice ch20 §20.8.1](https://alexjunholee.github.io/robotics-practice/guide.html#2081-논문-쓰기-link)의 baseline catalog를 링크해 둔다. 목록을 그대로 최소 인용 세트로 쓰지 말고, 검색 종료일과 본인 claim에 맞춰 공식 proceedings·논문에서 갱신한다.
+**결과를 미리 선언하지 않는다.** Related Work에서 "we outperform all prior work"라고 쓰면 결과 섹션이 할 말을 앞당겨 하게 된다. [Ch.19 §19.5](./chapter_19_ccc.md)에서 본, 내용과 결론이 뒤섞이는 결함과 같은 종류다.
 
 ---
 
-## 24.4 흔한 실수 4종
+## 24.3 핵심 baseline을 빠뜨리면
 
-**나열식 목록.** 인용을 연도순으로 나열하고 분류축을 두지 않으면, 심사위원은 어떤 차원에서 비교하는지 알 수 없다.
+**자기 방법과 가장 가까운 baseline을 빠뜨리면 novelty와 비교의 공정성이 흔들린다.** Related Work에 나오지 않은 baseline은 실험 섹션에서도 빠지기 쉽다. 누락이 심사 결과에 얼마나 영향을 주는지는 논문의 주장과 학회·학술지에 따라 다르다. 그래도 왜 비교하지 않았는지는 설명해야 한다. [Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)은 논문을 깊이 읽는 third pass를 마치면 관련 연구에 대한 인용 누락을 짚어 낼 수 있어야 한다고 했다. 꼼꼼한 심사위원은 바로 그 누락을 찾는다.
 
-**핵심 baseline 누락.** 본인 방법의 1차 비교 대상이 빠지면 novelty와 공정 비교를 설득하기 어렵다.
+**얼마나 인용해야 하는가.** 5편이나 3~5편 같은 고정된 최소선은 없다. 문제 정의를 처음 세운 연구, 자기 방법과 가장 가까운 방법, 같은 benchmark의 강한 비교 대상, 최근에 나온 직접 관련 연구가 빠지지 않았는지 주장마다 확인한다. 최근 연구를 어디까지 찾았는지는 검색을 마친 날짜를 적어 분명히 한다.
 
-**과대 비교.** "we outperform all prior work"를 Related Work에서 선언. 결과 섹션의 몫을 미리 가져온 형태. Ch.19 §19.5의 content와 conclusion 스케일이 섞이는 결함과 같은 축.
+**자기 연구실 논문에 치우친 인용.** 자기 연구실 논문만 골라 인용하면 분야를 비뚤게 보여 줄 수 있다. 모든 분야에 통하는 30% 같은 안전선은 없다. 자기 연구실 논문을 인용할 때마다 지금의 주장에 꼭 필요한지 확인하고, 다른 연구 그룹의 가까운 선행 연구도 같은 기준으로 찾는다.
 
-**Self-citation 편중.** 본인 연구실 논문만 골라 인용하면 분야 합의를 비뚤게 제시한 것으로 보인다.
+선행 연구를 찾는 방법은 [Ch.9](./chapter_09_lit_survey_workflow.md)에서 다룬 문헌 조사 절차를 따른다. Keshav가 권한 대로 최근 논문 몇 편에서 시작해 함께 인용되는 핵심 논문과 연구자를 찾고, 주요 학회의 최근 proceedings를 훑는다.
 
 ---
 
-## 24.5 Ch.23과의 분담
+## 24.4 서론과 할 일 나누기
 
-Ch.23의 Introduction에서 paper gap이 한 줄로 박혔다면, Related Work는 그 paper gap의 주변을 본격적으로 펼친다. 두 섹션의 분담이 다음과 같이 작동한다.
+Ch.23에서 서론이 이 논문이 메울 빈틈을 한 줄로 밝혔다면, Related Work는 그 빈틈 주변의 연구를 자세히 펼친다. 두 섹션은 아래처럼 할 일을 나눈다.
 
-| 항목 | Introduction (Ch.23) | Related Work (Ch.24) |
+| 항목 | 서론 (Ch.23) | Related Work (Ch.24) |
 |---|---|---|
-| 길이 | paper gap을 여는 데 필요한 범위 | 분류와 위치를 설명하는 데 필요한 범위 |
-| 인용 수 | 핵심 주장에 직접 필요한 인용 | 분류축의 주요 계열과 직접 비교군을 덮는 인용 |
-| 골격 | gap funnel 3-tier | 분류축(필요하면 이차원 표) |
-| 비판 | 한 줄, 빈틈 명시만 | 본격, 수치 근거 |
-| 본인 방법 | 한 문장 contribution | 표 위의 한 칸 |
+| 길이 | 빈틈을 밝히는 데 필요한 만큼 | 분류와 자리를 설명하는 데 필요한 만큼 |
+| 인용 수 | 핵심 주장에 직접 필요한 인용 | 분류 기준의 주요 갈래와 직접 비교 대상을 다루는 인용 |
+| 뼈대 | 빈틈을 좁혀 가는 순서 | 분류 기준(필요하면 두 기준의 표) |
+| 비판 | 빈틈을 밝히는 한 줄 | 수치를 근거로 자세히 |
+| 자기 방법 | 기여 한 문장 | 분류표 안의 한 칸 |
 
-이 분담이 무너지는 가장 흔한 패턴이 Introduction에 prior work 30편을 인용하는 결함이다. Ch.23 §23.6의 흔한 실수인 Background가 textbook 분량인 것과 같은 결함이다. Related Work를 Introduction에 합칠 때도 문제 제기와 기존 연구 분류의 역할이 뒤섞이지 않도록 해야 한다.
+할 일이 섞이는 흔한 예는 서론에 선행 연구 30편을 인용하는 원고다. Mensh와 Kording이 서론에 논문의 동기를 넘어서는 폭넓은 문헌 검토를 넣지 말라고 한 것([Ch.23 §23.2](./chapter_23_introduction.md))과 같은 문제다. Related Work를 서론에 합쳐 쓰는 분야라면 문제 제기와 선행 연구 분류가 한 단락에 뒤섞이지 않게 단락을 나눈다.
 
 ---
 
-**출처.** [Gopen & Swan 1990](https://www.americanscientist.org/article/the-science-of-scientific-writing) — 단락 층위 흐름(간접). [robotics-practice ch20 §20.8.1](https://alexjunholee.github.io/robotics-practice/guide.html#2081-논문-쓰기-link) — 분야별 baseline 탐색의 출발점. 분류축·이차원 표·coverage 점검은 이 장의 작업 도구이며, 고정 인용 수나 self-citation 비율을 표준으로 두지 않는다.
+**출처.** [엄태웅 대표 「영어 못해도 논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net/terry/englishpaperwriting/) Related Work 절 — 연구의 상대적 위치, 단순 나열 피하기, 수치를 든 비교, 비판할 때의 주의. [Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) §2.3(관련 연구 인용 누락 짚기), §3(문헌 조사). [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 6. 분류 기준, 두 기준의 표, 인용 범위 점검은 이 장에서 정리했다. 인용 수나 자기 연구실 인용 비율은 논문마다 정한다.
 
 다음: [Ch.25 — 방법 섹션](./chapter_25_method.md)

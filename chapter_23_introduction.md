@@ -1,99 +1,97 @@
 # Ch.23 — 서론은 어떻게 좁혀지는가
 
-논문을 처음 훑을 때 서론은 판단의 큰 틀을 잡는 중요한 자리다. [Keshav (2007)](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)의 1st pass는 제목·초록·서론을 주의 깊게 읽고, 소제목·결론·참고문헌도 함께 훑으라고 한다. 원문이 첫 한 장만 읽으라고 한 것은 아니다. 서론이 불명확하면 독자는 문제와 기여를 파악하기 어렵다.
+독자는 서론을 읽으며 논문을 판단할 큰 틀을 잡는다. [Keshav (2007)](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)의 first pass는 제목, 초록, 서론을 주의 깊게 읽고 섹션 제목과 결론을 읽은 뒤 참고문헌을 훑어보는 순서다. 서론이 불분명하면 독자는 이 논문이 무슨 문제를 다루고 무엇을 기여했는지 알기 어렵다.
 
-학생들이 가장 자주 하는 실수는 서론을 Related Work의 축약본으로 채우는 것이다. 인용을 줄줄 늘어놓고, 끝에서 "we propose …"로 건너뛴다. 심사위원은 이 형식에서 왜 이 논문이 존재하는지 답을 얻지 못한 채 기여 문장에 도달한다.
+서론을 Related Work의 축약본으로 채우는 원고가 있다. 인용을 줄줄이 늘어놓다가 끝에서 "we propose …"로 건너뛴다. 이렇게 쓰면 심사위원은 이 논문이 왜 필요한지 답을 얻지 못한 채 기여 문장에 이른다.
 
-두 프레임을 겹쳐 쓰면 이 문제를 풀 수 있다. [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) §III의 5요소는 무엇이 들어가야 하는지 보여 주는 자리표이고, [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 6의 gap funnel은 어떤 순서로 좁혀 가는지 보여 주는 흐름표다.
-
----
-
-## 23.1 서론의 다섯 슬롯
-
-Whitesides가 §III에 제시한 다섯 칸은 다음과 같다.
-
-1. **Objectives** — 무엇을 했는가. 한 문장으로 답할 수 있어야 한다.
-2. **Justification** — 왜 했는가. objective의 연구 동기를 명시한다.
-3. **Background** — 독자가 알아야 하는 최소 사전 지식. 교과서 수준의 장황한 해설은 피하고 각주 분량으로 압축할 필요가 있다.
-4. **Reader guidance** — 독자가 무엇에 주목하며 논문을 읽어야 하는지. 연구의 주요 대목과 전략을 안내한다. "In Sec. 2 we describe …" 같은 구성 안내도 그 한 방식이다.
-5. **Summary preview** — 핵심 결과를 간결히 제시한다. 초록과는 차별화된 함의를 띤다.
-
-Whitesides는 아웃라인 단계에서 서론 첫 1-2단락을 완전한 문장으로 써 두고, 특히 첫 문장에 연구의 목표와 중요성을 간결하게 담으라고 권한다. 다섯 요소는 서론 전체가 갖출 내용으로 제시하며, 모두를 첫 두 단락에 넣으라는 배치 기한은 두지 않는다.
-
-5요소는 심사위원의 시점에서 reverse-read로 점검한다. 자기 서론 전체에서 다섯 칸에 해당하는 내용을 한 줄씩 추출해 본다. Reader guidance는 섹션 순서뿐 아니라 독자가 주목할 대목과 연구 전략을 안내하는 역할도 포함한다.
+이 장은 두 자료를 겹쳐 쓴다. [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767)는 서론에 들어가야 할 요소를 묶어 두었고, [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 6은 서론이 빈틈(gap)을 차례로 좁혀 가는 순서를 보여 준다.
 
 ---
 
-## 23.2 Gap funnel — 3단 중첩
+## 23.1 Whitesides가 꼽은 서론의 요소
 
-5요소가 정적인 자리표라면, gap funnel은 동적인 깔때기다. Mensh & Kording rule 6이 Introduction의 흐름을 세 계단의 빈틈으로 정의했다.
+Whitesides는 논문 개요(outline)에 들어갈 항목을 적으면서(2.3절 항목 4) 서론에 보통 다음 요소가 있어야 한다고 했다. 첫 요소를 뺀 나머지는 원문에서 물음으로 적혀 있다.
 
-- **Field gap**. 분야 전체가 풀지 못한 큰 문제. 한 줄.
-- **Subfield gap**. 그 분야의 specific 영역에서의 한계. 한두 줄.
-- **Paper gap**. 본 논문이 정확히 메우는 빈틈. 한 줄.
-- **→ 기여**. 그 빈틈을 어떻게 메웠는가.
+1. **Objectives** — 이 연구의 목표.
+2. **Justification** — 그 목표가 왜 중요한가.
+3. **Background** — 다른 사람들은 무엇을 어떻게 했는가. 우리는 앞서 무엇을 했는가.
+4. **Guidance to the reader** — 독자는 논문에서 무엇을 눈여겨봐야 하는가. 흥미로운 대목은 어디인가. 우리는 어떤 전략을 썼는가.
+5. **Summary/conclusion** — 독자는 어떤 결론을 기대해야 하는가.
 
-빈틈은 단계마다 좁아진다. field gap은 넓게 시작하고, paper gap에서 한 점으로 수렴한다. 심사위원은 이 깔때기를 따라 내려오면서 "이 논문이 정확히 어디를 메우는가"를 자연스럽게 이해한다.
+같은 항목에서 Whitesides는 서론의 첫 한두 단락을 개요 단계에서 완전한 문장으로 써 두라고 했다. 특히 첫 문장에 공을 들이고, 되도록 그 문장에서 연구 목표를 간결하게 밝히고 그 목표가 왜 중요한지 보이라고 권한다.
 
-학생들이 가장 흔하게 빠뜨리는 칸은 paper gap이다. subfield gap에서 곧장 기여로 건너뛰면 깔때기 한 단이 비고, 심사위원은 "왜 이 방법으로 메웠는가"에 대한 답을 본문 어디서도 얻지 못한다. 가장 좁은 단이 비면 깔때기 전체가 무너진다.
-
----
-
-## 23.3 한국어 서론의 여섯 단계
-
-같은 흐름을 한국어 설명으로 풀어낸 글이 [엄태웅 대표 「영어 못해도 논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net/terry/englishpaperwriting/)의 Introduction 6단이다.
-
-> 1. 큰 문제 — 분야 전체가 푸는 문제.
-> 2. 점진적 스코프 축소 — 그 분야 안에서 본 논문이 향하는 자리.
-> 3. 선행 연구 — 그 자리에서 쌓인 시도들.
-> 4. 한계 — 선행 연구가 풀지 못한 자리.
-> 5. 본 연구 기여 — 한계를 메우는 본 논문의 시도.
-> 6. 논문 구성 — 다음 섹션 안내.
-
-이 6단은 §2의 gap funnel 3단(field → subfield → paper)과 §1의 Whitesides 5요소를 한 절차에 합친 한국어 적용 사례다. 1·2·3·4가 gap funnel을 점진적으로 좁히고, 5가 contribution과 summary preview를 채우며, 6이 Whitesides의 reader guidance 칸을 명시한다. 여기서 6번(논문 구성)은 reader guidance를 구성 안내로 구현한 한 방식이다.
-
-엄태웅 대표는 같은 글에서 정확한 수치는 알 수 없다고 전제한 뒤, 자신의 경험상 많은 논문이 Abstract와 Introduction 단계에서 더 읽을 가치가 있는지 판단된다고 적었다. 이어 두 섹션에 노력의 40-50%를 투자할 가치가 있다고 권한다. 이러한 수치는 엄밀한 표본 조사에서 도출된 통계치라기보다, 저자의 실무적 경험에 기반한 시간 배분 휴리스틱이다. Ch.16 §16.6의 readership-weighted budget(Mensh-Kording rule 9)과 같은 방향의 조언으로 읽는다.
+자기 서론을 점검할 때는 서론 전체에서 각 요소에 해당하는 내용을 한 줄씩 뽑아 본다. 뽑히지 않는 요소가 있으면 그 자리가 비어 있는 것이다. Guidance to the reader 항목에서는 Whitesides의 물음대로 독자가 눈여겨볼 대목과 연구 전략을 알려 주는지 본다.
 
 ---
 
-## 23.4 두 프레임의 매핑
+## 23.2 빈틈을 좁혀 가는 순서
 
-5요소와 gap funnel은 중첩으로 작동한다.
+Mensh와 Kording은 rule 6에서 서론이 지금의 지식이나 방법에 있는 빈틈과 그 빈틈이 왜 중요한지를 드러내야 한다고 했다. 서론은 대개 점점 구체적으로 좁혀지는 단락들로 이루어지고, 그 끝에서 문헌에 무엇이 빠져 있는지 분명히 밝힌 뒤 마지막 단락에서 이 논문이 그 빈틈을 어떻게 메웠는지 요약한다. 두 사람이 든 예는 세포 분화다.
 
-| Whitesides 5요소 | Gap funnel 위치 |
+- **Field gap** — 첫 단락은 세포 분화를 이해하는 일이 왜 중요한지, 그리고 분야가 아직 분화의 계기를 밝히지 못했다는 것을 설명한다.
+- **Subfield gap** — 둘째 단락은 astrocyte라는 특정 세포의 분화에 대해 무엇이 알려지지 않았는지 설명한다.
+- **이 논문이 메울 빈틈** — 셋째 단락은 어떤 유전자가 astrocyte 분화를 이끌 수 있다는 단서를 제시하고, 이 가설이 아직 검증되지 않았다고 밝힌다.
+
+마지막 단락은 따로 다룬다. 두 사람에 따르면 서론의 마지막 단락은 방금 세운 빈틈을 메우는 결과를 간추린다. 초록과 비교하면 맥락을 되풀이할 필요가 없고, 결과는 조금 더 구체적으로 쓰며, 논문의 결론은 짧게 내비치거나 아예 쓰지 않는다.
+
+마지막을 뺀 각 단락도 같은 모양이다. 한두 문장으로 주제를 알려 주고, 관련 문헌에서 알려진 것을 설명한 다음, 이 논문이 중요해지는 "알려지지 않은 것"에 이른다. 두 사람은 서론에 논문의 동기를 넘어서는 폭넓은 문헌 검토가 들어가서는 안 된다고 했다. 빈틈에 초점을 맞춘 서론이면 경험 많은 독자는 주장된 빈틈이 중요한지만 따져 보고도 논문의 중요성을 쉽게 가늠할 수 있다고 덧붙였다.
+
+subfield gap에서 곧장 기여로 건너뛰면 이 논문이 메울 빈틈을 밝히는 단계가 빠진다. 그러면 독자는 기여가 정확히 어느 빈틈을 메우는지 스스로 짐작해야 한다.
+
+---
+
+## 23.3 엄태웅 대표의 서론 순서
+
+[엄태웅 대표의 「영어 못해도 논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net/terry/englishpaperwriting/)은 같은 흐름을 한국어로 설명한다.
+
+> "먼저 Introduction의 시작은 큰 문제제기부터 시작해 본인의 연구 영역까지 점진적으로 스코프를 좁혀오도록 하고, 그런 과정에서 다른 사람들이 문제를 해결해 온 방식을 간략해 설명해주자. 그런 뒤 이들의 한계점과 본인 연구에 대한 필요성을 역설하고, 마지막으로 본 논문의 기여를 요약해주면 (그리고 앞으로 나올 내용의 outline을 그려주면) Introduction은 끝이 난다."
+
+큰 문제에서 시작해 연구 영역으로 좁혀 가며 선행 연구를 소개하고, 그 한계를 짚는 부분은 §23.2의 빈틈 좁히기와 겹친다. 기여 요약은 Whitesides의 summary/conclusion에, 괄호 안의 outline은 섹션 순서를 알려 주는 guidance에 해당한다.
+
+같은 글에서 엄태웅 대표는 "정확한 수치는 알 수 없지만, 추측컨데 90%의 논문은 Abstract과 Introduction을 읽는 단계에서 그 다음을 읽을 가치가 있는지 없는지가 판단되는 것 같다"고 적고, 그래서 "Abstract과 Introduction은 논문을 쓰는데 40~50%의 노력을 투자할 가치가 있다고 생각한다"고 했다. 90%는 저자 스스로 추측이라고 밝힌 수치이고, 40~50%도 "생각한다"로 맺은 저자의 의견이다. Mensh와 Kording이 rule 9에서 제목과 초록에 시간을 더 들이라고 한 것([Ch.18 §18.1](./chapter_18_time_budget.md))과 같은 방향이다. 엄태웅 대표는 또 "우리는 어떤 텍스트북의 Introduction이 아닌 내 논문의 Introduction을 쓰고 있다"는 점을 명심하자며, 세상의 모든 것을 하나도 빠짐없이 다룰 필요는 없다고 했다.
+
+---
+
+## 23.4 두 자료를 맞대기
+
+아래 표는 이 책에서 Whitesides의 요소를 rule 6의 단계에 맞대 본 것이다. 대응은 이 책이 정한 것이다.
+
+| Whitesides의 요소 | rule 6의 단계 |
 |---|---|
-| Background | Field gap + Subfield gap |
-| Justification | Subfield gap → Paper gap |
-| Objectives | Paper gap을 메우려는 시도의 명시 |
-| Summary preview | 기여 |
-| Reader guidance | (구조적 도움말, funnel과 별개 축) |
+| Background | field gap과 subfield gap 단락에서 설명하는 "알려진 것" |
+| Justification | 빈틈이 왜 중요한지 밝히는 부분 |
+| Objectives | 이 논문이 메울 빈틈과 그것을 메우려는 시도 |
+| Summary/conclusion | 마지막 단락의 결과 요약 |
+| Guidance to the reader | 대응하는 단계 없음. 독자가 눈여겨볼 대목과 전략 |
 
-이 매핑이 작업 순서를 정한다. outline 단계에서 gap funnel로 흐름을 결정하고, 초고 단계에서 5요소로 칸을 점검한다. 두 단계를 합치면 한쪽이 다른 쪽을 가린다.
-
----
-
-## 23.5 서론의 사례
-
-[KISS-ICP (Vizzo et al., RA-L 2023)](https://arxiv.org/abs/2209.15397)의 Introduction은 여러 단락에 걸쳐 문제와 접근을 좁혀 간다. 첫 단락은 모바일 로봇에서 odometry가 중요한 이유를 설명하고, ICP 계열 방법이 특정 운동이나 환경을 가정하는 한계를 짚는다. 서로 다른 센서와 환경에서 별도 조정 없이 쓸 수 있는 LiDAR odometry가 부족하다는 것이 이 단락의 문제다. 둘째 단락은 고전적인 point-to-point ICP로 돌아가 같은 parameter 집합을 여러 조건에 쓰겠다는 접근을 제시한다.
-
-5요소도 서론 전체에서 찾아야 한다. Background와 justification은 첫 단락의 기존 방법과 적용 범위 설명에, objective는 둘째·셋째 단락의 접근과 핵심 기여에 나타난다. 셋째 단락의 구성 요소 설명은 독자가 방법에서 주목할 대목을 안내하는 reader guidance로 읽을 수 있다. 넷째 단락은 세 가지 핵심 주장을 열거하고 실험 결과를 예고하는 summary preview를 맡는다. 다음 섹션의 순서를 안내하는 문장과는 구분한다.
-
-발췌와 줄별 분석은 발췌 [`kiss_icp_intro_hook.md`](./excerpts/excerpt_01_kiss_icp_intro_hook.md)에 있다.
+개요를 짤 때는 rule 6의 순서로 단락의 흐름을 정하고, 초고가 나오면 Whitesides의 요소로 빠진 내용이 없는지 점검한다.
 
 ---
 
-## 23.6 흔한 실수 4종
+## 23.5 KISS-ICP의 서론
 
-**첫 문장이 trend 나열로 시작.** "Recently, deep learning has revolutionized …" 류. field gap 대신 모호한 분야 분위기로 시작하면 깔때기가 열리지 않는다. 첫 문장은 문제에서 연다.
+[KISS-ICP (Vizzo et al., RA-L 2023)](https://arxiv.org/abs/2209.15397)의 서론은 여섯 단락으로 문제와 접근을 좁혀 간다. 첫 단락은 odometry 추정이 모르는 환경을 자율 주행하는 모바일 로봇의 기본 구성 요소라고 말한 뒤, 지금의 LiDAR odometry가 대개 ICP를 쓰면서 로봇의 움직임과 환경 구조에 대한 가정에 기대 정확도를 얻는다고 설명한다. 단락 끝에서는 저자들이 아는 한 parameter 조정 없이 여러 센서와 환경, 움직임에서 바로 쓸 수 있는 3D LiDAR odometry가 없다고 밝힌다. 이 문장이 이 논문이 메울 빈틈이다.
 
-**Background가 textbook 분량.** 3단락을 넘어가면 background의 범위를 벗어나 mini-survey로 변질된다. Related Work 섹션이 따로 있다. Introduction의 background는 paper gap을 이해하기 위한 최소량만.
+둘째 단락은 30년 전 Besl과 McKay가 제안한 고전적인 point-to-point ICP로 돌아가, 설정 하나로 여러 환경과 센서 해상도, 움직임에 쓸 수 있게 하겠다는 목표를 밝힌다. 셋째 단락은 feature 추출, 학습, loop closure를 쓰지 않고도 같은 parameter로 여러 시나리오에서 동작한다고 말한다. 넷째 단락은 주요 기여를 정리하고, 다섯째 단락은 세 가지 핵심 주장을 내놓는다. 마지막 단락은 공개 구현의 주소를 알려 준다.
 
-**Reader guidance 누락.** "In Sec. 2 we …" 한 단락이 통째로 빠진 Introduction이 흔하다. Whitesides가 5요소에 명시적으로 박아 둔 칸이다. 한 단락 또는 한 문장이라도 들어가야 한다.
+Whitesides의 요소로 보면 background와 justification은 첫 단락에, objective는 둘째 단락에 있다. 넷째 단락은 저자들이 무엇을 눈여겨보라고 하는지(핵심 구성 요소와 adaptive threshold)를 알려 주므로 guidance to the reader로 읽을 수 있다. 다섯째 단락의 세 주장은 실험에서 무엇을 보일지 미리 알려 주는 summary/conclusion에 해당한다. 이 서론에는 다음 섹션의 순서를 안내하는 문장이 없다.
 
-**Objective와 기여가 같은 표현으로 반복.** 첫 단락의 objective 문장과 기여 절의 첫 항이 동일한 어구이면 둘 중 하나가 잉여다. objective는 시도를, contribution은 결과를 적는다.
+발췌와 문장별 분석은 [`kiss_icp_intro_hook.md`](./excerpts/excerpt_01_kiss_icp_intro_hook.md)에 있다.
 
 ---
 
-**출처.** [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 6 — 점점 구체화되는 gap 구조. [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) §II–§III — 5요소와 first-paragraph-in-full 권고. [Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) — 1st pass의 읽기 순서. [엄태웅 대표 「논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net/terry/englishpaperwriting/) — Introduction 흐름과 40-50% 투자 권고. 두 프레임 간의 유기적 연결과 KISS-ICP 적용 분석은 본 장에서 새롭게 엮어낸 부분이다.
+## 23.6 흔한 실수
+
+**첫 문장을 유행 이야기로 연다.** "Recently, deep learning has revolutionized …" 같은 문장이다. Whitesides는 되도록 첫 문장에서 연구 목표와 그 중요성을 밝히라고 했고, rule 6의 예에서도 첫 단락은 분야의 빈틈을 말한다.
+
+**Background가 교과서처럼 길다.** 선행 연구를 분류하고 비교하는 일은 Related Work 섹션이 맡는다([Ch.24](./chapter_24_related_work.md)). 서론의 background는 이 논문이 메울 빈틈을 이해하는 데 필요한 만큼만 쓴다.
+
+**독자가 눈여겨볼 대목을 알려 주지 않는다.** 섹션 순서를 안내하는 "In Sec. 2 we …" 단락은 분야와 학회 관행에 따라 넣기도 하고 빼기도 한다. KISS-ICP처럼 이 단락이 없는 서론도 있다. 이 단락이 있든 없든 Whitesides가 guidance to the reader로 꼽은 내용, 곧 흥미로운 대목과 연구 전략이 서론 어딘가에 있는지 확인한다.
+
+**목표와 기여를 같은 말로 되풀이한다.** 첫 단락의 목표 문장과 기여 목록의 첫 항이 같은 표현이면 둘 중 하나는 군더더기다. 기여 목록에는 실제로 이룬 결과를 적어 목표 문장과 겹치지 않게 한다.
+
+---
+
+**출처.** [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 6 — 점점 구체적으로 좁혀지는 빈틈, 서론 마지막 단락의 구실, 폭넓은 문헌 검토를 넣지 말라는 권고. [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) 2.3절 항목 4 — 서론의 요소와 첫 한두 단락을 완전한 문장으로 쓰라는 권고. [Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) §2.1 — first pass의 순서. [엄태웅 대표 「영어 못해도 논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net/terry/englishpaperwriting/) Introduction 절 — 서론의 순서, 90% 추측과 40~50% 권고. [Vizzo et al. 2023](https://arxiv.org/abs/2209.15397) §I. 두 자료를 맞댄 표와 KISS-ICP 분석은 이 장에서 정리했다.
 
 다음: [Ch.24 — Related Work: 분류와 비판의 자리](./chapter_24_related_work.md)

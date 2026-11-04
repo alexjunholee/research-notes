@@ -1,22 +1,22 @@
 # Ch.20 — 정보가 담긴 소제목과 결론 ≠ 요약
 
-논문 본문을 끝까지 읽는 독자는 소수다. 다수는 소제목만 훑고 그림으로 내려간다. 그들에게 논문의 핵심 메시지를 전달하려면 소제목 자체가 주장을 담아야 한다. [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) §III가 이 점을 정면으로 짚는다.
+논문 본문을 끝까지 읽지 않고 소제목을 훑은 뒤 그림으로 내려가는 독자도 있다. 이런 독자에게 논문의 핵심 메시지를 전하려면 소제목에 주장이 담겨 있어야 한다. [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767)는 2.3절에서 소제목을 되도록 구체적이고 정보가 많게 쓰라고 권했다.
 
 ---
 
 ## 20.1 소제목에 주장이 필요한 이유
 
-훑어 읽는 독자는 본문보다 소제목과 그림 캡션을 먼저 볼 수 있다. 이 독자에게 "Loop Closure Experiments"라는 소제목은 실험 주제만 알려 준다. 같은 곳에 "Loop closure recall improves 14% with multi-scale BEV"가 들어가면 그 한 줄로 핵심 메시지가 전달된다. 여기와 아래 표에 제시된 수치는 주장이 담긴 소제목의 문장 구조를 설명하기 위한 예시 데이터다.
+훑어 읽는 독자는 본문보다 소제목과 그림 캡션을 먼저 본다. 이 독자에게 "Loop Closure Experiments"라는 소제목은 실험 주제만 알려 준다. 같은 자리에 "Loop closure recall improves 14% with multi-scale BEV"를 쓰면 한 줄로 핵심 결과가 전해진다. 이 예와 아래 표의 수치는 소제목의 문장 구조를 보여 주려고 만든 가상의 값이다.
 
-소제목이 모이면 논문의 목차이자 골격이 된다. Whitesides가 §III에 적은 권고를 다른 표현으로 옮기면 "소제목만 읽어도 논문의 핵심 메시지를 재구성할 수 있어야 한다"가 된다. 이 조건이 깨진 논문은 훑어 읽는 단계에서 reject 사유를 만든다.
+Whitesides는 Results & Discussion을 주요 주제별로 나누고 굵은 소제목을 달라고 했다. 그래야 구성이 분명해지고, 독자가 원고를 훑으며 관심 있는 부분을 찾을 수 있다. 그가 든 예에서 "The Rate of Self-Exchange Decreases with the Polarity of the Solvent"는 "Measurement of Rates"보다 길지만 독자에게 훨씬 쓸모 있다. [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619)의 rule 7도 결과가 주장을 받치는 논리를 서술문의 연속으로 바꿔 Results의 소제목으로 쓰라고 권한다. 이렇게 쓴 소제목을 모으면 소제목만 읽어도 논문의 논리를 따라갈 수 있다.
 
-topic-style heading("Network Architecture", "Ablation Study")은 분야의 관행으로 굳어 있어 거부감이 적다. 다만 그 관행이 정보 전달의 기회를 놓치고 있다는 진단이 Whitesides의 입장이다.
+"Network Architecture", "Ablation Study" 같은 주제형 소제목은 분야에서 관행으로 굳어 있어 낯설지 않다. Whitesides가 든 예에도 "Synthesis of Alkane Thiols"처럼 주제만 밝힌 소제목이 섞여 있다. 결과를 다루는 소제목이라면 주장을 담을 수 있는지 먼저 따져 본다.
 
 ---
 
 ## 20.2 Before / After 5쌍
 
-로보틱스 분야 헤딩 5쌍을 비교하면 패턴이 보인다.
+로보틱스 논문에서 볼 법한 소제목 다섯 쌍을 비교한다.
 
 | Before (topic) | After (claim) |
 |---|---|
@@ -26,49 +26,47 @@ topic-style heading("Network Architecture", "Ablation Study")은 분야의 관�
 | Network Architecture | **A two-branch encoder separates appearance from geometry** |
 | Dataset and Metrics | **We evaluate on KITTI-360 and VIVID with rotation/translation error** |
 
-After 쪽 다섯 헤딩의 공통점은 동사와 대상이 명시되어 있다는 점이다. "improves 14%", "degrades RTE by 38%", "matches at 1/3 runtime", "separates appearance from geometry"가 한 줄에 박혔다. 동사가 빠진 명사구만 남으면 헤딩은 정보를 잃는다.
+After 쪽 소제목에는 모두 동사와 대상이 있다. "improves 14%", "degrades RTE by 38%", "matches LIO-SAM accuracy at 1/3 the runtime", "separates appearance from geometry"가 각각 한 줄에 들어 있다. 동사 없이 명사구만 남으면 소제목은 주제만 알려 준다.
 
 ---
 
 ## 20.3 작성 절차 3단계
 
-claim-style 헤딩 한 줄을 만드는 절차는 다음과 같다.
+주장을 담은 소제목 한 줄은 다음 순서로 만든다.
 
-1. 본문 핵심 결론을 한 문장으로 적는다.
-2. SVO로 다듬고, 명사구 안의 수식 관계도 확인한다. Whitesides §III의 '명사의 형용사적 용법 지양' 규칙에 따라, 가령 "ATP formation" 대신 전치사구를 활용한 "formation of ATP" 형태를 권장한다.
-3. venue template와 지면 폭 안에서 한 줄로 읽히도록 줄인다. 60-80자를 초안의 출발 범위로 둘 수 있지만 보편적인 길이 규칙은 아니다. 숫자보다 claim의 완결성과 같은 층위 헤딩의 평행성을 먼저 본다.
+1. 해당 섹션 본문의 핵심 결론을 한 문장으로 적는다.
+2. 주어-동사-목적어 구조로 다듬고, 명사구 안의 수식 관계도 확인한다. Whitesides는 3절 "Some Points of Style"에서 명사를 형용사처럼 쓰지 말라고 했다. "ATP formation" 대신 "formation of ATP"로 쓰라는 예를 들었다.
+3. 학회 템플릿의 지면 폭 안에서 한 줄로 읽히게 줄인다. 60-80자를 초안의 출발 범위로 잡아 볼 수 있지만 정해진 규칙은 없다. 길이보다 주장이 완결됐는지, 같은 층위의 소제목들과 형식이 맞는지를 먼저 본다.
 
-이 절차는 outline iteration 4-5회차에 들어가는 작업이다. 1-3회차에서는 헤딩이 placeholder로 남아 있어도 된다. claim-style로 다듬는 작업은 본문 결론이 안정된 뒤에야 비로소 의미가 있다.
+이 작업은 [Ch.17](./chapter_17_outline_first.md)에서 나눈 outline 반복의 4-5회차에 한다. 1-3회차에는 소제목을 임시로 두어도 된다. 본문의 결론이 정해져야 소제목에 담을 주장도 정해진다.
 
 ---
 
 ## 20.4 Conclusions ≠ Summary
 
-Conclusions 섹션에 Results의 숫자를 다시 나열하는 패턴이 가장 흔한 결함이다. "In summary, we showed A, B, and C."로 시작하는 Conclusions는 abstract와 Results에 이미 있는 정보를 한 번 더 반복한다. 독자에게 새 정보가 0이다.
+Conclusions 섹션에서 흔한 결함 하나는 Results의 숫자를 다시 늘어놓는 것이다. "In summary, we showed A, B, and C."로 시작하는 Conclusions는 초록과 Results에 이미 있는 정보를 되풀이할 뿐이어서 독자가 새로 얻는 것이 없다.
 
-Whitesides가 §III에 적은 정의는 명확하다. Conclusions는 higher-level analysis다. 결과들이 합쳐 무엇을 말하는지, 분야에 어떻게 기여하는지, 어떤 가설이 살아남고 어떤 가설이 죽었는지가 들어간다. 각 항목은 간결한 구의 형태로 작성하되, 단순한 사실 나열을 넘어 새로운 학술적 통찰을 온전히 담아내야 한다.
+Whitesides는 2.3절에서 Conclusions를 이렇게 정의했다. outline 단계에서는 결론을 짧은 구나 문장의 목록으로 정리한다. Results에 있는 내용은 특별히 강조할 때가 아니면 되풀이하지 않는다. Conclusions에는 말 그대로 결론을 쓰고, 한 단계 높은 분석을 더하고 연구의 의의를 분명히 밝혀야 한다. 그 앞의 2.2절에서는 outline에 적은 생각을 Introduction, Results and Discussion, Conclusions로 나누면서 Conclusions에 들어갈 질문으로 "What does it all mean? What hypotheses were proved or disproved? What did I learn? Why does it make a difference?"를 꼽았다.
 
-Discussion 섹션이 별도로 있는 논문이라면 Conclusions는 더 짧아질 수 있다. 3-5개의 짧은 요점을 초안 출발값으로 삼을 수 있지만 venue 형식과 기여 수에 따라 달라진다. Discussion이 없는 형식이라면 Conclusions가 해석과 한계까지 흡수해 길어진다. 어느 쪽이든 Results의 숫자만 되풀이하는 요약에 머물러서는 안 된다.
+Discussion 섹션이 따로 있는 논문이라면 Conclusions는 짧아도 된다. 짧은 요점 3-5개에서 시작해 볼 수 있고, 학회 형식과 기여의 수에 따라 조정한다. Discussion이 없는 형식이라면 Conclusions가 해석과 한계까지 맡아 길어진다. 어느 경우든 Results의 숫자를 되풀이하는 데서 멈추지 않는다.
 
 ---
 
 ## 20.5 흔한 실수
 
-Conclusions·heading 양쪽에서 반복되는 실수는 다음과 같다.
+Conclusions와 소제목에서 되풀이되는 실수는 다음과 같다.
 
-- "In summary, we showed A, B, and C." — A·B·C는 이미 abstract와 Results에 있다. 한 단계 위로 올라가지 않았다.
-- Conclusions에 future work 한 줄만 달랑 쓰는 경우 — higher-level analysis가 비어 있다. future work는 Conclusions의 마지막 구에만 들어간다.
-- 헤딩 길이가 들쭉날쭉한 경우 — 한 섹션 안에 10자 헤딩과 90자 헤딩이 섞이면 평행성이 깨진다. 같은 스케일의 헤딩은 길이가 비슷해야 skim에서 리듬이 살아난다.
-- claim-style 헤딩에서 동사가 빠지는 경우 — "BEV-based Loop Closure"는 명사구다. claim이 되려면 동사가 들어가야 한다.
+- Conclusions에 future work 한 줄만 적는다. 한 단계 높은 분석이 빠져 있다. future work는 분석 뒤에 덧붙인다.
+- 소제목 길이가 들쭉날쭉하다. 한 섹션 안에 10자짜리와 90자짜리 소제목이 섞이면 형식이 맞지 않아 훑어 읽기 어렵다. 같은 층위의 소제목은 길이를 비슷하게 맞춘다.
 
 ---
 
 ## 20.6 점검 절차
 
-claim-style 헤딩은 본문 한 섹션에서 결론 문장을 먼저 추출한 뒤 만든다. 그 문장을 SVO로 다듬고, 길이 제약 안에서 잘라 내며, 같은 섹션 안의 헤딩 길이와 문장 구조를 맞춘다. outline iteration 후반부에서 사람이 손으로 반복해야 하는 절차다.
+주장을 담은 소제목은 본문 섹션에서 결론 문장을 먼저 뽑은 뒤에 만든다. 그 문장을 주어-동사-목적어 구조로 다듬고, 길이 제약에 맞춰 줄이고, 같은 섹션 안 다른 소제목과 길이와 문장 구조를 맞춘다. outline 반복의 후반부에 사람이 직접 되풀이해야 하는 작업이다.
 
 ---
 
-**출처.** [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) §III (information-rich subheadings, conclusions as higher-level analysis). [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 7 (declarative statements, 보조). 로보틱스 분야를 위한 5쌍의 소제목 대비 예시는 본문에서 독자적으로 재구성한 자료다.
+**출처.** [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) 2.2절(Conclusions에 들어갈 질문), 2.3절(정보가 담긴 소제목, 요약이 아닌 결론), 3절(명사를 형용사로 쓰지 않기). [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 7 (서술문 소제목). 로보틱스 소제목 다섯 쌍과 그 수치는 이 책에서 만든 예시다.
 
 다음: [Ch.21 — 문단 흐름](./chapter_21_paragraph_flow.md)

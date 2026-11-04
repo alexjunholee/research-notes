@@ -23,31 +23,31 @@ Introduction 세 번째 단락의 degradation 진술 일부:
 
 ## 한국어 의역
 
-깊은 신경망은 학습하기가 더 어렵다. 이 논문은 지금까지보다 훨씬 깊은 망을 쉽게 학습하기 위한 residual learning 골격을 내놓는다. 여기서 한 질문이 자연스럽게 따라온다. 더 좋은 망을 만드는 일이 단순히 층을 더 쌓는 일만큼 쉬운가? 이 질문에 답하기 어려웠던 까닭은 잘 알려진 vanishing/exploding gradient 문제였다. 그런데 normalization 기법으로 그 문제를 어느 정도 푼 뒤에도 깊이가 늘어나자 정확도가 포화된 뒤 떨어지는 현상이 관찰됐다. 학습이 수렴하기 시작한 뒤에도 깊은 망의 학습 오류가 얕은 망보다 높아지는 최적화 문제가 남았다. 이 현상이 overfitting과 다르다는 지점에서 논문이 출발한다.
+깊은 신경망은 학습시키기가 더 어렵다. 저자들은 이전보다 훨씬 깊은 망을 쉽게 학습시키는 residual learning framework를 내놓는다. 깊이가 중요하다는 데서 질문이 하나 생긴다. 층을 더 쌓기만 하면 더 좋은 망을 학습시킬 수 있는가? 이 질문에 답하는 데 걸림돌이던 것이 잘 알려진 vanishing/exploding gradient 문제였다. 이 문제 때문에 학습이 처음부터 수렴하지 않았다. 그런데 normalized initialization과 중간 normalization layer로 이 문제가 대체로 풀려 수십 층짜리 망도 수렴하기 시작하자, 이번에는 degradation 문제가 드러났다. 깊이가 늘면 정확도가 포화되고 그다음에는 빠르게 떨어진다. 뜻밖에도 이 저하는 overfitting 때문이 아니었다. 적당히 깊은 모델에 층을 더하면 학습 오류가 오히려 높아졌다.
 
 ---
 
 ## 분석 — 왜 이 표현이 좋은가
 
-KISS-ICP가 we move in the opposite direction이라는 평서문으로 자세를 바꿨다면, ResNet은 수사적 질문을 썼다. Is learning better networks as easy as stacking more layers? 이 한 문장이 분야의 기본 가정을 질문으로 드러내고, 다음 문장이 그 가정이 깨지는 지점을 짚는다. Mensh-Kording 규칙 6의 분야 통증 → 기존 한계 → 우리 접근 골격이 평서문 세 박자 대신 질문 + 장애물 + 반전의 세 박자로 바뀐 사례다. 자기 분야의 기본 가정을 직접 부정하기 어렵다면 그 가정을 질문으로 던지는 우회로를 쓸 수 있다.
+ResNet의 서론은 분야가 당연하게 여기던 가정을 질문으로 꺼낸다. "Is learning better networks as easy as stacking more layers?" 바로 다음 문장은 그 질문에 답하기 어려웠던 이유로 vanishing/exploding gradient를 들고, 그 장애가 normalization으로 대체로 풀렸다고 말한다. 장애가 풀린 뒤에 드러난 것이 degradation이다. 질문, 장애, 장애가 풀린 뒤 드러난 문제가 차례로 놓여 있어서 독자가 논문이 어떤 문제를 푸는지 서론 둘째·셋째 단락에서 알 수 있다. 분야의 기본 가정을 정면으로 부정하기 어려울 때는 이렇게 질문으로 던져 볼 수 있다.
 
-두 번째 강점은 degradation problem이라는 이름이다. 깊은 망의 정확도 저하는 직관적으로 overfitting으로 진단하기 쉽지만, 저자들은 그 라벨을 명시적으로 거부한다. Unexpectedly, such degradation is not caused by overfitting. 기존 진단으로 설명할 수 없는 현상에 별도 이름을 붙이면 기여가 분명해진다. 이 구분을 뒷받침하는 것은 이름 자체가 아니라, 깊은 망에서 학습 오류까지 높아진다는 실험 결과다. 저자들은 이를 최적화 문제로 다루고 residual mapping을 제안한다. regularization이나 dropout의 효과도 이름만으로 판단할 수는 없다. 새로운 현상을 발견했다면 이름을 붙이고 기존 라벨에서 분리해야 그 현상을 자신의 연구 문제로 다룰 수 있다.
+degradation을 overfitting과 갈라놓은 것도 중요하다. 깊은 망의 정확도가 떨어지면 overfitting을 먼저 의심하기 쉽다. 저자들은 "Unexpectedly, such degradation is not caused by overfitting"이라고 쓰고, 층을 더하면 학습 오류까지 높아진다는 근거를 댄다. 이 현상은 앞선 연구 [11, 42]도 보고했고 저자들의 실험으로도 확인했다고 밝힌다. 학습 오류가 높아진다는 사실이 있어야 overfitting과 다른 문제라고 말할 수 있다. 저자들은 다음 단락에서 이것을 "not all systems are similarly easy to optimize"라는 최적화 문제로 풀고 residual mapping을 제안한다. 기존 진단으로 설명되지 않는 현상을 기존 이름과 떼어 놓으면, 그 현상을 자기 연구 문제로 다룰 수 있다.
 
-문장 첫머리 신호의 활용도 눈여겨볼 만하다. Unexpectedly가 문장 맨 앞에 놓여 다음 절의 명제 전체에 무게를 싣는다. 예상과 다르다는 신호를 문두에 먼저 제시한 다음, degradation 현상이 overfitting과 무관하다는 핵심 명제를 뒤이어 배치한다. 같은 정보를 Such degradation, surprisingly, is not caused by overfitting으로 풀어쓰면 surprisingly가 쉼표 사이에 묻혀 신호가 약해진다. Gopen과 Swan이 강조한 reader expectation을 단어 수준에서 적용한 사례다.
+"Unexpectedly"는 문장 맨 앞에 와서 뒤에 오는 진술이 예상과 다르다고 먼저 알린다. 같은 내용을 "Such degradation, surprisingly, is not caused by overfitting"으로 쓰면 부사가 쉼표 사이에 끼어 덜 눈에 띈다. 바로 앞 문장의 괄호 "(which might be unsurprising)"이 정확도 포화는 놀랍지 않을 수 있다고 미리 말해 두었기 때문에, "Unexpectedly"가 가리키는 대상이 분명해진다.
 
-수치의 배치는 ORB-SLAM과 마찬가지로 비대칭이다. 통증은 학습이 어렵다는 진술과 degradation이라는 짧은 라벨로 압축하고, 기여 쪽에는 substantially deeper, 152 layers, 8x deeper than VGG, ImageNet 앙상블의 top-5 test error 3.57% 같은 구체적인 수치를 쌓는다. 통증은 단어 두세 개로 끝내고 기여는 수치로 받친다. 통증 서술이 불필요하게 길어지면 독자에게 문제의 심각성을 납득시키기 어렵다. 아울러 기여를 모호한 형용사로만 둘러대면 실질적인 효용을 입증하기 어렵다. ResNet은 두 부분의 무게를 단단하게 나눴다.
+초록은 문제를 짧게 말하고 기여를 수치로 받친다. 문제는 "Deeper neural networks are more difficult to train" 한 문장이다. 기여 쪽에는 152 layers, "8× deeper than VGG nets", ImageNet test set에서 앙상블 오류 3.57%, ILSVRC 2015 분류 1위, CIFAR-10의 100층과 1000층 분석이 나온다. "substantially deeper"라는 형용사 뒤에 이 수치들이 따라온다.
 
-마지막은 자세다. We present a residual learning framework to ease the training은 새 발명을 제안하기보다 학습을 수월하게 만드는 골격을 내놓는다고 말한다. propose 대신 present를, 거창한 novel 대신 완곡한 to ease를 택한 문장이다. 한발 물러나 시작한 뒤 본문의 기여에서는 단정성을 회복하는 비대칭이 ORB-SLAM의 Building on excellent algorithms와 같은 형태다. 겉의 어조는 점잖게 두되 기여는 단정적으로 진술하는 안전한 기본값을 보여 준다.
+초록 둘째 문장 "We present a residual learning framework to ease the training"은 학습을 쉽게 하는 framework를 내놓는다고 말한다. 바로 다음 문장에서는 "We explicitly reformulate the layers as learning residual functions"라고 무엇을 했는지 분명히 말하고, "We provide comprehensive empirical evidence"로 근거를 예고한다.
 
 ---
 
 ## 따라 쓰기 — 자기 분야에 적용
 
-질문 + 장애물 + 반전된 이름이 세 박자의 골격을 이룬다. "Driven by [분야의 기본 가정], a question arises: [그 가정이 정말 작동하는가]? An obstacle to this question is [기존 라벨]. Unexpectedly, [기존 라벨로 설명되지 않는 현상이 있다] — and we name it [coined term]." 분야의 기본 가정을 직접 부정하기 어려울 때는 그 가정을 질문으로 던진다. 이어 기존 라벨이 설명하지 못하는 지점을 짚고 본인의 coined term으로 이름 붙인다. 그 이름이 분야의 통증을 본인의 기여로 연결한다.
+서론의 문제 제기는 이렇게 짜 볼 수 있다. "Driven by [분야의 기본 가정], a question arises: [그 가정이 정말 성립하는가]? An obstacle to answering this question was [기존에 알려진 장애]. [그 장애가 풀린 뒤], [기존 진단으로 설명되지 않는 현상] has been exposed. Unexpectedly, [그 현상은 기존 원인 때문이 아니다], [근거]." 이 현상에 이름이 없다면 이름을 붙이고, 기존 원인과 다르다는 근거를 함께 댄다.
 
-Unexpectedly 같은 부사를 문장 첫머리에 두면 새 현상에 독자의 주의를 모을 수 있다. 다만 한 단락에서는 한 번만 쓰는 편이 안전하다. 두 번 이상 나오면 모든 것이 예상 밖이 되어 신호가 사라진다.
+"Unexpectedly" 같은 부사를 문장 첫머리에 두면 새 현상에 독자의 눈길을 모을 수 있다. 한 단락에 한 번만 쓴다. 여러 번 쓰면 무엇이 정말 예상 밖인지 흐려진다.
 
-ResNet은 학습의 어려움을 짧게 제시한 뒤 초록에서 깊이와 분류 오류율 등의 수치를 제시한다. ORB-SLAM은 시스템의 기능과 27개 평가 시퀀스를 제시한다. 두 논문이 모두 기여 단락에 수치 3~5개를 배치한다는 공통 규칙으로 읽지는 않는다. 형용사가 아니라 수치로 받치는 방식이다. substantially deeper가 연구 배경과 겸손한 태도를 드러내는 표현이라면, 152 layers는 실질적 기여를 입증하는 정량적 증거에 해당한다. 두 영역의 무게를 잘못 나누면 일부 문장이 과대주장으로 읽힌다.
+초록에서는 문제를 짧게 말하고 기여는 수치로 받친다. ResNet은 깊이, 기준 모델과의 비교, 오류율, 대회 결과를 댔고, ORB-SLAM은 시스템의 기능과 27개 평가 sequence를 댔다. 수치가 몇 개여야 한다는 규칙은 없다. "substantially deeper" 같은 형용사를 썼다면 "152 layers" 같은 수치가 뒤따르는지 확인한다. 수치 없이 형용사만 남으면 과장으로 읽힐 수 있다.
 
 ---
 

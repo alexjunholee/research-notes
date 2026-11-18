@@ -1,111 +1,105 @@
-# Ch.4 — 연구와 작업을 구분하는 법
+# 4장 연구와 작업을 구분하는 법
 
-[Ch.3 (주도권의 이동)](./chapter_03_ownership_shift.md)에서 보고 방식과 주고받는 단위가 학생 쪽으로 옮겨 오면, 책상 위의 일을 내 일이라 부를 수 있게 된다. 이때부터는 다른 데서 막힌다. 매일 코드를 짜고, system을 tuning하고, 새 dataset을 돌려도, 그 일이 연구인지 그냥 작업인지 감이 오지 않는다. 손에 쥔 일이 의미가 있으려면 그 일이 새 지식을 만드는지 따져 볼 방법이 있어야 한다.
-
-[Ch.2 (문제 정의)](./chapter_02_feynman_problem.md)에서 좁힌 problem statement를 여기에 대 본다.
+보고하는 말과 아웃라인의 주도권이 학생 쪽으로 넘어오면, 책상 위의 일을 비로소 내 연구라 부를 수 있게 된다. 하지만 주도권을 쥐었다고 해서 막막함이 모두 사라지지는 않는다. 매일 코드를 짜고, 시스템을 튜닝하고, 새 데이터셋을 돌려 성능을 올려도 문득 '내가 지금 하고 있는 게 진짜 연구가 맞나, 아니면 그냥 손이 바쁜 작업인가' 하는 의문이 고개를 든다. 손에 쥔 일이 학술적 의미를 가지려면 그 일이 새로운 지식을 만들어 내는지 가늠할 잣대가 있어야 한다. 2장에서 좁혀 둔 [problem statement](./chapter_02_feynman_problem.md)를 바로 이 잣대에 대 볼 차례다.
 
 ---
 
 ## 4.1 작업, 목표, 목적: task / objective / goal
 
-[권창현 교수](https://gradschoolstory.chkwon.net/changhyun/%ec%a7%80%ea%b8%88-%ed%95%98%ea%b3%a0-%ec%9e%88%eb%8a%94-%ea%b2%8c-%ec%97%b0%ea%b5%ac%ec%9d%b8%ea%b0%80-%ec%95%84%eb%8b%8c%ea%b0%80/)는 「지금 하고 있는 게 연구인가, 아닌가?」에서 *A Manual for Writers of Research Papers, Theses, and Dissertations*의 "연구 주제에 대해 삼단계로 말해보기"를 소개한다. "저는 X라는 주제에 대해 공부하고 있습니다." "왜냐하면, 저는 왜 Y인지 알고 싶거든요." "그러면, 제가 다른 사람들이 왜 Z인지 이해할 수 있게 도와줄 수 있거든요." 권창현 교수는 이 세 단계를 각각 작업(task), 목표(objective), 목적(goal)이라고 부른다.
+[권창현 교수](https://gradschoolstory.chkwon.net/changhyun/%ec%a7%80%ea%b8%88-%ed%95%98%ea%b3%a0-%ec%9e%88%eb%8a%94-%ea%b2%8c-%ec%97%b0%ea%b5%ac%ec%9d%b8%ea%b0%80-%ec%95%84%eb%8b%8c%ea%b0%80/)는 「지금 하고 있는 게 연구인가, 아닌가?」에서 *A Manual for Writers of Research Papers, Theses, and Dissertations*에 실린 '연구 주제를 세 단계로 말해 보기' 틀을 소개한다. "저는 X라는 주제에 대해 공부하고 있습니다." "왜냐하면, 저는 왜 Y인지 알고 싶거든요." "그러면, 제가 다른 사람들이 왜 Z인지 이해할 수 있게 도와줄 수 있거든요." 그는 이 세 문장을 각각 **작업(task)**, **목표(objective)**, **목적(goal)**이라는 세 층위로 구분한다.
 
-- **task**는 연구에 필요한 활동이다. 개발, 설계, 최적화 같은 일이다. 코드 한 줄, 실험 한 번, 그림 한 장이 여기 들어간다.
-- **objective**는 연구 결과로 얻는 새 지식이다. 예를 들어 "BEV feature가 야간 loop closure에 효과가 있는지 밝힌다"가 objective다.
-- **goal**은 objective를 이루어 다가가려는 궁극적인 방향이다. 예를 들어 "로봇이 오랜 기간 스스로 움직이게 하는 것(long-term autonomy)"이 goal이 될 수 있다.
+- **task**는 연구를 수행하기 위해 손으로 하는 활동이다. 코드 개발, 시스템 설계, 파라미터 최적화, 실험 한 번, 그림 한 장이 모두 여기에 속한다.
+- **objective**는 그 활동을 통해 새롭게 얻어 내려는 지식이다. 예컨대 "BEV feature가 야간 loop closure 성능을 높이는지 밝힌다" 같은 명제가 objective가 된다.
+- **goal**은 그 objective를 달성해 궁극적으로 다가가려는 큰 방향이다. 예컨대 "로봇이 오랜 기간 스스로 움직이는 장기 자율 주행(long-term autonomy)" 같은 비전이 goal에 해당한다.
 
-권창현 교수는 대학원생이 주로 첫 단계에 모든 시간을 쓰고 그것만으로도 벅차다고 쓴다. 그러면서 objective와 goal을 종종 생각하며 연구하면 크게 도움이 될 것 같다고 덧붙인다. 1년 동안 한 작업을 논문 한 편으로 묶으려면 task 위에 objective가 있어야 한다. 그 논문이 분야에 왜 필요한지 답하려면 objective가 goal로 이어져야 한다.
+대학원생은 하루 일과의 대부분을 첫 번째 단계인 task에 쏟아붓고 그 일만으로도 숨이 차기 마련이다. 하지만 권창현 교수가 짚듯, 틈틈이 objective와 goal을 함께 떠올리며 일해야 연구가 제 궤도를 벗어나지 않는다. 1년 동안 땀 흘려 쌓은 task를 논문 한 편으로 엮으려면 그 위에 단단한 objective가 서 있어야 하고, 그 논문이 왜 이 분야에 필요한지 독자를 설득하려면 objective가 다시 더 큰 goal로 이어져야 하기 때문이다.
 
-권창현 교수는 NSF의 George Hazelrigg가 쓴 "Honing Your Proposal Writing Skills"도 인용한다. Hazelrigg는 심사위원에게 "not research"로 읽히는 낱말로 "develop", "design", "optimize", "control", "manage" 등을 꼽았다. 이런 동사는 task를 가리킨다. objective가 되려면 무엇을 새로 알아낼지가 붙어야 한다. SLAM system을 개발하는 일은 공학적 성과다. 연구 기여가 되려면 그 system으로 SLAM에 대한 어떤 명제를 검증해야 한다.
+그는 미국 국립과학재단(NSF)의 George Hazelrigg가 쓴 "Honing Your Proposal Writing Skills"를 함께 인용하며 이 경계를 한층 또렷하게 그린다. Hazelrigg는 과제 제안서에서 심사위원 눈에 "연구가 아닌 것(not research)"으로 읽히기 쉬운 동사로 "develop", "design", "optimize", "control", "manage" 등을 꼽았다. 이 동사들은 모두 task를 가리킨다. 연구의 objective가 되려면 무언가를 만들었다거나 최적화했다는 말에 그치지 않고, 그 과정에서 무엇을 새롭게 알아낼지가 붙어야 한다. SLAM 시스템을 훌륭히 개발하는 일은 가치 있는 공학적 성과지만, 그것이 학술적 연구 기여가 되려면 그 시스템을 통해 SLAM의 어떤 원리나 가설을 검증해야 한다.
 
 ---
 
-## 4.2 정글 탐험가 비유
+## 4.2 연구 목표를 정글 탐험에 빗대기 (Hazelrigg)
 
-task, objective, goal의 구분은 추상적이다. [최윤섭 박사](https://gradschoolstory.chkwon.net/yoonsup/what-phd-means/)는 「박사 학위라는 것의 의미」에서 같은 이야기를 한 장면으로 보여 준다. 박사 말년 차에 궁금한 것이 생겨 논문을 아무리 뒤져도 답이 없었는데, 생각해 보니 그 답은 지구상의 누구도 가지고 있지 않았다고 한다.
+task, objective, goal의 구분이 다소 추상적으로 느껴진다면, [최윤섭 박사](https://gradschoolstory.chkwon.net/yoonsup/what-phd-means/)가 「박사 학위라는 것의 의미」에서 들려준 한 장면을 떠올려 보면 좋다. 박사 말년 차에 연구하다 문득 궁금한 점이 생겨 논문을 아무리 뒤져도 답이 나오지 않았는데, 가만히 생각해 보니 그 답을 아는 사람이 지구상에 아직 아무도 없었다는 일화다.
 
 > 마치 탐험가가 지도를 보고 열심히 정글을 헤쳐왔는데, 지도의 가장자리에 나오는 끝까지 왔음에도 여전히 내 앞에는 끝없는 정글이 펼쳐져 있는 형국이었다. … 지금부터는 다름 아닌 내가 한 걸음씩 조심스럽게 내딛으면서 앞에 절벽이 있는지, 강이 있는지 스스로 지도를 그려가야 한다.
 
-이 비유에서 눈여겨볼 곳은 지도의 가장자리다. 지도 안쪽은 이미 누군가 밝혀 놓은 영역이고, 바깥은 연구자가 직접 걸어 들어가며 밝혀야 할 곳이다. 최윤섭 박사는 박사 학위가 특정 주제를 많이 알거나 최고의 전문가가 됐다는 뜻이 아니라고 본다. 그에게 박사 학위는 "인류가 가진 지식의 경계를 앞으로도 평생 스스로 넓혀갈 수 있을 만한 준비가 되었다는 것"이었다.
+이 비유에서 핵심은 '지도의 가장자리'다. 지도 안쪽은 선배 연구자들이 이미 밟아 밝혀 놓은 영역이고, 가장자리 바깥은 아직 아무도 지도를 그리지 못한 미지의 정글이다. 최윤섭 박사는 박사 학위의 의미를 특정 주제를 많이 알거나 최고의 전문가가 되는 데서 찾지 않았다. 그에게 박사 학위란 "인류가 가진 지식의 경계를 앞으로도 평생 스스로 넓혀갈 수 있을 만한 준비가 되었다는 것"을 뜻했다.
 
-지도 안쪽에서 일을 잘하는 것도 가치 있는 task다. 가장자리 바깥으로 나가는 한 걸음은 작아도 된다. 지도에 아직 없는 곳이기만 하면 된다.
-
-그 한 걸음으로 무엇을 알아낼지 적을 때 Hazelrigg의 네 문형을 참고할 수 있다.
+물론 지도 안쪽에서 도구를 닦고 기술을 가다듬는 task도 충분히 가치 있다. 다만 연구자로서 지도의 가장자리 바깥으로 내딛는 한 걸음은 거창할 필요가 없다. 보폭이 아주 작더라도, 아직 지도에 그려지지 않은 땅을 한 뼘이라도 새로 밝히면 그것으로 연구의 몫은 다한다. 이제 남은 일은 그 한 걸음으로 무엇을 알아낼지 구체적인 문장으로 적어 보는 것이다. 이때 Hazelrigg가 정리한 네 가지 문형이 훌륭한 틀이 된다.
 
 ---
 
 ## 4.3 연구 목표를 적는 네 가지 문형
 
-Hazelrigg는 공학 연구 목표를 적는 방법을 자기가 아는 한 네 가지뿐이라고 했다. 권창현 교수가 옮긴 그 네 문장은 이렇다.
+Hazelrigg는 자기가 아는 한 공학 연구의 목표(objective)를 적는 방식은 다음 네 가지뿐이라고 단언했다. 권창현 교수가 옮겨 소개한 네 문형은 다음과 같다.
 
 1. "The research objective of this proposal is to test the hypothesis H." (가설 검정)
 2. "The research objective of this proposal is to measure parameter P with accuracy A." (측정)
 3. "The research objective of this proposal is to prove the conjecture C." (추측 증명)
 4. "The research objective of this proposal is to apply method M from disciplinary area D to solve problem P in disciplinary area E." (학제간 융합)
 
-권창현 교수는 사회과학과 공학이 겹치는 자기 분야에서는 꼭 맞지 않는다고 느낄 때도 있지만, 이 네 범주 밖의 일반적인 기술 방법은 알지 못한다고 덧붙인다.
+각 문형이 묻는 바는 분명하게 갈린다.
 
-- **가설 검정.** 명제를 데이터로 검토한다. 명제를 먼저 적고, 그 명제가 참이면 어떤 데이터가 나올지 미리 그린 다음, 실험으로 그 그림과 실제 데이터를 비교한다. "BEV feature가 야간 loop closure에 효과가 있다"가 가설의 예다.
-- **측정.** 현상의 정량적 성질을 데이터로 정한다. 가설 검정은 어느 쪽이 옳은지 묻고, 측정은 얼마인지 묻는다. "KITTI-360 등 세 dataset에서 SLAM system 세 개의 RTE(relative translation error) 분포는 어떤 모양인가"가 측정의 예다.
-- **추측 증명.** 명제가 옳다는 것을 논리로 보인다. 결론을 내는 도구가 데이터에서 증명으로 바뀐다. 예를 들어 "관측 오염률 $r$이 정해진 상한 $r_{\max}$보다 작으면 제안한 최적화 절차가 전역 최적해로 수렴한다"는 명제를 세우고 증명한다.
-- **학제간 융합.** 다른 분야의 도구나 관점을 이 분야의 문제에 쓴다. 도구가 나온 분야와 쓰이는 분야가 다르다. "communication theory의 codebook 학습을 visual descriptor 설계에 쓴다"가 예다.
+- **가설 검정.** 세운 명제가 맞는지 데이터로 검증한다. 명제를 먼저 세우고 그 명제가 참이라면 어떤 데이터가 나올지 미리 그려 둔 뒤, 실험 결과와 대조한다.
+- **측정.** 현상의 정량적 성질을 데이터로 확정한다. 가설 검정이 참과 거짓을 가리는 데 초점을 둔다면, 측정은 그 크기가 정확히 얼마인지를 묻는다.
+- **추측 증명.** 명제가 옳음을 엄밀한 논리로 보인다. 결론을 뒷받침하는 도구가 실험 데이터에서 수학적 증명으로 바뀐다.
+- **학제간 융합.** 다른 분야에 있던 도구나 관점을 내 분야의 문제로 끌어와 푼다. 도구가 태어난 분야와 적용되는 분야가 서로 다르다.
 
-자기 일을 네 문형으로 적어 본다. 어느 문형으로도 적기 어렵다면 무엇을 새로 알아내려는지, 어떻게 알아낼지가 충분히 구체적인지 살핀다. 기여가 있는지는 문형에 들어맞는지와 따로 판단한다. 기여 하나가 두 문형에 걸칠 수도 있다. 다른 분야의 방법을 가져와 쓰고 그 효과를 가설 검정으로 확인하는 경우가 그렇다.
+권창현 교수는 사회과학과 공학이 만나는 자신의 연구 영역에서는 이 네 칸에 딱 떨어지지 않는 느낌을 받을 때도 있지만, 여전히 이 네 범주를 벗어나는 보편적인 목표 기술법을 알지 못한다고 덧붙인다. 내 작업을 이 네 문형에 맞춰 직접 적어 보자. 어느 문형으로도 쉽게 옮겨지지 않는다면 내가 새로 밝히려는 지식이 무엇인지, 어떻게 검증할지가 아직 흐릿하다는 신호일 수 있다. 물론 실제 연구에서는 기여 하나가 두 문형에 걸치기도 한다. 예컨대 다른 분야의 기법을 가져와 적용한 뒤(학제간 융합) 그 효과를 실험으로 확인하는(가설 검정) 경우가 그러하며, 궁극적인 연구 기여의 가치는 문형 적합도와는 별개로 내용 자체로 판단받는다.
 
 ---
 
 ## 4.4 중심 기여 하나
 
-Hazelrigg의 네 문형은 연구 목표를 어떤 꼴로 적을지 다룬다. [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619)은 Rule 1에서 논문 한 편이 중심 기여 하나에 초점을 두라고 권한다.
+Hazelrigg의 네 문형이 목표를 어떤 꼴로 적을지 알려 준다면, 논문 한 편에 그 목표를 몇 개까지 담아야 할지는 또 다른 문제다. [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619)은 Rule 1에서 논문 한 편은 중심 기여 하나에 집중해야 한다고 권한다.
 
 > Focus your paper on a central contribution, which you communicate in the title.
 
-여러 기여에 한꺼번에 초점을 두면 기여마다 설득력이 약해질 수 있다. 다만 Mensh와 Kording은 중심 메시지 하나를 위해 여러 혁신을 설명해도 되고, 중심 기여 자체에 여러 측면이 있을 수 있다고 적었다.
+한 편에 여러 기여를 욕심껏 우겨 넣으면 오히려 각 주장의 설득력이 무뎌진다. 물론 Mensh와 Kording도 단서를 달아, 그 하나의 중심 메시지를 세우기 위해 여러 세부 혁신을 동원해 설명하는 것은 괜찮으며 중심 기여 자체가 여러 측면을 지닐 수도 있다고 적었다.
 
-두 기준을 함께 쓰면 논문 범위를 이렇게 점검할 수 있다. 어떤 종류의 새 지식을 만드는가. 그 지식을 중심 기여 하나로 설명할 수 있는가. 여러 문형이 함께 나와도 주장 하나를 뒷받침하면 Rule 1에 어긋나지 않는다. 논문을 나눌지는 문형의 개수보다 각 결과에 따로 설 중심 메시지가 있는지를 보고 정한다.
+두 기준을 맞물려 놓으면 내 논문의 범위를 점검하기가 한결 수월해진다. 지금 만드는 새 지식이 네 문형 가운데 무엇에 해당하는지, 그리고 그 지식을 제목에 담을 만한 중심 기여 하나로 꿸 수 있는지 자문해 보는 것이다. 여러 문형이 한 논문에 섞여 나오더라도 하나의 중심 주장을 받치고 있다면 Rule 1에 어긋나지 않는다. 반대로 논문을 두 편으로 나눌지 고민될 때는, 문형이 몇 개인지보다 각 결과가 독립된 중심 메시지를 세울 만큼 묵직한지를 보고 판단하면 된다.
 
 ---
 
 ## 4.5 로보틱스/CV의 네 문형 예
 
-네 문형을 자기 분야의 사례에 적용하면 연구 목표를 어떻게 적을지 구체적으로 생각할 수 있다. 다음은 로보틱스/CV의 작업을 각 문형으로 표현한 예다.
+네 문형이 실제 로보틱스와 CV 연구에서는 어떤 문장으로 번역되는지 예를 들어 살펴보자. 아래 예들은 문형의 구조를 보이기 위해 구성한 것이다.
 
-가설 검정. "BEV feature pyramid는 night-time loop closure recall을 raw image보다 높인다"는 한 줄짜리 명제가 있다. 명제가 참이라면 night benchmark에서 BEV-feature 기반 retrieval의 recall@1이 image-feature baseline보다 통계적으로 유의하게 높을 것이라는 그림을 미리 그린다. 실험은 그 그림과 실제 측정을 비교한다. 이런 형식으로 ICRA·IROS의 방법 논문이 검정하려는 가설을 적어 볼 수 있다.
+**가설 검정.** "BEV feature pyramid는 raw image보다 야간 loop closure recall을 높인다"는 한 줄짜리 명제를 세운다. 이 명제가 참이라면 야간 벤치마크에서 BEV feature 기반 검색의 recall@1이 일반 이미지 feature 베이스라인보다 통계적으로 유의하게 높게 나올 것이라는 예상 그림을 미리 그린다. 이어지는 실험은 그 예상과 실제 측정치를 비교하는 작업이다. ICRA·IROS에 실리는 많은 방법 논문들이 바로 이런 구조로 가설을 검정한다.
 
-측정. "KITTI-360, MulRan, Boreas 세 dataset에서 LIO-SAM·KISS-ICP·SuMa 세 system의 RTE 분포는 어떻게 다른가"라는 물음은 참과 거짓을 가리지 않고 양을 묻는다. 결론은 구체적인 수치와 오차 분포의 모양으로 나온다. T-RO·IJRR의 benchmark 논문과 일부 dataset 논문에서 이런 형식을 볼 수 있다.
+**측정.** "KITTI-360, MulRan, Boreas 세 데이터셋에서 LIO-SAM·KISS-ICP·SuMa 세 시스템의 RTE(relative translation error) 분포는 어떻게 다른가"라는 물음은 참·거짓을 가리기보다 정량적 크기와 양상을 묻는다. 결론 역시 승패 선언이 아니라 구체적인 수치와 오차 분포의 모양으로 제시된다. T-RO·IJRR의 벤치마크 논문이나 일부 데이터셋 논문이 이 문형에 가깝다.
 
-추측 증명. "관측 오염률 $r<r_{\max}$이고 필요한 정규성 조건이 성립할 때 제안한 최적화 절차가 전역 최적해로 수렴한다"는 식의 명제는 데이터만으로는 결정되지 않는다. $r_{\max}$와 정규성 조건을 정리 안에 명시하고 논리로 증명해야 한다. T-RO, IJRR의 일부 이론 논문과 control·optimization 논문에서 이런 형식을 볼 수 있다.
+**추측 증명.** "관측 오염률 $r<r_{\max}$이고 필요한 정규성 조건이 성립할 때 제안한 최적화 절차가 전역 최적해로 수렴한다"와 같은 명제는 몇 번의 실험 데이터만으로 확정 지을 수 없다. $r_{\max}$와 정규성 조건을 정리 안에 명확히 못 박고 연역적 증명으로 끝까지 밀고 나가야 한다. T-RO·IJRR의 이론 논문이나 제어·최적화 논문에서 자주 만나는 형식이다.
 
-학제간 융합. "communication theory의 vector quantization codebook 학습 절차를 visual place recognition descriptor에 적용한다"는 작업은 도구의 출처가 다른 분야이고 적용 대상이 본 분야다. 옮겨 쓰는 과정에서 문제를 새로 정의해야 할 때가 많다. CVPR의 cross-domain 논문이나 ICRA의 learning-based perception 논문 일부에서 이런 형식을 볼 수 있다.
+**학제간 융합.** "통신 이론의 vector quantization codebook 학습 절차를 visual place recognition descriptor에 적용한다"는 목표는 도구의 고향과 쓰이는 무대가 다르다. 다른 분야의 해법을 이식하는 과정에서는 단순히 수식만 옮겨 오는 데 그치지 않고 문제를 본 분야에 맞게 새로 정의해야 할 때가 많다. CVPR의 cross-domain 논문이나 ICRA의 학습 기반 인식 논문 일부가 이런 길을 걷는다.
 
-연구실이나 venue별로 어느 문형이 많은지 알려면 corpus를 정해 실제 논문을 분류해야 한다. 우선 본인 연구실의 최근 논문을 네 문형으로 표시해 보면 어떤 질문과 방법에 작업이 몰려 있는지 확인할 수 있다. ICRA·IROS·CVPR, T-RO·IJRR처럼 형식이 다른 venue를 비교할 때도 같은 표본 기간과 분류 기준을 써야 한다.
+실제 연구실이나 목표 학회·학술지별로 어느 문형이 주류를 이루는지 확인하려면, 임의의 인상으로 판단하지 말고 일정한 기간과 분류 기준을 정해 실제 논문 코퍼스(corpus)를 분류해 보아야 한다. 우선 자기 연구실의 최근 논문 몇 편만 네 문형으로 태깅해 보아도 우리 그룹이 어떤 질문과 검증 방식에 강점을 두고 있는지 한눈에 드러난다. ICRA·IROS·CVPR과 T-RO·IJRR처럼 성격이 다른 무대를 비교할 때도 똑같은 표본 기간과 기준을 대야 왜곡 없이 읽힌다.
 
-> 다른 문형으로 넓힐지는 연구 문제와 검증 역량, 목표 venue를 함께 보고 결정한다.
+> 내 연구를 다른 문형으로 확장할지는 풀려는 문제의 성격, 현재 연구실의 검증 역량, 그리고 투고하려는 학회·학술지의 기준을 함께 저울질해 결정한다.
 
 ---
 
 ## 4.6 최상급을 피하고 claim을 수치로 적기
 
-[Knuth, Larrabee, Roberts 1989](https://www-cs-faculty.stanford.edu/~knuth/klr.html) §1의 12번 항목은 끝부분에서 최상급(superlative)을 경계한다.
+연구 목표를 세워 결과를 얻은 뒤 논문으로 옮길 때 흔히 저지르는 실수가 과장된 수식어다. [Knuth, Larrabee, Roberts 1989](https://www-cs-faculty.stanford.edu/~knuth/klr.html) §1의 12번 항목은 자기 연구를 소개할 때 최상급(superlative)을 쓰지 말라고 경계한다.
 
 > When describing your own work, be humble and don't use superlatives of praise, either explicitly or implicitly, even if you are enthusiastic.
 
-자기 작업을 설명할 때 "best", "novel", "state-of-the-art" 같은 최상급이 보이면 claim에 비교 기준이 빠지지 않았는지 살핀다. 비교가 무엇 대비 무엇인지, 어떤 metric에서 얼마나 다른지를 함께 밝힌다. "novel SLAM system"보다 "frame-to-frame matching에서 RANSAC inlier ratio를 X% → Y%로 올린 SLAM system"이 검증 가능하다. X와 Y는 문장 형식을 보이는 자리표시이며 실제 초록에는 측정값과 protocol을 적는다.
+초록이나 서론에 "best", "novel", "state-of-the-art" 같은 최상급 표현이 미끄러져 들어갔다면, 내 주장(claim)에 정작 비교 기준이 빠져 있지는 않은지 점검해야 한다. 무엇과 비교해 무엇이, 어떤 지표(metric)에서 얼마나 달라졌는지 구체적으로 밝히면 최상급 형용사는 굳이 필요 없다. "novel SLAM system"이라고 쓰는 대신 "frame-to-frame matching에서 RANSAC inlier ratio를 X%에서 Y%로 높인 SLAM system"이라고 적어야 비로소 검증 가능한 주장이 된다. 여기서 X와 Y는 문장 형식을 보이기 위한 자리표시일 뿐이며, 실제 원고에서는 측정값과 평가 프로토콜을 빠짐없이 적어야 한다.
 
-네 문형으로도 같은 점검을 한다. "robotic system을 개선했다"는 claim은 네 문형 어디에도 들어가지 않을 수 있다. 어떤 가설이 검정됐는가, 무엇이 측정됐는가, 무엇이 증명됐는가, 어떤 분야의 도구가 옮겨졌는가. 네 질문 어디에도 답하기 어렵다면 작업을 했다는 보고에서 더 나아가 무엇을 새로 알게 됐는지 살핀다.
-
-서론에서 contribution claim을 요약하는 방법은 [Ch.23 (Introduction)](./chapter_23_introduction.md)에서 다룬다.
+Hazelrigg의 네 문형 역시 주장의 알맹이를 점검하는 거울로 쓸 수 있다. "로보틱스 시스템을 개선했다"는 식의 막연한 문장은 네 문형 어디에도 들어가지 못한다. 어떤 가설을 검정했는지, 무엇을 얼마나 정밀하게 측정했는지, 어떤 명제를 증명했는지, 어느 분야의 도구를 어떻게 이식했는지 네 질문 어디에도 답이 궁색하다면, 작업을 수행했다는 보고를 넘어 실제로 새로 알게 된 지식이 무엇인지 다시 짚어 봐야 한다.
 
 ---
 
-자기 일이 어느 문형에 들어가는지 매번 바로 답하기는 어렵다. 권창현 교수는 같은 글 첫머리에 아인슈타인이 했다는 다음 말을 옮겨 둔다. 아인슈타인의 원 출처는 확인하지 못했다.
+물론 매일 부딪히는 연구가 네 문형 중 어디에 들어맞는지 단번에 답하기는 쉽지 않다. 권창현 교수가 같은 글 첫머리에 아인슈타인의 말이라며 옮겨 둔 경구도 바로 그 막막함을 짚는다(아인슈타인의 원 출처는 확인하지 못했다).
 
 > If we know what it was we were doing, it would not be called research, would it?
 
-자기 작업으로 무엇을 새로 알아내려는지 처음부터 또렷하게 적기는 어렵다. 일을 진행하며 목표를 다시 쓰고, 목표에 비추어 다음 일을 고를 수 있다. 한 학기나 1년 동안 작업만 쌓이지 않도록, 한 달에 한 번이라도 무엇을 새로 알게 됐는지 돌아본다.
+처음부터 완벽한 지도를 들고 출발할 수는 없지만, 한 걸음씩 밟아 나가며 목표를 다시 고쳐 쓰고 그 목표에 비추어 다음 작업을 고르는 일은 가능하다. 한 학기나 1년이 그냥 바쁜 task의 더미로 흘러가지 않도록, 최소한 한 달에 한 번쯤은 멈춰 서서 내가 지금 무엇을 새롭게 알게 되었는지 스스로에게 물어보아야 한다.
 
 ---
 
-**출처.** [권창현 교수 「지금 하고 있는 게 연구인가, 아닌가?」](https://gradschoolstory.chkwon.net/changhyun/%ec%a7%80%ea%b8%88-%ed%95%98%ea%b3%a0-%ec%9e%88%eb%8a%94-%ea%b2%8c-%ec%97%b0%ea%b5%ac%ec%9d%b8%ea%b0%80-%ec%95%84%eb%8b%8c%ea%b0%80/), [최윤섭 박사 「박사 학위라는 것의 의미」](https://gradschoolstory.chkwon.net/yoonsup/what-phd-means/), [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619), [Knuth et al. 1989](https://www-cs-faculty.stanford.edu/~knuth/klr.html). 로보틱스/CV의 문형 예시, BEV·long-term autonomy 예는 이 장에서 만든 사례다. venue별 분포는 corpus와 분류 기준을 정한 뒤에 판단한다.
+**출처.** [권창현 교수 「지금 하고 있는 게 연구인가, 아닌가?」](https://gradschoolstory.chkwon.net/changhyun/%ec%a7%80%ea%b8%88-%ed%95%98%ea%b3%a0-%ec%9e%88%eb%8a%94-%ea%b2%8c-%ec%97%b0%ea%b5%ac%ec%9d%b8%ea%b0%80-%ec%95%84%eb%8b%8c%ea%b0%80/), [최윤섭 박사 「박사 학위라는 것의 의미」](https://gradschoolstory.chkwon.net/yoonsup/what-phd-means/), [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619), [Knuth et al. 1989](https://www-cs-faculty.stanford.edu/~knuth/klr.html). 로보틱스/CV의 문형 예시, BEV·long-term autonomy 예는 설명용으로 지어낸 예시다. venue별 분포는 corpus와 분류 기준을 정한 뒤에 판단한다.
 
-다음: [Ch.5 — 생각의 시간: 진척을 재는 기준](./chapter_05_thinking_time.md)
+다음: [5장 생각의 시간: 진척을 재는 기준](./chapter_05_thinking_time.md)

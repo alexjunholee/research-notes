@@ -4,9 +4,11 @@
 
 ---
 
+글쓰기 지침서는 대개 수십 가지 세세한 금기로 가득하지만, 정작 글을 쓰는 순간 머릿속에 남아 작동하는 기준은 손에 꼽힌다. 수학자 Paul Halmos는 좋은 수학 글쓰기의 원칙을 단 여덟 단어, 두 개의 명령으로 압축해 낸다.
+
 ## 발췌
 
-강연 도입에서 Halmos는 자신의 강연을 두 명령으로 묶는다.
+강연을 시작하며 Halmos는 여러 주제를 넘나들기 전에 독자가 붙잡을 중심축부터 세운다.
 
 > He is going to drift in and out of many different topics but only after he has given us an anchor and a rough outline. The anchor? Two basic rules:
 >
@@ -15,39 +17,38 @@
 >
 > The outline? Four aspects of good mathematical communication: Semantics … ; Syntax … ; Symbols … ; Style …
 
-강연이 끝날 무렵 Halmos는 이 두 명령을 다시 꺼내며 마무리한다.
+강연이 끝날 무렵에는 방금 세운 두 규칙을 다시 꺼내 들더니, 특유의 유머 섞인 단서로 매듭짓는다.
 
 > Paul wound up his speech by repeating his opening rules: "Do organize," and "Do not distract." …
 > "Do organize," and "Do not distract." Except that all rules are made to be broken. When you want to jar your readers, Paul suggests that you distract them by changing your notation, screaming ungrammatical sentences, or being awkwardly repetitious.
-
 
 ---
 
 ## 한국어 의역
 
-Halmos는 여러 주제를 오가기 전에 먼저 닻과 대략의 개요를 내놓는다. 닻은 두 규칙이다. 자료를 조직하라(do organize material). 독자를 산만하게 하지 말라(do not distract the reader). 개요는 좋은 수학 소통의 네 측면, 곧 의미(semantics), 문법(syntax), 기호(symbols), 문체(style)다. 강연을 마칠 때 그는 두 규칙을 다시 말하고 단서를 붙인다. 모든 규칙은 깨지라고 있다. 독자를 흔들어 놓고 싶다면 표기를 바꾸거나, 비문을 외치듯 쓰거나, 어색하게 되풀이해서 일부러 산만하게 만들 수도 있다.
+Halmos는 본격적으로 여러 주제를 오가기 전에 먼저 닻과 대략의 개요부터 내놓는다. 그가 내린 닻은 두 가지 기본 규칙, 곧 "자료를 조직하라(Do organize material)"와 "독자를 산만하게 하지 말라(Do not distract the reader)"이다. 개요는 좋은 수학 소통을 이루는 네 측면인 의미(semantics), 문법(syntax), 기호(symbols), 문체(style)다. 강연을 마무리하면서 그는 처음의 두 규칙을 다시 강조한 뒤 재치 있는 단서를 덧붙인다. 모든 규칙은 깨기 위해 존재한다는 것이다. 만약 독자에게 일부러 충격을 주고 싶다면, 표기를 슬쩍 바꾸거나 비문을 소리치듯 내지르거나 어색할 만큼 같은 말을 되풀이해 주의를 흐트러뜨려 보라고 권한다.
 
 ---
 
 ## 분석 — 왜 이 표현이 좋은가
 
-두 규칙은 합쳐 여덟 단어지만 글쓰기에서 내리는 여러 결정에 적용된다.
+합쳐 여덟 단어에 불과한 이 두 규칙은 글쓰기 과정에서 마주치는 거의 모든 선택의 기준이 된다.
 
-Do organize material은 독자가 정보를 만나는 순서를 짜라는 말이다. 강연 기록에 따르면 Halmos는 조직이 무엇인지 말하기는 어렵지만 보면 안다고 했다. 자료가 선형으로 놓여 있어도 조직은 그 이상이라며 "The plot of an exposition is rarely a straight line"이라고 덧붙였다. 갈래와 다른 줄기를 함께 엮어야 한다고도 했다. 그는 비선형으로 조직한 글의 예로 Roget's Thesaurus, 백과사전, DIY 기사, 좋은 교과서를 차례로 살펴보라고 권했다. 이 노트의 다른 장에서 다룬 단락의 CCC(context-content-conclusion), 서론의 gap funnel, Whitesides의 outline 먼저 쓰기도 이 규칙을 단락, 절, 논문 단위에서 실천하는 방법이다.
+먼저 `Do organize material`은 독자가 정보를 만나는 순서를 치밀하게 설계하라는 뜻이다. 강연 기록에서 Halmos는 조직이 무엇인지 말로 정의하기는 어렵지만 막상 잘 조직된 글을 보면 누구나 알아본다고 짚는다. 나아가 자료를 일렬로 늘어놓는다고 조직이 저절로 이루어지는 것은 아니라며, "The plot of an exposition is rarely a straight line"(설명 글의 줄거리가 곧은 직선인 경우는 드물다)이라고 강조한다. 여러 갈래와 보조 줄기를 본류와 함께 엮어 내야 한다는 통찰이다. 그는 비선형적 조직의 모범으로 *Roget's Thesaurus*, 백과사전, DIY 기사, 잘 쓴 교과서를 차례로 살펴보라고 권한다. 이 노트의 앞선 장들에서 다룬 단락 단위의 CCC(context–content–conclusion), 서론의 gap funnel, Whitesides의 outline 먼저 쓰기 전략 모두 결국 이 규칙을 단락·절·논문 규모에서 구현하는 도구들이다.
 
-Do not distract the reader는 본 줄기에서 독자의 주의를 빼앗는 것을 두지 말라는 말이다. Halmos가 강연 끝에 일부러 산만하게 만드는 방법으로 든 표기 바꾸기, 비문, 어색한 반복은 거꾸로 보면 피해야 할 것의 목록이다. 논문에서는 본문에 들어가야 할 내용을 각주로 돌리는 일, 흐름을 끊는 괄호 속 부연, 굵은 글씨와 기울임의 남용, 같은 개념에 서로 다른 기호를 쓰는 일도 독자의 주의를 흩뜨린다.
+두 번째 규칙인 `Do not distract the reader`는 본 줄기를 따라가는 독자의 집중력을 흩뜨리는 군더더기를 걷어 내라는 주문이다. Halmos가 강연 말미에 일부러 독자를 흔드는 기법으로 농담처럼 든 표기 변경, 비문, 어색한 반복은 거꾸로 말해 글쓴이가 가장 경계해야 할 실수 목록이다. 논문에서는 본문에 녹여야 할 설명을 각주로 떠넘기는 습관, 문맥을 끊는 괄호 속 부연, 굵은 글씨와 기울임꼴의 남발, 같은 개념에 기호를 바꿔 쓰는 부주의 등이 모두 독자의 시선을 앗아 가는 방해물이다.
 
-강연 기록은 Halmos가 글 쓰는 시간 대부분을 자료를 조직하는 데 쓴다고 전한다. 구상과 초고를 쓸 때 조직을 잡고, 산만한 요소는 구조가 선 뒤에 교정하면서 걷어 내는 순서와 맞는다. 조직이 흐트러진 원고는 문장을 다듬어도 읽기 어렵다.
+주목할 점은 Halmos가 글을 쓰는 시간의 대부분을 자료를 조직하는 데 쏟는다는 기록이다. 초고 단계에서 먼저 뼈대와 정보의 순서를 단단히 세우고, 구조가 잡힌 뒤 퇴고 과정에서 산만한 요소를 솎아 내는 작업 순서가 이 증언과 정확히 맞아떨어진다. 조직이 무너진 원고는 아무리 문장을 유려하게 다듬어도 끝내 읽기 어렵기 때문이다.
 
-두 규칙은 모두 "Do"로 시작한다. 하나는 할 일을, 하나는 피할 일을 말한다. Halmos는 강연 끝에서 이 규칙을 다시 말하면서 규칙은 깨지라고 있다는 단서를 붙였고, 마지막 말로 "Anything that helps communication is good. Anything that hurts is bad."라고 했다.
+두 규칙이 모두 `Do`로 시작해 하나는 '할 일'을, 다른 하나는 '피할 일'을 지목한다는 점도 기억하기 좋다. 그러면서도 Halmos는 강연 끝자락에서 "규칙은 깨지라고 있다"는 여지를 열어 둔 채, 마지막 문장으로 글쓰기의 궁극적인 기준을 남긴다. "Anything that helps communication is good. Anything that hurts is bad."(소통을 돕는 것은 모두 좋고, 소통을 해치는 것은 모두 나쁘다.)
 
 ---
 
 ## 따라 쓰기 — 자기 분야에 적용
 
-자기 글을 단락마다 물어본다. 이 단락이 앞뒤 흐름에 필요하고 독자가 따라갈 순서에 맞는 자리에 있는가(organize). 이 단락의 문장 가운데 각주, 부연, 상투어, 쓸데없는 강조, 흔들리는 표기로 독자의 주의를 빼앗는 것이 있는가(distract). 걸리는 대목이 있으면 그 대목의 목적을 다시 확인하고, 옮길지 고칠지 뺄지 정한다.
+초고를 고쳐 쓸 때 단락마다 두 가지 질문만 던져 보아도 퇴고의 방향이 선명해진다. 먼저 **조직(organize)** 의 관점에서 이 단락이 앞뒤 흐름상 꼭 필요하며 독자가 따라갈 순서에 맞는 자리에 놓여 있는지 묻는다. 다음으로 **집중(distract)** 의 관점에서 각주나 괄호 부연, 상투어, 과도한 서식 강조, 흔들리는 표기처럼 독자의 주의를 훔치는 요소가 없는지 살핀다. 걸리는 대목이 눈에 띄면 그 구절이 문단에서 맡은 역할을 다시 따져, 자리를 옮길지 고쳐 쓸지 과감히 덜어 낼지 결정한다.
 
-두 규칙을 노트 첫 페이지에 적어 두면 문장을 둘지 말지, 그림을 어디에 둘지, 강조에 어떤 색을 쓸지를 정할 때 기준으로 쓸 수 있다. 한국어로는 "조직하라. 산만하게 하지 말라."로 옮길 수 있다.
+이 두 규칙을 작업 노트 첫머리에 적어 두면 문장의 존치 여부부터 그림의 배치, 강조 색상의 선택까지 일관된 기준으로 판단할 수 있다. 우리말로 옮겨 책상 앞에 붙여 둔다면 이 여덟 글자로 충분하다. **"조직하라. 산만하게 하지 말라."**
 
 ---
 

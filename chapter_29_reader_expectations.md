@@ -1,6 +1,6 @@
 # 29장 문장 구조와 독자 기대
 
-그림과 표를 아무리 잘 만들어도 그 사이를 잇는 영어 문장이 엉키면 독자는 논리 흐름을 놓친다. 영어 논문이 잘 읽히지 않는다고 느끼면 대개 어휘부터 어려운 단어로 바꾸려 들지만, [Gopen & Swan 1990](https://www.americanscientist.org/blog/the-long-view/the-science-of-scientific-writing)은 문제의 뿌리를 다른 곳에서 찾는다. 사람들은 흔히 과학 글이 어려운 까닭을 개념과 데이터, 분석 자체가 복잡해서 어쩔 수 없는 일로 여기지만, 두 저자는 정보를 문장의 어느 자리에 배치했는지가 훨씬 큰 원인이라고 본다. 독자가 정보를 기다리는 위치에 그 정보를 놓기만 하면, 내용을 억지로 단순화하지 않고도 글이 한결 또렷해진다.
+그림과 표를 아무리 잘 만들어도 그 사이를 잇는 영어 문장이 엉키면 독자는 논리 흐름을 놓친다. 영어 논문이 잘 읽히지 않는다고 느끼면 대개 어휘부터 어려운 단어로 바꾸려 들지만, [Gopen & Swan 1990](https://www.americanscientist.org/blog/the-long-view/the-science-of-scientific-writing)은 문제의 뿌리를 다른 곳에서 찾는다. 사람들은 흔히 과학 글이 어려운 것을 개념과 데이터, 분석 자체가 복잡해서 어쩔 수 없는 일로 여기지만, 두 저자는 정보를 문장의 어느 자리에 배치했는지가 훨씬 큰 원인이라고 본다. 독자가 정보를 기다리는 위치에 그 정보를 놓기만 하면, 내용을 억지로 단순화하지 않고도 글이 한결 또렷해진다.
 
 앞서 [12장 §12.1](./chapter_12_reader_expectations_diagnosis.md)에서 보았듯, 두 저자는 글의 질을 높이면 생각의 질까지 함께 높아진다고 강조했다. 실제로 Gopen과 Swan은 글 말미에서 URF 단락을 제외한 나머지 예문들을 손보는 과정에서, 처음에는 원문 구조에 가려져 보이지 않던 개념의 빈틈이 고스란히 드러났다고 적었다. 문장 구조를 다듬는 작업이 곧 자신의 논리를 점검하는 과정이 되는 셈이다.
 
@@ -16,7 +16,7 @@ Gopen과 Swan은 논문 끝에 일곱 가지 원칙을 정리했고, 그중 stre
 >
 > ✓ In this paper, the proposed method improves accuracy by 14%.
 
-앞 문장과 이어 주는 구실인 "in this paper"는 문장 맨 앞(topic position)으로 보내고, 독자가 기억해야 할 핵심 수치인 14%는 문장 맨 끝(stress position)에 세운 것이다. (14%는 어순 차이를 보여 주려고 지어낸 수치다.)
+앞 문장과 이어 주는 구실인 "in this paper"는 문장 맨 앞(topic position)으로 보내고, 독자가 기억해야 할 핵심 수치인 14%는 문장 맨 끝(stress position)에 두었다. (14%는 어순 차이를 보여 주려고 지어낸 수치다.)
 
 **행위는 동사로 쓴다.** 문장이 전하려는 핵심 행위를 그대로 동사 자리에 두어야 문장에 힘이 실린다. 행위를 명사로 눌러 담아 버리면 정작 동사 자리가 공허해진다.
 
@@ -54,7 +54,7 @@ Gopen과 Swan은 미국 전문 글쓰기를 염두에 두고 이 글을 썼다. 
 
 **there 구문을 남발하는 습관.** 문장을 "there are several methods that …"로 열면 정작 문장 첫머리에 아무런 지시 대상이 서지 않는다. 앞 내용과 이어 줄 topic position이 텅 비고, `several methods`는 문장 한가운데서 갈 곳을 잃는다. 대신 "Prior work explores several methods …"로 시작하면 `prior work`가 자연스럽게 앞 맥락을 이어받는다.
 
-한국어 어순을 머릿속에서 그대로 직역하지 말고, 다 쓴 영어 문장을 앞에 두고 다시 확인해 보자. 무엇이 앞 내용과 이어지는 정보이고 무엇이 새 정보인지, 또 독자가 어느 단어를 강조해 읽을지를 topic position과 stress position에 비춰 점검하면 문장이 눈에 띄게 정돈된다.
+머릿속에서 한국어 어순 그대로 직역하지 말고, 다 쓴 영어 문장을 앞에 두고 다시 확인해 보자. 무엇이 앞 내용과 이어지는 정보이고 무엇이 새 정보인지, 또 독자가 어느 단어를 강조해 읽을지를 topic position과 stress position에 비춰 점검하면 문장이 눈에 띄게 정돈된다.
 
 ---
 
@@ -64,9 +64,9 @@ Gopen과 Swan은 미국 전문 글쓰기를 염두에 두고 이 글을 썼다. 
 
 **문장 첫머리와 끝을 뽑아 보기.** [21장 §21.5](./chapter_21_paragraph_flow.md)에서 다룬 '두 줄 뽑기'를 직접 적용해 본다. 문장 첫머리만 모아 놓은 줄에 앞 문장과 무관한 새 명사구만 잇달아 나온다면 흐름의 고리가 끊겼다는 신호다. 반대로 끝 줄에 "this paper", "the proposed method", "our approach" 같은 상투구가 몰려 있다면 강조할 핵심 정보를 문장 뒤로 옮겨야 한다.
 
-**소리 내어 읽기.** 주어와 동사가 멀어지거나 구조가 꼬인 문장은 눈으로 훑을 때는 넘어가도 입으로 읽어 보면 금세 숨이 막힌다. Knuth 역시 *Mathematical Writing*에서 문장에는 리듬이 있으니 쓴 글을 직접 읽어 보고 매끄럽지 않으면 고치라고 권하며, 학생 답안을 평하면서 "소리 내어 읽어 보라(Read your words aloud to yourself)"고 당부했다.
+**소리 내어 읽기.** 주어와 동사가 멀어지거나 구조가 꼬인 문장은 눈으로 훑을 때는 넘어가도 입으로 읽어 보면 금세 숨이 막힌다. Knuth 역시 *Mathematical Writing*에서 문장에는 리듬이 있으니 쓴 글을 직접 읽어 보고 매끄럽지 않으면 고치라고 권했다. 또 학생 답안을 평하면서 "소리 내어 읽어 보라(Read your words aloud to yourself)"고 당부했다.
 
-Gopen과 Swan이 실제로 URF/ATPase 단락을 어떻게 고쳤는지 그 전후 과정이 궁금하다면, [`gopen_swan_urf_rewrite.md`](./excerpts/excerpt_03_gopen_swan_urf_rewrite.md)에 발췌해 둔 원문과 줄별 분석을 참고하면 감이 훨씬 빨리 잡힌다.
+Gopen과 Swan이 실제로 URF/ATPase 단락을 어떻게 고쳤는지 그 전후 과정이 궁금하다면, [`gopen_swan_urf_rewrite.md`](./excerpts/excerpt_03_gopen_swan_urf_rewrite.md)에 발췌해 둔 원문과 줄별 분석을 참고해 보자. 그러면 감이 훨씬 빨리 잡힌다.
 
 일반 산문에서 독자가 기대하는 자리가 있듯, 수식과 정리가 들어가는 문장에도 지켜야 할 문법과 리듬이 있다. 다음 장에서는 수식을 문장 속에 매끄럽게 녹여 내는 법을 살펴본다.
 

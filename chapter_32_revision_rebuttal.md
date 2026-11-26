@@ -16,13 +16,13 @@
 
 **유형 2 — Presentation 요구.** 그림을 추가하거나 표를 다시 짜고, 문장 순서를 바꾸거나 개념 정의를 더 밝혀 달라는 요청이다. 타당한 지적이라면 기꺼이 수용해 고친 위치를 정확히 알려 주고, 지면 한도를 넘긴다면 venue 정책이 허용하는 보충자료로 옮기거나 다른 문단을 줄일 방법을 찾는다. 만약 받아들이기 어려운 요청이라면 단순히 거절하지 말고 지면 한계나 논문 범위(scope) 같은 구체적인 이유를 대면서 대신 해 줄 수 있는 보완을 제시한다.
 
-**유형 3 — Scope/contribution 의문.** "이게 왜 새로운가?", "X와 무엇이 다른가?" 같은 근본적인 질문이다. 이때는 답변서에서만 핵심 contribution을 한두 문장으로 되풀이하지 말고, 관련 인용과 실험을 근거로 세워 본문의 서론과 Related Work도 함께 보강해야 한다. comment에만 답하고 본문을 그대로 두면, 다음 심사위원이나 앞으로 논문을 읽을 독자도 똑같은 질문을 던진다.
+**유형 3 — Scope/contribution 의문.** "이게 왜 새로운가?", "X와 무엇이 다른가?" 같은 근본적인 질문이다. 이때는 답변서에서만 핵심 contribution을 한두 문장으로 되풀이하지 말고, 관련 인용과 실험을 근거로 삼아 본문의 서론과 Related Work도 함께 보강해야 한다. comment에만 답하고 본문을 그대로 두면, 다음 심사위원이나 앞으로 논문을 읽을 독자도 똑같은 질문을 던진다.
 
 **유형 4 — 단순 오해.** 심사위원이 본문을 명백히 잘못 읽은 경우다. 이럴 때도 심사위원의 실수("the reviewer misread X")를 짚기보다, 내 글이 충분히 분명하지 못했음을 인정하고 본문 어디를 어떻게 고쳤는지 알린다.
 
 > "We realize that §4.1 was not sufficiently clear; we have rewritten the paragraph to emphasize that …"
 
-심사위원 한 사람이 잘못 읽은 대목이라면 다른 독자도 똑같이 걸려 넘어질 가능성이 높으니 그 문단부터 다시 손보는 편이 맞다. 다만 comment가 원고에 전혀 없는 내용을 전제한다면, 그 본문 위치를 들어 사실관계를 차분하게 바로잡아 준다.
+심사위원 한 사람이 잘못 읽은 대목이라면 다른 독자도 똑같이 걸려 넘어질 가능성이 높으니 그 문단부터 다시 손보는 편이 맞다. 다만 comment가 원고에 전혀 없는 내용을 전제한다면, 해당 본문 위치를 들어 사실관계를 차분하게 바로잡아 준다.
 
 ---
 
@@ -38,7 +38,7 @@
 - "the reviewer is mistaken" → "we have clarified that …"
 - "as we already stated" — 짜증이 묻어난다. → "to make this clearer, we have added …"
 
-앞서 [12장 §12.2](./chapter_12_reader_expectations_diagnosis.md)에서 짚은 stress position 원칙은 답변서에서도 그대로 작동한다. 무례하거나 방어적인 단어가 문장 맨 끝에 자리 잡으면 그 날 선 어감이 훨씬 두드러져 들리므로, 단어만 바꿔서 어색하다면 문장 전체를 통째로 다시 쓰는 편이 낫다.
+앞서 [12장 §12.2](./chapter_12_reader_expectations_diagnosis.md)에서 짚은 stress position 원칙은 답변서에서도 그대로 작동한다. 무례하거나 방어적인 단어가 문장 맨 끝에 자리 잡으면 그 날 선 어감이 훨씬 두드러지게 들리므로, 단어만 바꿔서 어색하다면 문장 전체를 통째로 다시 쓰는 편이 낫다.
 
 ---
 
@@ -46,14 +46,14 @@
 
 어조를 잡았다면 답변서의 뼈대를 세 부분으로 나누어 채운다.
 
-**첫 부분 — 감사와 변경 요약.** 전체 길이는 5~8줄 안팎으로 짧게 쓴다. 인사말이 장황하면 독자가 변경 사항에 늦게 닿으므로, 첫 줄에 한 문장으로 감사한 뒤 곧바로 주요 변경 사항(major change)에 번호를 붙여 요약한다.
+**첫 부분 — 감사와 변경 요약.** 전체 길이는 5~8줄 안팎으로 짧게 쓴다. 인사말이 장황하면 독자가 변경 사항을 늦게 보게 되므로, 첫 줄에 한 문장으로 감사한 뒤 곧바로 주요 변경 사항(major change)에 번호를 붙여 요약한다.
 
 > "We thank the reviewers for their constructive feedback. The major changes are: (1) we added experiments on MulRan (§5.3), (2) we clarified the relation to Vizzo et al. 2023 (§2.2), (3) we corrected Equation (7) (§3.2)."
 
-**둘째 부분 — 항목별 답변.** 각 심사위원별로 구역을 나누고, 그 안에서 개별 comment마다 다음 세 단계를 빠짐없이 갖춘다.
+**둘째 부분 — 항목별 답변.** 심사위원별로 구역을 나누고, 그 안에서 개별 comment마다 다음 세 단계를 빠짐없이 갖춘다.
 
 1. **Comment 원문.** italic이나 quote 블록으로 그대로 옮긴다.
-2. **Response.** 우리의 답을 적는다.
+2. **Response.** 우리 답변을 적는다.
 3. **Change in manuscript.** 본문 어디를 어떻게 고쳤는지 페이지, 섹션, 수식 번호로 정확히 밝힌다.
 
 여기서 가장 흔히 빠지는 것이 세 번째 항목이다. 답변에 "we agree …"라고만 적어 두고 정작 본문이 바뀐 곳을 안 알려 주면 심사위원이 변경 사항을 직접 찾아야 하므로, 다음 심사에서도 같은 comment가 다시 오기 쉽다.
@@ -64,17 +64,17 @@
 
 고친 본문을 어떻게 표시할지는 venue와 editor의 지침을 그대로 따른다. 변경 추적 PDF를 요구하는지, 색상 표시를 원하는지, 아니면 clean manuscript만 내면 되는지 먼저 확인하고, 따로 지침이 없다면 답변서에 변경 위치를 page·section·line으로 정확히 적는다.
 
-분량은 대개 comment당 100~200단어 안팎에서 출발하되 정해진 정답은 없으며, venue가 정한 전체 word·character 제한을 먼저 따른다. 답변이 길어졌다면 혹시 결론과 근거, 본문 변경 내용을 같은 말로 되풀이하고 있지 않은지 덜어 낸다.
+분량은 대개 comment당 100~200단어 안팎에서 출발하되 정해진 정답은 없으며, venue가 정한 전체 word·character 제한을 먼저 따른다. 답변이 길어졌다면 혹시 결론과 근거, 본문 변경 내용을 같은 말로 되풀이하고 있지 않은지 살펴보고 겹치는 부분을 덜어 낸다.
 
 ---
 
 ## 32.4 원고를 고칠 때 결론에서 피할 것
 
-답변서와 함께 본문을 손보다 보면, 심사평이 지적한 거절 사유가 유독 Conclusion과 Future work 대목에서 되풀이되는 경우를 자주 만난다. [엄태웅 대표의 「영어 못해도 논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net/terry/englishpaperwriting/)은 Conclusion을 쓸 때 저지르는 실수와 영어 교정 문제를 다음 네 가지로 짚는다.
+답변서와 함께 본문을 손보다 보면, 심사평에서 지적한 거절 사유가 유독 Conclusion과 Future work 대목에서 되풀이되는 경우를 자주 만난다. [엄태웅 대표의 「영어 못해도 논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net/terry/englishpaperwriting/)에서는 Conclusion을 쓸 때 저지르는 실수와 영어 교정 문제를 다음 네 가지로 짚는다.
 
 - **Conclusion을 Abstract처럼 쓰는 실수.** Abstract는 논문을 읽지 않은 사람이 처음 읽는 글이고, Conclusion은 논문을 다 읽은 사람에게 전체를 정리해 주는 글이다. 그래서 Abstract는 문제 제기와 연구의 중요성·기여에, Conclusion은 실험으로 얻은 지식과 그 의의에 무게를 조금 더 두어야 한다.
 - **Conclusion에서 새 이야기를 꺼내는 실수.** 본문에서 주장한 것보다 한 걸음 더 나아가는 것도 마찬가지로 부적절하다.
-- **Future work에 너무 많은 것을 늘어놓는 실수.** 이 분야 사람들은 Future work가 "OOO은 안 했음"이라는 뜻임을 안다. 그래서 하지 못한 것을 방어하는 방법으로 좋지 않다. 연구의 한계는 결과 논의 끝에 솔직히 밝힌다.
+- **Future work에 너무 많은 것을 늘어놓는 실수.** 이 분야 사람들은 Future work가 "OOO은 안 했음"이라는 뜻임을 안다. 그래서 하지 못한 것을 Future work로 방어하는 방법은 좋지 않다. 연구의 한계는 결과 논의 끝에 솔직히 밝힌다.
 - **원어민 영어 교정에 기대는 실수.** 교정자는 내용을 이해하지 못한 채 문법을 고치므로, 저자와 대화가 없으면 교정이 오히려 오해를 만들어 내기 일쑤다. 저자 스스로 좋은 영어를 쓰도록 노력해야 한다.
 
 Whitesides 역시 Conclusions가 단순 요약이 아니라 한 단계 높은 분석이어야 한다고 강조했다([20장 §20.4](./chapter_20_subheadings_and_conclusions.md)). 심사위원의 지적이 본래 결론에 들어갔어야 할 내용을 가리킨다면, 답변서로 무마하려 들지 말고 본문의 그 부분부터 먼저 고쳐야 한다.
@@ -85,21 +85,21 @@ Whitesides 역시 Conclusions가 단순 요약이 아니라 한 단계 높은 �
 
 > AI가 제안한 ablation을 그대로 본문에 넣지 않는다. AI는 내 연구의 contribution과 맞지 않는 ablation을 제안하기도 한다. 실험 설계는 연구자가 최종 판단한다.
 
-따라서 최종 실험 설계는 연구자가 직접 결정하고, 받아들인 ablation마다 그것이 논문의 contribution을 어떻게 뒷받침하는지 한 줄로 정리해 답변서에 넣는다.
+따라서 최종 실험 설계는 연구자가 직접 결정하고, 받아들인 ablation이 논문의 contribution을 어떻게 뒷받침하는지 각각 한 줄로 정리해 답변서에 넣는다.
 
 ---
 
 ## 32.5 특수한 경우
 
-투고처와 판정 결과에 따라 개정과 답변을 꾸리는 조건도 달라지므로, 각 상황에 맞춰 일정을 잡아야 한다.
+투고처와 판정 결과에 따라 개정과 답변을 준비하는 조건도 달라지므로, 각 상황에 맞춰 일정을 잡아야 한다.
 
 **Major revision.** 본문 논리와 실험을 크게 보강해야 하는 경우다. 흔히 8~12주를 예로 들 수 있지만 실제 기한은 editor letter에 적혀 있으니, 공식 마감 안에 모든 작업을 끝낸다.
 
 **Minor revision.** 대개 사실관계나 표현, 국소적인 설명을 고치는 수준이다. 그래도 공식 기한과 필요한 검증 절차를 거꾸로 따져 일정을 잡는다.
 
-**Reject (with encouragement to resubmit).** 불합격이지만 재투고를 권유받았다면 decision letter가 허용하는 경로와 새 투고 요건을 먼저 확인한다. 심사 의견을 단순 문구 수정이 아니라 claim, evidence, scope 수준에서 깊이 반영한 뒤, 논문이 얼마나 바뀌었는지와 각 venue의 정책을 보고 같은 곳에 다시 낼지 다른 venue로 옮길지 정한다. 같은 곳에 다시 내더라도 새 심사위원이 배정될 수 있음을 염두에 둔다.
+**Reject (with encouragement to resubmit).** 불합격이지만 재투고를 권유받았다면 decision letter가 허용하는 경로와 새 투고 요건을 먼저 확인한다. 심사 의견을 단순히 문구만 고치는 수준이 아니라 claim, evidence, scope 수준에서 깊이 반영한 뒤, 논문이 얼마나 바뀌었는지와 각 venue의 정책을 보고 같은 곳에 다시 낼지 다른 venue로 옮길지 정한다. 같은 곳에 다시 내더라도 새 심사위원이 배정될 수 있음을 염두에 둔다.
 
-**Conference rebuttal.** 학회 rebuttal은 page·word·character 제한과 새 실험을 허용하는지가 venue와 연도마다 해마다 다르다. CVPR, NeurIPS, ICRA가 모두 같은 규칙을 쓸 것이라 가정하지 말고 반드시 그해의 author instructions를 확인하며, 답변을 supplementary에 둘 수 있는지도 공식 정책을 따른다.
+**Conference rebuttal.** 학회 rebuttal은 page·word·character 제한과 새 실험 허용 여부가 venue와 연도마다 다르다. CVPR, NeurIPS, ICRA가 모두 같은 규칙을 쓸 것이라 가정하지 말고 반드시 그해의 author instructions를 확인한다. 답변을 supplementary에 둘 수 있는지도 공식 정책을 살펴 따른다.
 
 **24시간 미루기.** 리뷰를 받은 뒤 첫 24시간은 답변서를 한 줄도 쓰지 않고 묵혀 둔다. 화와 억울함이 가라앉은 뒤에야 §32.1의 분류부터 냉정하게 시작할 수 있다. conference rebuttal처럼 마감이 촉박하면 어렵더라도, 시간에 여유가 있는 journal revision에서는 꼭 권하고 싶은 습관이다.
 
@@ -109,9 +109,9 @@ Whitesides 역시 Conclusions가 단순 요약이 아니라 한 단계 높은 �
 
 답변서 초안을 다 썼다면 되도록 시간을 조금 두었다가, 이번에는 내 편이 아니라 심사위원의 눈으로 처음부터 다시 읽는다. (24시간은 일정의 예일 뿐 정해진 제출 규칙이 아니다.) 이때 다음 두 가지만은 끝까지 확인한다.
 
-먼저, 억울함을 변명하는 글처럼 읽히는 곳이 남아 있지 않은지 본다. "we already stated", "the reviewer fails to", "this is obvious" 같은 말투가 한 줄이라도 보이면 바로 걷어 낸다.
+먼저, 억울해서 변명하는 글처럼 읽히는 곳이 남아 있지 않은지 본다. "we already stated", "the reviewer fails to", "this is obvious" 같은 말투가 한 줄이라도 보이면 바로 걷어 낸다.
 
-다음으로, comment마다 `Change in manuscript` 항목이 빠짐없이 채워져 있는지 확인한다. 이 항목이 빈 comment에는 사실상 아직 답하지 않은 것이나 다름없다.
+다음으로, comment마다 `Change in manuscript` 항목이 빠짐없이 채워져 있는지 확인한다. 이 항목이 비어 있다면 그 comment에는 사실상 아직 답하지 않은 것이나 다름없다.
 
 이 두 관문을 모두 통과했다면 비로소 답변서를 제출해도 좋다.
 

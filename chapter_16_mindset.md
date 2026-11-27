@@ -67,7 +67,7 @@
 
 ---
 
-## 16.5 Context-Content-Conclusion 단락 구조
+## 16.5 단락의 기본 뼈대: 맥락–내용–결론(CCC)
 
 문법과 스타일의 기준을 세웠다면, 단락 안의 정보 흐름을 지키는 뼈대는 읽을 때와 똑같이 [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619)의 rule 3에서 제시한 context-content-conclusion(C-C-C) 구조에서 가져온다(단락·섹션·논문 전체로의 적용은 [19장](./chapter_19_ccc.md)에서 자세히 다룬다).
 

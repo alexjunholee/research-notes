@@ -589,7 +589,7 @@ mark.search-highlight {
   font-size: 12px;
   font-weight: 700;
   color: var(--accent);
-  margin-right: 10px;
+  margin-right: 6px;
   letter-spacing: 0.02em;
   text-transform: uppercase;
 }
@@ -786,32 +786,32 @@ mark.search-highlight {
   var STORAGE_KEY = "research-notes-lang";
   var CHAPTER_GROUPS = [
     {
-      label: "0부 · 주제 정하기",
+      label: "0부 · 연구 주제 정하기와 문제 정의",
       intro: "연구는 질문의 윤곽을 좁히는 순간 비로소 시작된다. 리뷰 논문 읽기, 문제 진술, 연구 주도권, 연구와 작업의 구분, 생각의 시간까지 진입 단계의 핵심을 묶었다.",
       items: [{"kind":"chapter","num":1},{"kind":"chapter","num":2},{"kind":"chapter","num":3},{"kind":"chapter","num":4},{"kind":"chapter","num":5}]
     },
     {
-      label: "1부 · 논문 읽기",
+      label: "1부 · 논문 선별과 3단계 읽기",
       intro: "논문 읽기의 목적은 다음 연구 결정을 내릴 재료를 남기는 데 있다. 한 편을 빠르게 훑고 걸러낸 뒤, 수식과 코드·노트로 이어 내 판단 근거로 삼는 절차를 살핀다.",
       items: [{"kind":"chapter","num":6},{"kind":"chapter","num":7},{"kind":"chapter","num":8},{"kind":"chapter","num":9},{"kind":"chapter","num":10},{"kind":"chapter","num":11},{"kind":"chapter","num":12},{"kind":"chapter","num":13},{"kind":"chapter","num":14},{"kind":"chapter","num":15}]
     },
     {
-      label: "2부 · 쓰기의 기본",
+      label: "2부 · 아웃라인, CCC 구조, 문단 흐름",
       intro: "글쓰기는 영감이 아니라 개요와 CCC, 문단, 문장이라는 작은 단위를 차곡차곡 쌓아 올리는 일이다. 쓰기 전 마음가짐부터 문단 흐름을 잡는 법까지 다룬다.",
       items: [{"kind":"chapter","num":16},{"kind":"chapter","num":17},{"kind":"chapter","num":18},{"kind":"chapter","num":19},{"kind":"chapter","num":20},{"kind":"chapter","num":21}]
     },
     {
-      label: "3부 · 논문 각 부분 쓰기",
+      label: "3부 · 논문 섹션별 작성과 답변서",
       intro: "논문 한 편이 실제로 심사받고 판정되는 순서를 따라간다. 제목과 초록에서 출발해 서론·관련 연구·방법·결과·그림과 표·표기·반박문까지 섹션별로 채우는 법을 정리했다.",
       items: [{"kind":"chapter","num":22},{"kind":"chapter","num":23},{"kind":"chapter","num":24},{"kind":"chapter","num":25},{"kind":"chapter","num":26},{"kind":"chapter","num":27},{"kind":"chapter","num":28},{"kind":"chapter","num":29},{"kind":"chapter","num":30},{"kind":"chapter","num":31},{"kind":"chapter","num":32}]
     },
     {
-      label: "4부 · 학회와 발표",
+      label: "4부 · 학회 참석, 발표, 네트워킹",
       intro: "발표는 연구의 끝이 아니라 다음 질문이 태어나는 자리다. 학회에 가는 이유와 준비 과정, 첫마디를 여는 요령을 다음 연구의 출발점으로 연결한다.",
       items: [{"kind":"chapter","num":33},{"kind":"chapter","num":34},{"kind":"chapter","num":35}]
     },
     {
-      label: "발췌와 사례",
+      label: "부록 · 명문 발췌와 논문 사례",
       intro: "앞에서 다룬 원칙들이 실제 논문과 글쓰기 명문 안에서 어떤 모습으로 구현되는지 원문을 직접 들여다보며 확인한다.",
       items: [{"kind":"excerpt","num":1},{"kind":"excerpt","num":2},{"kind":"excerpt","num":3},{"kind":"excerpt","num":4},{"kind":"excerpt","num":5},{"kind":"excerpt","num":6},{"kind":"excerpt","num":7},{"kind":"excerpt","num":8},{"kind":"excerpt","num":9},{"kind":"excerpt","num":10},{"kind":"excerpt","num":11},{"kind":"excerpt","num":12},{"kind":"excerpt","num":13}]
     }
@@ -1086,7 +1086,7 @@ mark.search-highlight {
         num.className = 'overview-chapter-num';
         num.textContent = entry.label;
         link.appendChild(num);
-        link.appendChild(document.createTextNode(entry.title));
+        link.appendChild(document.createTextNode(' ' + entry.title));
         wrap.appendChild(link);
         groupEl.appendChild(wrap);
       });

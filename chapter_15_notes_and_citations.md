@@ -6,7 +6,7 @@ AI가 언제든 논문 PDF를 다시 열어 요약해 줄 수 있는 시대에�
 
 ---
 
-## 15.1 노트 양식 — 5 Cs에 세 칸 더하기
+## 15.1 논문 노트 양식 — 5 Cs에 실험·한계·인용 추가하기
 
 [8장](./chapter_08_five_cs.md)의 5 Cs(Category, Context, Correctness, Contributions, Clarity)가 첫 훑어읽기를 정리하는 틀이라면, 장기 보관용 노트에는 여기에 세 칸을 더 채운다.
 
@@ -42,7 +42,7 @@ BibTeX 항목은 DOI, arXiv, CrossRef, Semantic Scholar, OpenAlex, 학회 페이
 
 ---
 
-## 15.3 paper packet과 AI 질의
+## 15.3 논문·부록 묶음(paper packet)으로 AI에 질문하기
 
 논문 한 편을 저장할 때는 PDF 파일 하나만 달랑 두지 말고 관련 자료를 한데 묶어 둔다. 이 묶음을 paper packet이라고 부르자. 논문 URL과 DOI(또는 arXiv ID), PDF, 공식 코드 저장소, 프로젝트 페이지, 부록, OpenReview 토론, 데이터셋 링크가 여기에 모인다. PDF 위에 그은 밑줄과 여백 메모는 읽는 순간의 작업 흔적으로 남기고, 훗날 다시 찾아 쓸 핵심 claim과 근거 위치, 식별자는 별도의 노트 파일에 정리한다.
 
@@ -80,6 +80,6 @@ Whitesides가 연구실 학생들에게 보낸 글에서 남겼듯, 흥미롭더
 
 ---
 
-**출처.** [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) §1 "What is a Scientific Paper?"("Interesting and unpublished" is equivalent to "non-existent"). [8장 (5 Cs: 첫 번째 훑어읽기 뒤에 남겨야 할 것)](./chapter_08_five_cs.md), [23장 (서론)](./chapter_23_introduction.md), [24장 (관련 연구)](./chapter_24_related_work.md). 페이지 수, 정리 주기와 시간, 비교 편수는 예시다.
+**출처.** [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767) §1 "What is a Scientific Paper?"("Interesting and unpublished" is equivalent to "non-existent"). [8장 (1단계 읽기 뒤에 정리할 다섯 항목 (5 Cs))](./chapter_08_five_cs.md), [23장 (서론)](./chapter_23_introduction.md), [24장 (관련 연구)](./chapter_24_related_work.md). 페이지 수, 정리 주기와 시간, 비교 편수는 예시다.
 
 다음: [16장 쓰기 전에 정할 것](./chapter_16_mindset.md)

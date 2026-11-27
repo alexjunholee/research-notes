@@ -75,4 +75,4 @@ Related Work를 연도순 인용 목록으로 채우면 선행 연구를 무슨 
 
 **출처.** [엄태웅 대표 「영어 못해도 논문 잘 쓰는 법」](https://gradschoolstory.chkwon.net/terry/englishpaperwriting/) Related Work 절 — 연구의 상대적 위치, 단순 나열 피하기, 수치를 든 비교, 비판할 때의 주의. [Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) §2.3(관련 연구 인용 누락 짚기), §3(문헌 조사). [Mensh & Kording 2017](https://doi.org/10.1371/journal.pcbi.1005619) rule 6. 인용 수나 자기 연구실 인용 비율은 논문마다 정한다.
 
-다음: [25장 방법 섹션](./chapter_25_method.md)
+다음: [25장 방법(Method) 섹션 쓰기](./chapter_25_method.md)

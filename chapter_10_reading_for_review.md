@@ -4,7 +4,7 @@
 
 ---
 
-## 10.1 3rd pass를 끝까지 하기
+## 10.1 3단계 재구현을 끝까지 밟기
 
 3rd pass에 드는 시간([7장 §7.3](./chapter_07_keshav_three_passes.md))은 논문 분량과 해당 분야에 익숙한 정도에 따라 크게 달라지므로, 심사 요청을 수락할 때부터 작업 시간을 넉넉히 잡아 두어야 한다. 전문성이 모자라거나 마감이 촉박할 때 수락 여부는 학회의 reviewer policy를 따른다. 이해 충돌과 전문성, 가용 시간을 먼저 따져 보고 감당하기 어렵다면 지체 없이 거절하거나 area chair에게 알린다. 수락했다면 7장에서 다룬 머릿속 재구현으로 저자의 주장과 가정, 실험 절차를 끝까지 따라가며 빠진 고리를 짚은 뒤에야 코멘트를 적는다.
 
@@ -73,4 +73,4 @@ major 이슈가 얼마나 치명적이고 수정 가능한지는 최종 추천 �
 
 **출처.** [Keshav 2007](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf) §2.1(심사위원의 한 번 읽기), §2.3(3rd pass, 머릿속 재구현, "challenge every assumption", 걸리는 시간). [김기섭 「연구길의 초입에서」](https://gsk1m.github.io/productivity/2024/05/25/entering-research.html) (2024.05) 10번 항목. 심사 수락·confidence·추천 기준은 각 학회의 공식 policy를 따른다.
 
-다음: [11장 CCC로 논문 읽기](./chapter_11_ccc_lens.md)
+다음: [11장 맥락·내용·결론(CCC) 구조로 논문 읽기](./chapter_11_ccc_lens.md)

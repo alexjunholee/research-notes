@@ -43,12 +43,12 @@
 research-notes/
 ├── guide.html              # 메인 가이드 (단일 HTML)
 │
-├── chapter_01_*.md         # 0부: 주제 정하기 (5)
-├── chapter_06_*.md         # 1부: 읽기 (10)
-├── chapter_16_*.md         # 2부: 쓰기 (6)
-├── chapter_22_*.md         # 3부: 논문 각 부분 쓰기 (11)
-├── chapter_33_*.md         # 4부: 학회와 발표 (3)
-├── excerpts/               # 발췌와 사례 (13)
+├── chapter_01_*.md         # 0부 · 연구 주제 정하기와 문제 정의 (5)
+├── chapter_06_*.md         # 1부 · 논문 선별과 3단계 읽기 (10)
+├── chapter_16_*.md         # 2부 · 아웃라인, CCC 구조, 문단 흐름 (6)
+├── chapter_22_*.md         # 3부 · 논문 섹션별 작성과 답변서 (11)
+├── chapter_33_*.md         # 4부 · 학회 참석, 발표, 네트워킹 (3)
+├── excerpts/               # 부록 · 명문 발췌와 논문 사례 (13)
 │
 └── assets/                 # figure 자료
 ```

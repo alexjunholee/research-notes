@@ -4,7 +4,7 @@
 
 ---
 
-## 4.1 작업, 목표, 목적: task / objective / goal
+## 4.1 작업(task)·목표(objective)·목적(goal) 구분하기
 
 [권창현 교수](https://gradschoolstory.chkwon.net/changhyun/%ec%a7%80%ea%b8%88-%ed%95%98%ea%b3%a0-%ec%9e%88%eb%8a%94-%ea%b2%8c-%ec%97%b0%ea%b5%ac%ec%9d%b8%ea%b0%80-%ec%95%84%eb%8b%8c%ea%b0%80/)는 「지금 하고 있는 게 연구인가, 아닌가?」에서 *A Manual for Writers of Research Papers, Theses, and Dissertations*에 실린 '연구 주제를 세 단계로 말해 보기' 틀을 소개한다. "저는 X라는 주제에 대해 공부하고 있습니다." "왜냐하면, 저는 왜 Y인지 알고 싶거든요." "그러면, 제가 다른 사람들이 왜 Z인지 이해할 수 있게 도와줄 수 있거든요." 그는 이 세 문장을 각각 **작업(task)**, **목표(objective)**, **목적(goal)**이라는 세 층위로 구분한다.
 
@@ -80,7 +80,7 @@ Hazelrigg의 네 문형이 목표를 어떤 꼴로 적을지 알려 준다면, �
 
 ---
 
-## 4.6 최상급을 피하고 claim을 수치로 적기
+## 4.6 모호한 최상급 대신 수치로 주장(claim) 적기
 
 연구 목표를 세워 결과를 얻은 뒤 논문으로 옮길 때 흔히 저지르는 실수는 과장된 수식어를 붙이는 일이다. [Knuth, Larrabee, Roberts 1989](https://www-cs-faculty.stanford.edu/~knuth/klr.html)는 §1의 12번 항목에서 자기 연구를 소개할 때 최상급(superlative)을 쓰지 말라고 경계한다.
 

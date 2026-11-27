@@ -31,7 +31,7 @@
 
 ---
 
-## 1.3 citation overlap survey
+## 1.3 공동 인용 문헌 겹침으로 핵심 논문 추리기
 
 아무리 좋은 리뷰 논문이라도 쓰인 시점의 풍경만 비출 뿐이다. 그 뒤에 쏟아진 최신 연구나 리뷰 저자가 미처 담지 못한 세부 분야는 빠져 있기 마련이다. 이 빈자리를 메우는 데에는 [Keshav 2007 §3](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)에서 제안한 literature survey 절차가 효과적이다. 네 단계로 이루어진 이 틀은 2026년 현재에도 그대로 통하며, 달라진 것은 손발 역할을 하는 검색 도구뿐이다.
 
@@ -46,7 +46,7 @@
 
 ---
 
-## 1.4 분야에 들어설 때부터 hypothesis placeholder를 둔다
+## 1.4 초기부터 가설 자리(hypothesis placeholder) 잡아 두기
 
 리뷰와 인용 그래프로 지형을 훑으면서 내 질문의 씨앗도 동시에 챙겨야 한다. [Whitesides 2004](https://onlinelibrary.wiley.com/doi/10.1002/adma.200400767)는 1절 "What is a Scientific Paper?"에서 논문은 이미 끝난 연구를 보관해 두는 서고가 아니라 진행 중인 연구를 설계하는 틀이기도 하다고 짚는다("A paper is not just an archival device for storing a completed research program; it is also a structure for planning your research in progress"). [17장 아웃라인부터 시작하기](./chapter_17_outline_first.md)에서 다루는 `[HYPOTHESIS]` placeholder 역시 이 관점에서 출발한다.
 
